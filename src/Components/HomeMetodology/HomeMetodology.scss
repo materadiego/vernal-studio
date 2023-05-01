@@ -1,0 +1,88 @@
+.HomeMetodology {
+  background-color: $color-primario;
+}
+
+.HomeMetodologyContainer {
+  padding: 10vw 0 20vw;
+  width: 85%;
+  margin: 0 auto;
+  &__SectionTitle {
+    color: $color-claro;
+  }
+  &__Subcontainer {
+    &--Number {
+      margin: 0 0 2vw;
+      color: $color-claro;
+      font-family: $Font3;
+    }
+    &--Title {
+      font-size: 6.5vw;
+      margin: 0 0 12vw;
+
+      color: $color-claro;
+      font-family: $Font1;
+    }
+    &--Button {
+      width: 15vw;
+      height: 15vw;
+      border-radius: 100vw;
+      background-image: url(../../Assets/Images/metodology-plus.png);
+      background-size: 70%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-color: $color-variacion2;
+    }
+    &--Line {
+      width: 100%;
+      margin: 8vw 0;
+      border-top: 1px solid $color-secundario;
+    }
+  }
+}
+
+@media screen and (min-width: 1099px) {
+  .HomeMetodologyContainer {
+    padding: 5vw 0 10vw;
+    width: 80%;
+    &__Subcontainer {
+      width: 95%;
+      margin: 5vw auto 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      &--Number {
+        margin: 0 35% 0 60%;
+        width: 5%;
+        text-align: center;
+        position: absolute;
+      }
+      &--Title {
+        font-size: 3vw;
+        margin: 0;
+      }
+      &--Button {
+        width: 3vw;
+        height: 3vw;
+        cursor: pointer;
+        background-image: url(../../Assets/Images/metodology-plusv.png);
+        background-size: 40%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: rgba(100, 100, 100, 0.5);
+        transition: 0.1s;
+        will-change: background-image background-size background-color;
+        &:hover {
+          background-image: url(../../Assets/Images/metodology-plus.png);
+          background-size: 70%;
+          background-color: $color-variacion2;
+        }
+      }
+      &--Line {
+        width: 95%;
+        margin: 5vw auto;
+        border-top: 1px solid $color-secundario;
+      }
+    }
+  }
+}

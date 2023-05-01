@@ -1,0 +1,184 @@
+.HomeProjects {
+  background-color: $color-primario;
+}
+
+.HomeProjectsContainer {
+  padding: 35vw 0 15vw;
+  width: 85%;
+  margin: 0 auto;
+  &__SectionTitle {
+    color: $color-claro;
+  }
+  &__Title {
+    width: 90%;
+    font-weight: 500;
+    font-size: 6.8vw;
+    color: $color-claro;
+    font-family: $Font1;
+  }
+  &__Line {
+    display: flex;
+    width: 50vw;
+    margin-left: -7.5vw;
+    border-top: 2px solid $color-secundario;
+  }
+  &__Description {
+    width: 75%;
+    margin-bottom: 20vw;
+    font-size: 4vw;
+    margin-left: 25%;
+    font-weight: 300;
+    color: $color-secundario;
+    font-family: $Font2;
+  }
+  &__Projects {
+    &--Title {
+      display: none;
+    }
+  }
+  &__MoreButton {
+    position: relative;
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &--Arrow {
+      position: absolute;
+      left: 0;
+      width: 17vw;
+      height: 17vw;
+      border-radius: 100vw;
+      background-color: rgba(100, 100, 100, 0.5);
+      background-image: url(../../Assets/Images/button-arrow.svg);
+      background-size: 6vw;
+      background-repeat: no-repeat;
+      background-position: 5.5vw center;
+    }
+    &--Text {
+      margin-left: 1vw;
+      z-index: 2;
+      color: $color-claro;
+      font-family: $Font1;
+    }
+  }
+}
+
+.ProjectBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 10vw;
+  &__ImageContainer {
+    width: 100%;
+    &--Image {
+      width: 100%;
+    }
+  }
+  &__Title {
+    margin: 5vw 0 3vw;
+    font-size: 6vw;
+    font-family: $Font1;
+    color: $color-claro;
+  }
+  &__Location {
+    margin: 0 0 5vw;
+    font-weight: 300;
+    font-size: 6vw;
+    color: $color-secundario;
+    font-family: $Font2;
+  }
+}
+
+@media screen and (min-width: 1099px) {
+  .HomeProjectsContainer {
+    padding: 10vw 0 8vw;
+    position: relative;
+    &__Title {
+      width: 60%;
+      font-size: 3.4vw;
+      margin: 5vw 0 7vw 5%;
+    }
+    &__Line {
+      width: 40vw;
+      margin: 0 0 20vw 5%;
+      border-top: 2px solid $color-secundario;
+    }
+    &__Description {
+      width: 25%;
+      right: 15%;
+      margin-top: -22.7vw;
+      margin-bottom: 0;
+      font-size: 1.3vw;
+      margin-left: 0;
+      position: absolute;
+    }
+    &__Projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 85%;
+      margin: 0 auto 2vw;
+      &--Title {
+        display: flex;
+        width: 100%;
+        font-size: 4vw;
+        font-weight: 500;
+        margin-bottom: 5vw;
+        color: $color-claro;
+        font-family: $Font1;
+      }
+    }
+    &__MoreButton {
+      width: 11vw;
+      cursor: pointer;
+      &:hover .HomeProjectsContainer__MoreButton--Arrow {
+        width: 100%;
+        background-position: 1.5vw center;
+      }
+      &--Arrow {
+        width: 4vw;
+        height: 4vw;
+        background-size: 1.5vw;
+        background-position: 1.2vw center;
+        transition: 0.3s;
+        will-change: width background-position;
+      }
+      &--Text {
+        margin-left: 1vw;
+        z-index: 2;
+        font-size: 1.2vw;
+        color: $color-claro;
+        font-family: $Font1;
+      }
+    }
+  }
+
+  .ProjectBox {
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 3vw;
+    &:nth-child(3) {
+      margin-top: 5vw;
+    }
+    &:nth-child(4) {
+      margin-top: -5vw;
+    }
+    &__ImageContainer {
+      width: 100%;
+      &--Image {
+        width: 100%;
+      }
+    }
+    &__Title {
+      margin: 2vw 0 0.7vw;
+      font-size: 1.3vw;
+    }
+    &__Location {
+      margin: 0 0 2vw;
+      font-size: 1.3vw;
+    }
+  }
+}

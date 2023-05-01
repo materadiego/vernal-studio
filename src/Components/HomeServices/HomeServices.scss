@@ -1,0 +1,78 @@
+.HomeServices {
+}
+
+.HomeServicesContainer {
+  padding: 5vw 0 0;
+  &__SectionTitle {
+    margin-left: 5%;
+  }
+  &__Description {
+    width: 70%;
+    font-size: 4.1vw;
+    margin: 7vw 0 15vw 5%;
+    font-family: $Font2;
+  }
+  &__Subcontainer {
+    &--Title {
+      margin: 0 0 5vw 5%;
+      font-size: 9vw;
+      font-weight: 600;
+      font-family: $Font1;
+    }
+    &--Image {
+      margin-bottom: 15vw;
+      width: 75vw;
+      height: 51vw;
+      background-image: url(../../Assets/Images/home-hero-bg.webp);
+      background-size: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.Services-Image-Left {
+  margin-left: 0;
+}
+
+.Services-Image-Right {
+  margin-left: 25vw;
+}
+
+@media screen and (min-width: 1099px) {
+  .HomeServicesContainer {
+    padding: 8vw 0 10vw;
+    width: 85%;
+    margin: 0 auto;
+    &__SectionTitle {
+      margin-left: 0%;
+    }
+    &__Description {
+      width: 25%;
+      font-size: 1.2vw;
+      margin: 5vw 0 4.5vw 5%;
+    }
+    &__Subcontainer {
+      position: relative;
+
+      &--Title {
+        margin: 0 0 0.7vw 5%;
+        font-size: 4vw;
+        transition: 0.3s;
+        will-change: color;
+        cursor: default;
+        &:hover {
+          color: $color-variacion2;
+        }
+      }
+      &--Image {
+        margin-bottom: 0;
+        position: absolute;
+        top: -6vw;
+        right: 0;
+        width: 40vw;
+        height: 27vw;
+      }
+    }
+  }
+}

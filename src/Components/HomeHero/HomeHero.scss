@@ -1,0 +1,127 @@
+.HomeHero {
+  padding: 15vw 0 42vw;
+}
+
+.HomeHeroContainer {
+  position: relative;
+  &__Media {
+    display: none;
+  }
+  &__Title {
+    font-family: $Font1;
+    width: 70%;
+    margin: 10vw 0 15vw 5%;
+    font-weight: 500;
+    font-size: 8.3vw;
+    line-height: 90%;
+  }
+  &__Subtitle {
+    display: none;
+  }
+  &__ImageContainer {
+    width: 85%;
+    position: absolute;
+    &--Image {
+      width: 100%;
+    }
+  }
+  &__Block1 {
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    bottom: -22vw;
+    right: 10%;
+    background-image: url(../../Assets/Images/home-hero-block1.svg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  &__Block2 {
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    bottom: -85vw;
+    left: 28%;
+    background-image: url(../../Assets/Images/home-hero-block2.svg);
+    background-size: 43%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 1099px) {
+  .HomeHero {
+    padding: 0vw;
+  }
+
+  .HomeHeroContainer {
+    position: relative;
+    &__Media {
+      position: absolute;
+      top: 12vw;
+      left: 5%;
+      display: flex;
+      flex-direction: column;
+      &--Link {
+        margin: 0.7vw 0;
+        width: 1.2vw;
+        height: 1.2vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    &__Title {
+      font-family: $Font1;
+      width: 48%;
+      margin: 8vw 0 5vw 12%;
+      font-weight: 500;
+      font-size: 5.7vw;
+      z-index: 2;
+      position: relative;
+    }
+    &__Subtitle {
+      display: flex;
+      flex-direction: column;
+      width: 13%;
+      margin: 0 0 6.3vw 12%;
+      font-family: $Font2;
+      & span {
+        font-weight: 600;
+      }
+    }
+    &__ImageContainer {
+      width: 37%;
+      right: 7%;
+      bottom: -11vw;
+      position: absolute;
+      &--Image {
+        width: 100%;
+      }
+    }
+    &__Block1 {
+      position: absolute;
+      width: 3.5vw;
+      height: 3.5vw;
+      bottom: 16vw;
+      right: 12%;
+    }
+    &__Block2 {
+      position: absolute;
+      width: 6vw;
+      height: 6vw;
+      bottom: -14.2vw;
+      left: 68%;
+    }
+  }
+
+  .Hero-Ig {
+    width: 100%;
+  }
+  .Hero-Be {
+    width: 100%;
+  }
+  .Hero-In {
+    width: 80%;
+  }
+}

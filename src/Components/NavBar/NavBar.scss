@@ -1,0 +1,434 @@
+.NavBar {
+  padding: 5vw 0 0;
+}
+
+.NavBarContainer {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  &__MenuButton {
+    width: 9vw;
+    height: 9vw;
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 1vw;
+    align-items: center;
+    margin-top: 2vw;
+    &--Image {
+      width: 100%;
+    }
+  }
+  &__Logo {
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    margin: 5vw auto 0;
+    &--Image {
+      width: 100%;
+    }
+  }
+  &__LanguageButton {
+    color: #000;
+    top: 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 0;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 2vw;
+    font-size: 5vw;
+    font-weight: 500;
+    transition: 0.3s;
+    will-change: box-shadow;
+    background-color: #fff;
+    font-family: $Font1;
+    &--Selected {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      & img {
+        width: 3.5vw;
+        margin-left: 2vw;
+        transform: rotateX(180deg);
+        transition: 0.3s;
+        will-change: transform;
+      }
+    }
+
+    &:hover {
+      padding-bottom: 19vw;
+      box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+    }
+    &:hover .NavBar__LanguageButton--Selected img {
+      transform: rotateX(0deg);
+    }
+    &:hover .desktop-lang-1 {
+      transform: translateY(4vw);
+      opacity: 1;
+    }
+    &:hover .desktop-lang-2 {
+      transform: translateY(12vw);
+      opacity: 1;
+    }
+    &--Options {
+      width: 100%;
+      padding: 10vw 0 0;
+      position: absolute;
+      transform: translateY(0);
+      transition: 0.3s;
+      opacity: 0;
+      will-change: opacity transform color;
+    }
+  }
+}
+
+// .MenuButton {
+//   width: 8.3vw;
+//   height: 8.3vw;
+//   z-index: 500;
+//   left: 5vw;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-wrap: wrap;
+//   will-change: transform;
+//   transition: 0.3s;
+//   border: 2px solid red;
+//   &__Span {
+//     height: 3vw;
+//     transition: 0.5s cubic-bezier(0.69, 0.01, 0, 0.01);
+//     will-change: background width transform;
+//     position: absolute;
+//     border-radius: 100vw;
+//   }
+// }
+
+// .MenuButton:active {
+//   transform: scale(0.95);
+// }
+
+// .MenuButton.MenuButtonFixed {
+//   position: fixed;
+// }
+
+// .Menu-Button-1 {
+//   width: 11vw;
+//   background-color: #8c32ff;
+
+//   top: 0;
+//   left: 0;
+//   transform: rotateZ(45deg) translateY(2.85vw) translateX(0.87vw);
+//   z-index: 1;
+// }
+// .Menu-Button-2 {
+//   width: 11vw;
+//   background-color: #000;
+
+//   top: 0;
+//   right: 0;
+//   transform: rotateZ(-45deg) translateY(2.825vw) translateX(-0.87vw);
+//   z-index: 0;
+// }
+// .Menu-Button-3 {
+//   background-color: #000;
+//   width: 11vw;
+//   transform: rotateZ(-45deg) translateY(-2.825vw) translateX(0.87vw);
+//   bottom: 0;
+//   left: 0;
+//   z-index: 0;
+// }
+// .Menu-Button-4 {
+//   background-color: #8c32ff;
+//   width: 11vw;
+
+//   transform: rotateZ(45deg) translateY(-2.85vw) translateX(-0.87vw);
+//   bottom: 0;
+//   right: 0;
+//   z-index: 1;
+// }
+
+// .MenuButton__Span.Menu-Button-1.MenuButtonIsActive {
+//   background-color: #000;
+//   width: 3vw;
+//   height: 3vw;
+//   transform: rotateZ(45deg) translateY(0) translateX(0);
+// }
+// .MenuButton__Span.Menu-Button-2.MenuButtonIsActive {
+//   width: 3vw;
+//   height: 3vw;
+//   transform: rotateZ(45deg) translateY(0) translateX(0);
+// }
+// .MenuButton__Span.Menu-Button-3.MenuButtonIsActive {
+//   width: 3vw;
+//   height: 3vw;
+//   transform: rotateZ(45deg) translateY(0) translateX(0);
+// }
+// .MenuButton__Span.Menu-Button-4.MenuButtonIsActive {
+//   width: 3vw;
+//   height: 3vw;
+//   transform: rotateZ(45deg) translateY(0) translateX(0);
+// }
+
+.Menu {
+  position: fixed;
+  left: 0;
+  margin-left: -100%;
+  transition: 0.3s;
+  will-change: margin;
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  z-index: 100;
+}
+
+.MenuContainer {
+  padding-top: 10vw;
+  width: 85%;
+  margin: 0 auto;
+  &__Top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--CloseButton {
+      width: 15vw;
+      height: 15vw;
+      border-radius: 100vw;
+      background-image: url(../../Assets/Images/menu-close.png);
+      background-size: 60%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: $color-variacion2;
+    }
+    &--Logo {
+      width: 25vw;
+    }
+    &--LanguageButton {
+      width: 15vw;
+      font-family: $Font1;
+
+      color: $color-claro;
+      & img {
+        width: 3.5vw;
+        margin-left: 2vw;
+        transform: rotateX(180deg);
+        transition: 0.3s;
+        will-change: transform;
+      }
+    }
+  }
+  &__Links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vw;
+    &--Options {
+      text-decoration: none;
+      margin: 6vw 0;
+      color: $color-claro;
+      font-family: $Font1;
+    }
+  }
+
+  &__Media {
+    border-top: 0.4vw solid #aaa;
+    margin-top: 12vw;
+    padding: 7vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    &--Link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 10vw;
+      height: 10vw;
+    }
+  }
+  &__Contact {
+    margin-top: 3vw;
+    display: flex;
+    align-items: center;
+    position: relative;
+    &--Arrow {
+      display: flex;
+      position: absolute;
+      width: 18vw;
+      height: 18vw;
+      border-radius: 100vw;
+      background-color: rgba(100, 100, 100, 0.5);
+      background-image: url(../../Assets/Images/button-arrow.svg);
+      background-size: 30%;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    &--Text {
+      margin-left: 15vw;
+      z-index: 2;
+      font-family: $Font1;
+      color: $color-claro;
+    }
+  }
+}
+
+.MenuIsActive {
+  margin-left: 0;
+}
+
+.Menu-Ig {
+  width: 60%;
+}
+
+.Menu-Be {
+  width: 70%;
+}
+
+.Menu-In {
+  width: 50%;
+}
+
+.Menu-Wsp {
+  width: 60%;
+}
+
+@media screen and (min-width: 1099px) {
+  .NavBar {
+    padding: 2vw 0 0;
+  }
+
+  .NavBarContainer {
+    &__MenuButton {
+      width: 2vw;
+      height: 2vw;
+      top: 0;
+      margin: 0;
+      cursor: pointer;
+    }
+    &__Logo {
+      width: 10vw;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+    &__LanguageButton {
+      top: 0.4vw;
+      padding: 0 0.5vw;
+      cursor: pointer;
+
+      font-size: 1vw;
+      &--Selected {
+        & img {
+          width: 0.5vw;
+          margin-left: 0.2vw;
+        }
+      }
+
+      &:hover {
+        padding-bottom: 4vw;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+      }
+      &:hover .NavBar__LanguageButton--Selected img {
+        transform: rotateX(0deg);
+      }
+      &:hover .desktop-lang-1 {
+        transform: translateY(0.8vw);
+        opacity: 1;
+      }
+      &:hover .desktop-lang-2 {
+        transform: translateY(2.1vw);
+        opacity: 1;
+      }
+      &--Options {
+        width: 100%;
+        padding: 1vw 0 0;
+        &:hover {
+          color: $color-variacion2;
+        }
+      }
+    }
+  }
+
+  .Menu {
+  }
+
+  .MenuContainer {
+    padding-top: 2vw;
+    height: 90vh;
+    position: relative;
+    &__Top {
+      &--CloseButton {
+        width: 2vw;
+        height: 2vw;
+        position: absolute;
+        cursor: pointer;
+      }
+      &--Logo {
+        width: 8vw;
+        margin: 0 auto;
+      }
+      &--LanguageButton {
+        display: none;
+      }
+    }
+    &__Links {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 10vw;
+      &--Options {
+        margin: 0;
+        font-weight: 400;
+        font-size: 3.3vw;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover {
+          transform: scale(1.05);
+          color: $color-variacion2;
+        }
+      }
+    }
+
+    &__Media {
+      border-top: none;
+      position: absolute;
+      bottom: 0;
+      left: 15%;
+      width: 15vw;
+      margin-top: 0;
+      padding: 0;
+      &--Link {
+        width: 1.7vw;
+        height: 1.7vw;
+      }
+    }
+    &__Contact {
+      margin-top: 0;
+      position: absolute;
+      right: 20%;
+      bottom: 0;
+      width: 9vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      &:hover .MenuContainer__Contact--Arrow {
+        width: 100%;
+      }
+      &--Arrow {
+        width: 3vw;
+        height: 3vw;
+        left: 0;
+        background-size: 1vw;
+        background-position: 1vw center;
+        transition: 0.3s;
+        will-change: width;
+      }
+      &--Text {
+        margin-left: 1vw;
+      }
+    }
+  }
+}
