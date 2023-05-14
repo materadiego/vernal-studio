@@ -21,7 +21,7 @@ export default function NavBar() {
   };
 
   return (
-    <header className="NavBar">
+    <header className="NavBar" id="header">
       <div className="NavBarContainer">
         <div className="NavBarContainer__MenuButton" onClick={toggleMenu}>
           <img
