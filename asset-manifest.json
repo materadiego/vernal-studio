@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vernal-studio/static/css/main.6dcd6fb8.css",
-    "main.js": "/vernal-studio/static/js/main.689240f3.js",
+    "main.css": "/vernal-studio/static/css/main.734dfe73.css",
+    "main.js": "/vernal-studio/static/js/main.c0a2c2b8.js",
     "static/js/787.8970a006.chunk.js": "/vernal-studio/static/js/787.8970a006.chunk.js",
     "static/media/ClashDisplay-Variable.ttf": "/vernal-studio/static/media/ClashDisplay-Variable.e7f67b72cbf79f80c9c7.ttf",
     "static/media/ClashDisplay-Light.ttf": "/vernal-studio/static/media/ClashDisplay-Light.65f6b9963b2bc29f88d0.ttf",
@@ -30,27 +30,31 @@
     "static/media/ClashDisplay-Bold.woff2": "/vernal-studio/static/media/ClashDisplay-Bold.e2f8628a6f360f644a76.woff2",
     "static/media/ClashDisplay-Extralight.woff2": "/vernal-studio/static/media/ClashDisplay-Extralight.8f792be62d02ca420577.woff2",
     "static/media/logo-vernal-white.svg": "/vernal-studio/static/media/logo-vernal-white.036d3ef7bac4ec6e38278ef9b85c701c.svg",
+    "static/media/media-ig-black.svg": "/vernal-studio/static/media/media-ig-black.645f3472d7a343ef6db151f79a2e85fb.svg",
     "static/media/media-ig-white.svg": "/vernal-studio/static/media/media-ig-white.56b4fcd1e0aa76a567f6614b628b64dc.svg",
     "static/media/media-ig-grey.svg": "/vernal-studio/static/media/media-ig-grey.1b6aac3b9e0f7ffc09e99c9d7824f853.svg",
     "static/media/media-be-white.svg": "/vernal-studio/static/media/media-be-white.9aea2073cde37f0c9246082ca07b75ff.svg",
     "static/media/media-be-grey.svg": "/vernal-studio/static/media/media-be-grey.0e4007872184e9f08b6d498feedcea47.svg",
+    "static/media/media-be-black.svg": "/vernal-studio/static/media/media-be-black.6ab26958e1f7b80a957516376826f4fa.svg",
     "static/media/media-wsp-white.svg": "/vernal-studio/static/media/media-wsp-white.4206b4a852f1c2af9808a84d5261f590.svg",
     "index.html": "/vernal-studio/index.html",
     "static/media/media-in-grey.svg": "/vernal-studio/static/media/media-in-grey.9c896f10d48ffe77d806b150e6ea8479.svg",
     "static/media/media-in-white.svg": "/vernal-studio/static/media/media-in-white.3b26798509a0a6b1809a9d1fb1133082.svg",
+    "static/media/media-in-black.svg": "/vernal-studio/static/media/media-in-black.ed56cdd986b05e922b2ee301fc9e2a60.svg",
     "static/media/arrow-white.svg": "/vernal-studio/static/media/arrow-white.cb05ead69a0468a1a380f6290311e4a5.svg",
     "static/media/arrow.svg": "/vernal-studio/static/media/arrow.784672d58896f5683d9267b8f849df44.svg",
     "static/media/menu-button.svg": "/vernal-studio/static/media/menu-button.3ba4df6e5c3ced758895336ea35dc1f7.svg",
+    "static/media/button-arrow-black.svg": "/vernal-studio/static/media/button-arrow-black.8220cf413eeed8db1ff551153f277ec8.svg",
     "static/media/button-arrow.svg": "/vernal-studio/static/media/button-arrow.4e8db4b352d4573dc989.svg",
     "static/media/home-hero-block1.svg": "/vernal-studio/static/media/home-hero-block1.cc809a2ac5d05457e4be.svg",
     "static/media/home-hero-block2.svg": "/vernal-studio/static/media/home-hero-block2.6dba86666b7835ddf37c.svg",
     "static/media/sectiontitle-line.svg": "/vernal-studio/static/media/sectiontitle-line.ac3bd8ec1e86a90cd0d4a7d14c169bfb.svg",
-    "main.6dcd6fb8.css.map": "/vernal-studio/static/css/main.6dcd6fb8.css.map",
-    "main.689240f3.js.map": "/vernal-studio/static/js/main.689240f3.js.map",
+    "main.734dfe73.css.map": "/vernal-studio/static/css/main.734dfe73.css.map",
+    "main.c0a2c2b8.js.map": "/vernal-studio/static/js/main.c0a2c2b8.js.map",
     "787.8970a006.chunk.js.map": "/vernal-studio/static/js/787.8970a006.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dcd6fb8.css",
-    "static/js/main.689240f3.js"
+    "static/css/main.734dfe73.css",
+    "static/js/main.c0a2c2b8.js"
   ]
 }
