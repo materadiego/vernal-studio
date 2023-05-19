@@ -13,6 +13,14 @@ html {
   }
 }
 
+.Desktop {
+  display: none;
+}
+
+.Mobile {
+  display: flex;
+}
+
 @media screen and (min-width: 1099px) {
   .SectionTitle {
     font-size: 1vw;
@@ -20,5 +28,13 @@ html {
       width: 0.8vw;
       margin: 0.4vw 0 0 0.4vw;
     }
+  }
+
+  .Desktop {
+    display: flex;
+  }
+
+  .Mobile {
+    display: none;
   }
 }
