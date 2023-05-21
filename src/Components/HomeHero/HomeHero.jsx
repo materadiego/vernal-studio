@@ -12,7 +12,7 @@ export default function HomeHero() {
         <div className="HomeHeroContainer__Media">
           <a
             href="www.instagram.com"
-            className="HomeHeroContainer__Media--Link"
+            className="HomeHeroContainer__Media--Link Media-Container-Animation"
           >
             <span className="Hero-Media-Animation Media-Animation"></span>
             <img
@@ -21,7 +21,10 @@ export default function HomeHero() {
               src={HeroIg}
             ></img>
           </a>
-          <a href="www.behance.com" className="HomeHeroContainer__Media--Link">
+          <a
+            href="www.behance.com"
+            className="HomeHeroContainer__Media--Link Media-Container-Animation "
+          >
             <span className="Hero-Media-Animation Media-Animation"></span>
 
             <img
@@ -30,7 +33,10 @@ export default function HomeHero() {
               src={HeroBe}
             ></img>
           </a>
-          <a href="www.linkedin.com" className="HomeHeroContainer__Media--Link">
+          <a
+            href="www.linkedin.com"
+            className="HomeHeroContainer__Media--Link Media-Container-Animation"
+          >
             <span className="Hero-Media-Animation Media-Animation"></span>
 
             <img

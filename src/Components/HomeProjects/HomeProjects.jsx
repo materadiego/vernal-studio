@@ -12,14 +12,15 @@ export default function HomeProjects() {
           Nosotros <img src={TitleLine} alt="Icon"></img>
         </p>
         <p className="HomeProjectsContainer__Title">
-          Somos un estudio creativo especializado en comunicar historias a
-          través del branding
+          Somos un estudio 360° dedicado a impulsar marcas combinando la
+          creatividad y estrategia
         </p>
         <div className="HomeProjectsContainer__Line"></div>
         <p className="HomeProjectsContainer__Description">
           {" "}
-          A full-cycle digital service agency. We do from design to end-to-end
-          development to maintenance.
+          <span>Participamos en cada etapa del proyecto,</span> desde la
+          estrategia y posicionamiento, hasta la implementación de identidades
+          visuales y experiencias digitales que conecten con tu comunidad.
         </p>
         <p className="HomeProjectsContainer__SectionTitle SectionTitle">
           Proyectos <img src={TitleLine} alt="Icon"></img>

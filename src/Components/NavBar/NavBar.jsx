@@ -83,7 +83,13 @@ export default function NavBar() {
               src={logoMenu}
             ></img>
             {/* LANGUAGE */}
-            <div className="MenuContainer__Top--LanguageButton">
+            <div
+              className={`MenuContainer__Top--LanguageButton ${
+                menu
+                  ? "Navbar-Language-AnimationIn"
+                  : "Navbar-Language-AnimationOut"
+              }`}
+            >
               ES <img src={languageArrowW} alt="language-selector"></img>
             </div>
           </div>
@@ -123,8 +129,19 @@ export default function NavBar() {
             </a>
           </div>
           <div className="MenuContainer__Media">
-            <a className="MenuContainer__Media--Link" href="www.instagram.com">
+            <div
+              className={`MenuContainer__Media--Line ${
+                menu
+                  ? "Navbar-MediaLine-AnimationIn"
+                  : "Navbar-MediaLine-AnimationOut"
+              }`}
+            ></div>
+            <a
+              className="MenuContainer__Media--Link  Media-Container-Animation"
+              href="www.instagram.com"
+            >
               {" "}
+              <span className="Menu-Media-Animation Media-Animation"></span>
               <img
                 alt="Instagram"
                 src={Ig}
@@ -135,8 +152,12 @@ export default function NavBar() {
                 }`}
               ></img>
             </a>
-            <a className="MenuContainer__Media--Link" href="www.behance.com">
+            <a
+              className="MenuContainer__Media--Link  Media-Container-Animation"
+              href="www.behance.com"
+            >
               {" "}
+              <span className="Menu-Media-Animation Media-Animation"></span>
               <img
                 alt="Behance"
                 src={Be}
@@ -147,8 +168,12 @@ export default function NavBar() {
                 }`}
               ></img>
             </a>
-            <a className="MenuContainer__Media--Link" href="www.linkedin.com">
+            <a
+              className="MenuContainer__Media--Link  Media-Container-Animation"
+              href="www.linkedin.com"
+            >
               {" "}
+              <span className="Menu-Media-Animation Media-Animation"></span>
               <img
                 alt="Linkedin"
                 src={In}
@@ -159,8 +184,12 @@ export default function NavBar() {
                 }`}
               ></img>
             </a>
-            <a className="MenuContainer__Media--Link" href="www.whatsapp.com">
+            <a
+              className="MenuContainer__Media--Link  Media-Container-Animation"
+              href="www.whatsapp.com"
+            >
               {" "}
+              <span className="Menu-Media-Animation Media-Animation"></span>
               <img
                 alt="WhatsApp"
                 src={Wsp}

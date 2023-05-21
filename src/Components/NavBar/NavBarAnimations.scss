@@ -1,0 +1,407 @@
+// NavBar Animation Classes
+
+// --Navbar links Animations
+// ----OUT
+.Navbar-Links-AnimationOut {
+  animation: navbarTranslateXAnimationOut;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+.Navbar-Links-AnimationOut:nth-child(1) {
+  animation-delay: 0.6s;
+}
+.Navbar-Links-AnimationOut:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.Navbar-Links-AnimationOut:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.Navbar-Links-AnimationOut:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+// ----IN
+.Navbar-Links-AnimationIn {
+  transform: translateX(-45vw);
+
+  animation: navbarTranslateXAnimationIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.Navbar-Links-AnimationIn:nth-child(1) {
+  animation-delay: 1.3s;
+}
+.Navbar-Links-AnimationIn:nth-child(2) {
+  animation-delay: 1.4s;
+}
+.Navbar-Links-AnimationIn:nth-child(3) {
+  animation-delay: 1.5s;
+}
+.Navbar-Links-AnimationIn:nth-child(4) {
+  animation-delay: 1.6s;
+}
+
+// --Navbar Button Icon
+// ----OUT
+.Navbar-ButtonIcon-AnimationOut {
+  animation: ScaleAnimationOut;
+  animation-duration: 0.5s;
+  animation-delay: 0;
+  animation-fill-mode: forwards;
+}
+// ----IN
+.Navbar-ButtonIcon-AnimationIn {
+  animation: ScaleAnimationIn;
+  animation-duration: 0.5s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+// --Navbar Button Text
+// -----OUT
+.Navbar-ButtonText-AnimationOut {
+  animation: navbarTranslateYAnimationOut;
+  animation-delay: 0.5s;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+// -----IN
+.Navbar-ButtonText-AnimationIn {
+  transform: translateY(30vw);
+  animation: navbarTranslateYAnimationIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.8s;
+}
+
+// --Navbar Menu Logo
+// -----OUT
+.Navbar-Logo-AnimationOut {
+  animation: navbarTranslateYAnimationOut;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+// -----IN
+.Navbar-Logo-AnimationIn {
+  transform: translateY(30vw);
+  animation: navbarTranslateYAnimationIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+
+// --Navbar Language
+// -----OUT
+.Navbar-Language-AnimationOut {
+  animation: navbarTranslateYAnimationOut;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.1s;
+}
+// -----IN
+.Navbar-Language-AnimationIn {
+  transform: translateY(30vw);
+  animation: navbarTranslateYAnimationIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+
+// --Line
+// -----OUT
+.Navbar-MediaLine-AnimationOut {
+  transform: translateX(0);
+  animation-name: navbarLineTranslateXOut;
+  animation-duration: 1s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+}
+// -----IN
+.Navbar-MediaLine-AnimationIn {
+  animation-name: navbarLineTranslateXIn;
+  animation-duration: 1s;
+  animation-delay: 0.7s;
+  animation-fill-mode: forwards;
+}
+
+// --NavBar MediaImage Animations
+// --OUT
+.Navbar-MediaLinks-AnimationOut {
+  animation: navbarTranslateYAnimationOut;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+// ----IN
+.Navbar-MediaLinks-AnimationIn {
+  transform: translateY(30vw);
+  animation: navbarTranslateYAnimationIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.Menu-Ig {
+  animation-delay: 0.4s;
+}
+.Menu-Be {
+  animation-delay: 0.5s;
+}
+.Menu-In {
+  animation-delay: 0.6s;
+}
+.Menu-Wsp {
+  animation-delay: 0.7s;
+}
+
+// Animation Keyframes
+
+// --Logo
+@keyframes headerAnimation {
+  0% {
+    transform: translateY(-20vw);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+// --menu
+@keyframes menuClose {
+  0% {
+    margin-left: 0;
+  }
+
+  100% {
+    margin-left: -100%;
+  }
+}
+@keyframes menuOpen {
+  0% {
+    margin-left: -100%;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+
+// --Line TranslateX
+@keyframes navbarLineTranslateXOut {
+  0% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+@keyframes navbarLineTranslateXIn {
+  0% {
+    transform: translateX(-100vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+// --TranslateY
+@keyframes navbarTranslateYAnimationOut {
+  0% {
+    transform: translateY(0w);
+  }
+  100% {
+    transform: translateY(-30vw);
+  }
+}
+@keyframes navbarTranslateYAnimationIn {
+  0% {
+    transform: translateY(30w);
+  }
+  50% {
+    transform: translateY(-3vw);
+  }
+  100% {
+    transform: translateY(0vw);
+  }
+}
+
+// --TranslateX
+@keyframes navbarTranslateXAnimationIn {
+  0% {
+    transform: translateX(-45vw);
+  }
+  50% {
+    transform: translateX(3vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+@keyframes navbarTranslateXAnimationOut {
+  0% {
+    transform: translateX(0vw);
+  }
+  50% {
+    transform: translateX(5vw);
+  }
+  100% {
+    transform: translateX(-45vw);
+  }
+}
+
+@media screen and (min-width: 1099px) {
+  // NavBar Animation Classes
+  // Navbar links
+  // OUT
+  .Navbar-Links-AnimationOut {
+    animation: navbarTranslateYAnimationOut;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+  }
+  .Navbar-Links-AnimationOut:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  .Navbar-Links-AnimationOut:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  .Navbar-Links-AnimationOut:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  .Navbar-Links-AnimationOut:nth-child(4) {
+    animation-delay: 0.4s;
+  }
+
+  // IN
+  .Navbar-Links-AnimationIn {
+    transform: translateY(5vw);
+    animation: navbarTranslateYAnimationIn;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+  }
+  .Navbar-Links-AnimationIn:nth-child(1) {
+    animation-delay: 0.8s;
+  }
+  .Navbar-Links-AnimationIn:nth-child(2) {
+    animation-delay: 0.9s;
+  }
+  .Navbar-Links-AnimationIn:nth-child(3) {
+    animation-delay: 1s;
+  }
+  .Navbar-Links-AnimationIn:nth-child(4) {
+    animation-delay: 1.1s;
+  }
+
+  // Navbar Logo
+
+  .Navbar-Logo-AnimationOut {
+    animation: navbarTranslateYAnimationOut;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+  }
+
+  .Navbar-Logo-AnimationIn {
+    transform: translateY(5vw);
+
+    animation: navbarTranslateYAnimationIn;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.6s;
+  }
+
+  // Navbar Media
+
+  // OUT
+  .Navbar-MediaLinks-AnimationOut {
+    animation: navbarTranslateYAnimationOut;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+  }
+  .Menu-Ig.Navbar-MediaLinks-AnimationOut {
+    animation-delay: 0.3s;
+  }
+  .Menu-Be.Navbar-MediaLinks-AnimationOut {
+    animation-delay: 0.4s;
+  }
+  .Menu-In.Navbar-MediaLinks-AnimationOut {
+    animation-delay: 0.5s;
+  }
+  .Menu-Wsp.Navbar-MediaLinks-AnimationOut {
+    animation-delay: 0.6s;
+  }
+
+  // IN
+  .Navbar-MediaLinks-AnimationIn {
+    transform: translateY(5vw);
+    animation: navbarTranslateYAnimationIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  .Menu-Ig.Navbar-MediaLinks-AnimationIn {
+    animation-delay: 1.6s;
+  }
+  .Menu-Be.Navbar-MediaLinks-AnimationIn {
+    animation-delay: 1.7s;
+  }
+  .Menu-In.Navbar-MediaLinks-AnimationIn {
+    animation-delay: 1.8s;
+  }
+  .Menu-Wsp.Navbar-MediaLinks-AnimationIn {
+    animation-delay: 1.9s;
+  }
+
+  // Navbar Button
+
+  // OUT
+  .Navbar-ButtonIcon-AnimationOut {
+    animation: ScaleAnimationOut;
+    animation-duration: 0.5s;
+    animation-delay: 0;
+    animation-fill-mode: forwards;
+  }
+  // IN
+  .Navbar-ButtonIcon-AnimationIn {
+    animation: ScaleAnimationIn;
+    animation-duration: 0.5s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+  }
+
+  // OUT
+  .Navbar-ButtonText-AnimationOut {
+    animation: navbarTranslateYAnimationOut;
+    animation-duration: 0.5s;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+  }
+
+  //  IN
+  .Navbar-ButtonText-AnimationIn {
+    transform: translateY(5vw);
+    animation: navbarTranslateYAnimationIn;
+    animation-duration: 1s;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+  }
+
+  // --TranslateY
+  @keyframes navbarTranslateYAnimationOut {
+    0% {
+      transform: translateY(0w);
+    }
+    50% {
+      transform: translateY(0.5vw);
+    }
+    100% {
+      transform: translateY(-5vw);
+    }
+  }
+  @keyframes navbarTranslateYAnimationIn {
+    0% {
+      transform: translateY(5vw);
+    }
+    50% {
+      transform: translateY(-0.5vw);
+    }
+    100% {
+      transform: translateY(0vw);
+    }
+  }
+}

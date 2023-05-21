@@ -37,4 +37,29 @@ html {
   .Mobile {
     display: none;
   }
+
+  // Social media animation
+  .Media-Container-Animation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .Media-Animation {
+    display: flex;
+    width: 2.1vw;
+    height: 2.1vw;
+    opacity: 0;
+    transition: 0.3s;
+    will-change: transform;
+    border-radius: 50vw;
+    position: absolute;
+    transform: scale(0.2);
+  }
+
+  .Media-Container-Animation:hover .Media-Animation {
+    transform: scale(1);
+    opacity: 1;
+  }
 }

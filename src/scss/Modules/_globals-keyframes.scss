@@ -1,0 +1,61 @@
+// --Scale animation
+@keyframes ScaleAnimationOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes ScaleAnimationIn {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+// --Opacity animation
+@keyframes opacityAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 1099px) {
+  // --Scale animation
+  @keyframes ScaleAnimationOut {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  @keyframes ScaleAnimationIn {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+}
+
+// --Opacity animation
+@keyframes opacityAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -3,14 +3,14 @@
 }
 
 .HomeProjectsContainer {
-  padding: 35vw 0 15vw;
+  padding: 50vw 0 15vw;
   width: 85%;
   margin: 0 auto;
   &__SectionTitle {
     color: $color-claro;
   }
   &__Title {
-    width: 90%;
+    width: 95%;
     font-weight: 500;
     font-size: 6.8vw;
     color: $color-claro;
@@ -20,16 +20,19 @@
     display: flex;
     width: 50vw;
     margin-left: -7.5vw;
-    border-top: 2px solid $color-secundario;
+    border-top: 1px solid $color-secundario;
   }
   &__Description {
-    width: 75%;
-    margin-bottom: 20vw;
-    font-size: 4vw;
-    margin-left: 25%;
+    width: 90%;
+    margin: 10vw 0 25vw;
+    font-size: 3.65vw;
+    margin-left: 10%;
     font-weight: 300;
-    color: $color-secundario;
+    color: $color-claro;
     font-family: $Font2;
+    & span {
+      font-weight: 500;
+    }
   }
   &__Projects {
     &--Title {
