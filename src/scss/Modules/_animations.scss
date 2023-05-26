@@ -1,0 +1,438 @@
+// NavBar Animation
+.Header-Animation {
+  will-change: transform;
+  animation-name: headerAnimation;
+  animation-fill-mode: forwards;
+  transform: translateY(-20vw);
+}
+
+.NavBarContainer__MenuButton.Header-Animation {
+  animation-delay: 1s;
+  animation-duration: 0.5s;
+}
+.NavBarContainer__Logo.Header-Animation {
+  animation-delay: 0s;
+  animation-duration: 1s;
+}
+.NavBarContainer__LanguageButton.Header-Animation {
+  animation-duration: 0.5s;
+  animation-delay: 1.2s;
+}
+
+// Menu is active
+#MenuContainer {
+  z-index: 100;
+}
+// Menu inicialization
+#MenuContainerZIndex {
+  z-index: -100;
+  opacity: 0;
+}
+
+// Menu closes
+.Menu-Animation {
+  animation: menuClose;
+  animation-duration: 0.5s;
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards;
+}
+
+// Menu is active
+.MenuIsActive {
+  animation: menuOpen;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+// --Navbar links Animations
+// ----OUT
+.Navbar-Links-AnimationOut {
+  animation: navbarTranslateXAnimationOut;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+.Navbar-Links-AnimationOut:nth-child(1) {
+  animation-delay: 0.6s;
+}
+.Navbar-Links-AnimationOut:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.Navbar-Links-AnimationOut:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.Navbar-Links-AnimationOut:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+// ----IN
+.Navbar-Links-AnimationIn {
+  transform: translateX(-45vw);
+
+  animation: navbarTranslateXAnimationIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.Navbar-Links-AnimationIn:nth-child(1) {
+  animation-delay: 1.3s;
+}
+.Navbar-Links-AnimationIn:nth-child(2) {
+  animation-delay: 1.4s;
+}
+.Navbar-Links-AnimationIn:nth-child(3) {
+  animation-delay: 1.5s;
+}
+.Navbar-Links-AnimationIn:nth-child(4) {
+  animation-delay: 1.6s;
+}
+
+// --Navbar Button Icon
+// ----OUT
+.Navbar-ButtonIcon-AnimationOut {
+  animation: ScaleAnimationOut;
+  animation-duration: 0.5s;
+  animation-delay: 0;
+  animation-fill-mode: forwards;
+}
+// ----IN
+.Navbar-ButtonIcon-AnimationIn {
+  animation: ScaleAnimationIn;
+  animation-duration: 0.5s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+// --Navbar Button Text
+// -----OUT
+.Navbar-ButtonText-AnimationOut {
+  animation: navbarTranslateYAnimationOut;
+  animation-delay: 0.5s;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+// -----IN
+.Navbar-ButtonText-AnimationIn {
+  transform: translateY(30vw);
+  animation: navbarTranslateYAnimationIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.8s;
+}
+
+// --Navbar Menu Logo
+// -----OUT
+.Navbar-Logo-AnimationOut {
+  animation: navbarTranslateYAnimationOut;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+// -----IN
+.Navbar-Logo-AnimationIn {
+  transform: translateY(30vw);
+  animation: navbarTranslateYAnimationIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+
+// --Navbar Language
+// -----OUT
+.Navbar-Language-AnimationOut {
+  animation: navbarTranslateYAnimationOut;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.1s;
+}
+// -----IN
+.Navbar-Language-AnimationIn {
+  transform: translateY(30vw);
+  animation: navbarTranslateYAnimationIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+
+// --Line
+// -----OUT
+.Navbar-MediaLine-AnimationOut {
+  transform: translateX(0);
+  animation-name: navbarLineTranslateXOut;
+  animation-duration: 1s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+}
+// -----IN
+.Navbar-MediaLine-AnimationIn {
+  animation-name: navbarLineTranslateXIn;
+  animation-duration: 1s;
+  animation-delay: 0.7s;
+  animation-fill-mode: forwards;
+}
+
+// --NavBar MediaImage Animations
+// --OUT
+.Navbar-MediaLinks-AnimationOut {
+  animation: navbarTranslateYAnimationOut;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+// ----IN
+.Navbar-MediaLinks-AnimationIn {
+  transform: translateY(30vw);
+  animation: navbarTranslateYAnimationIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.Menu-Ig {
+  animation-delay: 0.4s;
+}
+.Menu-Be {
+  animation-delay: 0.5s;
+}
+.Menu-In {
+  animation-delay: 0.6s;
+}
+.Menu-Wsp {
+  animation-delay: 0.7s;
+}
+
+//Hero Animations
+// Hero Title
+.Title-Mobile-Animation {
+  opacity: 0;
+  will-change: opacity;
+  animation-name: opacityAnimation;
+  animation-duration: 4s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+// Hero Image Container
+.Image-Container-Animation {
+  will-change: background-size width transform;
+  animation-name: heroImageContainerAnimation;
+  animation-duration: 1.1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+// Hero Image Background
+.Image-Animation {
+  will-change: transform;
+  animation-name: heroImageAnimation;
+  animation-duration: 1.1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  transform: translateX(7.5vw) translateY(10vw);
+}
+
+// Hero Image
+.Image-Img-Animation {
+  will-change: transform;
+  animation-name: heroImageImgAnimation;
+  animation-duration: 1.5s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 1099px) {
+  // NavBar
+  // NavBar-Links
+  // OUT
+  .Navbar-Links-AnimationOut {
+    animation: navbarTranslateYAnimationOut;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+  }
+  .Navbar-Links-AnimationOut:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  .Navbar-Links-AnimationOut:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  .Navbar-Links-AnimationOut:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  .Navbar-Links-AnimationOut:nth-child(4) {
+    animation-delay: 0.4s;
+  }
+
+  // IN
+  .Navbar-Links-AnimationIn {
+    transform: translateY(5vw);
+    animation: navbarTranslateYAnimationIn;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+  }
+  .Navbar-Links-AnimationIn:nth-child(1) {
+    animation-delay: 0.8s;
+  }
+  .Navbar-Links-AnimationIn:nth-child(2) {
+    animation-delay: 0.9s;
+  }
+  .Navbar-Links-AnimationIn:nth-child(3) {
+    animation-delay: 1s;
+  }
+  .Navbar-Links-AnimationIn:nth-child(4) {
+    animation-delay: 1.1s;
+  }
+
+  // Navbar Logo
+
+  .Navbar-Logo-AnimationOut {
+    animation: navbarTranslateYAnimationOut;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+  }
+
+  .Navbar-Logo-AnimationIn {
+    transform: translateY(5vw);
+
+    animation: navbarTranslateYAnimationIn;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.6s;
+  }
+
+  // Navbar Media
+
+  // OUT
+  .Navbar-MediaLinks-AnimationOut {
+    animation: navbarTranslateYAnimationOut;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+  }
+  .Menu-Ig.Navbar-MediaLinks-AnimationOut {
+    animation-delay: 0.3s;
+  }
+  .Menu-Be.Navbar-MediaLinks-AnimationOut {
+    animation-delay: 0.4s;
+  }
+  .Menu-In.Navbar-MediaLinks-AnimationOut {
+    animation-delay: 0.5s;
+  }
+  .Menu-Wsp.Navbar-MediaLinks-AnimationOut {
+    animation-delay: 0.6s;
+  }
+
+  // IN
+  .Navbar-MediaLinks-AnimationIn {
+    transform: translateY(5vw);
+    animation: navbarTranslateYAnimationIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  .Menu-Ig.Navbar-MediaLinks-AnimationIn {
+    animation-delay: 1.6s;
+  }
+  .Menu-Be.Navbar-MediaLinks-AnimationIn {
+    animation-delay: 1.7s;
+  }
+  .Menu-In.Navbar-MediaLinks-AnimationIn {
+    animation-delay: 1.8s;
+  }
+  .Menu-Wsp.Navbar-MediaLinks-AnimationIn {
+    animation-delay: 1.9s;
+  }
+
+  // Navbar Button
+
+  // OUT
+  .Navbar-ButtonIcon-AnimationOut {
+    animation: ScaleAnimationOut;
+    animation-duration: 0.5s;
+    animation-delay: 0;
+    animation-fill-mode: forwards;
+  }
+  // IN
+  .Navbar-ButtonIcon-AnimationIn {
+    animation: ScaleAnimationIn;
+    animation-duration: 0.5s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+  }
+
+  // OUT
+  .Navbar-ButtonText-AnimationOut {
+    animation: navbarTranslateYAnimationOut;
+    animation-duration: 0.5s;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+  }
+
+  //  IN
+  .Navbar-ButtonText-AnimationIn {
+    transform: translateY(5vw);
+    animation: navbarTranslateYAnimationIn;
+    animation-duration: 1s;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+  }
+
+  // Hero
+  // Hero Title
+  .Hero-MediaImg-Animation {
+    animation-name: opacityAnimation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  // Instagram
+  .Hero-Media-Image.Hero-Ig {
+    animation-delay: 6s;
+  }
+  // Behance
+  .Hero-Media-Image.Hero-Be {
+    animation-delay: 6.3s;
+  }
+  // Linkedin
+  .Hero-Media-Image.Hero-In {
+    animation-delay: 6.6s;
+  }
+
+  // Line 1
+  .HeroTitle1 span {
+    animation-delay: 1.5s;
+  }
+  // Line 2
+  .HeroTitle2 span {
+    animation-delay: 2s;
+  }
+  // Line 3
+  .HeroTitle3 span {
+    animation-duration: 2.5s;
+    animation-delay: 2.8s;
+  }
+
+  // Hero Subtitle
+  .Hero-Subtitle-Animation {
+    opacity: 0;
+    animation-name: opacityAnimation;
+    animation-duration: 0.5s;
+    animation-delay: 5.5s;
+    animation-fill-mode: forwards;
+  }
+
+  // Hero Image Container
+  .Image-Container-Animation {
+    animation-name: heroImageContainerAnimation;
+    animation-duration: 4.9s;
+    animation-delay: 0.1s;
+    transform: translateY(30vw);
+    animation-fill-mode: forwards;
+  }
+
+  // Hero Image Background
+  .Image-Animation {
+    transform: translateX(3vw) translateY(2.1vw);
+    animation-duration: 1s;
+    animation-delay: 4s;
+  }
+
+  // Hero Image
+  .Image-Img-Animation {
+    animation-duration: 1s;
+    animation-delay: 4s;
+    transform: scale(1.3);
+  }
+}

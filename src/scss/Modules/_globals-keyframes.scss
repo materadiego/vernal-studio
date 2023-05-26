@@ -28,6 +28,129 @@
   }
 }
 
+// Header
+@keyframes headerAnimation {
+  0% {
+    transform: translateY(-20vw);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+// --menu
+@keyframes menuClose {
+  0% {
+    margin-left: 0;
+  }
+
+  100% {
+    margin-left: -100%;
+  }
+}
+@keyframes menuOpen {
+  0% {
+    margin-left: -100%;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+
+// --Line TranslateX
+@keyframes navbarLineTranslateXOut {
+  0% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+@keyframes navbarLineTranslateXIn {
+  0% {
+    transform: translateX(-100vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+// --TranslateY
+@keyframes navbarTranslateYAnimationOut {
+  0% {
+    transform: translateY(0w);
+  }
+  100% {
+    transform: translateY(-30vw);
+  }
+}
+@keyframes navbarTranslateYAnimationIn {
+  0% {
+    transform: translateY(30w);
+  }
+  50% {
+    transform: translateY(-3vw);
+  }
+  100% {
+    transform: translateY(0vw);
+  }
+}
+
+// --TranslateX
+@keyframes navbarTranslateXAnimationIn {
+  0% {
+    transform: translateX(-45vw);
+  }
+  50% {
+    transform: translateX(3vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+@keyframes navbarTranslateXAnimationOut {
+  0% {
+    transform: translateX(0vw);
+  }
+  50% {
+    transform: translateX(5vw);
+  }
+  100% {
+    transform: translateX(-45vw);
+  }
+}
+
+// Hero
+// Hero Image Container
+@keyframes heroImageImgAnimation {
+  0% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+// Hero Image Background
+@keyframes heroImageContainerAnimation {
+  0% {
+    background-size: 60vw;
+  }
+  100% {
+    background-size: 81vw;
+  }
+}
+
+// Hero Image
+@keyframes heroImageAnimation {
+  0% {
+    transform: translateX(7.5vw) translateY(10vw);
+  }
+  100% {
+    transform: translateX(0) translateY(0vw);
+  }
+}
+
 @media screen and (min-width: 1099px) {
   // --Scale animation
   @keyframes ScaleAnimationOut {
@@ -64,6 +187,75 @@
     }
     100% {
       margin-left: 110%;
+    }
+  }
+
+  // --TranslateY
+  @keyframes navbarTranslateYAnimationOut {
+    0% {
+      transform: translateY(0w);
+    }
+    50% {
+      transform: translateY(0.5vw);
+    }
+    100% {
+      transform: translateY(-5vw);
+    }
+  }
+  @keyframes navbarTranslateYAnimationIn {
+    0% {
+      transform: translateY(5vw);
+    }
+    50% {
+      transform: translateY(-0.5vw);
+    }
+    100% {
+      transform: translateY(0vw);
+    }
+  }
+
+  // Hero
+  // Hero Image Container
+  @keyframes heroImageContainerAnimation {
+    0% {
+      background-size: 0vw;
+      transform: translateY(10vw);
+    }
+
+    17% {
+      background-size: 0vw;
+      transform: translateY(0vw);
+    }
+
+    69% {
+      background-size: 10vw;
+      transform: translateY(0vw);
+    }
+
+    100% {
+      background-size: 34vw;
+      opacity: 1;
+      transform: translateY(0vw);
+    }
+  }
+  // Hero Image Background
+
+  @keyframes heroImageAnimation {
+    0% {
+      transform: translateX(3vw) translateY(2.1vw);
+    }
+    100% {
+      transform: translateX(0) translateY(0);
+    }
+  }
+  // Hero Image
+
+  @keyframes heroImageImgAnimation {
+    0% {
+      transform: scale(1.3);
+    }
+    100% {
+      transform: scale(1);
     }
   }
 }
