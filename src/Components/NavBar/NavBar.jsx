@@ -26,14 +26,17 @@ export default function NavBar() {
   return (
     <header className="NavBar" id="header">
       <div className="NavBarContainer">
-        <div className="NavBarContainer__MenuButton" onClick={toggleMenu}>
+        <div
+          className="NavBarContainer__MenuButton Header-Animation"
+          onClick={toggleMenu}
+        >
           <img
             className="NavBarContainer__MenuButton--Image"
             alt="Menu"
             src={MenuButton}
           ></img>
         </div>
-        <div className="NavBarContainer__Logo">
+        <div className="NavBarContainer__Logo Header-Animation">
           <img
             className="NavBarContainer__Logo--Image"
             src={logoVernal}
@@ -41,7 +44,7 @@ export default function NavBar() {
           ></img>
         </div>
         <div
-          className="NavBarContainer__LanguageButton"
+          className="NavBarContainer__LanguageButton Header-Animation"
           id="language-button-desktop"
         >
           <p className="NavBarContainer__LanguageButton--Selected">
@@ -59,7 +62,7 @@ export default function NavBar() {
       <div
         style={{ zIndex }}
         id={`${zIndex ? "MenuContainer" : "MenuContainerZIndex"}`}
-        className={`Menu ${menu ? "MenuIsActive" : ""}`}
+        className={`Menu ${menu ? "MenuIsActive" : "Menu-Animation"}`}
       >
         <div className="MenuContainer">
           <div className="MenuContainer__Top">
@@ -201,16 +204,16 @@ export default function NavBar() {
               ></img>
             </a>
           </div>
-          <div className="MenuContainer__Contact">
+          <div className="MenuContainer__Contact Button">
             <div
-              className={`MenuContainer__Contact--Arrow ${
+              className={`MenuContainer__Contact--Arrow Button-Arrow ${
                 menu
                   ? "Navbar-ButtonIcon-AnimationIn"
                   : "Navbar-ButtonIcon-AnimationOut"
               }`}
             ></div>
             <p
-              className={`MenuContainer__Contact--Text ${
+              className={`MenuContainer__Contact--Text Button-Text ${
                 menu
                   ? "Navbar-ButtonText-AnimationIn"
                   : "Navbar-ButtonText-AnimationOut"

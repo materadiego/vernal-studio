@@ -1,5 +1,50 @@
 // NavBar Animation Classes
 
+.Header-Animation {
+  will-change: transform;
+  animation-name: headerAnimation;
+  animation-fill-mode: forwards;
+  transform: translateY(-20vw);
+}
+
+.NavBarContainer__MenuButton.Header-Animation {
+  animation-delay: 1s;
+  animation-duration: 0.5s;
+}
+.NavBarContainer__Logo.Header-Animation {
+  animation-delay: 0s;
+  animation-duration: 1s;
+}
+.NavBarContainer__LanguageButton.Header-Animation {
+  animation-duration: 0.5s;
+  animation-delay: 1.2s;
+}
+
+// Menu is active
+#MenuContainer {
+  z-index: 100;
+}
+// Menu inicialization
+#MenuContainerZIndex {
+  z-index: -100;
+  opacity: 0;
+}
+
+// Menu closes
+.Menu-Animation {
+  animation: menuClose;
+  animation-duration: 0.5s;
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards;
+}
+
+// Menu is active
+.MenuIsActive {
+  animation: menuOpen;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
 // --Navbar links Animations
 // ----OUT
 .Navbar-Links-AnimationOut {

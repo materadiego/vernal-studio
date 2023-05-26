@@ -2,77 +2,375 @@
 }
 
 .HomeServicesContainer {
-  padding: 5vw 0 0;
+  padding: 8vw 0 0;
   &__SectionTitle {
     margin-left: 5%;
   }
-  &__Description {
-    width: 70%;
-    font-size: 4.1vw;
-    margin: 7vw 0 15vw 5%;
-    font-family: $Font2;
-  }
   &__Subcontainer {
+    margin: 7vw 0 0;
+    position: relative;
     &--Title {
-      margin: 0 0 5vw 5%;
+      width: 90%;
+      height: 190vw;
+      margin: 0 5% 10vw;
       font-size: 9vw;
       font-weight: 600;
       font-family: $Font1;
-    }
-    &--Image {
-      margin-bottom: 15vw;
-      width: 75vw;
-      height: 51vw;
-      background-image: url(../../Assets/Images/services-bgimg.webp);
-      background-size: 100%;
-      background-position: center;
-      background-repeat: no-repeat;
+      &:nth-child(2) {
+        height: 177vw;
+      }
     }
   }
 }
 
-.Services-Image-Left {
-  margin-left: 0;
+.ServicesSlider {
+  top: 0;
+  position: absolute;
+  &__Wrapper {
+    &--Slide {
+      height: 177vw;
+      margin: 0 0 10vw;
+      padding: 13vw 0 0;
+      &:nth-child(2) {
+        height: 164vw;
+      }
+    }
+  }
 }
 
-.Services-Image-Right {
-  margin-left: 25vw;
+.ServicesSlide-Subtitle {
+  width: 90%;
+  margin: 0 5% 5vw;
+  font-size: 8vw;
+  font-weight: 500;
+  font-family: $Font1;
+}
+
+.ServicesSlide-Text {
+  width: 90%;
+  height: 14vw;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 3.7vw;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #dddddd;
+  font-family: $Font2;
+  & span {
+    margin-right: 2vw;
+    font-weight: 700;
+    font-size: 5vw;
+    font-family: $Font1;
+  }
+}
+
+.ServicesSlide-Image {
+  width: 100vw;
+  height: 85vw;
+  margin: 10vw 0;
+  background-image: url(../../Assets/Images/services-bgimg.webp);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  display: flex;
+  & img {
+    width: 80%;
+  }
+}
+
+.Services-Image-Right1 {
+  background-position: right center;
+  justify-content: center;
+  align-items: center;
+}
+.Services-Image-Left1 {
+  background-position: left bottom;
+  justify-content: center;
+  align-items: flex-start;
+}
+.Services-Image-Right2 {
+  background-position: right center;
+  justify-content: center;
+  align-items: center;
+}
+.Services-Image-Left2 {
+  background-position: left top;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 @media screen and (min-width: 1099px) {
   .HomeServicesContainer {
-    padding: 8vw 0 10vw;
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
+    padding: 5vw 0 0vw;
     &__SectionTitle {
       margin-left: 0%;
     }
-    &__Description {
-      width: 25%;
-      font-size: 1.2vw;
-      margin: 5vw 0 4.5vw 5%;
-    }
-    &__Subcontainer {
-      position: relative;
 
+    &__Subcontainer {
+      height: 44vw;
+      margin-top: -2.5vw;
+      padding-top: 4vw;
+      overflow: hidden;
+      position: relative;
       &--Title {
-        margin: 0 0 0.7vw 5%;
+        width: 32%;
+        height: 4vw;
+        margin: 0 0 2vw;
         font-size: 4vw;
         transition: 0.3s;
         will-change: color;
-        cursor: default;
+        cursor: pointer;
+        &:nth-child(2) {
+          height: 4vw;
+        }
         &:hover {
           color: $color-variacion2;
         }
       }
-      &--Image {
-        margin-bottom: 0;
-        position: absolute;
-        top: -6vw;
-        right: 0;
-        width: 40vw;
-        height: 27vw;
+    }
+  }
+
+  .ServicesSlider {
+    width: 50%;
+    height: auto;
+    top: 0;
+    right: 0;
+    position: absolute;
+    overflow: hidden;
+    background-image: url(../../Assets/Images/services-bgimg.webp);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    animation-timing-function: ease-in;
+    will-change: background-position;
+    &__Wrapper {
+      width: 400%;
+      opacity: 0;
+      display: flex;
+      will-change: margin;
+      &--Slide {
+        width: 100%;
+        height: 50vw;
+        margin: 0;
+        padding: 0;
+        position: relative;
+
+        &:nth-child(2) {
+          height: 56vw;
+        }
       }
+    }
+  }
+
+  .ServicesSlide-Subtitle {
+    width: 80%;
+    margin: 0 0 1vw;
+    font-size: 3vw;
+    opacity: 0;
+  }
+
+  .ServicesSlide-Subtitle.Opacity {
+    animation-name: opacityAnimation;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+  }
+
+  .ServicesSlide-Text {
+    width: 85%;
+    height: 4vw;
+    margin: 0;
+    padding: 0 0 0.5vw;
+    font-weight: 400;
+    font-size: 1.05vw;
+    opacity: 0;
+    will-change: opacity;
+    font-family: $Font3;
+    & span {
+      margin-right: 1vw;
+      font-size: 1.5vw;
+    }
+  }
+
+  .ServicesSpanAnimation1 {
+    animation-delay: 1.5s;
+  }
+  .ServicesSpanAnimation2 {
+    animation-delay: 1.9s;
+  }
+  .ServicesSpanAnimation3 {
+    animation-delay: 2.3s;
+  }
+  .ServicesSpanAnimation4 {
+    animation-delay: 2.7s;
+  }
+
+  .Services-Text-Opacity-Animation {
+    animation-name: opacityAnimation;
+
+    animation-duration: 2s;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
+  }
+
+  .ServicesSlide-Text .Span-Animation-Block {
+    left: 16%;
+    animation-duration: 0.8s;
+  }
+
+  .ServicesSlide-Text .Span-Animation-Block::before {
+    content: "";
+    width: 5vw;
+    height: 50%;
+    left: -6.5%;
+    transform: skewX(-20deg);
+    box-shadow: inset 0 0vw 0.5vw 0.5vw rgba(0, 0, 0, 0.2);
+    background: $color-variacion2;
+    position: absolute;
+    border-top-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+  }
+
+  .ServicesSlide-Image {
+    width: 100%;
+    height: 45%;
+    bottom: -4vw;
+    margin: 0 0;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-image: none;
+    & img {
+      width: 80%;
+      opacity: 0;
+    }
+  }
+
+  .Services-Image-Opacity {
+    animation-name: opacityAnimation;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+  .Services-Image-Right1 {
+    background-position: right center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .Services-Image-Left1 {
+    background-position: left bottom;
+    justify-content: center;
+    align-items: flex-start;
+    height: 62%;
+  }
+  .Services-Image-Right2 {
+    background-position: right center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .Services-Image-Left2 {
+    background-position: left top;
+    justify-content: center;
+    align-items: center;
+    height: 56%;
+  }
+
+  .Slide1 {
+    animation-name: slideAnimation1;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+  }
+  .Slide2 {
+    animation-name: slideAnimation2;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+  }
+  .Slide3 {
+    animation-name: slideAnimation3;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+  }
+  .Slide4 {
+    animation-name: slideAnimation4;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+  }
+
+  .ServicesBgPosition1 {
+    background-position: right 30vw;
+  }
+  .ServicesBgPosition2 {
+    background-position: left 29vw;
+  }
+  .ServicesBgPosition3 {
+    background-position: right 29vw;
+  }
+  .ServicesBgPosition4 {
+    background-position: left 30vw;
+  }
+
+  @keyframes slideAnimation1 {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      margin-left: 0;
+    }
+    90% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      margin-left: 0;
+    }
+  }
+  @keyframes slideAnimation2 {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      margin-left: -100%;
+    }
+    90% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      margin-left: -100%;
+    }
+  }
+  @keyframes slideAnimation3 {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      margin-left: -200%;
+    }
+    90% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      margin-left: -200%;
+    }
+  }
+  @keyframes slideAnimation4 {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      margin-left: -300%;
+    }
+    90% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      margin-left: -300%;
     }
   }
 }

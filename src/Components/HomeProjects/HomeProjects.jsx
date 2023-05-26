@@ -11,14 +11,20 @@ export default function HomeProjects() {
         <p className="HomeProjectsContainer__SectionTitle SectionTitle">
           Nosotros <img src={TitleLine} alt="Icon"></img>
         </p>
-        <p className="HomeProjectsContainer__Title">
+        <p className="HomeProjectsContainer__Title Title">
           Somos un estudio 360° dedicado a impulsar marcas combinando la
           creatividad y estrategia
         </p>
         <div className="HomeProjectsContainer__Line"></div>
-        <p className="HomeProjectsContainer__Description">
+        <p className="HomeProjectsContainer__Description Text Mobile">
           {" "}
           <span>Participamos en cada etapa del proyecto,</span> desde la
+          estrategia y posicionamiento, hasta la implementación de identidades
+          visuales y experiencias digitales que conecten con tu comunidad.
+        </p>
+        <p className="HomeProjectsContainer__Description Text Desktop">
+          {" "}
+          <span>Participamos en cada etapa del proyecto,</span> desde <br /> la
           estrategia y posicionamiento, hasta la implementación de identidades
           visuales y experiencias digitales que conecten con tu comunidad.
         </p>
@@ -26,7 +32,7 @@ export default function HomeProjects() {
           Proyectos <img src={TitleLine} alt="Icon"></img>
         </p>
         <div className="HomeProjectsContainer__Projects">
-          <p className="HomeProjectsContainer__Projects--Title">
+          <p className="HomeProjectsContainer__Projects--Title Title">
             Nuestra selección
           </p>
           {/* PROJECT BOX */}
@@ -78,9 +84,11 @@ export default function HomeProjects() {
             <p className="ProjectBox__Location">Buenos Aires, ARG</p>
           </div>
         </div>
-        <div className="HomeProjectsContainer__MoreButton">
-          <div className="HomeProjectsContainer__MoreButton--Arrow"></div>
-          <p className="HomeProjectsContainer__MoreButton--Text">VER MÁS</p>
+        <div className="HomeProjectsContainer__MoreButton Button ">
+          <div className="HomeProjectsContainer__MoreButton--Arrow Button-Arrow"></div>
+          <p className="HomeProjectsContainer__MoreButton--Text Button-Text">
+            VER MÁS
+          </p>
         </div>
       </div>
     </div>

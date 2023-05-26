@@ -17,7 +17,7 @@ export default function HomeHero() {
             <span className="Hero-Media-Animation Media-Animation"></span>
             <img
               alt="Instagram"
-              className="Hero-Ig Hero-Media-Image"
+              className="Hero-Ig Hero-Media-Image Hero-MediaImg-Animation"
               src={HeroIg}
             ></img>
           </a>
@@ -29,7 +29,7 @@ export default function HomeHero() {
 
             <img
               alt="Behance"
-              className="Hero-Be Hero-Media-Image"
+              className="Hero-Be Hero-Media-Image Hero-MediaImg-Animation"
               src={HeroBe}
             ></img>
           </a>
@@ -41,44 +41,42 @@ export default function HomeHero() {
 
             <img
               alt="Linkedin"
-              className="Hero-In Hero-Media-Image"
+              className="Hero-In Hero-Media-Image Hero-MediaImg-Animation"
               src={HeroIn}
             ></img>
           </a>
         </div>
-        <p className="HomeHeroContainer__Title Mobile">
+        <p className="HomeHeroContainer__Title Title-Mobile-Animation Title Mobile ">
           Transformamos tu marca en <br /> una identidad inolvidable.
         </p>
-        <p className="HomeHeroContainer__Title HeroTitle1 Desktop">
+        <p className="HomeHeroContainer__Title Title HeroTitle1 Desktop Span-Animation">
           {" "}
-          <span></span>Transformamos tu
+          <span className="Span-Animation-Block"></span>Transformamos tu
         </p>
-        <p className="HomeHeroContainer__Title HeroTitle2 Desktop">
-          <span></span> marca en una identidad
+        <p className="HomeHeroContainer__Title Title HeroTitle2 Desktop Span-Animation">
+          <span className="Span-Animation-Block"></span> marca en una identidad
         </p>
-        <p className="HomeHeroContainer__Title HeroTitle3 Desktop">
-          <span></span>inolvidable.
+        <p className="HomeHeroContainer__Title Title HeroTitle3 Desktop Span-Animation">
+          <span className="Span-Animation-Block"></span>inolvidable.
         </p>
-        <p className="HomeHeroContainer__Subtitle">
+        <p className="HomeHeroContainer__Subtitle Hero-Subtitle-Animation Text">
           <span>Estudio boutique creativo</span>Branding. UX. Social media &
           más.
         </p>
-        <div className="HomeHeroContainer__ImageContainer">
-          <div className="HomeHeroContainer__ImageContainer--Image">
+        <div className="HomeHeroContainer__ImageContainer Image-Container-Animation">
+          <div className="HomeHeroContainer__ImageContainer--Image Image-Animation">
             <img
               alt="Background"
               src={HeroImageMobile}
-              className="Mobile Hero-Image"
+              className="Mobile Hero-Image Image-Img-Animation"
             ></img>
             <img
               alt="Background"
               src={HeroImageDesktop}
-              className="Desktop Hero-Image"
+              className="Desktop Hero-Image Image-Img-Animation"
             ></img>
           </div>
         </div>
-        <div className="HomeHeroContainer__Block1"></div>
-        <div className="HomeHeroContainer__Block2"></div>
       </div>
     </div>
   );

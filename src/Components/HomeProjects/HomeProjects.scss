@@ -3,75 +3,50 @@
 }
 
 .HomeProjectsContainer {
-  padding: 50vw 0 15vw;
   width: 85%;
   margin: 0 auto;
+  padding: 50vw 0 15vw;
   &__SectionTitle {
     color: $color-claro;
   }
   &__Title {
     width: 95%;
-    font-weight: 500;
-    font-size: 6.8vw;
+    margin: 0;
     color: $color-claro;
-    font-family: $Font1;
   }
   &__Line {
-    display: flex;
     width: 50vw;
-    margin-left: -7.5vw;
+    margin: 12vw 0 0vw -7.5vw;
+    display: flex;
     border-top: 1px solid $color-secundario;
   }
   &__Description {
     width: 90%;
-    margin: 10vw 0 25vw;
-    font-size: 3.65vw;
-    margin-left: 10%;
-    font-weight: 300;
+    margin: 8vw 0 25vw 10%;
     color: $color-claro;
-    font-family: $Font2;
     & span {
       font-weight: 500;
     }
   }
   &__Projects {
     &--Title {
-      display: none;
+      display: flex;
+      width: 100%;
+      margin: 0 0 15vw 0;
+      color: $color-claro;
     }
   }
   &__MoreButton {
-    position: relative;
     width: 50vw;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &--Arrow {
-      position: absolute;
-      left: 0;
-      width: 17vw;
-      height: 17vw;
-      border-radius: 100vw;
-      background-color: rgba(100, 100, 100, 0.5);
-      background-image: url(../../Assets/Images/button-arrow.svg);
-      background-size: 6vw;
-      background-repeat: no-repeat;
-      background-position: 5.5vw center;
-    }
-    &--Text {
-      margin-left: 1vw;
-      z-index: 2;
-      color: $color-claro;
-      font-family: $Font1;
-    }
   }
 }
 
 .ProjectBox {
+  margin: 0 0 10vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 0 10vw;
   &__ImageContainer {
     width: 100%;
     &--Image {
@@ -93,84 +68,63 @@
   }
 }
 
+.HomeProjectsContainer__Description.Mobile {
+  display: block;
+}
+
 @media screen and (min-width: 1099px) {
   .HomeProjectsContainer {
-    padding: 10vw 0 8vw;
+    width: 75%;
+    padding: 10vw 0 6vw;
     position: relative;
     &__Title {
-      width: 60%;
-      font-size: 3.4vw;
-      margin: 5vw 0 7vw 5%;
+      width: 70%;
     }
     &__Line {
       width: 40vw;
-      margin: 0 0 20vw 5%;
+      margin: 9vw 0 15vw;
       border-top: 2px solid $color-secundario;
     }
     &__Description {
-      width: 25%;
-      right: 15%;
-      margin-top: -22.7vw;
-      margin-bottom: 0;
-      font-size: 1.3vw;
-      margin-left: 0;
+      width: 41%;
+      right: 0;
+      margin: -18.5vw 0 0;
       position: absolute;
     }
     &__Projects {
+      width: 100%;
+      margin: 0 auto;
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
-      width: 85%;
-      margin: 0 auto 2vw;
+      justify-content: space-evenly;
       &--Title {
-        display: flex;
-        width: 100%;
-        font-size: 4vw;
-        font-weight: 500;
         margin-bottom: 5vw;
-        color: $color-claro;
-        font-family: $Font1;
       }
     }
     &__MoreButton {
-      width: 11vw;
-      cursor: pointer;
-      &:hover .HomeProjectsContainer__MoreButton--Arrow {
-        width: 100%;
-        background-position: 1.5vw center;
-      }
-      &--Arrow {
-        width: 4vw;
-        height: 4vw;
-        background-size: 1.5vw;
-        background-position: 1.2vw center;
-        transition: 0.3s;
-        will-change: width background-position;
-      }
-      &--Text {
-        margin-left: 1vw;
-        z-index: 2;
-        font-size: 1.2vw;
-        color: $color-claro;
-        font-family: $Font1;
-      }
+      width: 14vw;
     }
   }
 
   .ProjectBox {
+    width: 35%;
+    height: 34vw;
+    margin: 0 0 3vw;
     display: flex;
-    width: 45%;
     flex-direction: column;
     align-items: center;
-    margin: 0 0 3vw;
     &:nth-child(3) {
-      margin-top: 5vw;
+      margin-top: 8vw;
     }
     &:nth-child(4) {
-      margin-top: -5vw;
+      margin-top: -7vw;
+    }
+    &:nth-child(5) {
+      margin-top: 1vw;
     }
     &__ImageContainer {
       width: 100%;
+
       &--Image {
         width: 100%;
       }
@@ -183,5 +137,12 @@
       margin: 0 0 2vw;
       font-size: 1.3vw;
     }
+  }
+
+  .HomeProjectsContainer__Description.Desktop {
+    display: block;
+  }
+  .HomeProjectsContainer__Description.Mobile {
+    display: none;
   }
 }

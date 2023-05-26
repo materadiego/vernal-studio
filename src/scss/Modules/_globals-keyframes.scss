@@ -48,14 +48,22 @@
       transform: scale(1);
     }
   }
-}
 
-// --Opacity animation
-@keyframes opacityAnimation {
-  0% {
-    opacity: 0;
+  // --Opacity animation
+  @keyframes opacityAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
-  100% {
-    opacity: 1;
+  @keyframes textTranslateAnimation {
+    0% {
+      margin-left: 0%;
+    }
+    100% {
+      margin-left: 110%;
+    }
   }
 }

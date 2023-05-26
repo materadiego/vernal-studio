@@ -1,3 +1,38 @@
+.Title-Mobile-Animation {
+  opacity: 0;
+  will-change: opacity;
+  animation-name: opacityAnimation;
+  animation-duration: 4s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.Image-Container-Animation {
+  will-change: background-size width transform;
+  animation-name: heroImageContainerAnimation;
+  animation-duration: 1.1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+.Image-Animation {
+  will-change: transform;
+  animation-name: heroImageAnimation;
+  animation-duration: 1.1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  transform: translateX(7.5vw) translateY(10vw);
+}
+
+.Image-Img-Animation {
+  will-change: transform;
+  animation-name: heroImageImgAnimation;
+  animation-duration: 1.5s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  transform: scale(1.1);
+}
+
 @keyframes heroImageImgAnimation {
   0% {
     transform: scale(1.1);
@@ -26,6 +61,12 @@
 }
 
 @media screen and (min-width: 1099px) {
+  .Hero-MediaImg-Animation {
+    animation-name: opacityAnimation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
   .Hero-Media-Image.Hero-Ig {
     animation-delay: 6s;
   }
@@ -45,6 +86,34 @@
   .HeroTitle3 span {
     animation-duration: 2.5s;
     animation-delay: 2.8s;
+  }
+
+  .Hero-Subtitle-Animation {
+    opacity: 0;
+    animation-name: opacityAnimation;
+    animation-duration: 0.5s;
+    animation-delay: 5.5s;
+    animation-fill-mode: forwards;
+  }
+
+  .Image-Container-Animation {
+    animation-name: heroImageContainerAnimation;
+    animation-duration: 4.9s;
+    animation-delay: 0.1s;
+    transform: translateY(30vw);
+    animation-fill-mode: forwards;
+  }
+
+  .Image-Animation {
+    transform: translateX(3vw) translateY(2.1vw);
+    animation-duration: 1s;
+    animation-delay: 4s;
+  }
+
+  .Image-Img-Animation {
+    animation-duration: 1s;
+    animation-delay: 4s;
+    transform: scale(1.3);
   }
 
   @keyframes heroImageContainerAnimation {
@@ -84,15 +153,6 @@
     }
     100% {
       transform: scale(1);
-    }
-  }
-
-  @keyframes textTranslateAnimation {
-    0% {
-      margin-left: 0;
-    }
-    100% {
-      margin-left: 100%;
     }
   }
 }
