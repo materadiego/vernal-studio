@@ -435,4 +435,83 @@
     animation-delay: 4s;
     transform: scale(1.3);
   }
+
+  // SERVICES SECTION
+  // Services slide animation
+  .Slide1 {
+    animation-name: slideAnimation1;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+  }
+  .Slide2 {
+    animation-name: slideAnimation2;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+  }
+  .Slide3 {
+    animation-name: slideAnimation3;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+  }
+  .Slide4 {
+    animation-name: slideAnimation4;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+  }
+
+  // Services slide subtitle
+  .ServicesSlide-Subtitle.Opacity {
+    animation-name: opacityAnimation;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+  }
+
+  // Services text opacity animation
+  .Services-Text-Opacity-Animation {
+    animation-name: opacityAnimation;
+    animation-duration: 2s;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
+  }
+
+  //Services span animation
+  .ServicesSpanAnimation1 {
+    animation-delay: 1.5s;
+  }
+  .ServicesSpanAnimation2 {
+    animation-delay: 1.9s;
+  }
+  .ServicesSpanAnimation3 {
+    animation-delay: 2.3s;
+  }
+  .ServicesSpanAnimation4 {
+    animation-delay: 2.7s;
+  }
+
+  .ServicesSlide-Text .Span-Animation-Block {
+    left: 8%;
+    animation-duration: 0.8s;
+  }
+
+  // .ServicesSlide-Text .Span-Animation-Block::before {
+  //   content: "";
+  //   width: 5vw;
+  //   height: 50%;
+  //   left: -6.5%;
+  //   transform: skewX(-20deg);
+  //   box-shadow: inset 0 0vw 0.5vw 0.5vw rgba(0, 0, 0, 0.2);
+  //   background: $color-variacion2;
+  //   position: absolute;
+  //   border-top-left-radius: 1vw;
+  //   border-bottom-right-radius: 1vw;
+  // }
+
+  // Services image opacity animation
+  .Services-Image-Opacity {
+    animation-name: opacityAnimation;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+  }
 }

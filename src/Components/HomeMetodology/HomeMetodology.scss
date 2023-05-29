@@ -1,11 +1,11 @@
 .HomeMetodology {
-  background-color: $color-primario;
+  background-color: $color-bgoscuro;
 }
 
 .HomeMetodologyContainer {
-  padding: 10vw 0 6vw;
   width: 85%;
   margin: 0 auto;
+  padding: 10vw 0 6vw;
   &__SectionTitle {
     color: $color-claro;
   }
@@ -17,8 +17,8 @@
     &--Number {
       margin: 0;
       font-size: 20vw;
-      line-height: 100%;
       font-weight: 500;
+      line-height: 100%;
       color: $color-variacion1;
       font-family: $Font1;
     }
@@ -28,9 +28,9 @@
       color: $color-claro;
     }
     &--Text {
+      margin: 6vw 0 0;
       display: flex;
       flex-direction: column;
-      margin: 6vw 0 0;
       color: $color-terciario;
       & span {
         font-weight: 500;
@@ -47,31 +47,26 @@
 
 @media screen and (min-width: 1099px) {
   .HomeMetodologyContainer {
-    padding: 5vw 0 10vw;
     width: 80%;
+    padding: 5vw 0 10vw;
     display: flex;
     flex-wrap: wrap;
-
     &__SectionTitle {
       width: 100%;
     }
     &__Subcontainer {
       width: 28%;
       margin: 0 15% 4vw 0;
-
       &:nth-child(4) {
         margin: 0 15% 0 28%;
       }
       &--Number {
-        font-size: 6vw;
         margin: 0;
+        font-size: 6vw;
         transition: 0.3s;
         cursor: default;
         will-change: color;
         color: $color-secundario;
-        &:hover {
-          color: $color-variacion1;
-        }
       }
       &--Title {
         font-size: 2.5vw;
@@ -85,5 +80,10 @@
         margin: 2.5vw 0 1vw;
       }
     }
+  }
+
+  .HomeMetodologyContainer__Subcontainer:hover
+    .HomeMetodologyContainer__Subcontainer--Number {
+    color: $color-variacion1;
   }
 }

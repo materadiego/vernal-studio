@@ -29,12 +29,11 @@
     background-repeat: no-repeat;
     background-position: right bottom;
     overflow: hidden;
-
     &--Image {
       width: 85%;
-      overflow: hidden;
       margin-top: 5vw;
       border-top-left-radius: 17vw;
+      overflow: hidden;
       & img {
         width: 100%;
       }
@@ -56,13 +55,8 @@
       display: flex;
       flex-direction: column;
       &--Link {
-        width: 1.2vw;
-        height: 1.2vw;
         margin: 0.7vw 0;
         & img {
-          z-index: 2;
-          will-change: filter;
-          transition: 0.3s;
           opacity: 0;
         }
       }
@@ -99,17 +93,6 @@
         }
       }
     }
-  }
-
-  .Hero-Ig {
-    width: 100%;
-    margin-left: -0.05vw;
-  }
-  .Hero-Be {
-    width: 100%;
-  }
-  .Hero-In {
-    width: 80%;
   }
 
   .Media-Container-Animation:hover .Hero-Media-Animation {

@@ -120,7 +120,7 @@
   }
 }
 
-// Hero
+// HERO
 // Hero Image Container
 @keyframes heroImageImgAnimation {
   0% {
@@ -214,7 +214,7 @@
     }
   }
 
-  // Hero
+  // HERO
   // Hero Image Container
   @keyframes heroImageContainerAnimation {
     0% {
@@ -256,6 +256,69 @@
     }
     100% {
       transform: scale(1);
+    }
+  }
+
+  // SERVICES
+  // Services slide animation
+  @keyframes slideAnimation1 {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      margin-left: 0;
+    }
+    90% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      margin-left: 0;
+    }
+  }
+  @keyframes slideAnimation2 {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      margin-left: -100%;
+    }
+    90% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      margin-left: -100%;
+    }
+  }
+  @keyframes slideAnimation3 {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      margin-left: -200%;
+    }
+    90% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      margin-left: -200%;
+    }
+  }
+  @keyframes slideAnimation4 {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      margin-left: -300%;
+    }
+    90% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      margin-left: -300%;
     }
   }
 }

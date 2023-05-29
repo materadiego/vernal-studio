@@ -15,12 +15,11 @@
       width: 90%;
     }
     &--Text {
-      font-size: 3.7vw;
       margin: 4vw 0 0;
+      font-size: 3.7vw;
       display: flex;
       flex-direction: column;
       font-family: $Font2;
-
       & span {
         font-weight: 600;
       }
@@ -29,41 +28,33 @@
   &__ContactSubcontainer {
     width: 65%;
     margin: 0 0 10vw;
-
     &--Title {
       margin: 0 0 2vw;
-      font-size: 6.5vw;
-      font-weight: 500;
-      font-family: $Font1;
     }
     &--Text {
-      font-size: 4.3vw;
       margin: 0;
+      font-size: 4.3vw;
       font-family: $Font3;
       & span {
         font-weight: 500;
       }
     }
     &--Location {
-      font-size: 4.3vw;
       margin: 3vw 0 0;
+      font-size: 4.3vw;
       font-family: $Font3;
     }
   }
   &__SiteMapSubcontainer {
     margin: 0 0 10vw;
-
     &--Title {
       margin: 0 0 4vw;
-      font-size: 6.5vw;
-      font-weight: 500;
-      font-family: $Font1;
     }
     &--Link {
+      margin: 0 0 1vw 0;
       display: flex;
       text-decoration: none;
       align-items: center;
-      margin: 0 0 1vw 0;
       & p {
         margin: 0;
         font-size: 4.5vw;
@@ -82,59 +73,40 @@
     &--Title {
       width: 100%;
       margin: 0 0 6vw;
-      font-size: 6.5vw;
-      font-weight: 500;
-      font-family: $Font1;
     }
     &--Link {
-      width: 8vw;
-      height: 8vw;
       margin-right: 5vw;
-      display: flex;
-      justify-content: center;
-      align-items: center;
     }
   }
   &__ArrowUp {
-    position: absolute;
-    width: 8vw;
-    height: 8vw;
+    width: 7vw;
+    height: 7vw;
+    bottom: 0;
+    right: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
-    bottom: 0;
-    right: 10%;
+    position: absolute;
     &--Image {
       width: 100%;
     }
   }
 }
 
-.Footer-Ig {
-  width: 6vw;
-  height: 6vw;
-}
-.Footer-Be {
-  width: 8vw;
-  height: 8vw;
-}
-.Footer-In {
-  width: 6vw;
-  height: 6vw;
+.HomeMetodologyContainer__Subcontainer--Text.Desktop {
+  display: none;
 }
 
 @media screen and (min-width: 1099px) {
   .Footer {
-    padding: 5vw 0;
-    border-top: 2px solid #ddd;
     width: 85%;
     margin: 0 auto;
+    padding: 5vw 0;
+    border-top: 2px solid #ddd;
   }
-
   .FooterContainer {
     width: 95%;
     display: flex;
-
     &__LogoSubcontainer {
       width: 45%;
       margin: 0;
@@ -151,7 +123,6 @@
     &__ContactSubcontainer {
       width: 15.5%;
       margin: 0 9.75% 0 0;
-
       &--Title {
         margin: 0 0 0.5vw;
         font-size: 1.3vw;
@@ -160,15 +131,13 @@
         font-size: 0.9vw;
       }
       &--Location {
-        font-size: 0.9vw;
         margin: 1vw 0 0;
+        font-size: 0.9vw;
       }
     }
     &__SiteMapSubcontainer {
       width: 11%;
-
       margin: 0 9.75% 0 0;
-
       &--Title {
         margin: 0;
         font-size: 1.3vw;
@@ -186,24 +155,26 @@
       }
     }
     &__MediaSubcontainer {
-      width: 9%;
-      justify-content: center;
-      align-items: flex-start;
+      width: 8.5%;
       height: 5vw;
+      justify-content: space-between;
+      align-items: flex-start;
       &--Title {
         margin: 0 0 0.5vw;
         font-size: 1.3vw;
         text-align: center;
       }
       &--Link {
-        width: 1vw;
-        height: 1vw;
-        margin: 0 0.65vw;
+        margin: 0;
       }
     }
     &__ArrowUp {
       display: none;
     }
+  }
+
+  .Footer-Title.Title {
+    font-size: 1.3vw;
   }
 
   .Footer-Ig {
@@ -217,5 +188,26 @@
   .Footer-In {
     width: 1.2vw;
     height: 1.2vw;
+  }
+
+  .Footer-Media-Image {
+    will-change: filter;
+    transition: 0.3s;
+  }
+
+  .Media-Container-Animation:hover .Footer-Media-Animation {
+    background-color: $color-primario;
+  }
+
+  .Media-Container-Animation:hover .Footer-Media-Image {
+    filter: brightness(0) saturate(100%) invert(96%) sepia(0%) saturate(7476%)
+      hue-rotate(77deg) brightness(105%) contrast(106%);
+  }
+
+  .HomeMetodologyContainer__Subcontainer--Text.Mobile {
+    display: none;
+  }
+  .HomeMetodologyContainer__Subcontainer--Text.Desktop {
+    display: flex;
   }
 }

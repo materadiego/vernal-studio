@@ -1,30 +1,26 @@
-.Contact {
-}
-
 .ContactContainer {
-  padding: 10vw 0;
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
+  padding: 10vw 0;
   &__Title {
-    width: 70%;
-    font-size: 7.5vw;
-    font-weight: 600;
-    font-family: $Font1;
+    width: 80%;
   }
   &__Subtitle {
     display: none;
   }
   &__Form {
+    margin: 8vw 0 0;
     &--Input {
       width: 100%;
       margin-bottom: 8vw;
+      padding: 1vw 0;
       border: none;
       outline: none;
-      padding: 1vw 0;
+      border-bottom: 2px solid #dddddd;
       font-family: $Font3;
-      border-bottom: 1px solid $color-secundario;
       &::placeholder {
         font-family: $Font3;
+        color: $color-terciario;
       }
     }
     &--Textarea {
@@ -33,44 +29,39 @@
       border: none;
       outline: none;
       resize: none;
+      border-bottom: 2px solid #dddddd;
+      color: $color-secundario;
       font-family: $Font3;
-      border-bottom: 1px solid $color-secundario;
       &::placeholder {
+        color: $color-terciario;
         font-family: $Font3;
       }
     }
     &--Submit {
+      width: 51vw;
+      margin: 10vw 0;
       border: none;
       background-color: transparent;
-      font-weight: 500;
-      width: 50vw;
-      font-size: 5vw;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      margin: 10vw 0;
-      font-family: $Font1;
-      & div {
-        width: 18vw;
-        height: 18vw;
-        left: 0;
-        position: absolute;
-        border-radius: 100vw;
-        background-color: rgba(100, 100, 100, 0.2);
-        background-image: url(../../Assets/Images/button-arrow.svg);
-        background-size: 6vw;
-        background-position: 6vw center;
-        background-repeat: no-repeat;
+      & p {
+        font-weight: 600;
+        color: $color-primario;
       }
     }
   }
 }
 
+.ContactContainer__Title.Title {
+  font-weight: 600;
+}
+
+.ContactContainer__Form--Submit div.Button-Arrow {
+  background-color: rgba(140, 136, 136, 0.2);
+}
+
 @media screen and (min-width: 1099px) {
   .ContactContainer {
-    padding: 6vw 0;
     width: 80%;
+    padding: 6vw 0;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -79,29 +70,25 @@
     }
     &__Title {
       width: 45%;
-      font-size: 4vw;
       margin-left: 8%;
     }
     &__Subtitle {
-      display: flex;
-      bottom: 12vw;
+      width: 18vw;
+      bottom: 16vw;
       margin-left: 8%;
-
-      width: 17.5vw;
-      font-size: 1.2vw;
+      font-size: 1.17vw;
+      display: flex;
       position: absolute;
       font-family: $Font2;
     }
     &__Form {
       width: 35%;
-      margin-left: 5%;
-      margin-top: 5.5vw;
+      margin: 1.5vw 0 0 5%;
       &--Input {
         margin-bottom: 2vw;
         padding: 0.5vw 0;
         font-size: 1.1vw;
 
-        border-bottom: 2px solid $color-secundario;
         &::placeholder {
           opacity: 0.7;
           font-size: 1.1vw;
@@ -111,32 +98,21 @@
         width: 100%;
         height: 8vw;
         font-size: 1.1vw;
-        border-bottom: 2px solid $color-secundario;
+        border-bottom: 2px solid #dddddd;
         &::placeholder {
           opacity: 0.7;
           font-size: 1.1vw;
         }
       }
       &--Submit {
-        width: 12vw;
-        font-size: 1.5vw;
+        width: 13vw;
         margin: 2vw 0;
-        cursor: pointer;
-        &:hover div {
-          width: 100%;
-        }
-        & div {
-          width: 4vw;
-          height: 4vw;
-          background-color: rgba(100, 100, 100, 0.2);
-          background-image: url(../../Assets/Images/button-arrow.svg);
-          background-size: 1.3vw;
-          background-position: 1.3vw center;
-          background-repeat: no-repeat;
-          transition: 0.3s;
-          will-change: width;
-        }
       }
     }
+  }
+
+  .ContactContainer__Title.Title {
+    font-size: 3.9vw;
+    margin-top: 1vw;
   }
 }

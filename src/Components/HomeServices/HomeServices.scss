@@ -1,6 +1,3 @@
-.HomeServices {
-}
-
 .HomeServicesContainer {
   padding: 8vw 0 0;
   &__SectionTitle {
@@ -106,7 +103,6 @@
     &__SectionTitle {
       margin-left: 0%;
     }
-
     &__Subcontainer {
       height: 44vw;
       margin-top: -2.5vw;
@@ -155,7 +151,6 @@
         margin: 0;
         padding: 0;
         position: relative;
-
         &:nth-child(2) {
           height: 56vw;
         }
@@ -168,13 +163,6 @@
     margin: 0 0 1vw;
     font-size: 3vw;
     opacity: 0;
-  }
-
-  .ServicesSlide-Subtitle.Opacity {
-    animation-name: opacityAnimation;
-    animation-duration: 1s;
-    animation-delay: 0.3s;
-    animation-fill-mode: forwards;
   }
 
   .ServicesSlide-Text {
@@ -193,45 +181,6 @@
     }
   }
 
-  .ServicesSpanAnimation1 {
-    animation-delay: 1.5s;
-  }
-  .ServicesSpanAnimation2 {
-    animation-delay: 1.9s;
-  }
-  .ServicesSpanAnimation3 {
-    animation-delay: 2.3s;
-  }
-  .ServicesSpanAnimation4 {
-    animation-delay: 2.7s;
-  }
-
-  .Services-Text-Opacity-Animation {
-    animation-name: opacityAnimation;
-
-    animation-duration: 2s;
-    animation-delay: 0.8s;
-    animation-fill-mode: forwards;
-  }
-
-  .ServicesSlide-Text .Span-Animation-Block {
-    left: 16%;
-    animation-duration: 0.8s;
-  }
-
-  .ServicesSlide-Text .Span-Animation-Block::before {
-    content: "";
-    width: 5vw;
-    height: 50%;
-    left: -6.5%;
-    transform: skewX(-20deg);
-    box-shadow: inset 0 0vw 0.5vw 0.5vw rgba(0, 0, 0, 0.2);
-    background: $color-variacion2;
-    position: absolute;
-    border-top-left-radius: 1vw;
-    border-bottom-right-radius: 1vw;
-  }
-
   .ServicesSlide-Image {
     width: 100%;
     height: 45%;
@@ -247,13 +196,6 @@
       width: 80%;
       opacity: 0;
     }
-  }
-
-  .Services-Image-Opacity {
-    animation-name: opacityAnimation;
-    animation-duration: 2s;
-    animation-delay: 0.5s;
-    animation-fill-mode: forwards;
   }
 
   .Services-Image-Right1 {
@@ -279,27 +221,6 @@
     height: 56%;
   }
 
-  .Slide1 {
-    animation-name: slideAnimation1;
-    animation-duration: 0.2s;
-    animation-fill-mode: forwards;
-  }
-  .Slide2 {
-    animation-name: slideAnimation2;
-    animation-duration: 0.2s;
-    animation-fill-mode: forwards;
-  }
-  .Slide3 {
-    animation-name: slideAnimation3;
-    animation-duration: 0.2s;
-    animation-fill-mode: forwards;
-  }
-  .Slide4 {
-    animation-name: slideAnimation4;
-    animation-duration: 0.2s;
-    animation-fill-mode: forwards;
-  }
-
   .ServicesBgPosition1 {
     background-position: right 30vw;
   }
@@ -311,66 +232,5 @@
   }
   .ServicesBgPosition4 {
     background-position: left 30vw;
-  }
-
-  @keyframes slideAnimation1 {
-    0% {
-      opacity: 0;
-    }
-    10% {
-      margin-left: 0;
-    }
-    90% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-      margin-left: 0;
-    }
-  }
-  @keyframes slideAnimation2 {
-    0% {
-      opacity: 0;
-    }
-    10% {
-      margin-left: -100%;
-    }
-    90% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-      margin-left: -100%;
-    }
-  }
-  @keyframes slideAnimation3 {
-    0% {
-      opacity: 0;
-    }
-    10% {
-      margin-left: -200%;
-    }
-    90% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-      margin-left: -200%;
-    }
-  }
-  @keyframes slideAnimation4 {
-    0% {
-      opacity: 0;
-    }
-    10% {
-      margin-left: -300%;
-    }
-    90% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-      margin-left: -300%;
-    }
   }
 }

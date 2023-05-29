@@ -12,20 +12,10 @@ import SocialMediaImageDesktop from "../../Assets/Images/servicios8.webp";
 export default function HomeServices() {
   const [slide, setSlide] = useState("Slide1");
   const [bgPosition, setBgPosition] = useState("ServicesBgPosition1");
-  const [slideAnimation1, setSlideAnimation1] = useState(false);
+  const [slideAnimation1, setSlideAnimation1] = useState(true);
   const [slideAnimation2, setSlideAnimation2] = useState(false);
   const [slideAnimation3, setSlideAnimation3] = useState(false);
   const [slideAnimation4, setSlideAnimation4] = useState(false);
-
-  // function toSlide(slideNumber) {
-  //   setSlide(slideNumber);
-  //   console.log(slideNumber);
-  // }
-
-  // const handleSlide1 = (event) => {
-  //   console.log(event);
-  //   setSlide("Slide1");
-  // };
 
   function handleSlide(slide, animation, bgPosition) {
     setSlide(slide);
@@ -57,10 +47,11 @@ export default function HomeServices() {
   return (
     <div className="HomeServices">
       <div className="HomeServicesContainer">
+        {/* SECTION TITLE */}
         <p className="HomeServicesContainer__SectionTitle SectionTitle">
           Servicios <img src={TitleLine} alt="Icon"></img>
         </p>
-
+        {/* SECTIONS */}
         <div className="HomeServicesContainer__Subcontainer">
           {/* Branding */}
           <p
@@ -90,10 +81,10 @@ export default function HomeServices() {
           >
             Marketing
           </p>
-
+          {/* SECTION INFO */}
           <div className={`ServicesSlider ${bgPosition}`}>
             <div className={`ServicesSlider__Wrapper ${slideNumber}`}>
-              {/* Slide 1 */}
+              {/* BRANDING INFO / Slide 1 */}
               <div className="ServicesSlider__Wrapper--Slide">
                 <p
                   className={`ServicesSlide-Subtitle ${
@@ -157,7 +148,7 @@ export default function HomeServices() {
                   ></img>
                 </div>
               </div>
-              {/* Slide 2 */}
+              {/* WEB & APPS INFO / Slide 2 */}
               <div className="ServicesSlider__Wrapper--Slide">
                 <p
                   className={`ServicesSlide-Subtitle ${
@@ -212,7 +203,7 @@ export default function HomeServices() {
                   ></img>
                 </div>
               </div>
-              {/* Slide 3 */}
+              {/* SOCIAL MEDIA INFO / Slide 3 */}
               <div className="ServicesSlider__Wrapper--Slide">
                 <p
                   className={`ServicesSlide-Subtitle ${
@@ -274,7 +265,7 @@ export default function HomeServices() {
                   ></img>
                 </div>
               </div>
-              {/* Slide 4 */}
+              {/* MARKETING INFO / Slide 4 */}
               <div className="ServicesSlider__Wrapper--Slide">
                 <p
                   className={`ServicesSlide-Subtitle ${

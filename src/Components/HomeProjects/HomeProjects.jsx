@@ -8,14 +8,20 @@ export default function HomeProjects() {
   return (
     <div className="HomeProjects">
       <div className="HomeProjectsContainer">
+        {/* BACKGROUND CIRCLE */}
+        <div className="HomeProjectsContainer__Circle"></div>
+        {/* SECTION TITLE */}
         <p className="HomeProjectsContainer__SectionTitle SectionTitle">
           Nosotros <img src={TitleLine} alt="Icon"></img>
         </p>
+        {/* TITLE */}
         <p className="HomeProjectsContainer__Title Title">
           Somos un estudio 360° dedicado a impulsar marcas combinando la
           creatividad y estrategia
         </p>
+        {/* LINE */}
         <div className="HomeProjectsContainer__Line"></div>
+        {/* TEXT */}
         <p className="HomeProjectsContainer__Description Text Mobile">
           {" "}
           <span>Participamos en cada etapa del proyecto,</span> desde la
@@ -28,9 +34,11 @@ export default function HomeProjects() {
           estrategia y posicionamiento, hasta la implementación de identidades
           visuales y experiencias digitales que conecten con tu comunidad.
         </p>
+        {/* SECTION TITLE */}
         <p className="HomeProjectsContainer__SectionTitle SectionTitle">
           Proyectos <img src={TitleLine} alt="Icon"></img>
         </p>
+        {/* PROJECTS CONTAINER */}
         <div className="HomeProjectsContainer__Projects">
           <p className="HomeProjectsContainer__Projects--Title Title">
             Nuestra selección
@@ -84,6 +92,7 @@ export default function HomeProjects() {
             <p className="ProjectBox__Location">Buenos Aires, ARG</p>
           </div>
         </div>
+        {/* MORE BUTTON */}
         <div className="HomeProjectsContainer__MoreButton Button ">
           <div className="HomeProjectsContainer__MoreButton--Arrow Button-Arrow"></div>
           <p className="HomeProjectsContainer__MoreButton--Text Button-Text">

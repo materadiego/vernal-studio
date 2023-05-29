@@ -3,9 +3,9 @@
 }
 
 .NavBarContainer {
-  position: relative;
   width: 90%;
   margin: 0 auto;
+  position: relative;
   display: flex;
   align-items: center;
   &__MenuButton {
@@ -97,7 +97,7 @@
   will-change: margin;
   position: fixed;
   animation-fill-mode: forwards;
-  background-color: $color-primario;
+  background-color: $color-bgoscuro;
 }
 
 .MenuContainer {

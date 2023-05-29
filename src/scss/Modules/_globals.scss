@@ -71,10 +71,32 @@ html {
   display: flex;
 }
 
+.Media-Container-Animation {
+  width: 8vw;
+  height: 8vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.Media-Ig {
+  width: 60%;
+}
+.Media-Be {
+  width: 70%;
+}
+.Media-In {
+  width: 50%;
+}
+.Media-Wsp {
+  width: 60%;
+}
+
 @media screen and (min-width: 1099px) {
   .SectionTitle {
     margin: 0 0 4vw;
-    font-size: 16px;
+    font-size: 20px;
     & img {
       width: 0.8vw;
       margin: 0.4vw 0 0 0.4vw;
@@ -118,6 +140,7 @@ html {
     margin-left: 1vw;
     z-index: 2;
     font-size: 1.5vw;
+    font-weight: 600;
     color: $color-claro;
     font-family: $Font1;
   }
@@ -132,6 +155,8 @@ html {
 
   // Social media animation
   .Media-Container-Animation {
+    width: 1.2vw;
+    height: 1.2vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -151,9 +176,29 @@ html {
     background-color: transparent;
   }
 
+  .Social-Media-Image {
+    z-index: 2;
+    will-change: filter;
+    transition: 0.3s;
+  }
+
   .Media-Container-Animation:hover .Media-Animation {
     transform: scale(1);
     opacity: 1;
+  }
+
+  .Media-Ig {
+    width: 95%;
+    margin-left: -0.05vw;
+  }
+  .Media-Be {
+    width: 100%;
+  }
+  .Media-In {
+    width: 80%;
+  }
+  .Media-Wsp {
+    width: 100%;
   }
 
   .Span-Animation {

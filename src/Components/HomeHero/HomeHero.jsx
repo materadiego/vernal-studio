@@ -9,6 +9,7 @@ export default function HomeHero() {
   return (
     <div className="HomeHero">
       <div className="HomeHeroContainer">
+        {/* SOCIAL MEDIA */}
         <div className="HomeHeroContainer__Media">
           <a
             href="www.instagram.com"
@@ -17,7 +18,7 @@ export default function HomeHero() {
             <span className="Hero-Media-Animation Media-Animation"></span>
             <img
               alt="Instagram"
-              className="Hero-Ig Hero-Media-Image Hero-MediaImg-Animation"
+              className="Hero-Ig Social-Media-Image Hero-Media-Image Hero-MediaImg-Animation"
               src={HeroIg}
             ></img>
           </a>
@@ -29,7 +30,7 @@ export default function HomeHero() {
 
             <img
               alt="Behance"
-              className="Hero-Be Hero-Media-Image Hero-MediaImg-Animation"
+              className="Hero-Be Social-Media-Image Hero-Media-Image Hero-MediaImg-Animation"
               src={HeroBe}
             ></img>
           </a>
@@ -41,11 +42,12 @@ export default function HomeHero() {
 
             <img
               alt="Linkedin"
-              className="Hero-In Hero-Media-Image Hero-MediaImg-Animation"
+              className="Hero-In Social-Media-Image Hero-Media-Image Hero-MediaImg-Animation"
               src={HeroIn}
             ></img>
           </a>
         </div>
+        {/* HERO TITLE */}
         <p className="HomeHeroContainer__Title Title-Mobile-Animation Title Mobile ">
           Transformamos tu marca en <br /> una identidad inolvidable.
         </p>
@@ -59,10 +61,12 @@ export default function HomeHero() {
         <p className="HomeHeroContainer__Title Title HeroTitle3 Desktop Span-Animation">
           <span className="Span-Animation-Block"></span>inolvidable.
         </p>
+        {/* HERO SUBTITLE */}
         <p className="HomeHeroContainer__Subtitle Hero-Subtitle-Animation Text">
           <span>Estudio boutique creativo</span>Branding. UX. Social media &
           más.
         </p>
+        {/* IMAGE CONTAINER */}
         <div className="HomeHeroContainer__ImageContainer Image-Container-Animation">
           <div className="HomeHeroContainer__ImageContainer--Image Image-Animation">
             <img

@@ -9,6 +9,7 @@ export default function Footer() {
   return (
     <footer className="Footer">
       <div className="FooterContainer">
+        {/* LOGO */}
         <div className="FooterContainer__LogoSubcontainer">
           <img
             src={logoVernal}
@@ -20,8 +21,9 @@ export default function Footer() {
             más.
           </p>
         </div>
+        {/* CONTACT SECTION */}
         <div className="FooterContainer__ContactSubcontainer">
-          <p className="FooterContainer__ContactSubcontainer--Title">
+          <p className="FooterContainer__ContactSubcontainer--Title Footer-Title Title">
             Contacto
           </p>
           <p className="FooterContainer__ContactSubcontainer--Text">
@@ -35,8 +37,9 @@ export default function Footer() {
             Caamaño 1100, Pilar, Buenos Aires
           </p>
         </div>
+        {/* SITEMAP SECTION */}
         <div className="FooterContainer__SiteMapSubcontainer">
-          <p className="FooterContainer__SiteMapSubcontainer--Title">
+          <p className="FooterContainer__SiteMapSubcontainer--Title Footer-Title Title">
             Mapa de sitio
           </p>
           <a
@@ -68,18 +71,43 @@ export default function Footer() {
             <img src={arrow} alt="arrow"></img>
           </a>
         </div>
+        {/* SOCIAL MEDIA */}
         <div className="FooterContainer__MediaSubcontainer">
-          <p className="FooterContainer__MediaSubcontainer--Title">
+          <p className="FooterContainer__MediaSubcontainer--Title Footer-Title Title">
             ¡Seguinos!
           </p>
-          <a href="#home" className="FooterContainer__MediaSubcontainer--Link">
-            <img src={footerIg} alt="Instagram" className="Footer-Ig"></img>
+          <a
+            href="#home"
+            className="FooterContainer__MediaSubcontainer--Link Media-Container-Animation"
+          >
+            <span className="Footer-Media-Animation Media-Animation"></span>
+            <img
+              src={footerIg}
+              alt="Instagram"
+              className="Media-Ig Footer-Media-Image"
+            ></img>
           </a>
-          <a href="#home" className="FooterContainer__MediaSubcontainer--Link">
-            <img src={footerBe} alt="Behance" className="Footer-Be"></img>
+          <a
+            href="#home"
+            className="FooterContainer__MediaSubcontainer--Link Media-Container-Animation"
+          >
+            <span className="Footer-Media-Animation Media-Animation"></span>
+            <img
+              src={footerBe}
+              alt="Behance"
+              className="Media-Be Footer-Media-Image"
+            ></img>
           </a>
-          <a href="#home" className="FooterContainer__MediaSubcontainer--Link">
-            <img src={footerIn} alt="Linkedin" className="Footer-In"></img>
+          <a
+            href="#home"
+            className="FooterContainer__MediaSubcontainer--Link Media-Container-Animation"
+          >
+            <span className="Footer-Media-Animation Media-Animation"></span>
+            <img
+              src={footerIn}
+              alt="Linkedin"
+              className="Media-In Footer-Media-Image"
+            ></img>
           </a>
         </div>
         <a href="#header" className="FooterContainer__ArrowUp">

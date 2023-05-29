@@ -26,6 +26,7 @@ export default function NavBar() {
   return (
     <header className="NavBar" id="header">
       <div className="NavBarContainer">
+        {/* HEADER MENU BUTTON */}
         <div
           className="NavBarContainer__MenuButton Header-Animation"
           onClick={toggleMenu}
@@ -36,6 +37,7 @@ export default function NavBar() {
             src={MenuButton}
           ></img>
         </div>
+        {/* HEADER LOGO */}
         <div className="NavBarContainer__Logo Header-Animation">
           <img
             className="NavBarContainer__Logo--Image"
@@ -43,6 +45,7 @@ export default function NavBar() {
             alt="logo"
           ></img>
         </div>
+        {/* HEADER LANGUAGE SELECT */}
         <div
           className="NavBarContainer__LanguageButton Header-Animation"
           id="language-button-desktop"
@@ -131,6 +134,7 @@ export default function NavBar() {
               Metodología
             </a>
           </div>
+          {/* SOCIAL MEDIA */}
           <div className="MenuContainer__Media">
             <div
               className={`MenuContainer__Media--Line ${
@@ -148,7 +152,7 @@ export default function NavBar() {
               <img
                 alt="Instagram"
                 src={Ig}
-                className={`Menu-Ig ${
+                className={`Media-Ig Menu-Ig Social-Media-Image ${
                   menu
                     ? "Navbar-MediaLinks-AnimationIn"
                     : "Navbar-MediaLinks-AnimationOut"
@@ -164,7 +168,7 @@ export default function NavBar() {
               <img
                 alt="Behance"
                 src={Be}
-                className={`Menu-Be ${
+                className={`Media-Be Menu-Be Social-Media-Image ${
                   menu
                     ? "Navbar-MediaLinks-AnimationIn"
                     : "Navbar-MediaLinks-AnimationOut"
@@ -180,7 +184,7 @@ export default function NavBar() {
               <img
                 alt="Linkedin"
                 src={In}
-                className={`Menu-In ${
+                className={`Media-In Menu-In Social-Media-Image ${
                   menu
                     ? "Navbar-MediaLinks-AnimationIn"
                     : "Navbar-MediaLinks-AnimationOut"
@@ -196,7 +200,7 @@ export default function NavBar() {
               <img
                 alt="WhatsApp"
                 src={Wsp}
-                className={`Menu-Wsp ${
+                className={`Media-Wsp Menu-Wsp Social-Media-Image ${
                   menu
                     ? "Navbar-MediaLinks-AnimationIn"
                     : "Navbar-MediaLinks-AnimationOut"
@@ -204,6 +208,7 @@ export default function NavBar() {
               ></img>
             </a>
           </div>
+          {/* MENU CONTACT */}
           <div className="MenuContainer__Contact Button">
             <div
               className={`MenuContainer__Contact--Arrow Button-Arrow ${
