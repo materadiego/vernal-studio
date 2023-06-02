@@ -93,6 +93,40 @@ html {
   width: 60%;
 }
 
+// PROJECTS
+.ProjectsListContainer {
+  border: 2px solid red;
+  padding: 30vw 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $color-bgoscuro;
+}
+
+.ProjectList-Project {
+  width: 80%;
+  padding: 5vw 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid red;
+  &__Image {
+    width: 90%;
+    margin: 0 0 5vw;
+  }
+  &__Title {
+    margin: 0;
+    font-size: 10vw;
+    color: $color-claro;
+  }
+  &__Text {
+    margin: 0;
+    font-size: 7vw;
+
+    color: $color-terciario;
+  }
+}
+
 @media screen and (min-width: 1099px) {
   .SectionTitle {
     margin: 0 0 4vw;
