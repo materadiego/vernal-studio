@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vernal-studio/static/css/main.9ab8dd45.css",
-    "main.js": "/vernal-studio/static/js/main.6fd5ce8e.js",
+    "main.css": "/vernal-studio/static/css/main.add9aee1.css",
+    "main.js": "/vernal-studio/static/js/main.967335aa.js",
     "static/js/787.8970a006.chunk.js": "/vernal-studio/static/js/787.8970a006.chunk.js",
     "static/media/ClashDisplay-Variable.ttf": "/vernal-studio/static/media/ClashDisplay-Variable.e7f67b72cbf79f80c9c7.ttf",
     "static/media/servicios4.webp": "/vernal-studio/static/media/servicios4.d2a6acc05d2d707f6b6a.webp",
@@ -39,6 +39,7 @@
     "static/media/home-hero-bg-mobile.webp": "/vernal-studio/static/media/home-hero-bg-mobile.d09d9d80284b49238dd9.webp",
     "static/media/ClashDisplay-Bold.woff2": "/vernal-studio/static/media/ClashDisplay-Bold.e2f8628a6f360f644a76.woff2",
     "static/media/ClashDisplay-Extralight.woff2": "/vernal-studio/static/media/ClashDisplay-Extralight.8f792be62d02ca420577.woff2",
+    "static/media/homeicon.png": "/vernal-studio/static/media/homeicon.a7a49ce7662fc1efee26.png",
     "static/media/home-hero-bg-desktop.webp": "/vernal-studio/static/media/home-hero-bg-desktop.69dbb1351a31db30d370.webp",
     "static/media/services-bgimg.webp": "/vernal-studio/static/media/services-bgimg.29aa8686176a4011e749.webp",
     "static/media/logo-vernal-white.svg": "/vernal-studio/static/media/logo-vernal-white.036d3ef7bac4ec6e38278ef9b85c701c.svg",
@@ -59,12 +60,12 @@
     "static/media/button-arrow-black.svg": "/vernal-studio/static/media/button-arrow-black.8220cf413eeed8db1ff551153f277ec8.svg",
     "static/media/button-arrow.svg": "/vernal-studio/static/media/button-arrow.4e8db4b352d4573dc989.svg",
     "static/media/sectiontitle-line.svg": "/vernal-studio/static/media/sectiontitle-line.ac3bd8ec1e86a90cd0d4a7d14c169bfb.svg",
-    "main.9ab8dd45.css.map": "/vernal-studio/static/css/main.9ab8dd45.css.map",
-    "main.6fd5ce8e.js.map": "/vernal-studio/static/js/main.6fd5ce8e.js.map",
+    "main.add9aee1.css.map": "/vernal-studio/static/css/main.add9aee1.css.map",
+    "main.967335aa.js.map": "/vernal-studio/static/js/main.967335aa.js.map",
     "787.8970a006.chunk.js.map": "/vernal-studio/static/js/787.8970a006.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ab8dd45.css",
-    "static/js/main.6fd5ce8e.js"
+    "static/css/main.add9aee1.css",
+    "static/js/main.967335aa.js"
   ]
 }
