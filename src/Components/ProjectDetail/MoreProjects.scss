@@ -5,11 +5,13 @@
     width: 40%;
     margin: 0 0 5vw 15%;
     font-weight: 600;
+
     color: $color-claro;
   }
   &__MoreButton {
     width: 82%;
     margin: 0 0 0 15%;
+    text-decoration: none;
   }
 }
 
