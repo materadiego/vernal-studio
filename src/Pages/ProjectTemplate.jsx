@@ -27,7 +27,7 @@ export default function ProjectTemplate() {
       <section className="ProjectsHeader">
         <div onClick={historyBack} className="ProjectsHeader__BackButton"></div>
         <img src={logoVernal} alt="Logo" className="ProjectsHeader__Logo" />
-        <Link to="/vernal-studio">
+        <Link to="/home">
           <img className="HomeIcon" src={homeIcon} alt="Home"></img>
         </Link>
       </section>
