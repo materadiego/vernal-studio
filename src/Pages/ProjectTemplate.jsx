@@ -1,12 +1,19 @@
 import { useState } from "react";
 import { getProject } from "../Utils/projects";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate, Link } from "react-router-dom";
 import { useEffect } from "react";
 import MoreProjects from "../Components/ProjectDetail/MoreProjects";
 import Project from "../Components/ProjectDetail/Project";
 import "../scss/Pages/ProjectTemplate.scss";
+import logoVernal from "../Assets/Images/logo-vernal-white.svg";
+import homeIcon from "../Assets/Images/homeicon.png";
 
 export default function ProjectTemplate() {
+  const history = useNavigate();
+  const historyBack = () => {
+    history(-1);
+  };
+
   const [project, setProject] = useState({});
   const { id } = useParams();
   useEffect(() => {
@@ -14,10 +21,18 @@ export default function ProjectTemplate() {
       setProject(res);
     });
   });
+
   return (
     <div className="ProjectTemplate">
+      <section className="ProjectsHeader">
+        <div onClick={historyBack} className="ProjectsHeader__BackButton"></div>
+        <img src={logoVernal} alt="Logo" className="ProjectsHeader__Logo" />
+        <Link to="/vernal-studio">
+          <img className="HomeIcon" src={homeIcon} alt="Home"></img>
+        </Link>
+      </section>
       <Project {...project} />
-      <MoreProjects />
+      <MoreProjects {...project} />
     </div>
   );
 }

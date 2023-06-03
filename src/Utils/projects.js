@@ -2,10 +2,12 @@ const projects = [
   {
     id: 1,
     projectName: "La Churrería",
-    heroImage: "",
+    heroImage:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/project1.png",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    imgPreview: "../../Assets/Images/project1.png",
+    imgPreview:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/project1.png",
     service1: "Conceptual",
     service2: "Logo",
     service3: "Branding",
@@ -14,46 +16,52 @@ const projects = [
     location: "Pocitos, Uruguay",
   },
   {
-    id: "MaderoTango",
+    id: 2,
     projectName: "Madero Tango",
-    heroImage: "",
+    heroImage:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/project2.png",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    imgPreview: "../../Assets/Images/project1.png",
+    imgPreview:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/project2.png",
     service1: "dfgdfg",
     service2: "dfgdfg",
     service3: "dfgdfg",
     service4: "dfgdfg",
     service5: "dfgdfg",
-    location: "dfgdfg",
+    location: "Buenos Aires, Argentina",
   },
   {
-    id: "TuEspacio",
+    id: 3,
     projectName: "Tu Espacio",
-    heroImage: "",
+    heroImage:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/project3.png",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    imgPreview: "../../Assets/Images/project1.png",
+    imgPreview:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/project3.png",
     service1: "dfgdfg",
     service2: "dfgdfg",
     service3: "dfgdfg",
     service4: "dfgdfg",
     service5: "dfgdfg",
-    location: "dfgdfg",
+    location: "Buenos Aires, Argentina",
   },
   {
-    id: "Daleplast",
+    id: 4,
     projectName: "Daleplast",
-    heroImage: "",
+    heroImage:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/project4.png",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    imgPreview: "../../Assets/Images/project1.png",
+    imgPreview:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/project4.png",
     service1: "dfgdfg",
     service2: "dfgdfg",
     service3: "dfgdfg",
     service4: "dfgdfg",
     service5: "dfgdfg",
-    location: "dfgdfg",
+    location: "Buenos Aires, Argentina",
   },
 ];
 

@@ -1,17 +1,17 @@
 import "./scss/Styles.scss";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
-import NavBar from "./Components/NavBar/NavBar";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import ProjectTemplate from "./Pages/ProjectTemplate";
 import ProjectsPage from "./Pages/ProjectsPage";
+import ScrollToTop from "./Utils/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <NavBar />
+      <HashRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/vernal-studio" element={<HomePage />} />
           <Route path="/projects" element={<ProjectsPage />} />
@@ -19,7 +19,7 @@ function App() {
         </Routes>
         <Contact />
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

@@ -3,6 +3,7 @@ import LoopBg from "../../Assets/Images/projects-loop3-bg.webp";
 import MaderoBg from "../../Assets/Images/projects-maderotango-bg.webp";
 import DaleplastBg from "../../Assets/Images/projects-daleplast-bg.webp";
 import TuEspacioBg from "../../Assets/Images/projects-tuespacio-bg.webp";
+import { Link } from "react-router-dom";
 
 export default function HomeProjects() {
   return (
@@ -93,12 +94,15 @@ export default function HomeProjects() {
           </div>
         </div>
         {/* MORE BUTTON */}
-        <div className="HomeProjectsContainer__MoreButton Button ">
+        <Link
+          to="/projects"
+          className="HomeProjectsContainer__MoreButton Button "
+        >
           <div className="HomeProjectsContainer__MoreButton--Arrow Button-Arrow"></div>
           <p className="HomeProjectsContainer__MoreButton--Text Button-Text">
             VER MÁS
           </p>
-        </div>
+        </Link>
       </div>
     </div>
   );
