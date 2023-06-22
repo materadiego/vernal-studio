@@ -1,22 +1,22 @@
 .Footer {
-  padding: 25vw 0 10vw;
+  padding: 20vw 0 10vw;
   border-top: 2px solid #ddd;
 }
 
 .FooterContainer {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   position: relative;
 
   &__LogoSubcontainer {
-    width: 55%;
+    width: 50%;
     margin: 0 0 10vw;
     &--Image {
       width: 90%;
     }
     &--Text {
       margin: 4vw 0 0;
-      font-size: 3.7vw;
+      font-size: 3.2vw;
       display: flex;
       flex-direction: column;
       font-family: $Font2;
@@ -26,22 +26,22 @@
     }
   }
   &__ContactSubcontainer {
-    width: 65%;
+    width: 62%;
     margin: 0 0 10vw;
     &--Title {
       margin: 0 0 2vw;
     }
     &--Text {
       margin: 0;
-      font-size: 4.3vw;
+      font-size: 3.8vw;
       font-family: $Font3;
       & span {
-        font-weight: 500;
+        font-weight: 600;
       }
     }
     &--Location {
       margin: 3vw 0 0;
-      font-size: 4.3vw;
+      font-size: 3.8vw;
       font-family: $Font3;
     }
   }
@@ -57,13 +57,13 @@
       align-items: center;
       & p {
         margin: 0;
-        font-size: 4.5vw;
+        font-size: 3.8vw;
         font-family: $Font3;
         color: $color-primario;
       }
       & img {
         width: 3vw;
-        margin: 1vw 0 0 3vw;
+        margin: 1vw 0 0 3.5vw;
       }
     }
   }
@@ -75,13 +75,13 @@
       margin: 0 0 6vw;
     }
     &--Link {
-      margin-right: 5vw;
+      margin: -2vw 2vw 0 0;
     }
   }
   &__ArrowUp {
     width: 7vw;
     height: 7vw;
-    bottom: 0;
+    bottom: 0vw;
     right: 10%;
     display: flex;
     align-items: center;
@@ -95,6 +95,11 @@
 
 .HomeMetodologyContainer__Subcontainer--Text.Desktop {
   display: none;
+}
+
+.Footer-Title.Title {
+  font-size: 5.5vw;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 1099px) {
@@ -111,12 +116,12 @@
       width: 45%;
       margin: 0;
       &--Image {
-        width: 37%;
+        width: 30%;
         margin-bottom: 1vw;
       }
       &--Text {
-        width: 40%;
-        font-size: 1vw;
+        width: 32%;
+        font-size: 0.8vw;
         margin: 0;
       }
     }
@@ -139,7 +144,8 @@
       width: 11%;
       margin: 0 9.75% 0 0;
       &--Title {
-        margin: 0;
+        margin: 0 0 0.5vw;
+
         font-size: 1.3vw;
       }
       &--Link {
@@ -149,8 +155,10 @@
           font-size: 0.9vw;
         }
         & img {
-          width: 0.5vw;
-          margin: 0;
+          width: 0.7vw;
+          margin: 0 0 0 1vw;
+          transition: 0.5s;
+          will-change: margin filter;
         }
       }
     }
@@ -160,17 +168,23 @@
       justify-content: space-between;
       align-items: flex-start;
       &--Title {
-        margin: 0 0 0.5vw;
+        margin: 0;
         font-size: 1.3vw;
         text-align: center;
       }
       &--Link {
-        margin: 0;
+        margin: -0.5vw 0 0;
       }
     }
     &__ArrowUp {
       display: none;
     }
+  }
+
+  .FooterContainer__SiteMapSubcontainer--Link:hover .SiteMap-Arrow {
+    margin: 0 0 0 1.5vw;
+    filter: invert(33%) sepia(65%) saturate(4994%) hue-rotate(246deg)
+      brightness(94%) contrast(94%);
   }
 
   .Footer-Title.Title {

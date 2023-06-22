@@ -5,7 +5,7 @@
 .HomeProjectsContainer {
   width: 85%;
   margin: 0 auto;
-  padding: 50vw 0 15vw;
+  padding: 50vw 0 8vw;
   &__SectionTitle {
     color: $color-claro;
   }
@@ -37,8 +37,9 @@
     }
   }
   &__MoreButton {
-    width: 50vw;
-    margin: 0 auto;
+    width: 63vw;
+    margin: -2vw auto;
+    text-decoration: none;
   }
 }
 
@@ -54,8 +55,9 @@
     }
   }
   &__Title {
-    margin: 5vw 0 3vw;
+    margin: 5vw 0 1vw;
     font-size: 6vw;
+    font-weight: 500;
     font-family: $Font1;
     color: $color-claro;
   }
@@ -66,6 +68,23 @@
     color: $color-terciario;
     font-family: $Font2;
   }
+}
+
+.Project-Logo-Container {
+  display: none;
+}
+
+.HomeProjectsContainer__MoreButton--Arrow.Button-Arrow {
+  width: 22vw;
+  height: 22vw;
+  background-size: 8vw;
+  background-position: 7vw center;
+}
+.HomeProjectsContainer__MoreButton.Button {
+  padding: 5vw 0;
+}
+.HomeProjectsContainer__MoreButton--Text.Button-Text {
+  font-size: 6vw;
 }
 
 .HomeProjectsContainer__Description.Mobile {
@@ -108,21 +127,21 @@
       margin: 0 auto;
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-evenly;
+      justify-content: space-between;
       &--Title {
         margin-bottom: 5vw;
       }
     }
     &__MoreButton {
-      width: 14vw;
-      text-decoration: none;
+      width: 14.8vw;
     }
   }
 
   .ProjectBox {
-    width: 35%;
-    height: 34vw;
+    width: 45%;
+    height: 40vw;
     margin: 0 0 3vw;
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,13 +156,13 @@
     }
     &__ImageContainer {
       width: 100%;
-
+      position: relative;
       &--Image {
         width: 100%;
       }
     }
     &__Title {
-      margin: 2vw 0 0.7vw;
+      margin: 2vw 0 0.2vw;
       font-size: 1.3vw;
     }
     &__Location {
@@ -157,5 +176,59 @@
   }
   .HomeProjectsContainer__Description.Mobile {
     display: none;
+  }
+
+  .Project-Logo-Container {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    will-change: opacity;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .Project-Logo-Image {
+    transition: 0.2s;
+    will-change: transform;
+    transform: scale(0);
+  }
+  .Loop-Logo {
+    width: 40%;
+  }
+  .Madero-Logo {
+    width: 50%;
+  }
+  .Daleplast-Logo {
+    width: 70%;
+  }
+  .TuEspacio-Logo {
+    width: 45%;
+  }
+
+  .ProjectBox:hover .Project-Logo-Container {
+    opacity: 1;
+  }
+
+  .ProjectBox:hover .Project-Logo-Image {
+    transform: scale(1);
+  }
+
+  .HomeProjectsContainer__MoreButton--Arrow.Button-Arrow {
+    width: 5vw;
+    height: 5vw;
+    background-size: 1.5vw;
+    background-position: 1.7vw center;
+  }
+  .HomeProjectsContainer__MoreButton.Button {
+    padding: 2vw 0;
+  }
+  .HomeProjectsContainer__MoreButton--Text.Button-Text {
+    font-size: 1.5vw;
+    letter-spacing: 1px;
   }
 }

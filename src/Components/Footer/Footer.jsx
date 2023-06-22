@@ -3,7 +3,7 @@ import arrow from "../../Assets/Images/button-arrow-black.svg";
 import footerIg from "../../Assets/Images/media-ig-black.svg";
 import footerBe from "../../Assets/Images/media-be-black.svg";
 import footerIn from "../../Assets/Images/media-in-black.svg";
-import arrowUp from "../../Assets/Images/arrow.svg";
+import arrowUp from "../../Assets/Images/arrow-up.svg";
 
 export default function Footer() {
   return (
@@ -23,9 +23,9 @@ export default function Footer() {
         </div>
         {/* CONTACT SECTION */}
         <div className="FooterContainer__ContactSubcontainer">
-          <p className="FooterContainer__ContactSubcontainer--Title Footer-Title Title">
+          <h4 className="FooterContainer__ContactSubcontainer--Title Footer-Title Title">
             Contacto
-          </p>
+          </h4>
           <p className="FooterContainer__ContactSubcontainer--Text">
             <span>e:</span> hello@vernalstudio.com
           </p>
@@ -39,43 +39,43 @@ export default function Footer() {
         </div>
         {/* SITEMAP SECTION */}
         <div className="FooterContainer__SiteMapSubcontainer">
-          <p className="FooterContainer__SiteMapSubcontainer--Title Footer-Title Title">
+          <h4 className="FooterContainer__SiteMapSubcontainer--Title Footer-Title Title">
             Mapa de sitio
-          </p>
+          </h4>
           <a
             href="#home"
             className="FooterContainer__SiteMapSubcontainer--Link"
           >
             <p>Nosotros</p>
-            <img src={arrow} alt="arrow"></img>
+            <img src={arrow} alt="arrow" className="SiteMap-Arrow"></img>
           </a>
           <a
             href="#home"
             className="FooterContainer__SiteMapSubcontainer--Link"
           >
             <p>Proyectos</p>
-            <img src={arrow} alt="arrow"></img>
+            <img src={arrow} alt="arrow" className="SiteMap-Arrow"></img>
           </a>
           <a
             href="#home"
             className="FooterContainer__SiteMapSubcontainer--Link"
           >
             <p>Metodología</p>
-            <img src={arrow} alt="arrow"></img>
+            <img src={arrow} alt="arrow" className="SiteMap-Arrow"></img>
           </a>
           <a
             href="#home"
             className="FooterContainer__SiteMapSubcontainer--Link"
           >
             <p>Contacto</p>
-            <img src={arrow} alt="arrow"></img>
+            <img src={arrow} alt="arrow" className="SiteMap-Arrow"></img>
           </a>
         </div>
         {/* SOCIAL MEDIA */}
         <div className="FooterContainer__MediaSubcontainer">
-          <p className="FooterContainer__MediaSubcontainer--Title Footer-Title Title">
+          <h4 className="FooterContainer__MediaSubcontainer--Title Footer-Title Title">
             ¡Seguinos!
-          </p>
+          </h4>
           <a
             href="#home"
             className="FooterContainer__MediaSubcontainer--Link Media-Container-Animation"

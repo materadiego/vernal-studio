@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import logoVernal from "../../Assets/Images/logo-vernal-white.svg";
 import logoMenu from "../../Assets/Images/logo-vernal-black.png";
-import closeMenu from "../../Assets/Images/menu-close.png";
+import closeMenu from "../../Assets/Images/menu-close.svg";
 import languageArrowD from "../../Assets/Images/arrow.svg";
 import languageArrowW from "../../Assets/Images/arrow-white.svg";
 import Ig from "../../Assets/Images/media-ig-white.svg";
@@ -110,7 +110,7 @@ export default function NavBar() {
               Nosotros
             </a>
             <a
-              href="#Nosotros"
+              href="#Proyectos"
               className={`MenuContainer__Links--Options   ${
                 menu ? "Navbar-Links-AnimationIn" : "Navbar-Links-AnimationOut"
               }`}
@@ -118,7 +118,7 @@ export default function NavBar() {
               Proyectos
             </a>
             <a
-              href="#Nosotros"
+              href="#Servicios"
               className={`MenuContainer__Links--Options   ${
                 menu ? "Navbar-Links-AnimationIn" : "Navbar-Links-AnimationOut"
               }`}
@@ -126,13 +126,22 @@ export default function NavBar() {
               Servicios
             </a>
             <a
-              href="#Nosotros"
+              href="#Approach"
               className={`MenuContainer__Links--Options   ${
                 menu ? "Navbar-Links-AnimationIn" : "Navbar-Links-AnimationOut"
               }`}
             >
-              Metodología
+              Approach
             </a>
+          </div>
+          <div className="NavBar-Line-Container">
+            <div
+              className={`NavBar-Line ${
+                menu
+                  ? "Navbar-MediaLine-AnimationIn"
+                  : "Navbar-MediaLine-AnimationOut"
+              }`}
+            ></div>
           </div>
           {/* SOCIAL MEDIA */}
           <div className="MenuContainer__Media">

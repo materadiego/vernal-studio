@@ -9,8 +9,8 @@
   display: flex;
   align-items: center;
   &__MenuButton {
-    width: 9vw;
-    height: 9vw;
+    width: 8vw;
+    height: 8vw;
     left: 0;
     top: 1vw;
     margin-top: 2vw;
@@ -23,7 +23,7 @@
   }
   &__Logo {
     width: 25vw;
-    margin: 5vw auto 0;
+    margin: 3.5vw auto 0;
     display: flex;
     align-items: center;
     &--Image {
@@ -31,10 +31,10 @@
     }
   }
   &__LanguageButton {
-    top: 5vw;
+    top: 4.5vw;
     right: 0;
-    padding: 0 2vw;
-    font-size: 5vw;
+    padding: 1vw 2vw;
+    font-size: 4vw;
     font-weight: 500;
     transition: 0.3s;
     display: flex;
@@ -53,7 +53,7 @@
       display: flex;
       align-items: center;
       & img {
-        width: 3.5vw;
+        width: 3vw;
         margin-left: 2vw;
         transition: 0.3s;
         will-change: transform;
@@ -62,7 +62,7 @@
     }
 
     &:hover {
-      padding-bottom: 19vw;
+      padding-bottom: 18vw;
       box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
     }
     &:hover .NavBar__LanguageButton--Selected img {
@@ -78,7 +78,7 @@
     }
     &--Options {
       width: 100%;
-      padding: 10vw 0 0;
+      padding: 8vw 0 0;
       opacity: 0;
       transition: 0.3s;
       position: absolute;
@@ -103,7 +103,7 @@
 .MenuContainer {
   width: 85%;
   margin: 0 auto;
-  padding: 10vw 0 4vw;
+  padding: 8vw 0 4vw;
   overflow: hidden;
   &__Top {
     display: flex;
@@ -111,8 +111,8 @@
     justify-content: space-between;
     overflow: hidden;
     &--CloseButton {
-      width: 15vw;
-      height: 15vw;
+      width: 8vw;
+      height: 8vw;
       border-radius: 100vw;
       position: relative;
       display: flex;
@@ -122,7 +122,7 @@
       transform: scale(0);
       background-color: $color-variacion2;
       & img {
-        width: 10vw;
+        width: 3.5vw;
         border-radius: 100vw;
         position: absolute;
       }
@@ -133,11 +133,12 @@
     }
     &--LanguageButton {
       width: 15vw;
+      font-size: 4vw;
       will-change: transform;
       font-family: $Font1;
       color: $color-claro;
       & img {
-        width: 3.5vw;
+        width: 3vw;
         margin-left: 2vw;
         transition: 0.3s;
         will-change: transform;
@@ -152,9 +153,11 @@
     flex-direction: column;
     overflow: hidden;
     &--Options {
-      margin: 6vw 0;
+      margin: 5.5vw 0;
       text-decoration: none;
       will-change: transform;
+      font-size: 5.5vw;
+      font-weight: 500;
       color: $color-claro;
       font-family: $Font1;
     }
@@ -211,27 +214,31 @@
   width: 60%;
 }
 
+.NavBar-Line {
+  display: none;
+}
+
 @media screen and (min-width: 1099px) {
   .NavBar {
-    padding: 2vw 0 0;
+    padding: 2vw 0 1vw;
   }
   .NavBarContainer {
     &__MenuButton {
-      width: 2vw;
-      height: 2vw;
+      width: 1.7vw;
+      height: 1.7vw;
       top: 0;
       margin: 0;
       cursor: pointer;
     }
     &__Logo {
-      width: 10vw;
+      width: 7vw;
       margin: 0 auto;
       cursor: pointer;
     }
     &__LanguageButton {
       z-index: 3;
       top: 0.4vw;
-      padding: 0 0.5vw;
+      padding: 0.3vw 0.5vw;
       font-size: 1vw;
       cursor: pointer;
       will-change: transform;
@@ -242,7 +249,7 @@
         }
       }
       &:hover {
-        padding-bottom: 4vw;
+        padding-bottom: 3.2vw;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
       }
       &:hover .NavBar__LanguageButton--Selected img {
@@ -258,7 +265,7 @@
       }
       &--Options {
         width: 100%;
-        padding: 1vw 0 0;
+        padding: 1.3vw 0 0;
         &:hover {
           color: $color-variacion2;
         }
@@ -272,8 +279,8 @@
     &__Top {
       padding: 1vw 0;
       &--CloseButton {
-        width: 3vw;
-        height: 3vw;
+        width: 2.1vw;
+        height: 2.1vw;
         transition: 0.3s;
         position: absolute;
         cursor: pointer;
@@ -282,12 +289,12 @@
           background-color: $color-claro;
         }
         & img {
-          width: 2vw;
+          width: 1vw;
           border-radius: 100vw;
         }
       }
       &--Logo {
-        width: 8vw;
+        width: 7vw;
         margin: 0 auto;
       }
       &--LanguageButton {
@@ -302,7 +309,6 @@
       justify-content: space-between;
       &--Options {
         margin: 0;
-        font-weight: 400;
         font-size: 3.3vw;
         transition: 0.5s;
         cursor: pointer;
@@ -329,20 +335,40 @@
       }
     }
     &__Contact {
-      width: 15.6vw;
+      width: 17.2vw;
       right: 20%;
-      bottom: 0;
+      bottom: 1vw;
       margin: 0;
       &--Arrow {
         transform: scale(0);
+      }
+      &--Text {
+        letter-spacing: 2px;
       }
     }
   }
   .MenuContainer__Contact.Button {
     position: absolute;
+    padding: 1vw 0;
+    transform: scale(0.8);
   }
 
   .Menu-Media-Animation.Media-Animation {
     background-color: $color-variacion2;
+  }
+
+  .NavBar-Line-Container {
+    width: 85%;
+    height: 0.5vw;
+    bottom: 10vw;
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .NavBar-Line {
+    width: 100%;
+    display: flex;
+    border-top: 2px solid $color-terciario;
   }
 }

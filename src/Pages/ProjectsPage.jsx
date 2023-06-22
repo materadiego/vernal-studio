@@ -27,7 +27,7 @@ export default function ProjectsPage() {
       <section className="ProjectsHeader">
         <div onClick={historyBack} className="ProjectsHeader__BackButton"></div>
         <img src={logoVernal} alt="Logo" className="ProjectsHeader__Logo" />
-        <Link to="/home">
+        <Link to="/home" className="ProjectsHeader__HomeButton">
           <img className="HomeIcon" src={homeIcon} alt="Home"></img>
         </Link>
       </section>

@@ -19,12 +19,22 @@
   &__Logo {
     width: 25vw;
   }
+  &__HomeButton {
+    position: absolute;
+    right: 8%;
+  }
+  &__ProjectsButton {
+    position: absolute;
+    right: 18%;
+  }
 }
 
 .HomeIcon {
   width: 7vw;
-  position: absolute;
-  right: 10%;
+}
+
+.ProjectsIcon {
+  width: 7vw;
 }
 
 .ProjectsListContainer {
@@ -32,14 +42,56 @@
   padding: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: $color-claro;
 }
 
-.ProjectsList--Title {
+.Projects-SectionTitle {
   width: 80%;
+  margin: 10vw 0 4vw 5%;
+}
+
+.ProjectsList--Title {
+  width: 70%;
   font-size: 8vw;
   font-weight: 500;
+  margin: 0 0 15vw 5%;
+}
+
+.ProjectsList-Categories {
+  width: 90%;
+  margin: 0 auto 5vw;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__Container {
+    margin: 0 15vw 5vw 0;
+    display: flex;
+    align-items: center;
+    &--Category {
+      margin: 0;
+      font-weight: 400;
+
+      color: $color-terciario;
+      font-family: $Font2;
+    }
+    &--Number {
+      width: 6vw;
+      height: 6vw;
+      margin: 0 0 0 1.5vw;
+      border-radius: 50vw;
+      font-size: 3vw;
+      font-weight: 400;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #cccccc;
+      color: $color-terciario;
+      font-family: $Font2;
+    }
+    &:nth-child(4) {
+      margin-right: 0;
+    }
+  }
 }
 
 .ProjectList-ProjectLink {
@@ -49,21 +101,21 @@
 }
 
 .ProjectList-Project {
-  width: 80%;
+  width: 90%;
   margin: 0 0 10vw;
-  padding: 5vw 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 1vw;
-  box-shadow: 0 0 3vw 0 rgba(0, 0, 0, 0.2);
   &__Image {
-    width: 90%;
+    width: 100%;
     margin: 0 0 5vw;
   }
   &__Title {
     margin: 0 0 2vw;
-    font-size: 9vw;
+    font-size: 6.5vw;
+    font-weight: 600;
     color: $color-primario;
   }
   &__Text {
@@ -72,20 +124,6 @@
 
     color: $color-terciario;
   }
-}
-
-.ProjectPreview-Button {
-  width: 61vw;
-}
-
-.ProjectPreview-Button-Arrow {
-  background-color: rgba(140, 136, 136, 0.1);
-}
-
-.ProjectPreview-Button-Text {
-  font-weight: 600;
-  font-size: 6vw;
-  color: $color-primario;
 }
 
 @media screen and (min-width: 1099px) {
@@ -102,8 +140,13 @@
       left: 5%;
     }
     &__Logo {
-      width: 10vw;
+      width: 7vw;
       margin: 0 auto 0;
+    }
+    &__HomeButton {
+    }
+    &__ProjectsButton {
+      right: 11%;
     }
   }
 
@@ -113,64 +156,99 @@
     right: 5%;
   }
 
+  .ProjectsIcon {
+    width: 2.2vw;
+    position: absolute;
+    right: 10%;
+  }
+
   .ProjectsListContainer {
     width: 80%;
-    margin: 3vw auto 0;
+    margin: 6vw auto 0;
     padding: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .Projects-SectionTitle {
+    width: 80%;
+    margin: 0vw 0 2vw 0;
   }
 
   .ProjectsList--Title {
+    width: 55%;
+    font-size: 4vw;
+    margin: 0 0 4vw 0;
+  }
+
+  .ProjectsList-Categories {
     width: 100%;
-    font-size: 3vw;
+    margin: 0 0 4vw 0;
+    &__Container {
+      margin: 0 6.5vw 0 0;
+      cursor: pointer;
+      &--Category {
+        margin: 0;
+        font-size: 1.2vw;
+        transition: 0.3s;
+        will-change: color;
+      }
+      &--Number {
+        width: 1.8vw;
+        height: 1.8vw;
+        margin: 0 0 0 0.5vw;
+        border-radius: 50vw;
+        font-size: 0.8vw;
+        transition: 0.3s;
+        will-change: color background-color;
+      }
+    }
+  }
+
+  .ProjectsList-Categories__Container:hover
+    .ProjectsList-Categories__Container--Category {
+    color: $color-primario;
+  }
+  .ProjectsList-Categories__Container:hover
+    .ProjectsList-Categories__Container--Number {
+    background-color: $color-primario;
+    color: $color-claro;
   }
 
   .ProjectList-ProjectLink {
     width: 30%;
-    margin: 0 1.5% 3vw;
+    margin: 0 0 3vw 0;
     display: flex;
     justify-content: center;
     text-decoration: none;
+    &:nth-child(2) {
+      margin: 0 3% 3vw 0;
+    }
   }
 
   .ProjectList-Project {
     width: 100%;
     margin: 0 0 1vw;
-    padding: 1vw 0;
+    padding: 0;
     display: flex;
-    transition: 0.3s;
-    will-change: box-shadow;
-    border-radius: 0.5vw;
-    box-shadow: 0 0 0.5vw 0 rgba(0, 0, 0, 0.2);
-    &:hover {
-      box-shadow: 0 0 0.5vw 0.1vw rgba(0, 0, 0, 0.2);
-    }
-    &:hover .ProjectPreview-Button-Arrow {
-      width: 100%;
-    }
+
     &__Image {
-      width: 90%;
-      margin: 0 0 2vw;
+      width: 100%;
+      margin: 0 0 1.5vw;
     }
     &__Title {
-      margin: 0 0 0.5vw;
-      font-size: 2vw;
+      margin: 0 0 0.3vw;
+      font-size: 1.3vw;
     }
     &__Text {
       margin: 0;
-      font-size: 1.3vw;
+      font-size: 1.1vw;
     }
   }
 
-  .ProjectPreview-Button {
-    width: 15vw;
-  }
-
-  .ProjectPreview-Button-Text {
-    font-weight: 600;
-    font-size: 1.4vw;
-    color: $color-primario;
+  .ProjectList-ProjectLink:nth-child(1) {
+    margin: 0 3% 0;
   }
 }

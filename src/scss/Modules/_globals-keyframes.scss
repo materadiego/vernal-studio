@@ -214,6 +214,30 @@
     }
   }
 
+  // --TranslateX
+  @keyframes navbarTranslateXAnimationIn {
+    0% {
+      transform: translateX(-100vw);
+    }
+    50% {
+      transform: translateX(3vw);
+    }
+    100% {
+      transform: translateX(0vw);
+    }
+  }
+  @keyframes navbarTranslateXAnimationOut {
+    0% {
+      transform: translateX(0vw);
+    }
+    50% {
+      transform: translateX(5vw);
+    }
+    100% {
+      transform: translateX(-100vw);
+    }
+  }
+
   // HERO
   // Hero Image Container
   @keyframes heroImageContainerAnimation {

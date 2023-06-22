@@ -5,7 +5,7 @@
 .HomeMetodologyContainer {
   width: 85%;
   margin: 0 auto;
-  padding: 10vw 0 6vw;
+  padding: 10vw 0 15vw;
   &__SectionTitle {
     color: $color-claro;
   }
@@ -16,7 +16,7 @@
     }
     &--Number {
       margin: 0;
-      font-size: 20vw;
+      font-size: 25vw;
       font-weight: 500;
       line-height: 100%;
       color: $color-variacion1;
@@ -24,7 +24,6 @@
     }
     &--Title {
       margin: 0;
-      font-size: 9vw;
       color: $color-claro;
     }
     &--Text {
@@ -38,11 +37,15 @@
       }
     }
     &--Line {
-      width: 100%;
+      width: 85%;
       margin: 10vw 0 4vw;
-      border-top: 2px solid $color-secundario;
+      border-top: 1px solid $color-secundario;
     }
   }
+}
+
+.HomeMetodologyContainer__Subcontainer--Title.Title {
+  font-size: 9vw;
 }
 
 @media screen and (min-width: 1099px) {
@@ -68,18 +71,23 @@
         will-change: color;
         color: $color-secundario;
       }
-      &--Title {
-        font-size: 2.5vw;
-      }
+
       &--Text {
         margin: 2vw 0 0;
-        font-size: 1vw;
       }
       &--Line {
         width: 100%;
         margin: 2.5vw 0 1vw;
       }
     }
+  }
+
+  .HomeMetodologyContainer__Subcontainer--Title.Title {
+    font-size: 2.2vw;
+  }
+
+  .HomeMetodologyContainer__Subcontainer--Text.Text {
+    font-size: 1vw;
   }
 
   .HomeMetodologyContainer__Subcontainer:hover

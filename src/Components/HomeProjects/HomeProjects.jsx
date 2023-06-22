@@ -1,25 +1,29 @@
 import TitleLine from "../../Assets/Images/sectiontitle-line.svg";
 import LoopBg from "../../Assets/Images/projects-loop3-bg.webp";
+import LoopLogo from "../../Assets/Images/projects-loop3-logo.png";
 import MaderoBg from "../../Assets/Images/projects-maderotango-bg.webp";
+import MaderoLogo from "../../Assets/Images/projects-maderotango-logo.png";
 import DaleplastBg from "../../Assets/Images/projects-daleplast-bg.webp";
+import DaleplastLogo from "../../Assets/Images/projects-daleplast-logo.png";
 import TuEspacioBg from "../../Assets/Images/projects-tuespacio-bg.webp";
+import TuEspacioLogo from "../../Assets/Images/projects-tuespacio-logo.svg";
 import { Link } from "react-router-dom";
 
 export default function HomeProjects() {
   return (
-    <div className="HomeProjects">
+    <div className="HomeProjects" id="Nosotros">
       <div className="HomeProjectsContainer">
         {/* BACKGROUND CIRCLE */}
         <div className="HomeProjectsContainer__Circle"></div>
         {/* SECTION TITLE */}
-        <p className="HomeProjectsContainer__SectionTitle SectionTitle">
+        <h2 className="HomeProjectsContainer__SectionTitle SectionTitle">
           Nosotros <img src={TitleLine} alt="Icon"></img>
-        </p>
+        </h2>
         {/* TITLE */}
-        <p className="HomeProjectsContainer__Title Title">
+        <h3 className="HomeProjectsContainer__Title Title">
           Somos un estudio 360° dedicado a impulsar marcas combinando la
-          creatividad y estrategia
-        </p>
+          creatividad y estrategia.
+        </h3>
         {/* LINE */}
         <div className="HomeProjectsContainer__Line"></div>
         {/* TEXT */}
@@ -36,9 +40,12 @@ export default function HomeProjects() {
           visuales y experiencias digitales que conecten con tu comunidad.
         </p>
         {/* SECTION TITLE */}
-        <p className="HomeProjectsContainer__SectionTitle SectionTitle">
+        <h2
+          id="Proyectos"
+          className="HomeProjectsContainer__SectionTitle SectionTitle"
+        >
           Proyectos <img src={TitleLine} alt="Icon"></img>
-        </p>
+        </h2>
         {/* PROJECTS CONTAINER */}
         <div className="HomeProjectsContainer__Projects">
           <p className="HomeProjectsContainer__Projects--Title Title">
@@ -52,6 +59,13 @@ export default function HomeProjects() {
                 alt="Projects"
                 className="ProjectBox__ImageContainer--Image"
               ></img>
+              <div className="Project-Logo-Container">
+                <img
+                  className="Project-Logo-Image Loop-Logo"
+                  src={LoopLogo}
+                  alt="Logo"
+                ></img>
+              </div>
             </div>
             <p className="ProjectBox__Title">Loop3</p>
             <p className="ProjectBox__Location">Buenos Aires, ARG</p>
@@ -64,6 +78,13 @@ export default function HomeProjects() {
                 alt="Projects"
                 className="ProjectBox__ImageContainer--Image"
               ></img>
+              <div className="Project-Logo-Container">
+                <img
+                  className="Project-Logo-Image Madero-Logo"
+                  src={MaderoLogo}
+                  alt="Logo"
+                ></img>
+              </div>
             </div>
             <p className="ProjectBox__Title">Madero Tango</p>
             <p className="ProjectBox__Location">Buenos Aires, ARG</p>
@@ -76,6 +97,13 @@ export default function HomeProjects() {
                 alt="Projects"
                 className="ProjectBox__ImageContainer--Image"
               ></img>
+              <div className="Project-Logo-Container">
+                <img
+                  className="Project-Logo-Image Daleplast-Logo"
+                  src={DaleplastLogo}
+                  alt="Logo"
+                ></img>
+              </div>
             </div>
             <p className="ProjectBox__Title">Daleplast</p>
             <p className="ProjectBox__Location">Buenos Aires, ARG</p>
@@ -88,6 +116,13 @@ export default function HomeProjects() {
                 alt="Projects"
                 className="ProjectBox__ImageContainer--Image"
               ></img>
+              <div className="Project-Logo-Container">
+                <img
+                  className="Project-Logo-Image TuEspacio-Logo"
+                  src={TuEspacioLogo}
+                  alt="Logo"
+                ></img>
+              </div>
             </div>
             <p className="ProjectBox__Title">Tu Espacio</p>
             <p className="ProjectBox__Location">Buenos Aires, ARG</p>

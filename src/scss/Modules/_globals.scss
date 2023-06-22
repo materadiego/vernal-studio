@@ -5,7 +5,7 @@ html {
 .SectionTitle {
   display: flex;
   margin: 0 0 5vw;
-  font-size: 4vw;
+  font-size: 3.8vw;
   font-weight: 500;
   font-family: $Font2;
   & img {
@@ -25,7 +25,7 @@ html {
 .Text {
   font-size: 3.65vw;
   font-weight: 300;
-  line-height: 130%;
+  line-height: 140%;
 
   font-family: $Font2;
 }
@@ -57,7 +57,7 @@ html {
 .Button-Text {
   margin-left: 1vw;
   z-index: 2;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 5vw;
   color: $color-claro;
   font-family: $Font1;
@@ -99,7 +99,7 @@ html {
     font-size: 20px;
     & img {
       width: 0.8vw;
-      margin: 0.4vw 0 0 0.4vw;
+      margin: 0.7vw 0 0 0.4vw;
     }
   }
 

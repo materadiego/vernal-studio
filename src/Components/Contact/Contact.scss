@@ -9,11 +9,13 @@
     display: none;
   }
   &__Form {
-    margin: 8vw 0 0;
+    margin: 10vw 0 0;
     &--Input {
       width: 100%;
       margin-bottom: 8vw;
       padding: 1vw 0;
+      border-radius: 0;
+      font-size: 4vw;
       border: none;
       outline: none;
       border-bottom: 2px solid #dddddd;
@@ -26,6 +28,9 @@
     &--Textarea {
       width: 100%;
       height: 25vw;
+      border-radius: 0;
+      font-size: 4vw;
+
       border: none;
       outline: none;
       resize: none;
@@ -38,7 +43,7 @@
       }
     }
     &--Submit {
-      width: 51vw;
+      width: 61vw;
       margin: 10vw 0;
       border: none;
       background-color: transparent;
@@ -52,10 +57,24 @@
 
 .ContactContainer__Title.Title {
   font-weight: 600;
+  font-size: 7.5vw;
 }
 
 .ContactContainer__Form--Submit div.Button-Arrow {
   background-color: rgba(140, 136, 136, 0.2);
+}
+
+.Submit-Arrow.Button-Arrow {
+  width: 22vw;
+  height: 22vw;
+  background-size: 8vw;
+  background-position: 7vw center;
+}
+.ContactContainer__Form--Submit.Button {
+  padding: 5vw 0;
+}
+.Submit-Text.Button-Text {
+  font-size: 6vw;
 }
 
 @media screen and (min-width: 1099px) {
@@ -114,5 +133,18 @@
   .ContactContainer__Title.Title {
     font-size: 3.9vw;
     margin-top: 1vw;
+  }
+
+  .Submit-Arrow.Button-Arrow {
+    width: 5vw;
+    height: 5vw;
+    background-size: 1.5vw;
+    background-position: 1.5vw center;
+  }
+  .ContactContainer__Form--Submit.Button {
+    padding: 2vw 0;
+  }
+  .Submit-Text.Button-Text {
+    font-size: 1.5vw;
   }
 }

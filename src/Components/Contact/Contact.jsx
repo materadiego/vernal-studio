@@ -2,15 +2,15 @@ import TitleLine from "../../Assets/Images/sectiontitle-line.svg";
 
 export default function Contact() {
   return (
-    <div className="Contact">
+    <div className="Contact" id="Contact">
       <div className="ContactContainer">
         {/* TITLE */}
-        <p className="ContactContainer__SectionTitle SectionTitle">
+        <h2 className="ContactContainer__SectionTitle SectionTitle">
           Contacto <img src={TitleLine} alt="Icon"></img>
-        </p>
-        <p className="ContactContainer__Title Title">
+        </h2>
+        <h3 className="ContactContainer__Title Title">
           Juntos podemos potenciar tu proyecto.
-        </p>
+        </h3>
         <p className="ContactContainer__Subtitle">
           Escribinos para descubrir como hacerlo realidad.
         </p>
@@ -33,8 +33,8 @@ export default function Contact() {
             type="submit"
             className="ContactContainer__Form--Submit Button"
           >
-            <div className="Button-Arrow"></div>{" "}
-            <p className="Button-Text">ENVIAR</p>
+            <div className="Submit-Arrow Button-Arrow"></div>{" "}
+            <p className="Submit-Text Button-Text">ENVIAR</p>
           </button>
         </form>
       </div>

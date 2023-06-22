@@ -163,6 +163,8 @@
 }
 // -----IN
 .Navbar-MediaLine-AnimationIn {
+  transform: translateX(-100vw);
+
   animation-name: navbarLineTranslateXIn;
   animation-duration: 1s;
   animation-delay: 0.7s;

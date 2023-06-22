@@ -45,54 +45,54 @@ export default function HomeServices() {
 
   const slideNumber = slide;
   return (
-    <div className="HomeServices">
+    <div className="HomeServices" id="Servicios">
       <div className="HomeServicesContainer">
         {/* SECTION TITLE */}
-        <p className="HomeServicesContainer__SectionTitle SectionTitle">
+        <h2 className="HomeServicesContainer__SectionTitle SectionTitle">
           Servicios <img src={TitleLine} alt="Icon"></img>
-        </p>
+        </h2>
         {/* SECTIONS */}
         <div className="HomeServicesContainer__Subcontainer">
           {/* Branding */}
-          <p
+          <h3
             className="HomeServicesContainer__Subcontainer--Title"
             onClick={() => handleSlide("Slide1", 1, "ServicesBgPosition1")}
           >
             Branding
-          </p>
+          </h3>
           {/* Web design */}
-          <p
+          <h3
             className="HomeServicesContainer__Subcontainer--Title"
             onClick={() => handleSlide("Slide2", 2, "ServicesBgPosition2")}
           >
             Web & apps
-          </p>
+          </h3>
           {/* Social Media */}
-          <p
+          <h3
             className="HomeServicesContainer__Subcontainer--Title"
             onClick={() => handleSlide("Slide3", 3, "ServicesBgPosition3")}
           >
             Social Media
-          </p>
+          </h3>
           {/* Marketing */}
-          <p
+          <h3
             className="HomeServicesContainer__Subcontainer--Title"
             onClick={() => handleSlide("Slide4", 4, "ServicesBgPosition4")}
           >
             Marketing
-          </p>
+          </h3>
           {/* SECTION INFO */}
           <div className={`ServicesSlider ${bgPosition}`}>
             <div className={`ServicesSlider__Wrapper ${slideNumber}`}>
               {/* BRANDING INFO / Slide 1 */}
               <div className="ServicesSlider__Wrapper--Slide">
-                <p
+                <h4
                   className={`ServicesSlide-Subtitle ${
                     slideAnimation1 ? "Opacity" : ""
                   }`}
                 >
                   Identidades fuertes que impactan
-                </p>
+                </h4>
                 <p
                   className={`ServicesSlide-Text ${
                     slideAnimation1
@@ -101,7 +101,8 @@ export default function HomeServices() {
                   }`}
                 >
                   <span className="Span-Animation-Block ServicesSpanAnimation1"></span>{" "}
-                  <span>01.</span> Análisis de oportunidades y diferenciales
+                  <span className="ServicesSlide-Text__Number">01 .</span>{" "}
+                  Análisis de oportunidades y diferenciales
                 </p>
                 <p
                   className={`ServicesSlide-Text ${
@@ -111,7 +112,8 @@ export default function HomeServices() {
                   }`}
                 >
                   <span className="Span-Animation-Block ServicesSpanAnimation2"></span>{" "}
-                  <span>02.</span> Creación de estrategia y posicionamiento
+                  <span className="ServicesSlide-Text__Number">02 .</span>{" "}
+                  Creación de estrategia y posicionamiento
                 </p>
                 <p
                   className={`ServicesSlide-Text ${
@@ -121,7 +123,8 @@ export default function HomeServices() {
                   }`}
                 >
                   <span className="Span-Animation-Block ServicesSpanAnimation3"></span>{" "}
-                  <span>03.</span> Diseño de logotipo e identidad visual
+                  <span className="ServicesSlide-Text__Number">03 .</span>{" "}
+                  Diseño de logotipo e identidad visual
                 </p>
                 <p
                   className={`ServicesSlide-Text ${
@@ -131,7 +134,8 @@ export default function HomeServices() {
                   }`}
                 >
                   <span className="Span-Animation-Block ServicesSpanAnimation4"></span>{" "}
-                  <span>04.</span> Aplicaciones digitales y físicas
+                  <span className="ServicesSlide-Text__Number">04 .</span>{" "}
+                  Aplicaciones digitales y físicas
                 </p>
                 <div className="ServicesSlide-Image Services-Image-Right1">
                   <img
@@ -150,13 +154,13 @@ export default function HomeServices() {
               </div>
               {/* WEB & APPS INFO / Slide 2 */}
               <div className="ServicesSlider__Wrapper--Slide">
-                <p
+                <h4
                   className={`ServicesSlide-Subtitle ${
                     slideAnimation2 ? "Opacity" : ""
                   }`}
                 >
                   Experiencias digitales inmersivas
-                </p>
+                </h4>
                 <p
                   className={`ServicesSlide-Text ${
                     slideAnimation2
@@ -165,7 +169,8 @@ export default function HomeServices() {
                   }`}
                 >
                   <span className="Span-Animation-Block ServicesSpanAnimation1"></span>{" "}
-                  <span>01.</span>Diseño y desarrollo web & e-commerce
+                  <span className="ServicesSlide-Text__Number">01 .</span>Diseño
+                  y desarrollo web & e-commerce
                 </p>
                 <p
                   className={`ServicesSlide-Text ${
@@ -175,7 +180,8 @@ export default function HomeServices() {
                   }`}
                 >
                   <span className="Span-Animation-Block ServicesSpanAnimation2"></span>{" "}
-                  <span>02.</span> Creación de aplicaciones móviles
+                  <span className="ServicesSlide-Text__Number">02 .</span>{" "}
+                  Creación de aplicaciones móviles
                 </p>
                 <p
                   className={`ServicesSlide-Text ${
@@ -185,7 +191,8 @@ export default function HomeServices() {
                   }`}
                 >
                   <span className="Span-Animation-Block ServicesSpanAnimation3"></span>{" "}
-                  <span>03.</span>Optimización SEO
+                  <span className="ServicesSlide-Text__Number">03 .</span>
+                  Optimización SEO
                 </p>
 
                 <div className="ServicesSlide-Image Services-Image-Left1 Mobile">
@@ -205,13 +212,13 @@ export default function HomeServices() {
               </div>
               {/* SOCIAL MEDIA INFO / Slide 3 */}
               <div className="ServicesSlider__Wrapper--Slide">
-                <p
+                <h4
                   className={`ServicesSlide-Subtitle ${
                     slideAnimation3 ? "Opacity" : ""
                   }`}
                 >
                   Comunidad digitales que conectan
-                </p>
+                </h4>
                 <p
                   className={`ServicesSlide-Text ${
                     slideAnimation3
@@ -220,7 +227,10 @@ export default function HomeServices() {
                   }`}
                 >
                   <span className="Span-Animation-Block ServicesSpanAnimation1"></span>{" "}
-                  <span>01.</span> Creación y gestión de perfiles
+                  <span className="ServicesSlide-Text__Number Services-span4">
+                    01 .
+                  </span>{" "}
+                  Creación y gestión de perfiles
                 </p>
                 <p
                   className={`ServicesSlide-Text ${
@@ -230,7 +240,10 @@ export default function HomeServices() {
                   }`}
                 >
                   <span className="Span-Animation-Block ServicesSpanAnimation2"></span>{" "}
-                  <span>02.</span> Desarrollo de contenido para redes sociales
+                  <span className="ServicesSlide-Text__Number Services-span4">
+                    02 .
+                  </span>{" "}
+                  Desarrollo de contenido para RRSS
                 </p>
                 <p
                   className={`ServicesSlide-Text ${
@@ -240,8 +253,8 @@ export default function HomeServices() {
                   }`}
                 >
                   <span className="Span-Animation-Block ServicesSpanAnimation3"></span>{" "}
-                  <span>03.</span> Diseño y planificación de campañas
-                  publicitarias
+                  <span className="ServicesSlide-Text__Number">03 .</span>{" "}
+                  Diseño y planificación de campañas
                 </p>
                 <p
                   className={`ServicesSlide-Text ${
@@ -251,8 +264,8 @@ export default function HomeServices() {
                   }`}
                 >
                   <span className="Span-Animation-Block ServicesSpanAnimation4"></span>{" "}
-                  <span>04.</span> Análisis y seguimiento de métricas y
-                  estadisticas
+                  <span className="ServicesSlide-Text__Number">04 .</span>{" "}
+                  Análisis y seguimiento de métricas
                 </p>
                 <div className="ServicesSlide-Image Services-Image-Right2">
                   <img src={UxUiImageMobile} alt="" className="Mobile"></img>
@@ -267,13 +280,13 @@ export default function HomeServices() {
               </div>
               {/* MARKETING INFO / Slide 4 */}
               <div className="ServicesSlider__Wrapper--Slide">
-                <p
+                <h4
                   className={`ServicesSlide-Subtitle ${
                     slideAnimation4 ? "Opacity" : ""
                   }`}
                 >
                   Impulso digital para potenciar resultados{" "}
-                </p>
+                </h4>
                 <p
                   className={`ServicesSlide-Text ${
                     slideAnimation4
@@ -282,8 +295,8 @@ export default function HomeServices() {
                   }`}
                 >
                   <span className="Span-Animation-Block ServicesSpanAnimation1"></span>{" "}
-                  <span>01.</span> Investigación de mercado y análisis de la
-                  competencia
+                  <span className="ServicesSlide-Text__Number">01 .</span>{" "}
+                  Investigación de mercado y competencia
                 </p>
                 <p
                   className={`ServicesSlide-Text ${
@@ -293,8 +306,8 @@ export default function HomeServices() {
                   }`}
                 >
                   <span className="Span-Animation-Block ServicesSpanAnimation2"></span>{" "}
-                  <span>02.</span> Creación de estrategias de marketing digital
-                  integral
+                  <span className="ServicesSlide-Text__Number">02 .</span>{" "}
+                  Estrategias de marketing digital integrales
                 </p>
                 <p
                   className={`ServicesSlide-Text ${
@@ -304,8 +317,8 @@ export default function HomeServices() {
                   }`}
                 >
                   <span className="Span-Animation-Block ServicesSpanAnimation3"></span>{" "}
-                  <span>03.</span> Planificación y seguimiento de campañas
-                  digitales
+                  <span className="ServicesSlide-Text__Number">03 .</span>{" "}
+                  Planificación y seguimiento de campañas
                 </p>
                 <p
                   className={`ServicesSlide-Text ${
@@ -315,7 +328,10 @@ export default function HomeServices() {
                   }`}
                 >
                   <span className="Span-Animation-Block ServicesSpanAnimation4"></span>{" "}
-                  <span>04.</span> Desarrollo de email marketing y newsletter
+                  <span className="ServicesSlide-Text__Number Services-span4">
+                    04 .
+                  </span>
+                  Desarrollo de email marketing y newsletter
                 </p>
                 <div className="ServicesSlide-Image Services-Image-Left2">
                   <img

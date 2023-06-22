@@ -2,20 +2,20 @@ import TitleLine from "../../Assets/Images/sectiontitle-line.svg";
 
 export default function HomeMetodology() {
   return (
-    <div className="HomeMetodology">
+    <div className="HomeMetodology" id="Approach">
       <div className="HomeMetodologyContainer">
         {/* SECTION TITLE */}
-        <p className="HomeMetodologyContainer__SectionTitle SectionTitle">
+        <h2 className="HomeMetodologyContainer__SectionTitle SectionTitle">
           Approach <img src={TitleLine} alt="Icon"></img>
-        </p>
+        </h2>
         {/* SUBCONTAINER */}
         <div className="HomeMetodologyContainer__Subcontainer">
           <p className="HomeMetodologyContainer__Subcontainer--Number">01</p>
           <div className="HomeMetodologyContainer__Subcontainer--Line"></div>
 
-          <p className="HomeMetodologyContainer__Subcontainer--Title Title">
+          <h4 className="HomeMetodologyContainer__Subcontainer--Title Title">
             Conexión
-          </p>
+          </h4>
           <p className="HomeMetodologyContainer__Subcontainer--Text Text Mobile">
             <span>El primer paso es conocernos.</span>Aprendemos acerca de tus
             objetivos y expectativas para crear un plan de trabajo
@@ -32,9 +32,9 @@ export default function HomeMetodology() {
           <p className="HomeMetodologyContainer__Subcontainer--Number">02</p>
           <div className="HomeMetodologyContainer__Subcontainer--Line"></div>
 
-          <p className="HomeMetodologyContainer__Subcontainer--Title Title">
+          <h4 className="HomeMetodologyContainer__Subcontainer--Title Title">
             Perspectiva
-          </p>
+          </h4>
           <p className="HomeMetodologyContainer__Subcontainer--Text Text">
             <span>Un plan de impacto requiere perspectiva.</span>Investigamos
             sobre tus consumidores, tendencias relevantes, competidores, <br />{" "}
@@ -46,9 +46,9 @@ export default function HomeMetodology() {
           <p className="HomeMetodologyContainer__Subcontainer--Number">03</p>
           <div className="HomeMetodologyContainer__Subcontainer--Line"></div>
 
-          <p className="HomeMetodologyContainer__Subcontainer--Title Title">
+          <h4 className="HomeMetodologyContainer__Subcontainer--Title Title">
             Concepto
-          </p>
+          </h4>
           <p className="HomeMetodologyContainer__Subcontainer--Text Text">
             <span>Creamos un concepto poderoso</span>Fusinamos creatividad y
             estrategia <br /> para generar ideas efectivas que <br /> reflejen
@@ -60,9 +60,9 @@ export default function HomeMetodology() {
           <p className="HomeMetodologyContainer__Subcontainer--Number">04</p>
           <div className="HomeMetodologyContainer__Subcontainer--Line"></div>
 
-          <p className="HomeMetodologyContainer__Subcontainer--Title Title">
+          <h4 className="HomeMetodologyContainer__Subcontainer--Title Title">
             Construcción
-          </p>
+          </h4>
           <p className="HomeMetodologyContainer__Subcontainer--Text Text Mobile">
             <span>Una experiencia de marca integral.</span>Cada elemento de
             comunicación es <br /> diseñado para lograr un resultado <br />{" "}

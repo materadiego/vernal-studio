@@ -13,11 +13,6 @@ export default function ProjectPreview({ project }) {
           {project.projectName}
         </p>
         <p className="ProjectList-Project__Text Text">{project.location}</p>
-        <div className="ProjectPreview-Button Button">
-          {" "}
-          <div className="ProjectPreview-Button-Arrow Button-Arrow"></div>
-          <p className="ProjectPreview-Button-Text Button-Text"> PROYECTO </p>
-        </div>
       </div>
     </Link>
   );

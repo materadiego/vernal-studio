@@ -1,5 +1,5 @@
 .HomeHero {
-  padding: 15vw 0 42vw;
+  padding: 10vw 0 42vw;
 }
 
 .HomeHeroContainer {
@@ -10,8 +10,7 @@
   }
   &__Title {
     width: 70%;
-    margin: 10vw 0 10vw 5%;
-    font-size: 8.7vw;
+    margin: 7vw 0 10vw 5%;
   }
   &__Subtitle {
     display: none;
@@ -41,6 +40,10 @@
   }
 }
 
+.HomeHeroContainer__Title.Title {
+  font-size: 8.7vw;
+}
+
 @media screen and (min-width: 1099px) {
   .HomeHero {
     padding: 0vw;
@@ -64,7 +67,6 @@
     &__Title {
       width: 46%;
       margin: 0vw 0 0.2vw 12%;
-      font-size: 4vw;
     }
     &__Subtitle {
       width: 20%;
@@ -102,5 +104,9 @@
   .Media-Container-Animation:hover .Hero-Media-Image {
     filter: brightness(0) saturate(100%) invert(96%) sepia(0%) saturate(7476%)
       hue-rotate(77deg) brightness(105%) contrast(106%);
+  }
+
+  .HomeHeroContainer__Title.Title {
+    font-size: 4vw;
   }
 }
