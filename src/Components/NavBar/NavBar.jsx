@@ -28,14 +28,38 @@ export default function NavBar() {
       <div className="NavBarContainer">
         {/* HEADER MENU BUTTON */}
         <div
-          className="NavBarContainer__MenuButton Header-Animation"
           onClick={toggleMenu}
+          className={`NavBarContainer__MenuButton Header-Animation ${
+            menuButton ? "MenuButtonFixed" : ""
+          }`}
         >
-          <img
-            className="NavBarContainer__MenuButton--Image"
-            alt="Menu"
-            src={MenuButton}
-          ></img>
+          <div
+            className={`Menu-Button-Span Menu-Button-1 ${
+              menuIsActive ? "menuButtonIsActive" : "menuButtonIsInactive1"
+            }`}
+          ></div>
+          <div
+            className={`Menu-Button-Span Menu-Button-2 ${
+              menuIsActive ? "menuButtonIsActive" : "menuButtonIsInactive2"
+            }`}
+          ></div>
+          <div
+            className={`Menu-Button-Span Menu-Button-3 ${
+              menuIsActive ? "menuButtonIsActive" : "menuButtonIsInactive3"
+            }`}
+          ></div>
+          <div
+            className={`Menu-Button-Span Menu-Button-4 ${
+              menuIsActive ? "menuButtonIsActive" : "menuButtonIsInactive4"
+            }`}
+          ></div>
+          <div
+            className={`Menu-Button-Close  ${
+              menuIsActive ? "menuCloseIsActive" : "menuCloseIsInactive"
+            }`}
+          >
+            <img alt="Close" className="CloseButton" src={closeMenu}></img>
+          </div>
         </div>
         {/* HEADER LOGO */}
         <div className="NavBarContainer__Logo Header-Animation">
@@ -83,7 +107,7 @@ export default function NavBar() {
             {/* LOGO */}
             <img
               className={`MenuContainer__Top--Logo ${
-                menu ? "Navbar-Logo-AnimationIn" : "Navbar-Logo-AnimationOut"
+                menu ? "" : "Navbar-Logo-AnimationOut"
               }`}
               alt="Logo"
               src={logoMenu}

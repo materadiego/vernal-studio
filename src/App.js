@@ -13,7 +13,7 @@ function App() {
       <HashRouter>
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/home" element={<HomePage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/projects/:id" element={<ProjectTemplate />} />
         </Routes>

@@ -7,7 +7,7 @@
 }
 
 .NavBarContainer__MenuButton.Header-Animation {
-  animation-delay: 1s;
+  animation-delay: 0.9s;
   animation-duration: 0.5s;
 }
 .NavBarContainer__Logo.Header-Animation {
@@ -24,17 +24,20 @@
   z-index: 100;
 }
 // Menu inicialization
-#MenuContainerZIndex {
+#MenuContainerZIndex.Menu.Menu-Animation {
   z-index: -100;
   opacity: 0;
+  margin-left: -100%;
 }
 
 // Menu closes
 .Menu-Animation {
   animation: menuClose;
   animation-duration: 0.5s;
-  animation-delay: 1.2s;
+  animation-delay: 0.8s;
   animation-fill-mode: forwards;
+  z-index: 100;
+  pointer-events: all;
 }
 
 // Menu is active
@@ -42,6 +45,8 @@
   animation: menuOpen;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
+  z-index: -10;
+  pointer-events: none;
 }
 
 // --Navbar links Animations
@@ -289,7 +294,7 @@
   }
 
   .Navbar-Logo-AnimationIn {
-    transform: translateY(5vw);
+    transform: translateY(0vw);
 
     animation: navbarTranslateYAnimationIn;
     animation-duration: 0.6s;

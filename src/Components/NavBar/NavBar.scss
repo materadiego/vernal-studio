@@ -9,17 +9,16 @@
   display: flex;
   align-items: center;
   &__MenuButton {
-    width: 8vw;
-    height: 8vw;
+    width: 8.5vw;
+    height: 8.5vw;
     left: 0;
     top: 1vw;
     margin-top: 2vw;
+    z-index: 500;
     display: flex;
-    position: absolute;
+    justify-content: center;
     align-items: center;
-    &--Image {
-      width: 100%;
-    }
+    position: absolute;
   }
   &__Logo {
     width: 25vw;
@@ -88,13 +87,141 @@
   }
 }
 
+.NavBarContainer__MenuButton.MenuButtonFixed {
+  position: fixed;
+  left: 5%;
+  top: 6vw;
+}
+
+.Menu-Button-Span {
+  height: 3vw;
+  width: 3vw;
+  position: absolute;
+  transition: 0s cubic-bezier(0.69, 0.01, 0, 0.01);
+  will-change: background transform;
+  border-radius: 100vw;
+}
+
+.Menu-Button-1 {
+  background-color: $color-primario;
+  transform: translateX(-2.75vw) translateY(-2.75vw);
+}
+.Menu-Button-2 {
+  background-color: $color-primario;
+  transform: translateX(2.75vw) translateY(-2.75vw);
+}
+.Menu-Button-3 {
+  background-color: $color-primario;
+  transform: translateX(-2.75vw) translateY(2.75vw);
+}
+.Menu-Button-4 {
+  background-color: $color-variacion2;
+  transform: translateX(2.75vw) translateY(2.75vw);
+}
+
+.menuButtonIsActive {
+  animation-name: menuButtonActive;
+  animation-duration: 0.6s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  background-color: $color-variacion2;
+}
+
+.menuButtonIsInactive1 {
+  animation-name: menuButtonInactive1;
+  animation-duration: 0.5s;
+  animation-delay: 1.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(0) translateY(0);
+}
+.menuButtonIsInactive2 {
+  animation-name: menuButtonInactive2;
+  animation-duration: 0.5s;
+  animation-delay: 1.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(0) translateY(0);
+}
+.menuButtonIsInactive3 {
+  animation-name: menuButtonInactive3;
+  animation-duration: 0.5s;
+  animation-delay: 1.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(0) translateY(0);
+}
+.menuButtonIsInactive4 {
+  animation-name: menuButtonInactive4;
+  animation-duration: 0.5s;
+  animation-delay: 1.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(0) translateY(0);
+}
+
+.Menu-Button-Close {
+  width: 100%;
+  height: 100%;
+  z-index: 600;
+  border-radius: 50vw;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  will-change: transform;
+  transform: scale(0);
+  transition: 0.7s cubic-bezier(0.69, 0.01, 0, 0.01);
+  background-color: $color-variacion2;
+}
+
+.Menu-Button-Close img {
+  width: 3.5vw;
+  border-radius: 100vw;
+  position: absolute;
+}
+
+.menuCloseIsActive {
+  transform: scale(0);
+  animation-name: ScaleAnimationIn;
+  animation-duration: 0.6s;
+  animation-delay: 2.25s;
+  animation-fill-mode: forwards;
+}
+
+.menuCloseIsInactive {
+  transform: scale(1);
+  animation-name: ScaleAnimationOut;
+  animation-duration: 0.6s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+// .Menu-Button-Span.Menu-Button-1.MenuButtonIsActive {
+//   background-color: #000;
+//   width: 3vw;
+//   height: 3vw;
+//   transform: rotateZ(45deg) translateY(0) translateX(0);
+// }
+// .Menu-Button-Span.Menu-Button-2.menuButtonIsActive {
+//   width: 3vw;
+//   height: 3vw;
+//   transform: rotateZ(45deg) translateY(0) translateX(0);
+// }
+// .Menu-Button-Span.Menu-Button-3.menuButtonIsActive {
+//   width: 3vw;
+//   height: 3vw;
+//   transform: rotateZ(45deg) translateY(0) translateX(0);
+// }
+// .Menu-Button-Span.Menu-Button-4.menuButtonIsActive {
+//   width: 3vw;
+//   height: 3vw;
+//   transform: rotateZ(45deg) translateY(0) translateX(0);
+// }
+
 .Menu {
   width: 100%;
   height: 100vh;
   top: 0;
   left: 0;
   margin: 0;
-  will-change: margin;
+  will-change: opacity;
   position: fixed;
   animation-fill-mode: forwards;
   background-color: $color-bgoscuro;
@@ -106,10 +233,12 @@
   padding: 8vw 0 4vw;
   overflow: hidden;
   &__Top {
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     overflow: hidden;
+    position: relative;
     &--CloseButton {
       width: 8vw;
       height: 8vw;
@@ -121,6 +250,9 @@
       will-change: transform;
       transform: scale(0);
       background-color: $color-variacion2;
+
+      display: none;
+
       & img {
         width: 3.5vw;
         border-radius: 100vw;
@@ -129,12 +261,16 @@
     }
     &--Logo {
       width: 25vw;
+      margin: 0 auto;
       will-change: transform;
     }
     &--LanguageButton {
       width: 15vw;
       font-size: 4vw;
       will-change: transform;
+      position: absolute;
+      right: -4vw;
+      top: 2vw;
       font-family: $Font1;
       color: $color-claro;
       & img {
@@ -224,10 +360,10 @@
   }
   .NavBarContainer {
     &__MenuButton {
-      width: 1.7vw;
-      height: 1.7vw;
+      width: 2vw;
+      height: 2vw;
       top: 0;
-      margin: 0;
+      margin: -0.3vw 0 0;
       cursor: pointer;
     }
     &__Logo {
@@ -237,7 +373,7 @@
     }
     &__LanguageButton {
       z-index: 3;
-      top: 0.4vw;
+      top: 0;
       padding: 0.3vw 0.5vw;
       font-size: 1vw;
       cursor: pointer;
@@ -273,26 +409,61 @@
     }
   }
 
+  .NavBarContainer__MenuButton.MenuButtonFixed {
+    left: 5%;
+    top: 2vw;
+  }
+
+  .Menu-Button-Span {
+    height: 0.65vw;
+    width: 0.65vw;
+  }
+
+  .Menu-Button-1 {
+    transform: translateX(-0.6vw) translateY(-0.6vw);
+  }
+  .Menu-Button-2 {
+    transform: translateX(0.6vw) translateY(-0.6vw);
+  }
+  .Menu-Button-3 {
+    transform: translateX(-0.6vw) translateY(0.6vw);
+  }
+  .Menu-Button-4 {
+    transform: translateX(0.6vw) translateY(0.6vw);
+  }
+
+  .Menu-Button-Close {
+    width: 120%;
+    height: 120%;
+  }
+
+  .Menu-Button-Close:hover {
+    background-color: $color-terciario;
+  }
+
+  .Menu-Button-Close img {
+    width: 0.9vw;
+  }
+
+  .menuButtonIsInactive1 {
+    transform: translateX(0) translateY(0);
+  }
+  .menuButtonIsInactive2 {
+    transform: translateX(0) translateY(0);
+  }
+  .menuButtonIsInactive3 {
+    transform: translateX(0) translateY(0);
+  }
+  .menuButtonIsInactive4 {
+    transform: translateX(0) translateY(0);
+  }
+
   .MenuContainer {
     height: 90vh;
     padding: 2vw 0 4vw;
     &__Top {
-      padding: 1vw 0;
-      &--CloseButton {
-        width: 2.1vw;
-        height: 2.1vw;
-        transition: 0.3s;
-        position: absolute;
-        cursor: pointer;
-        will-change: background-color;
-        &:hover {
-          background-color: $color-claro;
-        }
-        & img {
-          width: 1vw;
-          border-radius: 100vw;
-        }
-      }
+      padding: 0 0;
+
       &--Logo {
         width: 7vw;
         margin: 0 auto;

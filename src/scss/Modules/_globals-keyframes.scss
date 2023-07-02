@@ -41,19 +41,85 @@
 // --menu
 @keyframes menuClose {
   0% {
-    margin-left: 0;
+    opacity: 1;
+    z-index: 100;
+    pointer-events: none;
+  }
+
+  40% {
+    opacity: 1;
+    z-index: 100;
+    pointer-events: none;
+  }
+
+  99% {
+    z-index: 100;
+    pointer-events: none;
   }
 
   100% {
-    margin-left: -100%;
+    opacity: 0;
+    z-index: -10;
+    pointer-events: none;
   }
 }
 @keyframes menuOpen {
   0% {
-    margin-left: -100%;
+    opacity: 0;
+    z-index: -10;
+    pointer-events: none;
+  }
+  99% {
+    pointer-events: none;
   }
   100% {
-    margin-left: 0;
+    opacity: 1;
+    z-index: 100;
+    pointer-events: all;
+  }
+}
+
+@keyframes menuButtonActive {
+  0% {
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+@keyframes menuButtonInactive1 {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    transform: translateX(-2.75vw) translateY(-2.75vw);
+  }
+}
+
+@keyframes menuButtonInactive2 {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    transform: translateX(2.75vw) translateY(-2.75vw);
+  }
+}
+
+@keyframes menuButtonInactive3 {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    transform: translateX(-2.75vw) translateY(2.75vw);
+  }
+}
+
+@keyframes menuButtonInactive4 {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    transform: translateX(2.75vw) translateY(2.75vw);
   }
 }
 
@@ -187,6 +253,50 @@
     }
     100% {
       margin-left: 110%;
+    }
+  }
+
+  @keyframes menuButtonActive {
+    0% {
+    }
+    100% {
+      transform: translateX(0) translateY(0);
+    }
+  }
+
+  @keyframes menuButtonInactive1 {
+    0% {
+      transform: translateX(0) translateY(0);
+    }
+    100% {
+      transform: translateX(-0.6vw) translateY(-0.6vw);
+    }
+  }
+
+  @keyframes menuButtonInactive2 {
+    0% {
+      transform: translateX(0) translateY(0);
+    }
+    100% {
+      transform: translateX(0.6vw) translateY(-0.6vw);
+    }
+  }
+
+  @keyframes menuButtonInactive3 {
+    0% {
+      transform: translateX(0) translateY(0);
+    }
+    100% {
+      transform: translateX(-0.6vw) translateY(0.6vw);
+    }
+  }
+
+  @keyframes menuButtonInactive4 {
+    0% {
+      transform: translateX(0) translateY(0);
+    }
+    100% {
+      transform: translateX(0.6vw) translateY(0.6vw);
     }
   }
 
