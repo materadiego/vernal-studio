@@ -1,0 +1,55 @@
+.ProjectTemplateOne {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  &__Image {
+    width: 100%;
+    margin-bottom: 10vw;
+  }
+}
+
+@media screen and (min-width: 1099px) {
+  // Project Template One
+  .ProjectTemplateOne {
+    justify-content: space-between;
+    padding: 7vw 0 36vw;
+    &__Image {
+      width: 48%;
+      margin-bottom: 0;
+
+      position: relative;
+      &:nth-child(1) {
+        width: 48%;
+      }
+      &:nth-child(2) {
+        width: 48%;
+        transform: translateY(22vw);
+      }
+      &:nth-child(3) {
+        width: 48%;
+        transform: translateY(4vw);
+      }
+      &:nth-child(4) {
+        width: 31%;
+        transform: translateY(29vw);
+      }
+      &:nth-child(5) {
+        width: 65%;
+        transform: translateY(7vw);
+      }
+      &:nth-child(6) {
+        width: 100%;
+        transform: translateY(16vw);
+      }
+      &:nth-child(7) {
+        width: 32%;
+        transform: translateY(20vw);
+      }
+      &:nth-child(8) {
+        width: 64%;
+        transform: translateY(25vw);
+      }
+    }
+  }
+}

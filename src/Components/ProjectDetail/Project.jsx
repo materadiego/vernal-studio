@@ -1,6 +1,11 @@
+import { useState } from "react";
 import arrowDown from "../../Assets/Images/projects-arrow-down.svg";
+import ProjectTemplateOne from "../ProjectTemplates/ProjectTemplateOne";
+import ProjectTemplateThree from "../ProjectTemplates/ProjectTemplateThree";
+import ProjectTemplateTwo from "../ProjectTemplates/ProjectTemplateTwo";
 
 export default function Project({ ...project }) {
+  const [more, setMore] = useState(false);
   const projectTemplate = () => {
     switch (project.templateNumber) {
       // case "one":   return <ComponentA />;
@@ -8,71 +13,89 @@ export default function Project({ ...project }) {
       // case "three": return <ComponentC />;
 
       case "1":
-        return <h1>Template 1</h1>;
+        return <ProjectTemplateOne key={project.id} project={project} />;
       case "2":
-        return <h1>Template 2</h1>;
+        return <ProjectTemplateTwo />;
       case "3":
-        return <h1>Template 3</h1>;
+        return <ProjectTemplateThree />;
 
       default:
-        return <h1>No project match</h1>;
+        return <h6>Error al cargar las imágenes</h6>;
     }
   };
+
+  function toggleMore() {
+    setMore(true);
+  }
 
   return (
     <div className="ProjectDetail">
       <div className="ProjectDetail-Container">
-        <img
+        <div className="ProjectDetail-Container__Image">
+          {" "}
+          <h1 className="Title">{project.projectName}</h1>
+        </div>
+        {/* <img
           src={project.heroImage}
           alt={project.projectName}
           className="ProjectDetail-Container__Image"
-        ></img>
+        ></img> */}
         <p className="ProjectDetail-Container__Title Title">
           {project.projectName}
         </p>
-        <p className="ProjectDetail-Container__Subtitle Title">
-          {project.projectSubtitle}
-        </p>
-        <p className="ProjectDetail-Container__Text Text">
-          {project.description}
-        </p>
-        <span className="ProjectDetail-Container__TextMoreButton Title">
-          Leer más <img src={arrowDown} alt="arrow-down"></img>
-        </span>
-        <div className="ProjectDetail-Container__ProjectLabels">
-          <p className="ProjectDetail-Container__ProjectLabels--Text Desktop">
-            El proyecto
+        <div className="ProjectDetail-Container__Subcontainer">
+          <p className="ProjectDetail-Container__Subcontainer--Subtitle Title">
+            {project.projectSubtitle}
           </p>
-          <p className="ProjectDetail-Container__ProjectLabels--Text">
-            Servicios
+          <p className="ProjectDetail-Container__Subcontainer--Text Text">
+            {project.description1}
           </p>
-          <p className="ProjectDetail-Container__ProjectLabels--Text">Ciudad</p>
-        </div>
-        <div className="ProjectServicesLocation">
-          <div className="ProjectServicesLocation__Services">
-            <p className="ProjectServicesLocation__Services--Text">
-              {project.service1}
-            </p>
-            <p className="ProjectServicesLocation__Services--Text">
-              {project.service2}
-            </p>
-            <p className="ProjectServicesLocation__Services--Text">
-              {project.service3}
-            </p>
-            <p className="ProjectServicesLocation__Services--Text">
-              {project.service4}
-            </p>
-            <p className="ProjectServicesLocation__Services--Text">
-              {project.service5}
-            </p>
+          <p
+            className={`ProjectDetail-Container__Subcontainer--Text Description2 Text ${
+              more ? "DescriptionActive" : ""
+            }`}
+          >
+            {project.description2}
+          </p>
+          <span
+            className={`ProjectDetail-Container__Subcontainer--TextMoreButton Title ${
+              more ? "MoreButtonInactive" : ""
+            }`}
+            onClick={toggleMore}
+          >
+            Leer más <img src={arrowDown} alt="arrow-down"></img>
+          </span>
+          <div className="ProjectDetail-Container__Subcontainer--ProjectLabels">
+            <p className=" ProjectLabels-Text Desktop">El proyecto</p>
+            <p className=" ProjectLabels-Text">Servicios</p>
+            <p className=" ProjectLabels-Text">Ciudad</p>
           </div>
-          <div className="ProjectServicesLocation__Location">
-            <p className="ProjectServicesLocation__Location--Text">
-              {project.location}
-            </p>
+          <div className="ProjectServicesLocation">
+            <div className="ProjectServicesLocation__Services">
+              <p className="ProjectServicesLocation__Services--Text">
+                {project.service1}
+              </p>
+              <p className="ProjectServicesLocation__Services--Text">
+                {project.service2}
+              </p>
+              <p className="ProjectServicesLocation__Services--Text">
+                {project.service3}
+              </p>
+              <p className="ProjectServicesLocation__Services--Text">
+                {project.service4}
+              </p>
+              <p className="ProjectServicesLocation__Services--Text">
+                {project.service5}
+              </p>
+            </div>
+            <div className="ProjectServicesLocation__Location">
+              <p className="ProjectServicesLocation__Location--Text">
+                {project.location}
+              </p>
+            </div>
           </div>
         </div>
-        <div>{projectTemplate()}</div>
+        {projectTemplate()}
       </div>
     </div>
   );

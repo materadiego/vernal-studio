@@ -217,15 +217,22 @@
     color: $color-claro;
   }
 
+  .ProjectList-Contaier {
+    border: 2px solid red;
+    width: 100%;
+    padding-bottom: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+  }
+
   .ProjectList-ProjectLink {
-    width: 30%;
-    margin: 0 0 3vw 0;
+    width: 100%;
+    margin: 0;
+    border: 2px solid red;
     display: flex;
     justify-content: center;
     text-decoration: none;
-    &:nth-child(2) {
-      margin: 0 3% 3vw 0;
-    }
   }
 
   .ProjectList-Project {
@@ -246,9 +253,5 @@
       margin: 0;
       font-size: 1.1vw;
     }
-  }
-
-  .ProjectList-ProjectLink:nth-child(1) {
-    margin: 0 3% 0;
   }
 }

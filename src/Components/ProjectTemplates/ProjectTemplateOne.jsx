@@ -1,0 +1,47 @@
+export default function ProjectTemplateOne({ project }) {
+  console.log(project.projectName);
+  return (
+    <div className="ProjectTemplateOne">
+      <img
+        src={project.image1}
+        alt="project"
+        className="ProjectTemplateOne__Image"
+      ></img>
+      <img
+        src={project.image2}
+        alt="project"
+        className="ProjectTemplateOne__Image"
+      ></img>
+      <img
+        src={project.image3}
+        alt="project"
+        className="ProjectTemplateOne__Image"
+      ></img>
+      <img
+        src={project.image4}
+        alt="project"
+        className="ProjectTemplateOne__Image"
+      ></img>
+      <img
+        src={project.image5}
+        alt="project"
+        className="ProjectTemplateOne__Image"
+      ></img>
+      <img
+        src={project.image6}
+        alt="project"
+        className="ProjectTemplateOne__Image"
+      ></img>
+      <img
+        src={project.image7}
+        alt="project"
+        className="ProjectTemplateOne__Image"
+      ></img>
+      <img
+        src={project.image8}
+        alt="project"
+        className="ProjectTemplateOne__Image"
+      ></img>
+    </div>
+  );
+}

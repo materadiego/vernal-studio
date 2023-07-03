@@ -32,9 +32,11 @@ export default function ProjectsList({ projects }) {
           <p className="ProjectsList-Categories__Container--Number">20</p>
         </div>
       </div>
-      {projects.map((project) => (
-        <ProjectPreview key={project.id} project={project} />
-      ))}
+      <div className="ProjectList-Contaier">
+        {projects.map((project) => (
+          <ProjectPreview key={project.id} project={project} />
+        ))}
+      </div>
     </>
   );
 }
