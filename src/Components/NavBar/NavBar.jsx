@@ -9,7 +9,6 @@ import Ig from "../../Assets/Images/media-ig-white.svg";
 import Be from "../../Assets/Images/media-be-white.svg";
 import In from "../../Assets/Images/media-in-white.svg";
 import Wsp from "../../Assets/Images/media-wsp-white.svg";
-import MenuButton from "../../Assets/Images/menu-button.svg";
 
 export default function NavBar() {
   const [menu, setMenu] = useState(false);
@@ -62,13 +61,13 @@ export default function NavBar() {
           </div>
         </div>
         {/* HEADER LOGO */}
-        <div className="NavBarContainer__Logo Header-Animation">
+        <Link to="/home" className="NavBarContainer__Logo Header-Animation">
           <img
             className="NavBarContainer__Logo--Image"
             src={logoVernal}
             alt="logo"
           ></img>
-        </div>
+        </Link>
         {/* HEADER LANGUAGE SELECT */}
         <div
           className="NavBarContainer__LanguageButton Header-Animation"
@@ -105,6 +104,7 @@ export default function NavBar() {
               <img alt="Close" className="CloseButton" src={closeMenu}></img>
             </div>
             {/* LOGO */}
+
             <img
               className={`MenuContainer__Top--Logo ${
                 menu ? "" : "Navbar-Logo-AnimationOut"
@@ -112,6 +112,7 @@ export default function NavBar() {
               alt="Logo"
               src={logoMenu}
             ></img>
+
             {/* LANGUAGE */}
             <div
               className={`MenuContainer__Top--LanguageButton ${
@@ -125,38 +126,42 @@ export default function NavBar() {
           </div>
           {/* MENU OPTIONS */}
           <div className="MenuContainer__Links">
-            <a
-              href="#Nosotros"
+            <Link
+              to="/about-us"
+              onClick={toggleMenu}
               className={`MenuContainer__Links--Options  ${
                 menu ? "Navbar-Links-AnimationIn" : "Navbar-Links-AnimationOut"
               }`}
             >
               Nosotros
-            </a>
-            <a
-              href="#Proyectos"
+            </Link>
+            <Link
+              to="/projects"
+              onClick={toggleMenu}
               className={`MenuContainer__Links--Options   ${
                 menu ? "Navbar-Links-AnimationIn" : "Navbar-Links-AnimationOut"
               }`}
             >
               Proyectos
-            </a>
-            <a
-              href="#Servicios"
+            </Link>
+            <Link
+              to="/services"
+              onClick={toggleMenu}
               className={`MenuContainer__Links--Options   ${
                 menu ? "Navbar-Links-AnimationIn" : "Navbar-Links-AnimationOut"
               }`}
             >
               Servicios
-            </a>
-            <a
-              href="#Approach"
+            </Link>
+            <Link
+              to="/approach"
+              onClick={toggleMenu}
               className={`MenuContainer__Links--Options   ${
                 menu ? "Navbar-Links-AnimationIn" : "Navbar-Links-AnimationOut"
               }`}
             >
               Approach
-            </a>
+            </Link>
           </div>
           <div className="NavBar-Line-Container">
             <div
@@ -250,7 +255,9 @@ export default function NavBar() {
                   : "Navbar-ButtonIcon-AnimationOut"
               }`}
             ></div>
-            <p
+            <Link
+              to="/contact"
+              onClick={toggleMenu}
               className={`MenuContainer__Contact--Text Button-Text ${
                 menu
                   ? "Navbar-ButtonText-AnimationIn"
@@ -258,7 +265,7 @@ export default function NavBar() {
               }`}
             >
               ESCRIBINOS
-            </p>
+            </Link>
           </div>
         </div>
       </div>

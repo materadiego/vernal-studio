@@ -8,12 +8,13 @@ import "../scss/Pages/ProjectTemplate.scss";
 import logoVernal from "../Assets/Images/logo-vernal-white.svg";
 import homeIcon from "../Assets/Images/homeicon.png";
 import projectsIcon from "../Assets/Images/projectsicon.png";
+import Contact from "../Components/Contact/Contact";
 
 export default function ProjectTemplate() {
-  const history = useNavigate();
-  const historyBack = () => {
-    history(-1);
-  };
+  // const history = useNavigate();
+  // const historyBack = () => {
+  //   history(-1);
+  // };
 
   const [project, setProject] = useState({});
   const { id } = useParams();
@@ -25,7 +26,7 @@ export default function ProjectTemplate() {
 
   return (
     <div className="ProjectTemplate">
-      <section className="ProjectsHeader">
+      {/* <section className="ProjectsHeader">
         <div onClick={historyBack} className="ProjectsHeader__BackButton"></div>
         <img src={logoVernal} alt="Logo" className="ProjectsHeader__Logo" />
 
@@ -35,9 +36,10 @@ export default function ProjectTemplate() {
         <Link to="/projects" className="ProjectsHeader__ProjectsButton">
           <img className="ProjectsIcon" src={projectsIcon} alt="Home"></img>
         </Link>
-      </section>
+      </section> */}
       <Project {...project} />
       <MoreProjects {...project} />
+      <Contact />
     </div>
   );
 }

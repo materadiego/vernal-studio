@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 export default function HomeProjects() {
   return (
-    <div className="HomeProjects" id="Nosotros">
+    <div className="HomeProjects" id="Proyectos">
       <div className="HomeProjectsContainer">
         {/* BACKGROUND CIRCLE */}
         <div className="HomeProjectsContainer__Circle"></div>
@@ -52,7 +52,7 @@ export default function HomeProjects() {
             Nuestra selección
           </p>
           {/* PROJECT BOX */}
-          <div className="ProjectBox">
+          <Link to="/projects/1" className="ProjectBox">
             <div className="ProjectBox__ImageContainer">
               <img
                 src={LoopBg}
@@ -69,9 +69,9 @@ export default function HomeProjects() {
             </div>
             <p className="ProjectBox__Title">Loop3</p>
             <p className="ProjectBox__Location">Buenos Aires, ARG</p>
-          </div>
+          </Link>
           {/* PROJECT BOX */}
-          <div className="ProjectBox">
+          <Link to="/projects/2" className="ProjectBox">
             <div className="ProjectBox__ImageContainer">
               <img
                 src={MaderoBg}
@@ -88,9 +88,9 @@ export default function HomeProjects() {
             </div>
             <p className="ProjectBox__Title">Madero Tango</p>
             <p className="ProjectBox__Location">Buenos Aires, ARG</p>
-          </div>
+          </Link>
           {/* PROJECT BOX */}
-          <div className="ProjectBox">
+          <Link to="/projects/3" className="ProjectBox">
             <div className="ProjectBox__ImageContainer">
               <img
                 src={DaleplastBg}
@@ -107,9 +107,9 @@ export default function HomeProjects() {
             </div>
             <p className="ProjectBox__Title">Daleplast</p>
             <p className="ProjectBox__Location">Buenos Aires, ARG</p>
-          </div>
+          </Link>
           {/* PROJECT BOX */}
-          <div className="ProjectBox">
+          <Link to="/projects/4" className="ProjectBox">
             <div className="ProjectBox__ImageContainer">
               <img
                 src={TuEspacioBg}
@@ -126,7 +126,7 @@ export default function HomeProjects() {
             </div>
             <p className="ProjectBox__Title">Tu Espacio</p>
             <p className="ProjectBox__Location">Buenos Aires, ARG</p>
-          </div>
+          </Link>
         </div>
         {/* MORE BUTTON */}
         <Link

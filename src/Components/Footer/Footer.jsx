@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logoVernal from "../../Assets/Images/logo-vernal-white.svg";
 import arrow from "../../Assets/Images/button-arrow-black.svg";
 import footerIg from "../../Assets/Images/media-ig-black.svg";
@@ -11,11 +12,13 @@ export default function Footer() {
       <div className="FooterContainer">
         {/* LOGO */}
         <div className="FooterContainer__LogoSubcontainer">
-          <img
-            src={logoVernal}
-            alt="Logo"
-            className="FooterContainer__LogoSubcontainer--Image"
-          ></img>
+          <Link to="/home">
+            <img
+              src={logoVernal}
+              alt="Logo"
+              className="FooterContainer__LogoSubcontainer--Image"
+            ></img>
+          </Link>
           <p className="FooterContainer__LogoSubcontainer--Text">
             <span>Estudio boutique creativo</span>Branding. UX. Social media &
             más.
@@ -42,34 +45,37 @@ export default function Footer() {
           <h4 className="FooterContainer__SiteMapSubcontainer--Title Footer-Title Title">
             Mapa de sitio
           </h4>
-          <a
-            href="#home"
+          <Link
+            to="/about-us"
             className="FooterContainer__SiteMapSubcontainer--Link"
           >
             <p>Nosotros</p>
             <img src={arrow} alt="arrow" className="SiteMap-Arrow"></img>
-          </a>
-          <a
+          </Link>
+          <Link
+            to="/projects"
             href="#home"
             className="FooterContainer__SiteMapSubcontainer--Link"
           >
             <p>Proyectos</p>
             <img src={arrow} alt="arrow" className="SiteMap-Arrow"></img>
-          </a>
-          <a
+          </Link>
+          <Link
+            to="/approach"
             href="#home"
             className="FooterContainer__SiteMapSubcontainer--Link"
           >
-            <p>Metodología</p>
+            <p>Approach</p>
             <img src={arrow} alt="arrow" className="SiteMap-Arrow"></img>
-          </a>
-          <a
+          </Link>
+          <Link
+            to="/services"
             href="#home"
             className="FooterContainer__SiteMapSubcontainer--Link"
           >
-            <p>Contacto</p>
+            <p>Servicios</p>
             <img src={arrow} alt="arrow" className="SiteMap-Arrow"></img>
-          </a>
+          </Link>
         </div>
         {/* SOCIAL MEDIA */}
         <div className="FooterContainer__MediaSubcontainer">

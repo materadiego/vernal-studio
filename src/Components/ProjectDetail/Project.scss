@@ -1,45 +1,6 @@
-// PROJECTS
-.ProjectsHeader {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  padding: 5vw 0 0;
-  &__BackButton {
-    position: absolute;
-    width: 7vw;
-    height: 7vw;
-
-    left: 10%;
-    transform: rotateZ(180deg);
-    background-image: url(../../Assets/Images/button-arrow-black.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-  }
-  &__Logo {
-    width: 25vw;
-  }
-  &__HomeButton {
-    position: absolute;
-    right: 8%;
-  }
-  &__ProjectsButton {
-    position: absolute;
-    right: 18%;
-  }
-}
-
-.HomeIcon {
-  width: 7vw;
-}
-
-.ProjectsIcon {
-  width: 7vw;
-}
-
 .ProjectsListContainer {
-  margin: 4vw 0 0;
-  padding: 0;
+  margin: 0 0;
+  padding: 25vw 0 0;
   display: flex;
   flex-direction: column;
   background-color: $color-claro;
@@ -127,45 +88,10 @@
 }
 
 @media screen and (min-width: 1099px) {
-  // PROJECTS
-
-  .ProjectsHeader {
-    padding: 2vw 0 0;
-
-    &__BackButton {
-      width: 2vw;
-      height: 2vw;
-      margin: 0 auto;
-      cursor: pointer;
-      left: 5%;
-    }
-    &__Logo {
-      width: 7vw;
-      margin: 0 auto 0;
-    }
-    &__HomeButton {
-    }
-    &__ProjectsButton {
-      right: 11%;
-    }
-  }
-
-  .HomeIcon {
-    width: 2vw;
-    position: absolute;
-    right: 5%;
-  }
-
-  .ProjectsIcon {
-    width: 2.2vw;
-    position: absolute;
-    right: 10%;
-  }
-
   .ProjectsListContainer {
     width: 80%;
-    margin: 6vw auto 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 10vw 0 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -218,7 +144,6 @@
   }
 
   .ProjectList-Contaier {
-    border: 2px solid red;
     width: 100%;
     padding-bottom: 5vw;
     display: grid;
@@ -229,7 +154,6 @@
   .ProjectList-ProjectLink {
     width: 100%;
     margin: 0;
-    border: 2px solid red;
     display: flex;
     justify-content: center;
     text-decoration: none;

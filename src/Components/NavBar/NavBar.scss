@@ -1,5 +1,8 @@
 .NavBar {
   padding: 5vw 0 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .NavBarContainer {
@@ -122,7 +125,7 @@
 .menuButtonIsActive {
   animation-name: menuButtonActive;
   animation-duration: 0.6s;
-  animation-delay: 2s;
+  animation-delay: 0s;
   animation-fill-mode: forwards;
   background-color: $color-variacion2;
 }
@@ -130,28 +133,28 @@
 .menuButtonIsInactive1 {
   animation-name: menuButtonInactive1;
   animation-duration: 0.5s;
-  animation-delay: 1.3s;
+  animation-delay: 0.3s;
   animation-fill-mode: forwards;
   transform: translateX(0) translateY(0);
 }
 .menuButtonIsInactive2 {
   animation-name: menuButtonInactive2;
   animation-duration: 0.5s;
-  animation-delay: 1.3s;
+  animation-delay: 0.3s;
   animation-fill-mode: forwards;
   transform: translateX(0) translateY(0);
 }
 .menuButtonIsInactive3 {
   animation-name: menuButtonInactive3;
   animation-duration: 0.5s;
-  animation-delay: 1.3s;
+  animation-delay: 0.3s;
   animation-fill-mode: forwards;
   transform: translateX(0) translateY(0);
 }
 .menuButtonIsInactive4 {
   animation-name: menuButtonInactive4;
   animation-duration: 0.5s;
-  animation-delay: 1.3s;
+  animation-delay: 0.3s;
   animation-fill-mode: forwards;
   transform: translateX(0) translateY(0);
 }
@@ -181,7 +184,7 @@
   transform: scale(0);
   animation-name: ScaleAnimationIn;
   animation-duration: 0.6s;
-  animation-delay: 2.25s;
+  animation-delay: 0.3s;
   animation-fill-mode: forwards;
 }
 
@@ -189,7 +192,7 @@
   transform: scale(1);
   animation-name: ScaleAnimationOut;
   animation-duration: 0.6s;
-  animation-delay: 1s;
+  animation-delay: 0s;
   animation-fill-mode: forwards;
 }
 
@@ -326,12 +329,15 @@
   }
   &__Contact {
     width: 59vw;
-    margin: 1vw 0 0;
+
+    margin: 0 0;
     &--Arrow {
       will-change: transform;
       transform: scale(0);
     }
     &--Text {
+      padding: 6vw;
+      text-decoration: none;
       will-change: transform;
     }
   }
@@ -515,6 +521,7 @@
       }
       &--Text {
         letter-spacing: 2px;
+        padding: 1vw 0;
       }
     }
   }
