@@ -1,181 +1,189 @@
-.ProjectsListContainer {
-  margin: 0 0;
+.ProjectDetail-Container {
+  width: 90%;
+  margin: 0 auto;
   padding: 25vw 0 0;
   display: flex;
   flex-direction: column;
-  background-color: $color-claro;
-}
-
-.Projects-SectionTitle {
-  width: 80%;
-  margin: 10vw 0 4vw 5%;
-}
-
-.ProjectsList--Title {
-  width: 70%;
-  font-size: 8vw;
-  font-weight: 500;
-  margin: 0 0 15vw 5%;
-}
-
-.ProjectsList-Categories {
-  width: 90%;
-  margin: 0 auto 5vw;
-  display: flex;
-  flex-wrap: wrap;
-
-  &__Container {
-    margin: 0 15vw 5vw 0;
-    display: flex;
-    align-items: center;
-    &--Category {
-      margin: 0;
-      font-weight: 400;
-
-      color: $color-terciario;
-      font-family: $Font2;
-    }
-    &--Number {
-      width: 6vw;
-      height: 6vw;
-      margin: 0 0 0 1.5vw;
-      border-radius: 50vw;
-      font-size: 3vw;
-      font-weight: 400;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border: 1px solid #cccccc;
-      color: $color-terciario;
-      font-family: $Font2;
-    }
-    &:nth-child(4) {
-      margin-right: 0;
-    }
-  }
-}
-
-.ProjectList-ProjectLink {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-}
-
-.ProjectList-Project {
-  width: 90%;
-  margin: 0 0 10vw;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 1vw;
   &__Image {
     width: 100%;
-    margin: 0 0 5vw;
+    height: 30vw;
+    background-color: #dddddd;
+
+    // --------------------
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // --------------------
   }
   &__Title {
-    margin: 0 0 2vw;
-    font-size: 6.5vw;
+    margin: 5vw 0 8vw;
     font-weight: 600;
-    color: $color-primario;
+    font-size: 10vw;
   }
-  &__Text {
-    margin: 0 0 3vw;
-    font-size: 4.5vw;
+  &__Subcontainer {
+    &--Subtitle {
+      margin: 0 0 5vw;
+      font-weight: 600;
+      font-size: 6vw;
+    }
+    &--Text {
+      margin: 0;
+    }
+    &--TextMoreButton {
+      margin-top: 5vw;
+      font-weight: 600;
+      font-size: 4.5vw;
+      & img {
+        width: 3.5vw;
+        margin-left: 1vw;
+      }
+    }
+    &--ProjectLabels {
+      border-bottom: 1px solid #aaaaaa;
+      display: flex;
+      margin-top: 15vw;
+    }
+  }
+}
 
-    color: $color-terciario;
+.ProjectLabels-Text {
+  margin: 0 0 3vw;
+  font-size: 4vw;
+  color: $color-secundario;
+  font-family: $Font3;
+
+  &:nth-child(2) {
+    width: 60%;
   }
+  &:nth-child(3) {
+    width: 40%;
+  }
+}
+
+.ProjectServicesLocation {
+  display: flex;
+  &__Services {
+    width: 60%;
+    &--Text {
+      margin: 3vw 0;
+      font-size: 4.5vw;
+      font-weight: 600;
+      font-family: $Font1;
+    }
+  }
+  &__Location {
+    width: 40%;
+    &--Text {
+      margin: 3vw 0;
+      font-size: 4.5vw;
+      font-weight: 600;
+      line-height: 170%;
+      font-family: $Font1;
+    }
+  }
+}
+
+.Description2 {
+  display: none;
+}
+
+.DescriptionActive {
+  display: block;
+}
+
+.MoreButtonInactive {
+  display: none;
 }
 
 @media screen and (min-width: 1099px) {
-  .ProjectsListContainer {
+  .ProjectDetail-Container {
     width: 80%;
-    margin: 0 auto;
     padding: 10vw 0 0;
+    position: relative;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .Projects-SectionTitle {
-    width: 80%;
-    margin: 0vw 0 2vw 0;
-  }
-
-  .ProjectsList--Title {
-    width: 55%;
-    font-size: 4vw;
-    margin: 0 0 4vw 0;
-  }
-
-  .ProjectsList-Categories {
-    width: 100%;
-    margin: 0 0 4vw 0;
-    &__Container {
-      margin: 0 6.5vw 0 0;
-      cursor: pointer;
-      &--Category {
-        margin: 0;
-        font-size: 1.2vw;
-        transition: 0.3s;
-        will-change: color;
-      }
-      &--Number {
-        width: 1.8vw;
-        height: 1.8vw;
-        margin: 0 0 0 0.5vw;
-        border-radius: 50vw;
-        font-size: 0.8vw;
-        transition: 0.3s;
-        will-change: color background-color;
-      }
-    }
-  }
-
-  .ProjectsList-Categories__Container:hover
-    .ProjectsList-Categories__Container--Category {
-    color: $color-primario;
-  }
-  .ProjectsList-Categories__Container:hover
-    .ProjectsList-Categories__Container--Number {
-    background-color: $color-primario;
-    color: $color-claro;
-  }
-
-  .ProjectList-Contaier {
-    width: 100%;
-    padding-bottom: 5vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5%;
-  }
-
-  .ProjectList-ProjectLink {
-    width: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-  }
-
-  .ProjectList-Project {
-    width: 100%;
-    margin: 0 0 1vw;
-    padding: 0;
-    display: flex;
-
+    flex-direction: column;
+    align-items: flex-start;
     &__Image {
       width: 100%;
-      margin: 0 0 1.5vw;
     }
     &__Title {
-      margin: 0 0 0.3vw;
-      font-size: 1.3vw;
+      width: 100%;
+      margin: 2vw 0 1vw;
+      font-size: 4vw;
     }
-    &__Text {
-      margin: 0;
-      font-size: 1.1vw;
+    &__Subcontainer {
+      position: relative;
+      padding-top: 11vw;
+      &--Subtitle {
+        width: 50%;
+
+        margin: 0 0 2vw 7.5%;
+        font-size: 2vw;
+      }
+      &--Text {
+        width: 50%;
+        font-size: 1vw;
+        margin: 0vw 0 2vw 7.5%;
+      }
+      &--TextMoreButton {
+        font-size: 1.3vw;
+        margin-left: 7.5%;
+        cursor: pointer;
+        & img {
+          width: 0.9vw;
+          margin-left: 0.5vw;
+        }
+      }
+      &--ProjectLabels {
+        border-bottom: 1px solid #aaaaaa;
+        width: 85%;
+        margin: 0;
+        top: 6vw;
+        left: 7.5%;
+        right: 7.5%;
+        display: flex;
+        position: absolute;
+      }
+    }
+  }
+
+  .ProjectLabels-Text {
+    margin: 0 0 1vw;
+    font-size: 1vw;
+    color: $color-secundario;
+    font-family: $Font3;
+    &:nth-child(1) {
+      width: 75%;
+    }
+    &:nth-child(2) {
+      width: 15%;
+    }
+    &:nth-child(3) {
+      width: 10%;
+    }
+  }
+
+  .ProjectServicesLocation {
+    width: 21.4%;
+    display: flex;
+    position: absolute;
+    right: 7.5%;
+    top: 11vw;
+    &__Services {
+      width: 60%;
+
+      &--Text {
+        margin: 0.5vw 0;
+        font-size: 1.1vw;
+      }
+    }
+    &__Location {
+      width: 40%;
+      &--Text {
+        margin: 0.4vw 0;
+        font-size: 1.1vw;
+        line-height: 160%;
+      }
     }
   }
 }

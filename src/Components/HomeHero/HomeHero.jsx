@@ -18,7 +18,7 @@ export default function HomeHero() {
             <span className="Hero-Media-Animation Media-Animation"></span>
             <img
               alt="Instagram"
-              className="Hero-Ig Social-Media-Image Hero-Media-Image Hero-MediaImg-Animation"
+              className="Hero-Ig Media-Ig Social-Media-Image Hero-Media-Image Hero-MediaImg-Animation"
               src={HeroIg}
             ></img>
           </a>
@@ -30,7 +30,7 @@ export default function HomeHero() {
 
             <img
               alt="Behance"
-              className="Hero-Be Social-Media-Image Hero-Media-Image Hero-MediaImg-Animation"
+              className="Hero-Be Media-Be Social-Media-Image Hero-Media-Image Hero-MediaImg-Animation"
               src={HeroBe}
             ></img>
           </a>
@@ -42,7 +42,7 @@ export default function HomeHero() {
 
             <img
               alt="Linkedin"
-              className="Hero-In Social-Media-Image Hero-Media-Image Hero-MediaImg-Animation"
+              className="Hero-In Social-Media-Image Media-In Hero-Media-Image Hero-MediaImg-Animation"
               src={HeroIn}
             ></img>
           </a>

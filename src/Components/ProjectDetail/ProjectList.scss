@@ -1,0 +1,183 @@
+.ProjectsListContainer {
+  margin: 0 0;
+  padding: 25vw 0 0;
+  display: flex;
+  flex-direction: column;
+  background-color: $color-claro;
+}
+
+.Projects-SectionTitle {
+  width: 80%;
+  margin: 10vw 0 4vw 5%;
+}
+
+.ProjectsList--Title {
+  width: 70%;
+  font-size: 8vw;
+  font-weight: 500;
+  margin: 0 0 15vw 5%;
+}
+
+.ProjectsList-Categories {
+  width: 90%;
+  margin: 0 auto 5vw;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__Container {
+    margin: 0 15vw 5vw 0;
+    display: flex;
+    align-items: center;
+    &--Category {
+      margin: 0;
+      font-weight: 400;
+
+      color: $color-terciario;
+      font-family: $Font2;
+    }
+    &--Number {
+      width: 6vw;
+      height: 6vw;
+      margin: 0 0 0 1.5vw;
+      border-radius: 50vw;
+      font-size: 3vw;
+      font-weight: 400;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #cccccc;
+      color: $color-terciario;
+      font-family: $Font2;
+    }
+    &:nth-child(4) {
+      margin-right: 0;
+    }
+  }
+}
+
+.ProjectList-ProjectLink {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.ProjectList-Project {
+  width: 90%;
+  margin: 0 0 10vw;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1vw;
+  &__Image {
+    width: 100%;
+    margin: 0 0 5vw;
+  }
+  &__Title {
+    margin: 0 0 2vw;
+    font-size: 6.5vw;
+    font-weight: 600;
+    color: $color-primario;
+  }
+  &__Text {
+    margin: 0 0 3vw;
+    font-size: 4.5vw;
+
+    color: $color-terciario;
+  }
+}
+
+@media screen and (min-width: 1099px) {
+  .ProjectsListContainer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10vw 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .Projects-SectionTitle {
+    width: 80%;
+    margin: 0vw auto 2vw;
+  }
+
+  .ProjectsList--Title {
+    width: 55%;
+    font-size: 4vw;
+    margin: 0 35% 4vw 10%;
+  }
+
+  .ProjectsList-Categories {
+    width: 80%;
+    margin: 0 auto 4vw;
+    &__Container {
+      margin: 0 6.5vw 0 0;
+      cursor: pointer;
+
+      &--Category {
+        margin: 0;
+        font-size: 1.2vw;
+        transition: 0.3s;
+        will-change: color;
+      }
+      &--Number {
+        width: 1.8vw;
+        height: 1.8vw;
+        margin: 0 0 0 0.5vw;
+        border-radius: 50vw;
+        font-size: 0.8vw;
+        transition: 0.3s;
+        will-change: color background-color;
+      }
+    }
+  }
+
+  .ProjectsList-Categories__Container:hover
+    .ProjectsList-Categories__Container--Category {
+    color: $color-primario;
+  }
+  .ProjectsList-Categories__Container:hover
+    .ProjectsList-Categories__Container--Number {
+    background-color: $color-primario;
+    color: $color-claro;
+  }
+
+  .ProjectList-Contaier {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+  }
+
+  .ProjectList-ProjectLink {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .ProjectList-Project {
+    width: 100%;
+    margin: 0 0 1vw;
+    padding: 0;
+    display: flex;
+
+    &__Image {
+      width: 100%;
+      margin: 0 0 1.5vw;
+    }
+    &__Title {
+      margin: 0 0 0.3vw;
+      font-size: 1.3vw;
+    }
+    &__Text {
+      margin: 0;
+      font-size: 1.1vw;
+    }
+  }
+}
