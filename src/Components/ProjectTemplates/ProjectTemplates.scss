@@ -13,7 +13,7 @@
   // Project Template One
   .ProjectTemplateOne {
     justify-content: space-between;
-    padding: 7vw 0 64vw;
+    padding: 0vw 0 60vw;
     &__Image {
       width: 48%;
       margin-bottom: 0;
@@ -28,27 +28,27 @@
       }
       &:nth-child(3) {
         width: 48%;
-        transform: translateY(12vw);
+        transform: translateY(11vw);
       }
       &:nth-child(4) {
         width: 100%;
-        transform: translateY(23vw);
+        transform: translateY(21vw);
       }
       &:nth-child(5) {
         width: 100%;
-        transform: translateY(33vw);
+        transform: translateY(32vw);
       }
       &:nth-child(6) {
         width: 48%;
-        transform: translateY(42vw);
+        transform: translateY(33vw);
       }
       &:nth-child(7) {
         width: 48%;
-        transform: translateY(80vw);
+        transform: translateY(72vw);
       }
       &:nth-child(8) {
         width: 48%;
-        transform: translateY(51vw);
+        transform: translateY(40vw);
       }
     }
   }
