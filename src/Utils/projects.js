@@ -104,11 +104,12 @@ const projects = [
     image3:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation3.webp",
     image4:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation4.webp",
-    image5:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation5.webp",
-    image6:
+    image5:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation6.webp",
+    image6:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation4.webp",
+
     image7:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation7.webp",
     image8:

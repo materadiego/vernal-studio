@@ -57,14 +57,14 @@ export default function Project({ ...project }) {
           >
             {project.description2}
           </p>
-          <span
-            className={`ProjectDetail-Container__Subcontainer--TextMoreButton Title ${
+          <div
+            className={`ProjectDetail-Container__Subcontainer--TextMoreButton ${
               more ? "MoreButtonInactive" : ""
             }`}
             onClick={toggleMore}
           >
             Leer más <img src={arrowDown} alt="arrow-down"></img>
-          </span>
+          </div>
           <div className="ProjectDetail-Container__Subcontainer--ProjectLabels">
             <p className=" ProjectLabels-Text Desktop">El proyecto</p>
             <p className=" ProjectLabels-Text">Servicios</p>
