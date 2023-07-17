@@ -9,6 +9,17 @@
   }
 }
 
+.ProjectTemplateTwo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  &__Image {
+    width: 100%;
+    margin-bottom: 4vw;
+  }
+}
+
 @media screen and (min-width: 1099px) {
   // Project Template One
   .ProjectTemplateOne {
@@ -49,6 +60,62 @@
       &:nth-child(8) {
         width: 48%;
         transform: translateY(40vw);
+      }
+    }
+  }
+
+  .ProjectTemplateTwo {
+    justify-content: space-between;
+    padding: 0vw 0 105vw;
+    &__Image {
+      width: 48%;
+      margin-bottom: 0;
+      &:nth-child(1) {
+        width: 32%;
+      }
+      &:nth-child(2) {
+        width: 63%;
+        transform: translateY(16vw);
+      }
+      &:nth-child(3) {
+        width: 32%;
+        transform: translateY(-3vw);
+      }
+      &:nth-child(4) {
+        width: 100%;
+        transform: translateY(10vw);
+      }
+      &:nth-child(5) {
+        width: 48%;
+        transform: translateY(36vw);
+      }
+      &:nth-child(6) {
+        width: 48%;
+        transform: translateY(20vw);
+      }
+      &:nth-child(7) {
+        width: 100%;
+        transform: translateY(45vw);
+      }
+      &:nth-child(8) {
+        width: 48%;
+        transform: translateY(50vw);
+      }
+      &:nth-child(9) {
+        width: 48%;
+        transform: translateY(62vw);
+      }
+      &:nth-child(10) {
+        width: 100%;
+        transform: translateY(72vw);
+      }
+      &:nth-child(11) {
+        width: 63.7%;
+        transform: translateY(83vw) translateX(57%);
+      }
+      &:nth-child(12) {
+        width: 65%;
+        transform: translateY(90vw);
       }
     }
   }

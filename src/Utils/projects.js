@@ -57,6 +57,30 @@ const projects = [
     service5: "Packaging",
     location: "Tierra del Fuego, Argentina",
     templateNumber: "2",
+    image1:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-daleplast1.webp",
+    image2:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-daleplast2.webp",
+    image3:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-daleplast3.webp",
+    image4:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-daleplast4.webp",
+    image5:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-daleplast5.webp",
+    image6:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-daleplast6.webp",
+    image7:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/project1.png",
+    image8:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-daleplast8.webp",
+    image9:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-daleplast9.webp",
+    image10:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-daleplast10.webp",
+    image11:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-daleplast11.webp",
+    image12:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-daleplast12.webp",
   },
   {
     id: 4,
@@ -81,6 +105,43 @@ const projects = [
   {
     id: 5,
     projectName: "Bim Formation",
+    projectSubtitle: "Frase resumen",
+    heroImage:
+      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+    description1:
+      "Tu Espacio es una marca de diseño de interiores nacida en Tucumán, Argentina, con un enfoque claro: reinventar el diseño de interiores a través de una propuesta digital y personalizada. Especialmente dirigida a un público joven, familiarizado con las nuevas tendencias y con un espíritu emprendedor, nos embarcamos en el desafío de crear una identidad completa para este proyecto.",
+    description2:
+      "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
+    imgPreview:
+      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+    service1: "Conceptual",
+    service2: "Logo",
+    service3: "Branding",
+    service4: "Social media",
+    service5: "Packaging",
+    location: "Tucumán, Argentina",
+    templateNumber: "1",
+    image1:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation1.webp",
+    image2:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation2.webp",
+    image3:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation3.webp",
+    image4:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation5.webp",
+    image5:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation6.webp",
+    image6:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation4.webp",
+
+    image7:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation7.webp",
+    image8:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation8.webp",
+  },
+  {
+    id: 6,
+    projectName: "Supra",
     projectSubtitle: "Frase resumen",
     heroImage:
       "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",

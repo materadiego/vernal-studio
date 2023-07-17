@@ -15,9 +15,9 @@ export default function Project({ ...project }) {
       case "1":
         return <ProjectTemplateOne key={project.id} project={project} />;
       case "2":
-        return <ProjectTemplateTwo />;
+        return <ProjectTemplateTwo key={project.id} project={project} />;
       case "3":
-        return <ProjectTemplateThree />;
+        return <ProjectTemplateThree key={project.id} project={project} />;
 
       default:
         return <h6>Error al cargar las imágenes</h6>;
