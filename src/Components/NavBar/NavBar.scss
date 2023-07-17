@@ -3,6 +3,7 @@
   position: absolute;
   top: 0;
   width: 100%;
+  z-index: 10;
 }
 
 .NavBarContainer {
@@ -33,7 +34,7 @@
     }
   }
   &__LanguageButton {
-    top: 4.5vw;
+    top: 3vw;
     right: 0;
     padding: 1vw 2vw;
     font-size: 4vw;
@@ -47,45 +48,15 @@
     cursor: pointer;
     will-change: box-shadow transform;
     font-family: $Font1;
-    color: $color-primario;
+    color: $color-secundario;
     background-color: $color-claro;
     &--Selected {
       width: 100%;
       margin: 0;
       display: flex;
       align-items: center;
-      & img {
-        width: 3vw;
-        margin-left: 2vw;
-        transition: 0.3s;
-        will-change: transform;
-        transform: rotateX(180deg);
-      }
-    }
 
-    &:hover {
-      padding-bottom: 18vw;
-      box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
-    }
-    &:hover .NavBar__LanguageButton--Selected img {
-      transform: rotateX(0deg);
-    }
-    &:hover .desktop-lang-1 {
-      transform: translateY(4vw);
-      opacity: 1;
-    }
-    &:hover .desktop-lang-2 {
-      transform: translateY(12vw);
-      opacity: 1;
-    }
-    &--Options {
-      width: 100%;
-      padding: 8vw 0 0;
-      opacity: 0;
-      transition: 0.3s;
-      position: absolute;
-      will-change: opacity transform color;
-      transform: translateY(0);
+      letter-spacing: 1px;
     }
   }
 }
@@ -268,21 +239,14 @@
       will-change: transform;
     }
     &--LanguageButton {
-      width: 15vw;
+      width: auto;
       font-size: 4vw;
       will-change: transform;
       position: absolute;
-      right: -4vw;
+      right: 0;
       top: 2vw;
       font-family: $Font1;
       color: $color-claro;
-      & img {
-        width: 3vw;
-        margin-left: 2vw;
-        transition: 0.3s;
-        will-change: transform;
-        transform: rotateX(180deg);
-      }
     }
   }
   &__Links {
@@ -380,37 +344,15 @@
     &__LanguageButton {
       z-index: 3;
       top: 0;
-      padding: 0.3vw 0.5vw;
       font-size: 1vw;
+      padding: 0.3vw 0.5vw;
       cursor: pointer;
-      will-change: transform;
+      will-change: text-transform;
+      &:hover .NavBarContainer__LanguageButton--Selected {
+        text-decoration: underline;
+      }
       &--Selected {
-        & img {
-          width: 0.5vw;
-          margin-left: 0.2vw;
-        }
-      }
-      &:hover {
-        padding-bottom: 3.2vw;
-        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
-      }
-      &:hover .NavBar__LanguageButton--Selected img {
-        transform: rotateX(0deg);
-      }
-      &:hover .desktop-lang-1 {
-        transform: translateY(0.8vw);
-        opacity: 1;
-      }
-      &:hover .desktop-lang-2 {
-        transform: translateY(2.1vw);
-        opacity: 1;
-      }
-      &--Options {
-        width: 100%;
-        padding: 1.3vw 0 0;
-        &:hover {
-          color: $color-variacion2;
-        }
+        letter-spacing: 1px;
       }
     }
   }

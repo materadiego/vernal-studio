@@ -56,7 +56,7 @@ const projects = [
     service4: "Social media",
     service5: "Packaging",
     location: "Tierra del Fuego, Argentina",
-    templateNumber: "3",
+    templateNumber: "2",
   },
   {
     id: 4,

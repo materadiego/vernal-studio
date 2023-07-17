@@ -11,6 +11,7 @@ import In from "../../Assets/Images/media-in-white.svg";
 import Wsp from "../../Assets/Images/media-wsp-white.svg";
 
 export default function NavBar() {
+  const [language, setLanguage] = useState("EN");
   const [menu, setMenu] = useState(false);
   const [zIndex, setZIndex] = useState(false);
   const [menuButton, setMenuButton] = useState(false);
@@ -20,6 +21,13 @@ export default function NavBar() {
     setZIndex(true);
     setMenuButton(!menuButton);
     setMenuIsActive(!menuIsActive);
+  };
+  const toggleLanguage = () => {
+    if (language === "EN") {
+      setLanguage("ES");
+    } else if (language === "ES") {
+      setLanguage("EN");
+    }
   };
 
   return (
@@ -70,18 +78,13 @@ export default function NavBar() {
         </Link>
         {/* HEADER LANGUAGE SELECT */}
         <div
+          onClick={toggleLanguage}
           className="NavBarContainer__LanguageButton Header-Animation"
           id="language-button-desktop"
         >
           <p className="NavBarContainer__LanguageButton--Selected">
-            ES <img src={languageArrowD} alt="language-selector"></img>
+            {language}
           </p>
-          <div className="NavBarContainer__LanguageButton--Options desktop-lang-1">
-            EN
-          </div>
-          <div className="NavBarContainer__LanguageButton--Options desktop-lang-2">
-            PT
-          </div>
         </div>
       </div>
       {/* MENU */}
@@ -115,13 +118,14 @@ export default function NavBar() {
 
             {/* LANGUAGE */}
             <div
+              onClick={toggleLanguage}
               className={`MenuContainer__Top--LanguageButton ${
                 menu
                   ? "Navbar-Language-AnimationIn"
                   : "Navbar-Language-AnimationOut"
               }`}
             >
-              ES <img src={languageArrowW} alt="language-selector"></img>
+              {language}
             </div>
           </div>
           {/* MENU OPTIONS */}
