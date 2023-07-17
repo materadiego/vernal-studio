@@ -137,7 +137,7 @@
 
   .ProjectTemplateThree {
     justify-content: space-between;
-    padding: 7vw 0 105vw;
+    padding: 7vw 0 137vw;
     &__Image {
       width: 48%;
       margin-bottom: 0;
@@ -189,16 +189,16 @@
         transform: translateY(84vw);
       }
       &:nth-child(13) {
-        width: 48%;
-        transform: translateY(83vw);
+        width: 100%;
+        transform: translateY(102vw);
       }
       &:nth-child(14) {
-        width: 48%;
-        transform: translateY(90vw);
+        width: 65%;
+        transform: translateY(118vw) translateX(54%);
       }
       &:nth-child(15) {
-        width: 100%;
-        transform: translateY(90vw);
+        width: 65%;
+        transform: translateY(125vw);
       }
     }
   }

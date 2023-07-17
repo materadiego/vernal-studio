@@ -261,6 +261,8 @@ const projects = [
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-novar13.webp",
     image14:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-novar14.webp",
+    image15:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-novar15.webp",
   },
 ];
 

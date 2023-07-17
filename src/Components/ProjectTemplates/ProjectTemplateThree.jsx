@@ -71,6 +71,11 @@ export default function ProjectTemplateThree({ project }) {
         alt="project"
         className="ProjectTemplateThree__Image"
       ></img>
+      <img
+        src={project.image15}
+        alt="project"
+        className="ProjectTemplateThree__Image"
+      ></img>
     </div>
   );
 }
