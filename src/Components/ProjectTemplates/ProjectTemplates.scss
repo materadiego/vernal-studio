@@ -1,5 +1,7 @@
 .ProjectTemplateOne {
   width: 100%;
+  padding-bottom: 15vw;
+
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -11,6 +13,19 @@
 
 .ProjectTemplateTwo {
   width: 100%;
+  padding-bottom: 15vw;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  &__Image {
+    width: 100%;
+    margin-bottom: 4vw;
+  }
+}
+
+.ProjectTemplateThree {
+  width: 100%;
+  padding-bottom: 15vw;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -99,15 +114,15 @@
       }
       &:nth-child(8) {
         width: 48%;
-        transform: translateY(50vw);
+        transform: translateY(53vw);
       }
       &:nth-child(9) {
         width: 48%;
-        transform: translateY(62vw);
+        transform: translateY(65vw);
       }
       &:nth-child(10) {
         width: 100%;
-        transform: translateY(72vw);
+        transform: translateY(74vw);
       }
       &:nth-child(11) {
         width: 63.7%;
@@ -115,6 +130,74 @@
       }
       &:nth-child(12) {
         width: 65%;
+        transform: translateY(90vw);
+      }
+    }
+  }
+
+  .ProjectTemplateThree {
+    justify-content: space-between;
+    padding: 7vw 0 105vw;
+    &__Image {
+      width: 48%;
+      margin-bottom: 0;
+      &:nth-child(1) {
+        width: 100%;
+      }
+      &:nth-child(2) {
+        width: 66%;
+        transform: translateY(16vw);
+      }
+      &:nth-child(3) {
+        width: 30%;
+        transform: translateY(1vw);
+      }
+      &:nth-child(4) {
+        width: 48%;
+        transform: translateY(47vw);
+      }
+      &:nth-child(5) {
+        width: 30%;
+        transform: translateY(-13vw);
+      }
+      &:nth-child(6) {
+        width: 48%;
+        transform: translateY(-12vw) translateX(108.5%);
+      }
+      &:nth-child(7) {
+        width: 100%;
+        transform: translateY(16vw);
+      }
+      &:nth-child(8) {
+        width: 48%;
+        transform: translateY(43vw);
+      }
+      &:nth-child(9) {
+        width: 48%;
+        transform: translateY(27vw);
+      }
+      &:nth-child(10) {
+        width: 100%;
+        transform: translateY(52vw);
+      }
+      &:nth-child(11) {
+        width: 48.5%;
+        transform: translateY(68vw);
+      }
+      &:nth-child(12) {
+        width: 48.5%;
+        transform: translateY(84vw);
+      }
+      &:nth-child(13) {
+        width: 48%;
+        transform: translateY(83vw);
+      }
+      &:nth-child(14) {
+        width: 48%;
+        transform: translateY(90vw);
+      }
+      &:nth-child(15) {
+        width: 100%;
         transform: translateY(90vw);
       }
     }

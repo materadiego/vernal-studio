@@ -70,7 +70,7 @@ const projects = [
     image6:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-daleplast6.webp",
     image7:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/project1.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-daleplast7.webp",
     image8:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-daleplast8.webp",
     image9:
@@ -208,7 +208,7 @@ const projects = [
     image9:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra9.webp",
     image10:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/project1.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra10.webp",
     image11:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra11.webp",
     image12:
@@ -240,9 +240,9 @@ const projects = [
     image3:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-novar3.webp",
     image4:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-novar4.webp",
-    image5:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-novar5.webp",
+    image5:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-novar4.webp",
     image6:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-novar6.webp",
     image7:
