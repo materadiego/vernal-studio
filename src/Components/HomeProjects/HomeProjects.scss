@@ -21,8 +21,9 @@
     border-top: 2px solid $color-secundario;
   }
   &__Description {
-    width: 90%;
-    margin: 8vw 0 25vw 10%;
+    width: 92%;
+    margin: 8vw 0 25vw 8%;
+    flex-wrap: wrap;
     color: $color-claro;
     & span {
       font-weight: 500;
@@ -37,8 +38,8 @@
     }
   }
   &__MoreButton {
-    width: 63vw;
-    margin: -2vw auto;
+    width: 56vw;
+    margin: -2vw 0 0 25%;
     text-decoration: none;
   }
 }
@@ -57,7 +58,6 @@
   }
   &__Title {
     margin: 5vw 0 1vw;
-    font-size: 6vw;
     font-weight: 500;
     font-family: $Font1;
     color: $color-claro;
@@ -65,7 +65,6 @@
   &__Location {
     margin: 0 0 5vw;
     font-weight: 300;
-    font-size: 6vw;
     color: $color-terciario;
     font-family: $Font2;
   }
@@ -73,23 +72,6 @@
 
 .Project-Logo-Container {
   display: none;
-}
-
-.HomeProjectsContainer__MoreButton--Arrow.Button-Arrow {
-  width: 22vw;
-  height: 22vw;
-  background-size: 8vw;
-  background-position: 7vw center;
-}
-.HomeProjectsContainer__MoreButton.Button {
-  padding: 5vw 0;
-}
-.HomeProjectsContainer__MoreButton--Text.Button-Text {
-  font-size: 6vw;
-}
-
-.HomeProjectsContainer__Description.Mobile {
-  display: block;
 }
 
 @media screen and (min-width: 1099px) {
@@ -135,6 +117,7 @@
     }
     &__MoreButton {
       width: 14.8vw;
+      margin: -2vw auto 0;
     }
   }
 
@@ -164,11 +147,9 @@
     }
     &__Title {
       margin: 2vw 0 0.2vw;
-      font-size: 1.3vw;
     }
     &__Location {
       margin: 0 0 2vw;
-      font-size: 1.3vw;
     }
   }
 
@@ -217,19 +198,5 @@
 
   .ProjectBox:hover .Project-Logo-Image {
     transform: scale(1);
-  }
-
-  .HomeProjectsContainer__MoreButton--Arrow.Button-Arrow {
-    width: 5vw;
-    height: 5vw;
-    background-size: 1.5vw;
-    background-position: 1.7vw center;
-  }
-  .HomeProjectsContainer__MoreButton.Button {
-    padding: 2vw 0;
-  }
-  .HomeProjectsContainer__MoreButton--Text.Button-Text {
-    font-size: 1.5vw;
-    letter-spacing: 1px;
   }
 }

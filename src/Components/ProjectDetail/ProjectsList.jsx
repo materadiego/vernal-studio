@@ -5,7 +5,7 @@ export default function ProjectsList({ projects }) {
   return (
     <>
       <h2 className="Projects-SectionTitle SectionTitle">
-        Proyectos <img src={TitleLine} alt="Icon"></img>
+        <span className="SectionTitle__Circle"></span> Proyectos
       </h2>
       <h3 className="ProjectsList--Title Title">
         Conocé las marcas que transformamos.

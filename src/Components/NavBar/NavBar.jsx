@@ -11,7 +11,7 @@ import In from "../../Assets/Images/media-in-white.svg";
 import Wsp from "../../Assets/Images/media-wsp-white.svg";
 
 export default function NavBar() {
-  const [language, setLanguage] = useState("EN");
+  const [language, setLanguage] = useState("ES");
   const [menu, setMenu] = useState(false);
   const [zIndex, setZIndex] = useState(false);
   const [menuButton, setMenuButton] = useState(false);
@@ -96,16 +96,7 @@ export default function NavBar() {
         <div className="MenuContainer">
           <div className="MenuContainer__Top">
             {/* CLOSE BUTTON */}
-            <div
-              className={`MenuContainer__Top--CloseButton ${
-                menu
-                  ? "Navbar-ButtonIcon-AnimationIn"
-                  : "Navbar-ButtonIcon-AnimationOut"
-              }`}
-              onClick={toggleMenu}
-            >
-              <img alt="Close" className="CloseButton" src={closeMenu}></img>
-            </div>
+
             {/* LOGO */}
 
             <img
@@ -176,6 +167,27 @@ export default function NavBar() {
               }`}
             ></div>
           </div>
+          {/* MENU CONTACT */}
+          <div className="MenuContainer__Contact Button">
+            <div
+              className={`MenuContainer__Contact--Arrow Button-Arrow ${
+                menu
+                  ? "Navbar-ButtonIcon-AnimationIn"
+                  : "Navbar-ButtonIcon-AnimationOut"
+              }`}
+            ></div>
+            <Link
+              to="/contact"
+              onClick={toggleMenu}
+              className={`MenuContainer__Contact--Text Button-Text ${
+                menu
+                  ? "Navbar-ButtonText-AnimationIn"
+                  : "Navbar-ButtonText-AnimationOut"
+              }`}
+            >
+              ESCRIBINOS
+            </Link>
+          </div>
           {/* SOCIAL MEDIA */}
           <div className="MenuContainer__Media">
             <div
@@ -233,43 +245,6 @@ export default function NavBar() {
                 }`}
               ></img>
             </a>
-            <a
-              className="MenuContainer__Media--Link  Media-Container-Animation"
-              href="www.whatsapp.com"
-            >
-              {" "}
-              <span className="Menu-Media-Animation Media-Animation"></span>
-              <img
-                alt="WhatsApp"
-                src={Wsp}
-                className={`Media-Wsp Menu-Wsp Social-Media-Image ${
-                  menu
-                    ? "Navbar-MediaLinks-AnimationIn"
-                    : "Navbar-MediaLinks-AnimationOut"
-                }`}
-              ></img>
-            </a>
-          </div>
-          {/* MENU CONTACT */}
-          <div className="MenuContainer__Contact Button">
-            <div
-              className={`MenuContainer__Contact--Arrow Button-Arrow ${
-                menu
-                  ? "Navbar-ButtonIcon-AnimationIn"
-                  : "Navbar-ButtonIcon-AnimationOut"
-              }`}
-            ></div>
-            <Link
-              to="/contact"
-              onClick={toggleMenu}
-              className={`MenuContainer__Contact--Text Button-Text ${
-                menu
-                  ? "Navbar-ButtonText-AnimationIn"
-                  : "Navbar-ButtonText-AnimationOut"
-              }`}
-            >
-              ESCRIBINOS
-            </Link>
           </div>
         </div>
       </div>

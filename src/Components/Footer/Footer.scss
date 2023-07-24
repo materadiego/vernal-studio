@@ -9,14 +9,13 @@
   position: relative;
 
   &__LogoSubcontainer {
-    width: 50%;
+    width: 52%;
     margin: 0 0 10vw;
     &--Image {
-      width: 90%;
+      width: 88%;
     }
     &--Text {
       margin: 4vw 0 0;
-      font-size: 3.2vw;
       display: flex;
       flex-direction: column;
       font-family: $Font2;
@@ -33,7 +32,7 @@
     }
     &--Text {
       margin: 0;
-      font-size: 3.8vw;
+
       font-family: $Font3;
       & span {
         font-weight: 600;
@@ -41,7 +40,7 @@
     }
     &--Location {
       margin: 3vw 0 0;
-      font-size: 3.8vw;
+
       font-family: $Font3;
     }
   }
@@ -57,7 +56,7 @@
       align-items: center;
       & p {
         margin: 0;
-        font-size: 3.8vw;
+
         font-family: $Font3;
         color: $color-primario;
       }
@@ -98,7 +97,6 @@
 }
 
 .Footer-Title.Title {
-  font-size: 5.5vw;
   font-weight: 600;
 }
 
@@ -120,8 +118,7 @@
         margin-bottom: 1vw;
       }
       &--Text {
-        width: 32%;
-        font-size: 0.8vw;
+        width: 35%;
         margin: 0;
       }
     }
@@ -130,14 +127,10 @@
       margin: 0 9.75% 0 0;
       &--Title {
         margin: 0 0 0.5vw;
-        font-size: 1.3vw;
       }
-      &--Text {
-        font-size: 0.9vw;
-      }
+
       &--Location {
         margin: 1vw 0 0;
-        font-size: 0.9vw;
       }
     }
     &__SiteMapSubcontainer {
@@ -145,14 +138,11 @@
       margin: 0 9.75% 0 0;
       &--Title {
         margin: 0 0 0.5vw;
-
-        font-size: 1.3vw;
       }
       &--Link {
         margin: 0;
         & p {
           margin: 0 0 0.1vw;
-          font-size: 0.9vw;
         }
         & img {
           width: 0.7vw;
@@ -163,13 +153,12 @@
       }
     }
     &__MediaSubcontainer {
-      width: 8.5%;
+      width: 9%;
       height: 5vw;
       justify-content: space-between;
       align-items: flex-start;
       &--Title {
         margin: 0;
-        font-size: 1.3vw;
         text-align: center;
       }
       &--Link {
@@ -185,10 +174,6 @@
     margin: 0 0 0 1.5vw;
     filter: invert(33%) sepia(65%) saturate(4994%) hue-rotate(246deg)
       brightness(94%) contrast(94%);
-  }
-
-  .Footer-Title.Title {
-    font-size: 1.3vw;
   }
 
   .Footer-Ig {

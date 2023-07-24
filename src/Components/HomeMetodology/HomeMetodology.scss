@@ -16,7 +16,7 @@
     }
     &--Number {
       margin: 0;
-      font-size: 25vw;
+      font-size: 20vw;
       font-weight: 500;
       line-height: 100%;
       color: $color-variacion1;
@@ -44,10 +44,6 @@
   }
 }
 
-.HomeMetodologyContainer__Subcontainer--Title.Title {
-  font-size: 9vw;
-}
-
 @media screen and (min-width: 1099px) {
   .HomeMetodologyContainer {
     width: 80%;
@@ -65,7 +61,7 @@
       }
       &--Number {
         margin: 0;
-        font-size: 6vw;
+        font-size: 6.5vw;
         transition: 0.3s;
         cursor: default;
         will-change: color;

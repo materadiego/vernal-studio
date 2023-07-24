@@ -1,5 +1,4 @@
 import { useState } from "react";
-import TitleLine from "../../Assets/Images/sectiontitle-line.svg";
 import BrandingImageMobile from "../../Assets/Images/servicios1.webp";
 import WebDesignImageMobile from "../../Assets/Images/servicios2.webp";
 import UxUiImageMobile from "../../Assets/Images/servicios3.webp";
@@ -49,7 +48,7 @@ export default function HomeServices() {
       <div className="HomeServicesContainer">
         {/* SECTION TITLE */}
         <h2 className="HomeServicesContainer__SectionTitle SectionTitle">
-          Servicios <img src={TitleLine} alt="Icon"></img>
+          <span className="SectionTitle__Circle"></span> Servicios
         </h2>
         {/* SECTIONS */}
         <div className="HomeServicesContainer__Subcontainer">

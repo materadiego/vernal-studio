@@ -4,30 +4,56 @@ html {
 
 .SectionTitle {
   display: flex;
+  align-items: center;
   margin: 0 0 5vw;
-  font-size: 3.8vw;
-  font-weight: 500;
+  font-size: 3.7vw;
+  font-weight: 400;
   font-family: $Font2;
-  & img {
-    width: 4vw;
-    margin: 1.5vw 0 0 2vw;
+  &__Circle {
+    width: 2.3vw;
+    height: 2.3vw;
+    border-radius: 50vw;
+    margin-right: 1.5vw;
+    background-color: $color-variacion2;
   }
 }
 
 .Title {
   font-weight: 500;
-  font-size: 6.8vw;
   line-height: 115%;
 
   font-family: $Font1;
 }
 
+.Title-BigFont {
+  font-size: 8.7vw;
+}
+
+.Title-MediumFont {
+  font-size: 6.8vw;
+}
+
+.Title-SmallFont {
+  font-size: 5vw;
+}
+
 .Text {
-  font-size: 3.65vw;
   font-weight: 300;
   line-height: 140%;
 
   font-family: $Font2;
+}
+
+.Text-BigFont {
+  font-size: 4vw;
+}
+
+.Text-MediumFont {
+  font-size: 3.75vw;
+}
+
+.Text-SmallFont {
+  font-size: 3.2vw;
 }
 
 .Button {
@@ -40,17 +66,17 @@ html {
 }
 
 .Button-Arrow {
-  width: 18vw;
-  height: 18vw;
+  width: 20vw;
+  height: 20vw;
   left: 0;
   transition: 0.3s;
   position: absolute;
   border-radius: 100vw;
   background-color: rgba(100, 100, 100, 0.5);
   background-image: url(../../Assets/Images/button-arrow.svg);
-  background-size: 6vw;
+  background-size: 7vw;
   background-repeat: no-repeat;
-  background-position: 5.5vw center;
+  background-position: 6vw center;
   will-change: width background-position;
 }
 
@@ -96,23 +122,43 @@ html {
 @media screen and (min-width: 1099px) {
   .SectionTitle {
     margin: 0 0 4vw;
-    font-size: 20px;
-    & img {
-      width: 0.8vw;
-      margin: 0.7vw 0 0 0.4vw;
+    font-size: 18px;
+    &__Circle {
+      width: 0.6vw;
+      height: 0.6vw;
+      margin-right: 0.5vw;
     }
   }
 
-  .Title {
+  .Title-BigFont {
+    font-size: 4vw;
+  }
+
+  .Title-MediumFont {
     font-size: 3.3vw;
   }
 
+  .Title-SmallFont {
+    font-size: 1.3vw;
+  }
+
   .Text {
-    font-size: 1.1vw;
     line-height: 150%;
   }
 
-  .Button {
+  .Text-BigFont {
+    font-size: 1.17vw;
+  }
+
+  .Text-MediumFont {
+    font-size: 1.1vw;
+  }
+
+  .Text-SmallFont {
+    font-size: 0.9vw;
+  }
+
+  .Text .Button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,8 +201,10 @@ html {
 
   // Social media animation
   .Media-Container-Animation {
-    width: 1.2vw;
-    height: 1.2vw;
+    width: 2.3vw;
+    height: 2.3vw;
+    border-radius: 50vw;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,8 +213,8 @@ html {
 
   .Media-Animation {
     display: flex;
-    width: 2.1vw;
-    height: 2.1vw;
+    width: 2.3vw;
+    height: 2.3vw;
     opacity: 0;
     transition: 0.3s;
     will-change: transform;
@@ -188,17 +236,14 @@ html {
   }
 
   .Media-Ig {
-    width: 95%;
+    width: 55%;
     margin-left: -0.05vw;
   }
   .Media-Be {
-    width: 100%;
+    width: 65%;
   }
   .Media-In {
-    width: 80%;
-  }
-  .Media-Wsp {
-    width: 100%;
+    width: 50%;
   }
 
   .Span-Animation {

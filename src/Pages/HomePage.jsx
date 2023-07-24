@@ -25,19 +25,14 @@ export default function HomePage() {
     console.log("cambio");
     let pathname = location.pathname;
     if (pathname === "/about-us") {
-      console.log("About Us");
       goTo(aboutUs);
     } else if (pathname === "/services") {
-      console.log("Services");
       goTo(services);
     } else if (pathname === "/approach") {
-      console.log("Approach");
       goTo(approach);
     } else if (pathname === "/contact") {
-      console.log("Contact");
       goTo(contact);
     } else {
-      console.log("Home");
       goTo(home);
     }
   }, [location]);

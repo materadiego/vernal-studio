@@ -1,5 +1,4 @@
 .NavBar {
-  padding: 5vw 0 0;
   position: absolute;
   top: 0;
   width: 100%;
@@ -12,12 +11,12 @@
   position: relative;
   display: flex;
   align-items: center;
+  padding: 5vw 0 0;
   &__MenuButton {
     width: 8.5vw;
     height: 8.5vw;
     left: 0;
-    top: 1vw;
-    margin-top: 2vw;
+    top: 4vw;
     z-index: 500;
     display: flex;
     justify-content: center;
@@ -26,7 +25,7 @@
   }
   &__Logo {
     width: 25vw;
-    margin: 3.5vw auto 0;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     &--Image {
@@ -34,7 +33,7 @@
     }
   }
   &__LanguageButton {
-    top: 3vw;
+    top: 6vw;
     right: 0;
     padding: 1vw 2vw;
     font-size: 4vw;
@@ -49,7 +48,6 @@
     will-change: box-shadow transform;
     font-family: $Font1;
     color: $color-secundario;
-    background-color: $color-claro;
     &--Selected {
       width: 100%;
       margin: 0;
@@ -64,7 +62,7 @@
 .NavBarContainer__MenuButton.MenuButtonFixed {
   position: fixed;
   left: 5%;
-  top: 6vw;
+  top: 4vw;
 }
 
 .Menu-Button-Span {
@@ -167,28 +165,6 @@
   animation-fill-mode: forwards;
 }
 
-// .Menu-Button-Span.Menu-Button-1.MenuButtonIsActive {
-//   background-color: #000;
-//   width: 3vw;
-//   height: 3vw;
-//   transform: rotateZ(45deg) translateY(0) translateX(0);
-// }
-// .Menu-Button-Span.Menu-Button-2.menuButtonIsActive {
-//   width: 3vw;
-//   height: 3vw;
-//   transform: rotateZ(45deg) translateY(0) translateX(0);
-// }
-// .Menu-Button-Span.Menu-Button-3.menuButtonIsActive {
-//   width: 3vw;
-//   height: 3vw;
-//   transform: rotateZ(45deg) translateY(0) translateX(0);
-// }
-// .Menu-Button-Span.Menu-Button-4.menuButtonIsActive {
-//   width: 3vw;
-//   height: 3vw;
-//   transform: rotateZ(45deg) translateY(0) translateX(0);
-// }
-
 .Menu {
   width: 100%;
   height: 100vh;
@@ -202,40 +178,21 @@
 }
 
 .MenuContainer {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
-  padding: 8vw 0 4vw;
+  padding: 0 0 4vw;
   overflow: hidden;
   &__Top {
     width: 100%;
+    padding: 5vw 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     overflow: hidden;
     position: relative;
-    &--CloseButton {
-      width: 8vw;
-      height: 8vw;
-      border-radius: 100vw;
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      will-change: transform;
-      transform: scale(0);
-      background-color: $color-variacion2;
-
-      display: none;
-
-      & img {
-        width: 3.5vw;
-        border-radius: 100vw;
-        position: absolute;
-      }
-    }
     &--Logo {
       width: 25vw;
-      margin: 0 auto;
+      margin: 0;
       will-change: transform;
     }
     &--LanguageButton {
@@ -244,29 +201,29 @@
       will-change: transform;
       position: absolute;
       right: 0;
-      top: 2vw;
+      top: 6vw;
       font-family: $Font1;
       color: $color-claro;
     }
   }
   &__Links {
     width: 40vw;
-    margin: 10vw 0 0;
+    margin: 10vw 0 5vw;
     display: flex;
     flex-direction: column;
     overflow: hidden;
     &--Options {
-      margin: 5.5vw 0;
+      margin: 4vw 0;
       text-decoration: none;
       will-change: transform;
-      font-size: 5.5vw;
+      font-size: 8vw;
       font-weight: 500;
       color: $color-claro;
       font-family: $Font1;
     }
   }
   &__Media {
-    margin: 12vw 0 0;
+    margin: 10vw 0 0;
     padding: 7vw 0;
     display: flex;
     align-items: center;
@@ -279,7 +236,7 @@
       display: flex;
       position: absolute;
       will-change: transform;
-      border-top: 0.4vw solid #aaa;
+      border-top: 2px solid #333;
       transform: translateX(-100vw);
     }
     &--Link {
@@ -292,7 +249,7 @@
     }
   }
   &__Contact {
-    width: 59vw;
+    width: 63vw;
 
     margin: 0 0;
     &--Arrow {
@@ -329,6 +286,7 @@
     padding: 2vw 0 1vw;
   }
   .NavBarContainer {
+    padding: 0;
     &__MenuButton {
       width: 2vw;
       height: 2vw;
@@ -439,7 +397,7 @@
     &__Media {
       width: 16vw;
       height: 4vw;
-      bottom: 2vw;
+      bottom: 4vw;
       left: 15%;
       margin: 0;
       padding: 0;
@@ -448,15 +406,11 @@
       &--Line {
         display: none;
       }
-      &--Link {
-        width: 2.1vw;
-        height: 2.1vw;
-      }
     }
     &__Contact {
-      width: 17.2vw;
+      width: 17.5vw;
       right: 20%;
-      bottom: 1vw;
+      bottom: 3vw;
       margin: 0;
       &--Arrow {
         transform: scale(0);
@@ -470,7 +424,7 @@
   .MenuContainer__Contact.Button {
     position: absolute;
     padding: 1vw 0;
-    transform: scale(0.8);
+    // transform: scale(0.8);
   }
 
   .Menu-Media-Animation.Media-Animation {
@@ -478,9 +432,9 @@
   }
 
   .NavBar-Line-Container {
-    width: 85%;
+    width: 90%;
     height: 0.5vw;
-    bottom: 10vw;
+    bottom: 13vw;
     display: flex;
     position: absolute;
     overflow: hidden;

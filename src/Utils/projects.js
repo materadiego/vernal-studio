@@ -1,4 +1,5 @@
 const projects = [
+  // LOOP3
   {
     id: 1,
     projectName: "Loop3",
@@ -19,6 +20,7 @@ const projects = [
     location: "Pocitos, Uruguay",
     templateNumber: "1",
   },
+  // MADERO TANGO
   {
     id: 2,
     projectName: "Madero Tango",
@@ -38,6 +40,7 @@ const projects = [
     location: "Buenos Aires, Argentina",
     templateNumber: "2",
   },
+  // DALEPLAST
   {
     id: 3,
     projectName: "Daleplast",
@@ -82,6 +85,7 @@ const projects = [
     image12:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-daleplast12.webp",
   },
+  // TU ESPACIO
   {
     id: 4,
     projectName: "Tu Espacio",
@@ -126,6 +130,7 @@ const projects = [
     image12:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-tuespacio12.webp",
   },
+  // BIM FORMATION
   {
     id: 5,
     projectName: "Bim Formation",
@@ -170,6 +175,7 @@ const projects = [
     image12:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation12.webp",
   },
+  // SUPRA
   {
     id: 6,
     projectName: "Supra",
@@ -214,6 +220,7 @@ const projects = [
     image12:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra12.webp",
   },
+  // NOVAR
   {
     id: 7,
     projectName: "Novar",
@@ -263,6 +270,96 @@ const projects = [
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-novar14.webp",
     image15:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-novar15.webp",
+  },
+  // LA CHURRERIA
+  {
+    id: 8,
+    projectName: "La Churrería",
+    projectSubtitle: "Frase resumen",
+    heroImage:
+      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+    description1:
+      "Tu Espacio es una marca de diseño de interiores nacida en Tucumán, Argentina, con un enfoque claro: reinventar el diseño de interiores a través de una propuesta digital y personalizada. Especialmente dirigida a un público joven, familiarizado con las nuevas tendencias y con un espíritu emprendedor, nos embarcamos en el desafío de crear una identidad completa para este proyecto.",
+    description2:
+      "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
+    imgPreview:
+      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+    service1: "Conceptual",
+    service2: "Logo",
+    service3: "Branding",
+    service4: "Social media",
+    service5: "Packaging",
+    location: "Tucumán, Argentina",
+    templateNumber: "2",
+    image1:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra1.webp",
+    image2:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra3.webp",
+    image3:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra2.webp",
+    image4:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra4.webp",
+    image5:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra5.webp",
+    image6:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra6.webp",
+    image7:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra7.webp",
+    image8:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra8.webp",
+    image9:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra9.webp",
+    image10:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra10.webp",
+    image11:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra11.webp",
+    image12:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra12.webp",
+  },
+  // INADEA
+  {
+    id: 9,
+    projectName: "Inadea",
+    projectSubtitle: "Frase resumen",
+    heroImage:
+      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+    description1:
+      "Tu Espacio es una marca de diseño de interiores nacida en Tucumán, Argentina, con un enfoque claro: reinventar el diseño de interiores a través de una propuesta digital y personalizada. Especialmente dirigida a un público joven, familiarizado con las nuevas tendencias y con un espíritu emprendedor, nos embarcamos en el desafío de crear una identidad completa para este proyecto.",
+    description2:
+      "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
+    imgPreview:
+      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+    service1: "Conceptual",
+    service2: "Logo",
+    service3: "Branding",
+    service4: "Social media",
+    service5: "Packaging",
+    location: "Tucumán, Argentina",
+    templateNumber: "2",
+    image1:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra1.webp",
+    image2:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra3.webp",
+    image3:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra2.webp",
+    image4:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra4.webp",
+    image5:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra5.webp",
+    image6:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra6.webp",
+    image7:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra7.webp",
+    image8:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra8.webp",
+    image9:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra9.webp",
+    image10:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra10.webp",
+    image11:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra11.webp",
+    image12:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra12.webp",
   },
 ];
 

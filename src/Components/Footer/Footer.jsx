@@ -19,37 +19,37 @@ export default function Footer() {
               className="FooterContainer__LogoSubcontainer--Image"
             ></img>
           </Link>
-          <p className="FooterContainer__LogoSubcontainer--Text">
+          <p className="FooterContainer__LogoSubcontainer--Text Text-SmallFont">
             <span>Estudio boutique creativo</span>Branding. UX. Social media &
             más.
           </p>
         </div>
         {/* CONTACT SECTION */}
         <div className="FooterContainer__ContactSubcontainer">
-          <h4 className="FooterContainer__ContactSubcontainer--Title Footer-Title Title">
+          <h4 className="FooterContainer__ContactSubcontainer--Title Footer-Title Title-SmallFont Title">
             Contacto
           </h4>
-          <p className="FooterContainer__ContactSubcontainer--Text">
+          <p className="FooterContainer__ContactSubcontainer--Text Text-SmallFont">
             <span>e:</span> hello@vernalstudio.com
           </p>
-          <p className="FooterContainer__ContactSubcontainer--Text">
+          <p className="FooterContainer__ContactSubcontainer--Text Text-SmallFont">
             <span>t:</span> +54 9 11 6457 2427
           </p>
-          <p className="FooterContainer__ContactSubcontainer--Location">
+          <p className="FooterContainer__ContactSubcontainer--Location Text-SmallFont">
             {" "}
             Caamaño 1100, Pilar, Buenos Aires
           </p>
         </div>
         {/* SITEMAP SECTION */}
         <div className="FooterContainer__SiteMapSubcontainer">
-          <h4 className="FooterContainer__SiteMapSubcontainer--Title Footer-Title Title">
+          <h4 className="FooterContainer__SiteMapSubcontainer--Title Title-SmallFont Footer-Title Title">
             Mapa de sitio
           </h4>
           <Link
             to="/about-us"
             className="FooterContainer__SiteMapSubcontainer--Link"
           >
-            <p>Nosotros</p>
+            <p className="Text-SmallFont">Nosotros</p>
             <img src={arrow} alt="arrow" className="SiteMap-Arrow"></img>
           </Link>
           <Link
@@ -57,7 +57,7 @@ export default function Footer() {
             href="#home"
             className="FooterContainer__SiteMapSubcontainer--Link"
           >
-            <p>Proyectos</p>
+            <p className="Text-SmallFont">Proyectos</p>
             <img src={arrow} alt="arrow" className="SiteMap-Arrow"></img>
           </Link>
           <Link
@@ -65,7 +65,7 @@ export default function Footer() {
             href="#home"
             className="FooterContainer__SiteMapSubcontainer--Link"
           >
-            <p>Approach</p>
+            <p className="Text-SmallFont">Approach</p>
             <img src={arrow} alt="arrow" className="SiteMap-Arrow"></img>
           </Link>
           <Link
@@ -73,13 +73,13 @@ export default function Footer() {
             href="#home"
             className="FooterContainer__SiteMapSubcontainer--Link"
           >
-            <p>Servicios</p>
+            <p className="Text-SmallFont">Servicios</p>
             <img src={arrow} alt="arrow" className="SiteMap-Arrow"></img>
           </Link>
         </div>
         {/* SOCIAL MEDIA */}
         <div className="FooterContainer__MediaSubcontainer">
-          <h4 className="FooterContainer__MediaSubcontainer--Title Footer-Title Title">
+          <h4 className="FooterContainer__MediaSubcontainer--Title Title-SmallFont Footer-Title Title">
             ¡Seguinos!
           </h4>
           <a
@@ -116,13 +116,13 @@ export default function Footer() {
             ></img>
           </a>
         </div>
-        <a href="#header" className="FooterContainer__ArrowUp">
+        <Link to="/home" className="FooterContainer__ArrowUp">
           <img
             src={arrowUp}
             alt="Arrow-Up"
             className="FooterContainer__ArrowUp--Image"
           ></img>
-        </a>
+        </Link>
       </div>
     </footer>
   );

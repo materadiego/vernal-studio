@@ -1,4 +1,3 @@
-import TitleLine from "../../Assets/Images/sectiontitle-line.svg";
 import LoopBg from "../../Assets/Images/projects-loop3-bg.webp";
 import LoopLogo from "../../Assets/Images/projects-loop3-logo.png";
 import MaderoBg from "../../Assets/Images/projects-maderotango-bg.webp";
@@ -17,23 +16,23 @@ export default function HomeProjects() {
         <div className="HomeProjectsContainer__Circle"></div>
         {/* SECTION TITLE */}
         <h2 className="HomeProjectsContainer__SectionTitle SectionTitle">
-          Nosotros <img src={TitleLine} alt="Icon"></img>
+          <span className="SectionTitle__Circle"></span> Nosotros
         </h2>
         {/* TITLE */}
-        <h3 className="HomeProjectsContainer__Title Title">
+        <h3 className="HomeProjectsContainer__Title Title-MediumFont Title">
           Somos un estudio 360° dedicado a impulsar marcas combinando la
           creatividad y estrategia.
         </h3>
         {/* LINE */}
         <div className="HomeProjectsContainer__Line"></div>
         {/* TEXT */}
-        <p className="HomeProjectsContainer__Description Text Mobile">
+        <p className="HomeProjectsContainer__Description Text-MediumFont Text Mobile">
           {" "}
           <span>Participamos en cada etapa del proyecto,</span> desde la
           estrategia y posicionamiento, hasta la implementación de identidades
           visuales y experiencias digitales que conecten con tu comunidad.
         </p>
-        <p className="HomeProjectsContainer__Description Text Desktop">
+        <p className="HomeProjectsContainer__Description Text-MediumFont Text Desktop">
           {" "}
           <span>Participamos en cada etapa del proyecto,</span> desde <br /> la
           estrategia y posicionamiento, hasta la implementación de identidades
@@ -42,13 +41,13 @@ export default function HomeProjects() {
         {/* SECTION TITLE */}
         <h2
           id="Proyectos"
-          className="HomeProjectsContainer__SectionTitle SectionTitle"
+          className="HomeProjectsContainer__SectionTitle  SectionTitle"
         >
-          Proyectos <img src={TitleLine} alt="Icon"></img>
+          <span className="SectionTitle__Circle"></span> Proyectos
         </h2>
         {/* PROJECTS CONTAINER */}
         <div className="HomeProjectsContainer__Projects">
-          <p className="HomeProjectsContainer__Projects--Title Title">
+          <p className="HomeProjectsContainer__Projects--Title Title-MediumFont Title">
             Nuestra selección
           </p>
           {/* PROJECT BOX */}
@@ -67,8 +66,10 @@ export default function HomeProjects() {
                 ></img>
               </div>
             </div>
-            <p className="ProjectBox__Title">Loop3</p>
-            <p className="ProjectBox__Location">Buenos Aires, ARG</p>
+            <p className="ProjectBox__Title Title-SmallFont ">Loop3</p>
+            <p className="ProjectBox__Location Title-SmallFont">
+              Buenos Aires, ARG
+            </p>
           </Link>
           {/* PROJECT BOX */}
           <Link to="/projects/2" className="ProjectBox">
@@ -86,8 +87,10 @@ export default function HomeProjects() {
                 ></img>
               </div>
             </div>
-            <p className="ProjectBox__Title">Madero Tango</p>
-            <p className="ProjectBox__Location">Buenos Aires, ARG</p>
+            <p className="ProjectBox__Title Title-SmallFont">Madero Tango</p>
+            <p className="ProjectBox__Location Title-SmallFont">
+              Buenos Aires, ARG
+            </p>
           </Link>
           {/* PROJECT BOX */}
           <Link to="/projects/3" className="ProjectBox">
@@ -105,8 +108,10 @@ export default function HomeProjects() {
                 ></img>
               </div>
             </div>
-            <p className="ProjectBox__Title">Daleplast</p>
-            <p className="ProjectBox__Location">Buenos Aires, ARG</p>
+            <p className="ProjectBox__Title Title-SmallFont">Daleplast</p>
+            <p className="ProjectBox__Location Title-SmallFont">
+              Buenos Aires, ARG
+            </p>
           </Link>
           {/* PROJECT BOX */}
           <Link to="/projects/4" className="ProjectBox">
@@ -124,8 +129,10 @@ export default function HomeProjects() {
                 ></img>
               </div>
             </div>
-            <p className="ProjectBox__Title">Tu Espacio</p>
-            <p className="ProjectBox__Location">Buenos Aires, ARG</p>
+            <p className="ProjectBox__Title Title-SmallFont">Tu Espacio</p>
+            <p className="ProjectBox__Location Title-SmallFont">
+              Buenos Aires, ARG
+            </p>
           </Link>
         </div>
         {/* MORE BUTTON */}
