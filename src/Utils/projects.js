@@ -292,29 +292,29 @@ const projects = [
     location: "Tucumán, Argentina",
     templateNumber: "2",
     image1:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra1.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-churreria1.webp",
     image2:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra3.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-churreria2.webp",
     image3:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra2.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-churreria3.webp",
     image4:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-churreria4.webp",
     image5:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra5.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-churreria5.webp",
     image6:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra6.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-churreria6.webp",
     image7:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra7.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-churreria7.webp",
     image8:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra8.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-churreria8.webp",
     image9:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra9.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-churreria9.webp",
     image10:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra10.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-churreria10.webp",
     image11:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra11.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-churreria11.webp",
     image12:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra12.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-churreria12.webp",
   },
   // INADEA
   {
@@ -337,29 +337,80 @@ const projects = [
     location: "Tucumán, Argentina",
     templateNumber: "2",
     image1:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra1.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-inadea1.webp",
     image2:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra3.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-inadea3.webp",
     image3:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra2.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-inadea2.webp",
     image4:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-inadea4.webp",
     image5:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra5.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-inadea5.webp",
     image6:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra6.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-inadea6.webp",
     image7:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra7.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-inadea7.webp",
     image8:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra8.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-inadea8.webp",
     image9:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra9.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-inadea9.webp",
     image10:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra10.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-inadea10.webp",
     image11:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra11.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-inadea11.webp",
     image12:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra12.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-inadea12.webp",
+  },
+  // SANDWICH TIME
+  {
+    id: 10,
+    projectName: "SandwichTime",
+    projectSubtitle: "La IA transforma la industria óptica",
+    heroImage:
+      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+    description1:
+      "Tu Espacio es una marca de diseño de interiores nacida en Tucumán, Argentina, con un enfoque claro: reinventar el diseño de interiores a través de una propuesta digital y personalizada. Especialmente dirigida a un público joven, familiarizado con las nuevas tendencias y con un espíritu emprendedor, nos embarcamos en el desafío de crear una identidad completa para este proyecto.",
+    description2:
+      "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
+    imgPreview:
+      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+    service1: "Conceptual",
+    service2: "Logo",
+    service3: "Branding",
+    service4: "Social media",
+    service5: "Packaging",
+    location: "Tucumán, Argentina",
+    templateNumber: "3",
+    image1:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sandwich1.webp",
+    image2:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sandwich2.webp",
+    image3:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sandwich3.webp",
+    image4:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sandwich5.webp",
+    image5:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sandwich4.webp",
+    image6:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sandwich6.webp",
+    image7:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sandwich7.webp",
+    image8:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sandwich8.webp",
+    image9:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sandwich9.webp",
+    image10:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sandwich10.webp",
+    image11:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sandwich11.webp",
+    image12:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sandwich12.webp",
+    image13:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sandwich13.webp",
+    image14:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sandwich14.webp",
+    image15:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sandwich15.webp",
   },
 ];
 
