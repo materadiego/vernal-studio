@@ -166,10 +166,22 @@
     margin: 0 0 1vw;
     padding: 0;
     display: flex;
-
+    &:hover .ProjectList-Project__Image img {
+      transform: scale(1.05);
+    }
     &__Image {
       width: 100%;
+
       margin: 0 0 1.5vw;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      & img {
+        width: 100%;
+        transition: 0.5s;
+        will-change: transform;
+      }
     }
     &__Title {
       margin: 0 0 0.3vw;

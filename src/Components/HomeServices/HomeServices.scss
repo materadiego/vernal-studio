@@ -1,59 +1,67 @@
 .HomeServicesContainer {
   padding: 8vw 0 0;
-
-  &__Subcontainer {
-    margin: 7vw 0 0;
-    position: relative;
-    &--Title {
-      width: 90%;
-      height: 190vw;
-      margin: 0 5% 10vw;
-      font-size: 9vw;
-      font-weight: 600;
-      font-family: $Font1;
-      &:nth-child(2) {
-        height: 177vw;
-      }
-    }
-  }
 }
 
 .HomeServicesContainer__SectionTitle.SectionTitle {
   margin-left: 5%;
 }
 
-.ServicesSlider {
-  top: 0;
-  position: absolute;
-  &__Wrapper {
-    &--Slide {
-      height: 175vw;
-      margin: 0 0 10vw;
-      padding: 15vw 0 0;
-      &:nth-child(2) {
-        height: 162vw;
-      }
-    }
-  }
+.ServiceContainer {
+  width: 90%;
+  margin: 0 auto 3vw;
+  overflow: hidden;
+  transition: 0.3s;
+  will-change: height;
+  border-bottom: 1px solid #dddddd;
+}
+
+.ServiceContainer-Title {
+  width: 100%;
+  margin: 0 0 5vw;
+  padding: 4vw 0;
+  font-size: 9vw;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  font-family: $Font1;
+}
+
+.ServiceContainer-Title-Arrow {
+  width: 3.5vw;
+  margin-right: 5vw;
+  transition: 0.3s;
+  will-change: transform;
+}
+
+.ServiceContainer-ServicesWrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ServiceContainer-ServicesWrapper--Open {
+  opacity: 1;
+}
+
+.ServiceContainer-ServicesWrapper--Close {
+  opacity: 0;
 }
 
 .ServicesSlide-Subtitle {
-  width: 90%;
-  margin: 0 5% 5vw;
+  width: 100%;
+  margin: 0 0 5vw;
   font-size: 8vw;
   font-weight: 500;
   font-family: $Font1;
 }
 
 .ServicesSlide-Text {
-  width: 90%;
-  height: 14vw;
+  width: 100%;
+  height: 12vw;
   margin: 0 auto;
   font-weight: 300;
   font-size: 3.7vw;
   display: flex;
   align-items: center;
-  border-bottom: 2px solid #eeeeee;
   font-family: $Font2;
   &__Number {
     width: 9.5vw;
@@ -64,182 +72,145 @@
   }
 }
 
-.Services-span4 {
-  margin-right: 1vw;
-}
-
-.ServicesSlide-Image {
-  width: 100vw;
+.HomeServicesContainer-ImageContainer {
+  width: 100%;
   height: 85vw;
-  margin: 10vw 0;
-  background-image: url(../../Assets/Images/services-bgimg.webp);
-  background-size: 60%;
+  margin: 15vw 0;
+  background-image: url("../../Assets/Images/services-bgimg-mobile.webp");
+  background-size: 70%;
   background-repeat: no-repeat;
-  display: flex;
-  & img {
-    width: 80%;
-  }
+  transition: 0.6s;
+  will-change: background-position;
 }
 
-.Services-Image-Right1 {
-  background-position: right center;
-  justify-content: center;
-  align-items: center;
+.ServicesBgPosition1 {
+  background-position: 20% bottom;
 }
-.Services-Image-Left1 {
-  background-position: left bottom;
-  justify-content: center;
-  align-items: flex-start;
+
+.ServicesBgPosition2 {
+  background-position: 80% bottom;
 }
-.Services-Image-Right2 {
-  background-position: right center;
-  justify-content: center;
-  align-items: center;
+
+.ServicesBgPosition3 {
+  background-position: 20% top;
 }
-.Services-Image-Left2 {
-  background-position: left top;
-  justify-content: center;
-  align-items: flex-end;
+
+.ServicesBgPosition4 {
+  background-position: 80% top;
+}
+
+.HomeServicesContainer-ImageContainer-Image {
+  width: 100%;
+  height: 100%;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  transition: 0.6s;
+  will-change: background-image;
+}
+
+.ServicesImage-1 {
+  background-image: url("../../Assets/Images/servicios1.webp");
+  background-position: 70% 10%;
+}
+.ServicesImage-2 {
+  background-image: url("../../Assets/Images/servicios2.webp");
+  background-position: 20% bottom;
+}
+.ServicesImage-3 {
+  background-image: url("../../Assets/Images/servicios3.webp");
+  background-position: center 90%;
+}
+.ServicesImage-4 {
+  background-image: url("../../Assets/Images/servicios4.webp");
+  background-position: 20% bottom;
 }
 
 @media screen and (min-width: 1099px) {
   .HomeServicesContainer {
     width: 80%;
+    height: 42vw;
     margin: 0 auto;
-    padding: 5vw 0 0vw;
-    &__Subcontainer {
-      height: 44vw;
-      margin-top: -2.5vw;
-      padding-top: 4vw;
-      overflow: hidden;
-      position: relative;
-      &--Title {
-        width: 32%;
-        height: 4vw;
-        margin: 0 0 2vw;
-        font-size: 4vw;
-        transition: 0.3s;
-        will-change: color;
-        cursor: pointer;
-        &:nth-child(2) {
-          height: 4vw;
-        }
-        &:hover {
-          color: $color-variacion2;
-        }
-      }
-    }
+    padding: 5vw 0 10vw;
+
+    position: relative;
   }
 
   .HomeServicesContainer__SectionTitle.SectionTitle {
     margin-left: 0;
   }
 
-  .ServicesSlider {
-    width: 50%;
-    height: auto;
-    top: 0;
-    right: 0;
-    position: absolute;
-    overflow: hidden;
-    background-image: url(../../Assets/Images/services-bgimg.webp);
-    background-size: 60%;
-    background-repeat: no-repeat;
-    transition: 0.5s;
-    animation-timing-function: ease-in;
-    will-change: background-position;
-    &__Wrapper {
-      width: 400%;
-      opacity: 0;
-      display: flex;
-      will-change: margin;
-      &--Slide {
-        width: 100%;
-        height: 50vw;
-        margin: 0;
-        padding: 0;
-        position: relative;
-        &:nth-child(2) {
-          height: 56vw;
-        }
-      }
-    }
+  .ServiceContainer {
+    width: 45%;
+    margin: 0 0 1.5vw 55%;
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .ServiceContainer-Title {
+    margin: 0 0 1vw;
+    padding: 0;
+    font-size: 3vw;
+    cursor: pointer;
+    will-change: color;
+    transition: 0.3s;
+  }
+
+  .ServiceContainer-Title:hover {
+    color: $color-variacion2;
+  }
+
+  .ServiceContainer-Title-Arrow {
+    width: 1vw;
+    margin-right: 2vw;
+    transition: 0.3s;
+    will-change: transform;
   }
 
   .ServicesSlide-Subtitle {
-    width: 80%;
+    width: 57%;
     margin: 0 0 1vw;
-    font-size: 3vw;
-    opacity: 0;
+    font-size: 2vw;
   }
 
   .ServicesSlide-Text {
-    width: 85%;
-    height: 4vw;
-    margin: 0;
-    padding: 0 0 0.5vw;
-    font-weight: 400;
-    font-size: 1.05vw;
-    opacity: 0;
-    will-change: opacity;
-    font-family: $Font3;
+    height: 2.5vw;
+    margin: 0 auto;
+    font-size: 1vw;
+
     &__Number {
       width: 3vw;
-      margin-right: 0.8vw;
-      font-size: 1.5vw;
+      margin-right: 0;
+      font-size: 1.3vw;
     }
   }
 
-  .ServicesSlide-Image {
-    width: 100%;
-    height: 45%;
-    bottom: -4vw;
-    margin: 0 0;
-    opacity: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .HomeServicesContainer-ImageContainer {
+    width: 45%;
+    height: 28vw;
+    top: 10vw;
+    margin: 0;
+    background-size: 70%;
     position: absolute;
-    background-image: none;
-    & img {
-      width: 80%;
-      opacity: 0;
-    }
   }
 
-  .Services-Image-Right1 {
-    background-position: right center;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .Services-Image-Left1 {
-    background-position: left bottom;
-    justify-content: center;
-    align-items: flex-start;
-    height: 62%;
-  }
-  .Services-Image-Right2 {
-    background-position: right center;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .Services-Image-Left2 {
-    background-position: left top;
-    justify-content: center;
-    align-items: center;
-    height: 56%;
+  .HomeServicesContainer-ImageContainer-Image {
+    width: 100%;
+    height: 100%;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    will-change: background-image;
   }
 
-  .ServicesBgPosition1 {
-    background-position: right 30vw;
+  .ServicesImage-1 {
+    background-image: url("../../Assets/Images/servicios5.webp");
   }
-  .ServicesBgPosition2 {
-    background-position: left 29vw;
+  .ServicesImage-2 {
+    background-image: url("../../Assets/Images/servicios6.webp");
   }
-  .ServicesBgPosition3 {
-    background-position: right 29vw;
+  .ServicesImage-3 {
+    background-image: url("../../Assets/Images/servicios7.webp");
   }
-  .ServicesBgPosition4 {
-    background-position: left 30vw;
+  .ServicesImage-4 {
+    background-image: url("../../Assets/Images/servicios8.webp");
   }
 }

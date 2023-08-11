@@ -28,6 +28,25 @@
   }
 }
 
+// RotateZ animation
+@keyframes rotateZanimationIn {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(180deg);
+  }
+}
+
+@keyframes rotateZanimationOut {
+  0% {
+    transform: rotateZ(180deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
 // Header
 @keyframes headerAnimation {
   0% {
@@ -214,6 +233,47 @@
   }
   100% {
     transform: translateX(0) translateY(0vw);
+  }
+}
+
+// SERVICES
+@keyframes serviceContainerOpen {
+  0% {
+    height: 20vw;
+  }
+
+  100% {
+    height: 100vw;
+  }
+}
+
+@keyframes serviceContainerClose {
+  0% {
+    height: 100vw;
+  }
+
+  100% {
+    height: 20vw;
+  }
+}
+
+@keyframes serviceContainerOpen2 {
+  0% {
+    height: 20vw;
+  }
+
+  100% {
+    height: 90vw;
+  }
+}
+
+@keyframes serviceContainerClose2 {
+  0% {
+    height: 90vw;
+  }
+
+  100% {
+    height: 20vw;
   }
 }
 
@@ -453,6 +513,47 @@
     100% {
       opacity: 1;
       margin-left: -300%;
+    }
+  }
+
+  // SERVICES
+  @keyframes serviceContainerOpen {
+    0% {
+      height: 5vw;
+    }
+
+    100% {
+      height: 22vw;
+    }
+  }
+
+  @keyframes serviceContainerClose {
+    0% {
+      height: 22vw;
+    }
+
+    100% {
+      height: 5vw;
+    }
+  }
+
+  @keyframes serviceContainerOpen2 {
+    0% {
+      height: 5vw;
+    }
+
+    100% {
+      height: 19.5vw;
+    }
+  }
+
+  @keyframes serviceContainerClose2 {
+    0% {
+      height: 19.5vw;
+    }
+
+    100% {
+      height: 5vw;
     }
   }
 }

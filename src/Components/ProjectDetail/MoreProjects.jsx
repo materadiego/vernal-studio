@@ -10,7 +10,7 @@ export default function MoreProjects() {
     const nextProject = idNumber + 1;
     const nextRoute = `/projects/${nextProject}`;
     const projectOne = `/projects/1`;
-    if (idNumber === 10) {
+    if (idNumber === 11) {
       return projectOne;
     } else {
       return nextRoute;

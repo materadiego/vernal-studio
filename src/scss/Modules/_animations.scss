@@ -242,6 +242,55 @@
   transform: scale(1.1);
 }
 
+// SERVICES SECTION
+.ServiceContainer--Open {
+  animation-name: serviceContainerOpen;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.3s;
+  height: 20vw;
+}
+
+.ServiceContainer--Open2 {
+  animation-name: serviceContainerOpen2;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.3s;
+  height: 20vw;
+}
+
+.ServiceContainer--Close {
+  animation-name: serviceContainerClose;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-delay: 0;
+  height: 100vw;
+}
+
+.ServiceContainer--Close2 {
+  animation-name: serviceContainerClose2;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-delay: 0;
+  height: 90vw;
+}
+
+.ServiceContainer-Title-Arrow--Open {
+  animation-name: rotateZanimationIn;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.3s;
+  transform: rotateZ(0deg);
+}
+
+.ServiceContainer-Title-Arrow--Close {
+  animation-name: rotateZanimationOut;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-delay: 0;
+  transform: rotateZ(180deg);
+}
+
 @media screen and (min-width: 1099px) {
   // NavBar
   // NavBar-Links
@@ -444,81 +493,35 @@
   }
 
   // SERVICES SECTION
-  // Services slide animation
-  .Slide1 {
-    animation-name: slideAnimation1;
-    animation-duration: 0.2s;
+  .ServiceContainer--Open {
+    animation-name: serviceContainerOpen;
+    animation-duration: 0.3s;
     animation-fill-mode: forwards;
-  }
-  .Slide2 {
-    animation-name: slideAnimation2;
-    animation-duration: 0.2s;
-    animation-fill-mode: forwards;
-  }
-  .Slide3 {
-    animation-name: slideAnimation3;
-    animation-duration: 0.2s;
-    animation-fill-mode: forwards;
-  }
-  .Slide4 {
-    animation-name: slideAnimation4;
-    animation-duration: 0.2s;
-    animation-fill-mode: forwards;
-  }
-
-  // Services slide subtitle
-  .ServicesSlide-Subtitle.Opacity {
-    animation-name: opacityAnimation;
-    animation-duration: 1s;
     animation-delay: 0.3s;
+    height: 5vw;
+  }
+
+  .ServiceContainer--Open2 {
+    animation-name: serviceContainerOpen2;
+    animation-duration: 0.3s;
     animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+    height: 5vw;
   }
 
-  // Services text opacity animation
-  .Services-Text-Opacity-Animation {
-    animation-name: opacityAnimation;
-    animation-duration: 2s;
-    animation-delay: 0.8s;
+  .ServiceContainer--Close {
+    animation-name: serviceContainerClose;
+    animation-duration: 0.3s;
     animation-fill-mode: forwards;
+    animation-delay: 0;
+    height: 22vw;
   }
 
-  //Services span animation
-  .ServicesSpanAnimation1 {
-    animation-delay: 1.5s;
-  }
-  .ServicesSpanAnimation2 {
-    animation-delay: 1.9s;
-  }
-  .ServicesSpanAnimation3 {
-    animation-delay: 2.3s;
-  }
-  .ServicesSpanAnimation4 {
-    animation-delay: 2.7s;
-  }
-
-  .ServicesSlide-Text .Span-Animation-Block {
-    left: 8%;
-    animation-duration: 0.8s;
-  }
-
-  // .ServicesSlide-Text .Span-Animation-Block::before {
-  //   content: "";
-  //   width: 5vw;
-  //   height: 50%;
-  //   left: -6.5%;
-  //   transform: skewX(-20deg);
-  //   box-shadow: inset 0 0vw 0.5vw 0.5vw rgba(0, 0, 0, 0.2);
-  //   background: $color-variacion2;
-  //   position: absolute;
-  //   border-top-left-radius: 1vw;
-  //   border-bottom-right-radius: 1vw;
-  // }
-
-  // Services image opacity animation
-  .Services-Image-Opacity {
-    animation-name: opacityAnimation;
-    animation-duration: 2s;
-    animation-delay: 0.5s;
+  .ServiceContainer--Close2 {
+    animation-name: serviceContainerClose2;
+    animation-duration: 0.3s;
     animation-fill-mode: forwards;
+    animation-delay: 0;
+    height: 19.5vw;
   }
 }
