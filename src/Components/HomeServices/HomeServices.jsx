@@ -4,7 +4,7 @@ import arrow from "../../Assets/Images/projects-arrow-down.svg";
 export default function HomeServices() {
   const [serviceImage, setServiceImage] = useState("ServicesImage-1");
   const [bgPosition, setBgPosition] = useState("ServicesBgPosition1");
-  const [slideAnimation1, setSlideAnimation1] = useState(false);
+  const [slideAnimation1, setSlideAnimation1] = useState(true);
   const [slideAnimation2, setSlideAnimation2] = useState(false);
   const [slideAnimation3, setSlideAnimation3] = useState(false);
   const [slideAnimation4, setSlideAnimation4] = useState(false);
