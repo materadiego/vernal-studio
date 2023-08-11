@@ -19,7 +19,9 @@ export default function MoreProjects() {
 
   return (
     <div className="MoreProjectsContainer">
-      <p className="MoreProjectsContainer__Text Title">¿Querés ver más?</p>
+      <p className="MoreProjectsContainer__Text Title Title-MediumFont">
+        ¿Querés ver más?
+      </p>
       {/* MORE BUTTON */}
       <Link
         to={nextPorjectRoute(id)}
