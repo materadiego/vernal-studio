@@ -1,6 +1,6 @@
 .ProjectsListContainer {
   margin: 0 0;
-  padding: 25vw 0 0;
+  padding: 20vw 0 0;
   display: flex;
   flex-direction: column;
   background-color: $color-claro;
@@ -8,22 +8,23 @@
 
 .Projects-SectionTitle {
   width: 80%;
+  opacity: 0;
   margin: 10vw 0 4vw 5%;
+  will-change: opacity;
 }
 
 .ProjectsList--Title {
   width: 70%;
-  font-size: 8vw;
-  font-weight: 500;
-  margin: 0 0 15vw 5%;
+  margin: 0 0 0 5%;
 }
 
 .ProjectsList-Categories {
   width: 90%;
-  margin: 0 auto 5vw;
+  margin: 15vw auto 5vw;
   display: flex;
   flex-wrap: wrap;
-
+  opacity: 0;
+  will-change: opacity;
   &__Container {
     margin: 0 15vw 5vw 0;
     display: flex;
@@ -55,6 +56,11 @@
   }
 }
 
+.ProjectList-Contaier {
+  opacity: 0;
+  will-change: opacity;
+}
+
 .ProjectList-ProjectLink {
   display: flex;
   justify-content: center;
@@ -82,7 +88,6 @@
   }
   &__Title {
     margin: 0 0 2vw;
-    font-size: 6.5vw;
     font-weight: 600;
     color: $color-primario;
   }
@@ -113,12 +118,12 @@
   .ProjectsList--Title {
     width: 55%;
     font-size: 4vw;
-    margin: 0 35% 4vw 10%;
+    margin: 0 35% 0 10%;
   }
 
   .ProjectsList-Categories {
     width: 80%;
-    margin: 0 auto 4vw;
+    margin: 4vw auto;
     &__Container {
       margin: 0 6.5vw 0 0;
       cursor: pointer;

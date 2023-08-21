@@ -1,4 +1,5 @@
 import { useState } from "react";
+import useObserver from "../useObserver/useObserver";
 import arrow from "../../Assets/Images/projects-arrow-down.svg";
 
 export default function HomeServices() {
@@ -37,37 +38,32 @@ export default function HomeServices() {
     }
   };
 
-  // function handleSlide(slide, animation, bgPosition) {
-  //   setSlide(slide);
-  //   setBgPosition(bgPosition);
-  //   if (animation === 1) {
-  //     setSlideAnimation2(false);
-  //     setSlideAnimation3(false);
-  //     setSlideAnimation4(false);
-  //   } else if (animation === 2) {
-  //     setSlideAnimation1(false);
-  //     setSlideAnimation3(false);
-  //     setSlideAnimation4(false);
-  //   } else if (animation === 3) {
-  //     setSlideAnimation1(false);
-  //     setSlideAnimation2(false);
-  //     setSlideAnimation4(false);
-  //   } else if (animation === 4) {
-  //     setSlideAnimation1(false);
-  //     setSlideAnimation2(false);
-  //     setSlideAnimation3(false);
-  //   }
-  // }
+  // Itersections
+  const [elementRef1, isIntersecting1] = useObserver({
+    threshold: 0.1,
+  });
+  const [elementRef2, isIntersecting2] = useObserver({
+    threshold: 0.3,
+  });
 
   return (
-    <div className="HomeServices" id="Servicios">
+    <div ref={elementRef1} className="HomeServices" id="Servicios">
       <div className="HomeServicesContainer">
         {/* SECTION TITLE */}
-        <h2 className="HomeServicesContainer__SectionTitle SectionTitle">
+        <h2
+          className={`HomeServicesContainer__SectionTitle SectionTitle ${
+            isIntersecting1 ? "Intersecting" : "NotIntersecting"
+          }`}
+        >
           <span className="SectionTitle__Circle"></span> Servicios
         </h2>
         {/* SECTIONS */}
-        <div className="HomeServicesContainer-Subcontainer">
+        <div
+          ref={elementRef2}
+          className={`HomeServicesContainer-Subcontainer ${
+            isIntersecting2 ? "Intersecting" : "NotIntersecting"
+          }`}
+        >
           {/* Branding */}
           <div
             className={`ServiceContainer ${
@@ -318,7 +314,11 @@ export default function HomeServices() {
             </div>
           </div>
         </div>
-        <div className={`HomeServicesContainer-ImageContainer ${bgPosition}`}>
+        <div
+          className={`HomeServicesContainer-ImageContainer ${bgPosition} ${
+            isIntersecting1 ? "Intersecting" : "NotIntersecting"
+          }`}
+        >
           <div
             className={`HomeServicesContainer-ImageContainer-Image ${serviceImage}`}
           ></div>

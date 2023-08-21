@@ -204,22 +204,13 @@
 }
 
 //Hero Animations
-// Hero Title
-.Title-Mobile-Animation {
-  opacity: 0;
-  will-change: opacity;
-  animation-name: opacityAnimation;
-  animation-duration: 4s;
-  animation-delay: 1.5s;
-  animation-fill-mode: forwards;
-}
 
 // Hero Image Container
 .Image-Container-Animation {
   will-change: background-size width transform;
   animation-name: heroImageContainerAnimation;
   animation-duration: 1.1s;
-  animation-delay: 3s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
 }
 // Hero Image Background
@@ -227,7 +218,7 @@
   will-change: transform;
   animation-name: heroImageAnimation;
   animation-duration: 1.1s;
-  animation-delay: 3s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
   transform: translateX(7.5vw) translateY(10vw);
 }
@@ -237,9 +228,29 @@
   will-change: transform;
   animation-name: heroImageImgAnimation;
   animation-duration: 1.5s;
-  animation-delay: 3s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
   transform: scale(1.1);
+}
+
+//Hero text
+// Line 1
+.HeroTitle1 span {
+  animation-delay: 1.5s;
+}
+// Line 2
+.HeroTitle2 span {
+  animation-delay: 2s;
+}
+// Line 3
+.HeroTitle3 span {
+  animation-duration: 2.5s;
+  animation-delay: 2.4s;
+}
+// Line 4
+.HeroTitle4 span {
+  animation-duration: 2.5s;
+  animation-delay: 2.8s;
 }
 
 // SERVICES SECTION
@@ -291,6 +302,56 @@
   transform: rotateZ(180deg);
 }
 
+// Project List
+.Projects-SectionTitle-Animation,
+.ProjectsList-Categories-Animation,
+.ProjectList-Contaier-Animation {
+  animation-name: opacityAnimation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.Projects-SectionTitle-Animation {
+  animation-delay: 0.7s;
+}
+
+.ProjectsList--Title1 span {
+  animation-delay: 1.3s;
+}
+.ProjectsList--Title2 span {
+  animation-delay: 1.8s;
+}
+.ProjectsList--Title3 span {
+  animation-delay: 2.3s;
+}
+
+.ProjectsList-Categories-Animation {
+  animation-delay: 3s;
+}
+
+.ProjectList-Contaier-Animation {
+  animation-delay: 3.2s;
+}
+
+.ProjectDetail-Image-Animation,
+.ProjectDetail-Title-Animation {
+  animation-name: opacityAnimation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.ProjectDetail-Image-Animation {
+  animation-delay: 0.7s;
+}
+.ProjectDetail-Title-Animation {
+  animation-delay: 1s;
+}
+.ProjectDetail-Description-Animation {
+  animation-name: ProjectDetailDescription;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.3s;
+}
 @media screen and (min-width: 1099px) {
   // NavBar
   // NavBar-Links
@@ -427,7 +488,7 @@
   }
 
   // Hero
-  // Hero Title
+  // Hero Media
   .Hero-MediaImg-Animation {
     animation-name: opacityAnimation;
     animation-duration: 1s;
@@ -435,44 +496,44 @@
   }
   // Instagram
   .Hero-Media-Image.Hero-Ig {
-    animation-delay: 6s;
+    animation-delay: 2.5s;
   }
   // Behance
   .Hero-Media-Image.Hero-Be {
-    animation-delay: 6.3s;
+    animation-delay: 2.8s;
   }
   // Linkedin
   .Hero-Media-Image.Hero-In {
-    animation-delay: 6.6s;
+    animation-delay: 3.1s;
   }
 
   // Line 1
   .HeroTitle1 span {
-    animation-delay: 1.5s;
+    animation-delay: 0.5s;
   }
   // Line 2
   .HeroTitle2 span {
-    animation-delay: 2s;
+    animation-delay: 1s;
   }
   // Line 3
   .HeroTitle3 span {
-    animation-duration: 2.5s;
-    animation-delay: 2.8s;
+    animation-duration: 4s;
+    animation-delay: 1.6s;
   }
 
   // Hero Subtitle
   .Hero-Subtitle-Animation {
     opacity: 0;
     animation-name: opacityAnimation;
-    animation-duration: 0.5s;
-    animation-delay: 5.5s;
+    animation-duration: 2s;
+    animation-delay: 2s;
     animation-fill-mode: forwards;
   }
 
   // Hero Image Container
   .Image-Container-Animation {
     animation-name: heroImageContainerAnimation;
-    animation-duration: 4.9s;
+    animation-duration: 1.7s;
     animation-delay: 0.1s;
     transform: translateY(30vw);
     animation-fill-mode: forwards;
@@ -482,13 +543,13 @@
   .Image-Animation {
     transform: translateX(3vw) translateY(2.1vw);
     animation-duration: 1s;
-    animation-delay: 4s;
+    animation-delay: 0.8s;
   }
 
   // Hero Image
   .Image-Img-Animation {
     animation-duration: 1s;
-    animation-delay: 4s;
+    animation-delay: 0.8s;
     transform: scale(1.3);
   }
 
@@ -523,5 +584,14 @@
     animation-fill-mode: forwards;
     animation-delay: 0;
     height: 19.5vw;
+  }
+
+  // Project List
+  .ProjectsList-Categories-Animation {
+    animation-delay: 2s;
+  }
+
+  .ProjectList-Contaier-Animation {
+    animation-delay: 2.4s;
   }
 }

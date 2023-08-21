@@ -6,32 +6,27 @@ import ProjectTemplateTwo from "../ProjectTemplates/ProjectTemplateTwo";
 
 export default function Project({ ...project }) {
   const [more, setMore] = useState(false);
+  function toggleMore() {
+    setMore(true);
+  }
+
   const projectTemplate = () => {
     switch (project.templateNumber) {
-      // case "one":   return <ComponentA />;
-      // case "two":   return <ComponentB />;
-      // case "three": return <ComponentC />;
-
       case "1":
         return <ProjectTemplateOne key={project.id} project={project} />;
       case "2":
         return <ProjectTemplateTwo key={project.id} project={project} />;
       case "3":
         return <ProjectTemplateThree key={project.id} project={project} />;
-
       default:
         return <h6>Error al cargar las imágenes</h6>;
     }
   };
 
-  function toggleMore() {
-    setMore(true);
-  }
-
   return (
     <div className="ProjectDetail">
       <div className="ProjectDetail-Container">
-        <div className="ProjectDetail-Container__Image">
+        <div className="ProjectDetail-Container__Image ProjectDetail-Image-Animation">
           {" "}
           <h1 className="Title">{project.projectName}</h1>
         </div>
@@ -40,10 +35,10 @@ export default function Project({ ...project }) {
           alt={project.projectName}
           className="ProjectDetail-Container__Image"
         ></img> */}
-        <p className="ProjectDetail-Container__Title Title">
+        <p className="ProjectDetail-Container__Title ProjectDetail-Title-Animation Title">
           {project.projectName}
         </p>
-        <div className="ProjectDetail-Container__Subcontainer">
+        <div className="ProjectDetail-Container__Subcontainer ProjectDetail-Description-Animation">
           <p className="ProjectDetail-Container__Subcontainer--Subtitle Title">
             {project.projectSubtitle}
           </p>

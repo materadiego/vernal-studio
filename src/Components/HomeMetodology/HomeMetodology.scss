@@ -1,4 +1,6 @@
 .HomeMetodology {
+  transition: 1s;
+  will-change: opacity;
   background-color: $color-bgoscuro;
 }
 
@@ -11,6 +13,8 @@
   }
   &__Subcontainer {
     margin: 0 0 12vw;
+    transition: 1s;
+    will-change: opacity transform;
     &:nth-child(5) {
       margin: 0;
     }
@@ -19,7 +23,8 @@
       font-size: 20vw;
       font-weight: 500;
       line-height: 100%;
-      color: $color-variacion1;
+      transition: 1s;
+      will-change: color;
       font-family: $Font1;
     }
     &--Title {
@@ -37,8 +42,9 @@
       }
     }
     &--Line {
-      width: 85%;
       margin: 10vw 0 4vw;
+      transition: 1s;
+      will-change: width;
       border-top: 1px solid $color-secundario;
     }
   }
@@ -72,7 +78,6 @@
         margin: 2vw 0 0;
       }
       &--Line {
-        width: 100%;
         margin: 2.5vw 0 1vw;
       }
     }

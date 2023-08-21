@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
 import HomeHero from "../Components/HomeHero/HomeHero";
 import HomeMetodology from "../Components/HomeMetodology/HomeMetodology";
@@ -22,7 +22,6 @@ export default function HomePage() {
   }
 
   useEffect(() => {
-    console.log("cambio");
     let pathname = location.pathname;
     if (pathname === "/about-us") {
       goTo(aboutUs);

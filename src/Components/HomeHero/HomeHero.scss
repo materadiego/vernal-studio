@@ -1,5 +1,5 @@
 .HomeHero {
-  padding: 30vw 0 43vw;
+  padding: 30vw 0 56vw;
 }
 
 .HomeHeroContainer {
@@ -10,15 +10,15 @@
   }
   &__Title {
     width: 70%;
-    margin: 7vw 0 5vw 5%;
+    margin: 0 0 0 5%;
   }
   &__Subtitle {
     display: none;
   }
   &__ImageContainer {
     width: 100%;
-
     height: 75vw;
+    bottom: -84vw;
     position: absolute;
     display: flex;
     align-items: flex-start;

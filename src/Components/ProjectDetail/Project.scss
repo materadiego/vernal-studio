@@ -8,7 +8,8 @@
     width: 100%;
     height: 30vw;
     background-color: #dddddd;
-
+    opacity: 0;
+    will-change: opacity;
     // --------------------
     display: flex;
     justify-content: center;
@@ -19,10 +20,14 @@
     margin: 5vw 0 8vw;
     font-weight: 600;
     font-size: 10vw;
+    opacity: 0;
+    will-change: opacity;
   }
   &__Subcontainer {
     margin-bottom: 10vw;
-
+    opacity: 0;
+    will-change: opacity transform;
+    transform: translateY(30vw);
     &--Subtitle {
       margin: 0 0 5vw;
       font-weight: 600;
@@ -121,6 +126,8 @@
       position: relative;
       padding-top: 11vw;
       margin-bottom: 5vw;
+      transform: translateY(8vw);
+
       &--Subtitle {
         width: 50%;
 

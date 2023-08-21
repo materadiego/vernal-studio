@@ -1,15 +1,62 @@
+import useObserver from "../useObserver/useObserver";
+
 export default function HomeMetodology() {
+  // Itersections
+  const [elementRef1, isIntersecting1] = useObserver({
+    threshold: 0.1,
+  });
+  const [elementRef2, isIntersecting2] = useObserver({
+    threshold: 1,
+  });
+  const [elementRef3, isIntersecting3] = useObserver({
+    threshold: 1,
+  });
+  const [elementRef4, isIntersecting4] = useObserver({
+    threshold: 1,
+  });
+  const [elementRef5, isIntersecting5] = useObserver({
+    threshold: 1,
+  });
+  const [elementRef6, isIntersecting6] = useObserver({
+    threshold: 0.3,
+  });
+
   return (
-    <div className="HomeMetodology" id="Approach">
-      <div className="HomeMetodologyContainer">
+    <div
+      ref={elementRef1}
+      className={`HomeMetodology ${
+        isIntersecting1 ? "Intersecting" : "NotIntersecting"
+      }`}
+      id="Approach"
+    >
+      <div ref={elementRef6} className="HomeMetodologyContainer">
         {/* SECTION TITLE */}
-        <h2 className="HomeMetodologyContainer__SectionTitle SectionTitle">
-          <span className="SectionTitle__Circle"></span> Approach
+        <h2
+          className={`HomeMetodologyContainer__SectionTitle SectionTitle ${
+            isIntersecting1 ? "BgIntersecting" : "BgNotIntersecting"
+          }`}
+        >
+          <span className={`SectionTitle__Circle `}></span> Approach
         </h2>
         {/* SUBCONTAINER */}
-        <div className="HomeMetodologyContainer__Subcontainer">
-          <p className="HomeMetodologyContainer__Subcontainer--Number">01</p>
-          <div className="HomeMetodologyContainer__Subcontainer--Line"></div>
+        <div
+          ref={elementRef2}
+          className={`HomeMetodologyContainer__Subcontainer ${
+            isIntersecting2 ? "Intersecting" : "NotIntersecting"
+          }`}
+        >
+          <p
+            className={`HomeMetodologyContainer__Subcontainer--Number ${
+              isIntersecting2 ? "Intersecting" : "NotIntersecting"
+            }`}
+          >
+            01
+          </p>
+          <div
+            className={`HomeMetodologyContainer__Subcontainer--Line ${
+              isIntersecting2 ? "Intersecting" : "NotIntersecting"
+            }`}
+          ></div>
 
           <h4 className="HomeMetodologyContainer__Subcontainer--Title Title-BigFont Title-BigFont Title">
             Conexión
@@ -26,9 +73,24 @@ export default function HomeMetodology() {
           </p>
         </div>
         {/* SUBCONTAINER */}
-        <div className="HomeMetodologyContainer__Subcontainer">
-          <p className="HomeMetodologyContainer__Subcontainer--Number">02</p>
-          <div className="HomeMetodologyContainer__Subcontainer--Line"></div>
+        <div
+          ref={elementRef3}
+          className={`HomeMetodologyContainer__Subcontainer ${
+            isIntersecting3 ? "Intersecting" : "NotIntersecting"
+          } `}
+        >
+          <p
+            className={`HomeMetodologyContainer__Subcontainer--Number ${
+              isIntersecting3 ? "Intersecting" : "NotIntersecting"
+            }`}
+          >
+            02
+          </p>
+          <div
+            className={`HomeMetodologyContainer__Subcontainer--Line ${
+              isIntersecting3 ? "Intersecting" : "NotIntersecting"
+            }`}
+          ></div>
 
           <h4 className="HomeMetodologyContainer__Subcontainer--Title Title-BigFont Title">
             Perspectiva
@@ -40,9 +102,24 @@ export default function HomeMetodology() {
           </p>
         </div>
         {/* SUBCONTAINER */}
-        <div className="HomeMetodologyContainer__Subcontainer">
-          <p className="HomeMetodologyContainer__Subcontainer--Number">03</p>
-          <div className="HomeMetodologyContainer__Subcontainer--Line"></div>
+        <div
+          ref={elementRef4}
+          className={`HomeMetodologyContainer__Subcontainer ${
+            isIntersecting4 ? "Intersecting" : "NotIntersecting"
+          } `}
+        >
+          <p
+            className={`HomeMetodologyContainer__Subcontainer--Number ${
+              isIntersecting4 ? "Intersecting" : "NotIntersecting"
+            }`}
+          >
+            03
+          </p>
+          <div
+            className={`HomeMetodologyContainer__Subcontainer--Line ${
+              isIntersecting4 ? "Intersecting" : "NotIntersecting"
+            }`}
+          ></div>
 
           <h4 className="HomeMetodologyContainer__Subcontainer--Title Title-BigFont Title">
             Concepto
@@ -54,9 +131,24 @@ export default function HomeMetodology() {
           </p>
         </div>
         {/* SUBCONTAINER */}
-        <div className="HomeMetodologyContainer__Subcontainer">
-          <p className="HomeMetodologyContainer__Subcontainer--Number">04</p>
-          <div className="HomeMetodologyContainer__Subcontainer--Line"></div>
+        <div
+          ref={elementRef5}
+          className={`HomeMetodologyContainer__Subcontainer ${
+            isIntersecting5 ? "Intersecting" : "NotIntersecting"
+          } `}
+        >
+          <p
+            className={`HomeMetodologyContainer__Subcontainer--Number ${
+              isIntersecting5 ? "Intersecting" : "NotIntersecting"
+            }`}
+          >
+            04
+          </p>
+          <div
+            className={`HomeMetodologyContainer__Subcontainer--Line ${
+              isIntersecting5 ? "Intersecting" : "NotIntersecting"
+            }`}
+          ></div>
 
           <h4 className="HomeMetodologyContainer__Subcontainer--Title Title-BigFont Title">
             Construcción

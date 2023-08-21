@@ -6,8 +6,10 @@ html {
   display: flex;
   align-items: center;
   margin: 0 0 5vw;
-  font-size: 3.7vw;
+  font-size: 4vw;
   font-weight: 400;
+  transition: 1s;
+  will-change: opacity;
   font-family: $Font2;
   &__Circle {
     width: 2.3vw;
@@ -21,7 +23,8 @@ html {
 .Title {
   font-weight: 500;
   line-height: 115%;
-
+  will-change: opacity;
+  transition: 1s;
   font-family: $Font1;
 }
 
@@ -40,7 +43,8 @@ html {
 .Text {
   font-weight: 300;
   line-height: 140%;
-
+  will-change: opacity;
+  transition: 1s;
   font-family: $Font2;
 }
 
@@ -63,6 +67,8 @@ html {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  transition: 1s;
+  will-change: opacity;
 }
 
 .Button-Arrow {
@@ -117,6 +123,27 @@ html {
 }
 .Media-Wsp {
   width: 60%;
+}
+
+.Span-Animation {
+  overflow: hidden;
+  position: relative;
+}
+
+.Span-Animation .Span-Animation-Block {
+  animation-name: textTranslateAnimation;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  width: 100%;
+  height: 100%;
+  margin-left: 0%;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 5vw 2 rgba(255, 255, 255, 1);
+  will-change: margin;
+  background-color: $color-claro;
 }
 
 @media screen and (min-width: 1099px) {

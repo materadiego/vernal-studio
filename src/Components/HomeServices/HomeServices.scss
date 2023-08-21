@@ -6,6 +6,11 @@
   margin-left: 5%;
 }
 
+.HomeServicesContainer-Subcontainer {
+  transition: 1s;
+  will-change: opacity;
+}
+
 .ServiceContainer {
   width: 90%;
   margin: 0 auto 3vw;
@@ -79,8 +84,8 @@
   background-image: url("../../Assets/Images/services-bgimg-mobile.webp");
   background-size: 70%;
   background-repeat: no-repeat;
-  transition: 0.6s;
-  will-change: background-position;
+  transition: 1s;
+  will-change: background-position opacity;
 }
 
 .ServicesBgPosition1 {
@@ -104,7 +109,7 @@
   height: 100%;
   background-size: 75%;
   background-repeat: no-repeat;
-  transition: 0.6s;
+  transition: 1s;
   will-change: background-image;
 }
 

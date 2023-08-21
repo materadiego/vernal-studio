@@ -48,8 +48,21 @@ export default function HomeHero() {
           </a>
         </div>
         {/* HERO TITLE */}
-        <h3 className="HomeHeroContainer__Title Title-Mobile-Animation Title Title-BigFont Mobile ">
-          Transformamos tu marca en <br /> una identidad inolvidable.
+        <h3 className="HomeHeroContainer__Title Span-Animation HeroTitle1 Title Title-BigFont Mobile ">
+          <span className="Span-Animation-Block"></span>
+          Transformamos
+        </h3>
+        <h3 className="HomeHeroContainer__Title Span-Animation HeroTitle2 Title Title-BigFont Mobile ">
+          <span className="Span-Animation-Block"></span>
+          tu marca en
+        </h3>
+        <h3 className="HomeHeroContainer__Title Span-Animation HeroTitle3 Title Title-BigFont Mobile ">
+          <span className="Span-Animation-Block"></span>
+          una identidad
+        </h3>
+        <h3 className="HomeHeroContainer__Title Span-Animation HeroTitle4 Title Title-BigFont Mobile ">
+          <span className="Span-Animation-Block"></span>
+          inolvidable.
         </h3>
         <h3 className="HomeHeroContainer__Title Title HeroTitle1 Desktop Title-BigFont Span-Animation">
           {" "}

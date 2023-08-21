@@ -1,13 +1,11 @@
 import "./scss/Styles.scss";
-import { HashRouter, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
-import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import ProjectTemplate from "./Pages/ProjectTemplate";
 import ProjectsPage from "./Pages/ProjectsPage";
 import ScrollToTop from "./Utils/ScrollToTop";
 import NavBar from "./Components/NavBar/NavBar";
-import { useEffect, useRef } from "react";
 
 function App() {
   return (

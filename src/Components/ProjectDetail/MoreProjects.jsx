@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 
 export default function MoreProjects() {
   const { id } = useParams();
-  console.log(id);
 
   function nextPorjectRoute(projectId) {
     const idNumber = Number(projectId);

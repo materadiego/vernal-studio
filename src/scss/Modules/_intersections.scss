@@ -1,0 +1,112 @@
+.SectionTitle.Intersecting,
+.Title.Intersecting,
+.Text.Intersecting,
+.Button.Intersecting,
+.ProjectBox.Intersecting,
+.HomeServicesContainer-Subcontainer.Intersecting,
+.HomeServicesContainer-ImageContainer.Intersecting,
+.ProjectTemplateOne__Image.Intersecting,
+.ProjectTemplateTwo__Image.Intersecting,
+.ProjectTemplateThree__Image.Intersecting {
+  opacity: 1;
+}
+
+.SectionTitle.NotIntersecting,
+.Title.NotIntersecting,
+.Text.NotIntersecting,
+.Button.NotIntersecting,
+.ProjectBox.NotIntersecting,
+.HomeServicesContainer-Subcontainer.NotIntersecting,
+.HomeServicesContainer-ImageContainer.NotIntersecting,
+.ProjectTemplateOne__Image.NotIntersecting,
+.ProjectTemplateTwo__Image.NotIntersecting,
+.ProjectTemplateThree__Image.NotIntersecting {
+  opacity: 0.2;
+}
+
+// .HomeProjects.Intersecting {
+//   background-color: $color-bgoscuro;
+// }
+
+// .HomeProjects.NotIntersecting {
+//   background-color: $color-claro;
+// }
+
+.HomeProjectsContainer__Line.Intersecting {
+  width: 50vw;
+  opacity: 1;
+}
+.HomeProjectsContainer__Line.NotIntersecting {
+  width: 0vw;
+  opacity: 0.3;
+}
+
+.HomeMetodology.Intersecting {
+  opacity: 1;
+}
+.HomeMetodology.NotIntersecting {
+  opacity: 0;
+}
+
+.HomeMetodologyContainer__SectionTitle.BgIntersecting {
+  opacity: 1;
+}
+.HomeMetodologyContainer__SectionTitle.BgNotIntersecting {
+  opacity: 0;
+}
+
+.HomeMetodologyContainer__Subcontainer.Intersecting {
+  opacity: 1;
+}
+.HomeMetodologyContainer__Subcontainer.NotIntersecting {
+  opacity: 0.2;
+}
+
+.HomeMetodologyContainer__Subcontainer--Line.Intersecting {
+  width: 85%;
+}
+.HomeMetodologyContainer__Subcontainer--Line.NotIntersecting {
+  width: 0%;
+}
+
+.HomeMetodologyContainer__Subcontainer--Number.Intersecting {
+  color: $color-variacion1;
+}
+.HomeMetodologyContainer__Subcontainer--Number.NotIntersecting {
+  color: $color-secundario;
+}
+
+@media screen and (min-width: 1099px) {
+  .HomeProjectsContainer__Description.Intersecting {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .HomeProjectsContainer__Description.NotIntersecting {
+    opacity: 0.3;
+    transform: translateX(5vw);
+  }
+
+  .HomeProjectsContainer__Line.Intersecting {
+    width: 40vw;
+    opacity: 1;
+  }
+  .HomeProjectsContainer__Line.NotIntersecting {
+    width: 0vw;
+    opacity: 0.3;
+  }
+
+  .HomeMetodologyContainer__Subcontainer--Number.Intersecting {
+    color: $color-secundario;
+  }
+  .HomeMetodologyContainer__Subcontainer--Number.NotIntersecting {
+    color: $color-secundario;
+  }
+
+  .HomeMetodologyContainer__Subcontainer--Line.Intersecting {
+    width: 100%;
+  }
+  .HomeMetodologyContainer__Subcontainer--Line.NotIntersecting {
+    width: 100%;
+  }
+}
