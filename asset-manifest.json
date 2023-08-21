@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vernal-studio/static/css/main.c6ef67b6.css",
-    "main.js": "/vernal-studio/static/js/main.c1a28645.js",
+    "main.css": "/vernal-studio/static/css/main.57bb6950.css",
+    "main.js": "/vernal-studio/static/js/main.a06a4c43.js",
     "static/js/787.8970a006.chunk.js": "/vernal-studio/static/js/787.8970a006.chunk.js",
     "static/media/ClashDisplay-Variable.ttf": "/vernal-studio/static/media/ClashDisplay-Variable.e7f67b72cbf79f80c9c7.ttf",
     "static/media/services-bgimg-mobile.webp": "/vernal-studio/static/media/services-bgimg-mobile.80e76d5cea99a59011cd.webp",
@@ -65,13 +65,12 @@
     "static/media/button-arrow.svg": "/vernal-studio/static/media/button-arrow.4e8db4b352d4573dc989.svg",
     "static/media/arrow-up.svg": "/vernal-studio/static/media/arrow-up.fcde9a09077da3fc437499a48aa15ca5.svg",
     "static/media/projects-arrow-down.svg": "/vernal-studio/static/media/projects-arrow-down.71a906c9b36510ae38ab8f67f9c187a3.svg",
-    "static/media/sectiontitle-line.svg": "/vernal-studio/static/media/sectiontitle-line.ac3bd8ec1e86a90cd0d4a7d14c169bfb.svg",
-    "main.c6ef67b6.css.map": "/vernal-studio/static/css/main.c6ef67b6.css.map",
-    "main.c1a28645.js.map": "/vernal-studio/static/js/main.c1a28645.js.map",
+    "main.57bb6950.css.map": "/vernal-studio/static/css/main.57bb6950.css.map",
+    "main.a06a4c43.js.map": "/vernal-studio/static/js/main.a06a4c43.js.map",
     "787.8970a006.chunk.js.map": "/vernal-studio/static/js/787.8970a006.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6ef67b6.css",
-    "static/js/main.c1a28645.js"
+    "static/css/main.57bb6950.css",
+    "static/js/main.a06a4c43.js"
   ]
 }
