@@ -9,18 +9,20 @@ export default function useObserver(options = {}) {
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
-        setIsIntersecting(entry.isIntersecting);
+        if (entry.isIntersecting) {
+          setIsIntersecting(true);
+        }
       });
     }, options);
     if (element) {
       observer.observe(element);
     }
 
-    // return () => {
-    //   if (element) {
-    //     observer.unobserve(element);
-    //   }
-    // };
+    return () => {
+      // if (element) {
+      //   observer.unobserve(element);
+      // }
+    };
   }, [options]);
   return [elementRef, isIntersecting];
 }

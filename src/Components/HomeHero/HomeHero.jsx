@@ -48,31 +48,27 @@ export default function HomeHero() {
           </a>
         </div>
         {/* HERO TITLE */}
-        <h3 className="HomeHeroContainer__Title Span-Animation HeroTitle1 Title Title-BigFont Mobile ">
-          <span className="Span-Animation-Block"></span>
-          Transformamos
+        <h3 className="HomeHeroContainer__Title Span-Animation HeroTitle1 Title Title-BigFont Mobile  ">
+          <span className="Span-Animation-Block">Transformamos</span>
         </h3>
         <h3 className="HomeHeroContainer__Title Span-Animation HeroTitle2 Title Title-BigFont Mobile ">
-          <span className="Span-Animation-Block"></span>
-          tu marca en
+          <span className="Span-Animation-Block">tu marca en</span>
         </h3>
         <h3 className="HomeHeroContainer__Title Span-Animation HeroTitle3 Title Title-BigFont Mobile ">
-          <span className="Span-Animation-Block"></span>
-          una identidad
+          <span className="Span-Animation-Block">una identidad</span>
         </h3>
         <h3 className="HomeHeroContainer__Title Span-Animation HeroTitle4 Title Title-BigFont Mobile ">
-          <span className="Span-Animation-Block"></span>
-          inolvidable.
+          <span className="Span-Animation-Block">inolvidable.</span>
         </h3>
         <h3 className="HomeHeroContainer__Title Title HeroTitle1 Desktop Title-BigFont Span-Animation">
           {" "}
-          <span className="Span-Animation-Block"></span>Transformamos tu
+          <span className="Span-Animation-Block">Transformamos tu</span>
         </h3>
         <h3 className="HomeHeroContainer__Title Title HeroTitle2 Desktop Title-BigFont Span-Animation">
-          <span className="Span-Animation-Block"></span> marca en una identidad
+          <span className="Span-Animation-Block">marca en una identidad</span>
         </h3>
         <h3 className="HomeHeroContainer__Title Title HeroTitle3 Desktop Title-BigFont Span-Animation">
-          <span className="Span-Animation-Block"></span>inolvidable.
+          <span className="Span-Animation-Block">inolvidable.</span>
         </h3>
         {/* HERO SUBTITLE */}
         <h1 className="HomeHeroContainer__Subtitle Hero-Subtitle-Animation Text-MediumFont Text">

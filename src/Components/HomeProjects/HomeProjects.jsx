@@ -43,6 +43,9 @@ export default function HomeProjects() {
   const [elementRef11, isIntersecting11] = useObserver({
     threshold: 0.4,
   });
+  const [elementRef12, isIntersecting12] = useObserver({
+    threshold: 0.4,
+  });
 
   return (
     <div
@@ -137,13 +140,6 @@ export default function HomeProjects() {
                 alt="Projects"
                 className="ProjectBox__ImageContainer--Image"
               ></img>
-              <div className="Project-Logo-Container">
-                <img
-                  className="Project-Logo-Image Loop-Logo"
-                  src={LoopLogo}
-                  alt="Logo"
-                ></img>
-              </div>
             </div>
             <p className="ProjectBox__Title Title-SmallFont ">Loop3</p>
             <p className="ProjectBox__Location Title-SmallFont">
@@ -164,13 +160,6 @@ export default function HomeProjects() {
                 alt="Projects"
                 className="ProjectBox__ImageContainer--Image"
               ></img>
-              <div className="Project-Logo-Container">
-                <img
-                  className="Project-Logo-Image Madero-Logo"
-                  src={MaderoLogo}
-                  alt="Logo"
-                ></img>
-              </div>
             </div>
             <p className="ProjectBox__Title Title-SmallFont">Madero Tango</p>
             <p className="ProjectBox__Location Title-SmallFont">
@@ -192,13 +181,6 @@ export default function HomeProjects() {
                 alt="Projects"
                 className="ProjectBox__ImageContainer--Image"
               ></img>
-              <div className="Project-Logo-Container">
-                <img
-                  className="Project-Logo-Image Daleplast-Logo"
-                  src={DaleplastLogo}
-                  alt="Logo"
-                ></img>
-              </div>
             </div>
             <p className="ProjectBox__Title Title-SmallFont">Daleplast</p>
             <p className="ProjectBox__Location Title-SmallFont">
@@ -219,13 +201,6 @@ export default function HomeProjects() {
                 alt="Projects"
                 className="ProjectBox__ImageContainer--Image"
               ></img>
-              <div className="Project-Logo-Container">
-                <img
-                  className="Project-Logo-Image TuEspacio-Logo"
-                  src={TuEspacioLogo}
-                  alt="Logo"
-                ></img>
-              </div>
             </div>
             <p className="ProjectBox__Title Title-SmallFont">Tu Espacio</p>
             <p className="ProjectBox__Location Title-SmallFont">
@@ -236,8 +211,9 @@ export default function HomeProjects() {
         {/* MORE BUTTON */}
         <Link
           to="/projects"
+          ref={elementRef12}
           className={`HomeProjectsContainer__MoreButton Button ${
-            isIntersecting1 ? "Intersecting" : "NotIntersecting"
+            isIntersecting12 ? "Intersecting" : "NotIntersecting"
           }`}
         >
           <div className="HomeProjectsContainer__MoreButton--Arrow Button-Arrow"></div>

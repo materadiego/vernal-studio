@@ -50,10 +50,10 @@
 //Span translate
 @keyframes textTranslateAnimation {
   0% {
-    margin-left: 0%;
+    transform: translateY(10vw);
   }
   100% {
-    margin-left: 110%;
+    transform: translateY(0);
   }
 }
 
@@ -119,8 +119,14 @@
 @keyframes menuButtonInactive1 {
   0% {
     transform: translateX(0) translateY(0);
+    background-color: $color-variacion2;
+  }
+  70% {
+    transform: translateX(-2.75vw) translateY(-2.75vw);
+    background-color: $color-variacion2;
   }
   100% {
+    background-color: $color-primario;
     transform: translateX(-2.75vw) translateY(-2.75vw);
   }
 }
@@ -129,7 +135,12 @@
   0% {
     transform: translateX(0) translateY(0);
   }
+  70% {
+    transform: translateX(2.75vw) translateY(-2.75vw);
+    background-color: $color-variacion2;
+  }
   100% {
+    background-color: $color-primario;
     transform: translateX(2.75vw) translateY(-2.75vw);
   }
 }
@@ -138,7 +149,12 @@
   0% {
     transform: translateX(0) translateY(0);
   }
+  70% {
+    transform: translateX(-2.75vw) translateY(2.75vw);
+    background-color: $color-variacion2;
+  }
   100% {
+    background-color: $color-primario;
     transform: translateX(-2.75vw) translateY(2.75vw);
   }
 }
@@ -146,6 +162,9 @@
 @keyframes menuButtonInactive4 {
   0% {
     transform: translateX(0) translateY(0);
+  }
+  70% {
+    transform: translateX(2.75vw) translateY(2.75vw);
   }
   100% {
     transform: translateX(2.75vw) translateY(2.75vw);
@@ -183,9 +202,7 @@
   0% {
     transform: translateY(30w);
   }
-  50% {
-    transform: translateY(-3vw);
-  }
+
   100% {
     transform: translateY(0vw);
   }
@@ -339,27 +356,46 @@
 
   @keyframes menuButtonInactive1 {
     0% {
+      background-color: $color-variacion2;
       transform: translateX(0) translateY(0);
     }
+    70% {
+      background-color: $color-variacion2;
+      transform: translateX(-0.6vw) translateY(-0.6vw);
+    }
     100% {
+      background-color: $color-primario;
       transform: translateX(-0.6vw) translateY(-0.6vw);
     }
   }
 
   @keyframes menuButtonInactive2 {
     0% {
+      background-color: $color-variacion2;
       transform: translateX(0) translateY(0);
     }
+    70% {
+      background-color: $color-variacion2;
+      transform: translateX(0.6vw) translateY(-0.6vw);
+    }
     100% {
+      background-color: $color-primario;
       transform: translateX(0.6vw) translateY(-0.6vw);
     }
   }
 
   @keyframes menuButtonInactive3 {
     0% {
+      background-color: $color-variacion2;
       transform: translateX(0) translateY(0);
     }
+    70% {
+      background-color: $color-variacion2;
+      transform: translateX(-0.6vw) translateY(0.6vw);
+    }
+
     100% {
+      background-color: $color-primario;
       transform: translateX(-0.6vw) translateY(0.6vw);
     }
   }
@@ -367,6 +403,9 @@
   @keyframes menuButtonInactive4 {
     0% {
       transform: translateX(0) translateY(0);
+    }
+    70% {
+      transform: translateX(0.6vw) translateY(0.6vw);
     }
     100% {
       transform: translateX(0.6vw) translateY(0.6vw);
@@ -378,9 +417,7 @@
     0% {
       transform: translateY(0w);
     }
-    50% {
-      transform: translateY(0.5vw);
-    }
+
     100% {
       transform: translateY(-5vw);
     }
@@ -389,9 +426,7 @@
     0% {
       transform: translateY(5vw);
     }
-    50% {
-      transform: translateY(-0.5vw);
-    }
+
     100% {
       transform: translateY(0vw);
     }

@@ -7,24 +7,19 @@ export default function ProjectsList({ projects }) {
         <span className="SectionTitle__Circle"></span> Proyectos
       </h2>
       <h3 className="ProjectsList--Title ProjectsList--Title1 Span-Animation Title-BigFont Title Mobile">
-        <span className="Span-Animation-Block"></span>
-        Conocé las
+        <span className="Span-Animation-Block">Conocé las</span>
       </h3>
       <h3 className="ProjectsList--Title ProjectsList--Title2 Span-Animation Title-BigFont Title Mobile">
-        <span className="Span-Animation-Block"></span>
-        marcas que
+        <span className="Span-Animation-Block">marcas que</span>
       </h3>
       <h3 className="ProjectsList--Title ProjectsList--Title3 Span-Animation Title-BigFont Title Mobile">
-        <span className="Span-Animation-Block"></span>
-        transformamos.
+        <span className="Span-Animation-Block">transformamos.</span>
       </h3>
       <h3 className="ProjectsList--Title ProjectsList--Title1 Span-Animation Title-BigFont Title Desktop">
-        <span className="Span-Animation-Block"></span>
-        Conocé las marcas que
+        <span className="Span-Animation-Block">Conocé las marcas que</span>
       </h3>
       <h3 className="ProjectsList--Title ProjectsList--Title2 Span-Animation Title-BigFont Title Desktop">
-        <span className="Span-Animation-Block"></span>
-        transformamos.
+        <span className="Span-Animation-Block">transformamos</span>
       </h3>
       <div className="ProjectsList-Categories ProjectsList-Categories-Animation">
         <div className="ProjectsList-Categories__Container">

@@ -7,7 +7,7 @@ import ProjectTemplateTwo from "../ProjectTemplates/ProjectTemplateTwo";
 export default function Project({ ...project }) {
   const [more, setMore] = useState(false);
   function toggleMore() {
-    setMore(true);
+    setMore(!more);
   }
 
   const projectTemplate = () => {
@@ -53,12 +53,17 @@ export default function Project({ ...project }) {
             {project.description2}
           </p>
           <div
-            className={`ProjectDetail-Container__Subcontainer--TextMoreButton ${
-              more ? "MoreButtonInactive" : ""
-            }`}
+            className={`ProjectDetail-Container__Subcontainer--TextMoreButton `}
             onClick={toggleMore}
           >
-            Leer más <img src={arrowDown} alt="arrow-down"></img>
+            {more ? "Leer menos" : "Leer más"}{" "}
+            <img
+              src={arrowDown}
+              alt="arrow-down"
+              className={`${
+                more ? "TextMoreButton--ArrowUp" : "TextMoreButton--ArrowDown"
+              }`}
+            ></img>
           </div>
           <div className="ProjectDetail-Container__Subcontainer--ProjectLabels">
             <p className=" ProjectLabels-Text Desktop">El proyecto</p>

@@ -44,9 +44,13 @@
       font-size: 4.5vw;
       margin-top: 6vw;
       font-family: $Font1;
+      display: flex;
+      align-items: center;
       & img {
         width: 3.5vw;
-        margin-left: 1vw;
+        margin-left: 2vw;
+        transition: 0.3s;
+        will-change: transform;
       }
     }
     &--ProjectLabels {
@@ -55,6 +59,14 @@
       margin-top: 15vw;
     }
   }
+}
+
+.TextMoreButton--ArrowUp {
+  transform: rotateZ(-180deg);
+}
+.TextMoreButton--ArrowDown {
+  margin-top: 0.3vw;
+  transform: rotateZ(0deg);
 }
 
 .ProjectLabels-Text {

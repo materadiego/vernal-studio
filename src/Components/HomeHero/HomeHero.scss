@@ -9,7 +9,8 @@
     display: none;
   }
   &__Title {
-    width: 70%;
+    width: 80%;
+    height: 10vw;
     margin: 0 0 0 5%;
   }
   &__Subtitle {
@@ -63,6 +64,8 @@
     }
     &__Title {
       width: 46%;
+      height: 4vw;
+
       margin: 0vw 0 0.2vw 12%;
     }
     &__Subtitle {
@@ -84,14 +87,23 @@
       background-image: url(../../Assets/Images/home-hero-bg-desktop.webp);
       &--Image {
         width: 34vw;
+        height: 25vw;
         margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         border-top-left-radius: 8vw;
         transition: 0.5s;
+
         & img {
           transition: 0.5s;
         }
       }
     }
+  }
+
+  .HomeHeroContainer__ImageContainer--Image:hover .Hero-Image {
+    width: 36vw;
   }
 
   .Media-Container-Animation:hover .Hero-Media-Animation {
