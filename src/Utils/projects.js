@@ -3,7 +3,7 @@ const projects = [
   {
     id: 1,
     projectName: "Loop3",
-    projectSubtitle: "Lorem ipsum",
+    projectSubtitle: "Rompiendo las barreras digitales",
     heroImage:
       "https://materadiego.github.io/vernal-studio/static/media/projects-loop3-bg.82404b79d108e37e78ed.webp",
     description1:
