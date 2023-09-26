@@ -52,7 +52,7 @@ const projects = [
     description2:
       "Fuimos convocado para llevar a cabo el rediseño de la imagen de marca de Daleplast y llevarla a las plataformas digitales. Nuestro enfoque se basó en mantener la esencia del antiguo logo, pero desde una perspectiva más actual. Utilizamos una tipografía sans serif con remates redondeados para transmitir amigabilidad y actualidad, y fortalecimos el isotipo para representar los valores actuales de la marca. En cuanto al branding, incorporamos elementos visuales dinámicos propios del isologo, y creamos una paleta de colores amplia que incluye los colores originales de la marca, como el verde oscuro y el rojo, junto con tonos adicionales como el verde agua, destacando el compromiso eco-friendly de Dlaeplat. La imagen gráfica se caracteriza por su limpieza y elegancia, con un predominio del blanco y el uso de tipografías clásicas y sobrias, reflejando los valores de eficiencia y calidad de la marca.",
     imgPreview:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-daleplast-bg.114be066fdccf9dad006.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-daleplast.png",
     service1: "Conceptual",
     service2: "Logo",
     service3: "Branding",
@@ -142,7 +142,7 @@ const projects = [
     description2:
       "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
     imgPreview:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-bim.png",
     service1: "Conceptual",
     service2: "Logo",
     service3: "Branding",
@@ -166,14 +166,6 @@ const projects = [
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation7.webp",
     image8:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation8.webp",
-    image9:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation9.webp",
-    image10:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation10.webp",
-    image11:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation11.webp",
-    image12:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation12.webp",
   },
   // SUPRA
   {
@@ -187,7 +179,7 @@ const projects = [
     description2:
       "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
     imgPreview:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-supra.png",
     service1: "Conceptual",
     service2: "Logo",
     service3: "Branding",
@@ -232,7 +224,7 @@ const projects = [
     description2:
       "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
     imgPreview:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-tuespacio.png",
     service1: "Conceptual",
     service2: "Logo",
     service3: "Branding",
@@ -283,7 +275,7 @@ const projects = [
     description2:
       "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
     imgPreview:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-churreria.png",
     service1: "Conceptual",
     service2: "Logo",
     service3: "Branding",
@@ -328,7 +320,7 @@ const projects = [
     description2:
       "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
     imgPreview:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-inadea.png",
     service1: "Conceptual",
     service2: "Logo",
     service3: "Branding",
@@ -373,7 +365,7 @@ const projects = [
     description2:
       "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
     imgPreview:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-sandwichtime.png",
     service1: "Conceptual",
     service2: "Logo",
     service3: "Branding",
@@ -412,6 +404,7 @@ const projects = [
     image15:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sandwich15.webp",
   },
+  // PINKINTON
   {
     id: 11,
     projectName: "Pinkinton",
@@ -455,6 +448,43 @@ const projects = [
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-pinkinton11.webp",
     image12:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-pinkinton12.webp",
+  },
+  // ACEPRO
+  {
+    id: 12,
+    projectName: "Acepro",
+    projectSubtitle: "Frase resumen",
+    heroImage:
+      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+    description1:
+      "Acepro tools, desarrollada en Santiago, Chile, es una aplicación líder en soluciones digitales automotrices, destacándose por su amplia gama de dispositivos originales y una plataforma para programación de smart keys. Nuestro reto fue diseñar una aplicación que fuera atractiva, permitiendo a los usuarios acceder a todas sus funciones de manera sencilla. ",
+    description2:
+      "Para lograrlo, investigamos acerca de las necesidades de nuestra audiencia y luego, creamos diagramas de uso que nos ayudaron en el proceso de diseño. Creamos un home y perfiles de usuario, para después adentrarnos en el diseño de las pantallas secundarias, menús y elementos interactivos. En cuanto al aspecto visual, elegimos un tono azul profundo como color principal, el cual se utilizó en sus distintas escalas. Este tono agregó un toque de profesionalismo, y al usarlo como fondo, logramos darle profundidad y modernidad mediante la incorporación de texturas inspiradas en elementos del logotipo. Además, creamos una iconografía personalizada de estilo lineal y minimalista, lo que facilitó la comprensión de ciertos parámetros y acciones dentro de la aplicación",
+    imgPreview:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-acepro.png",
+    service1: "Conceptual",
+    service2: "Logo",
+    service3: "Branding",
+    service4: "Social media",
+    service5: "Packaging",
+    location: "Santiago, Chile",
+    templateNumber: "1",
+    image1:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-acepro1.webp",
+    image2:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-acepro2.webp",
+    image3:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-acepro3.webp",
+    image4:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-acepro4.webp",
+    image5:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-acepro5.webp",
+    image6:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-acepro6.webp",
+    image7:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-acepro7.webp",
+    image8:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-acepro8.webp",
   },
 ];
 
