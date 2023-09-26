@@ -6,15 +6,8 @@
   flex-direction: column;
   &__Image {
     width: 100%;
-    height: 30vw;
-    background-color: #dddddd;
-    opacity: 0;
+    opacity: 1;
     will-change: opacity;
-    // --------------------
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    // --------------------
   }
   &__Title {
     margin: 5vw 0 8vw;
@@ -118,6 +111,10 @@
   display: none;
 }
 
+.ProjectDetail-Container__Image.Desktop {
+  display: none;
+}
+
 @media screen and (min-width: 1099px) {
   .ProjectDetail-Container {
     width: 80%;
@@ -172,6 +169,13 @@
         position: absolute;
       }
     }
+  }
+
+  .ProjectDetail-Container__Image.Mobile {
+    display: none;
+  }
+  .ProjectDetail-Container__Image.Desktop {
+    display: flex;
   }
 
   .ProjectLabels-Text {

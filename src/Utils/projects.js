@@ -5,11 +5,13 @@ const projects = [
     projectName: "Loop3",
     projectSubtitle: "Rompiendo las barreras digitales",
     heroImage:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-loop3-bg.82404b79d108e37e78ed.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-inadea.webp",
     description1:
       "Loop es un estudio de soluciones informáticas con sede en Buenos Aires, Argentina, cuyo objetivo es impulsar la transformación digital de empresas a través de una mirada joven, arriesgada y ambiciosa. Fuimos convocados con total libertad para crear la imagen desde cero, y comenzamos por el proceso del naming.",
     description2:
-      "Jugamos con distintas palabras del universo de la programación que nos hablaran de transformaciones y además, necesitábamos una palabra que resultara simple de pronunciar en distintos idiomas.  Así es como surge Loop, incorporando el número 3 para representar a los socios fundadores. Para su construcción, elegimos una tipografía redondeada y llamativa,  la cual intervenimos para crear el símbolo del infinito que refuerza el concepto de la marca. <br/> En cuanto al branding, optamos por una paleta de colores fuertes, donde el negro predominó en los fondos para resaltar la audacia de la marca. Se lo combinó con elementos curvos y líneas finas que aportaron profundidad y juventud al diseño. Además, utilizamos distintos degradados que transmiten modernidad y transformación, junto con iconografías sólidas que completaron la personalidad de la marca",
+      "Jugamos con distintas palabras del universo de la programación que nos hablaran de transformaciones y además, necesitábamos una palabra que resultara simple de pronunciar en distintos idiomas.  Así es como surge Loop, incorporando el número 3 para representar a los socios fundadores. Para su construcción, elegimos una tipografía redondeada y llamativa,  la cual intervenimos para crear el símbolo del infinito que refuerza el concepto de la marca.",
+    description3:
+      "En cuanto al branding, optamos por una paleta de colores fuertes, donde el negro predominó en los fondos para resaltar la audacia de la marca. Se lo combinó con elementos curvos y líneas finas que aportaron profundidad y juventud al diseño. Además, utilizamos distintos degradados que transmiten modernidad y transformación, junto con iconografías sólidas que completaron la personalidad de la marca.",
     imgPreview:
       "https://materadiego.github.io/vernal-studio/static/media/projects-loop3-bg.82404b79d108e37e78ed.webp",
     service1: "Conceptual",
@@ -17,7 +19,7 @@ const projects = [
     service3: "Branding",
     service4: "Social media",
     service5: "Packaging",
-    location: "Pocitos, Uruguay",
+    location: "Buenos Aires, Argentina",
     templateNumber: "1",
   },
   // MADERO TANGO
@@ -26,10 +28,11 @@ const projects = [
     projectName: "Madero Tango",
     projectSubtitle: "Lorem ipsum",
     heroImage:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-maderotango-bg.f8fdb09b539b772efb33.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-inadea.webp",
     description1:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     description2: "",
+    description3: "",
     imgPreview:
       "https://materadiego.github.io/vernal-studio/static/media/projects-maderotango-bg.f8fdb09b539b772efb33.webp",
     service1: "Conceptual",
@@ -46,11 +49,12 @@ const projects = [
     projectName: "Daleplast",
     projectSubtitle: "Transformando la Imagen del Plástico",
     heroImage:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-daleplast-bg.114be066fdccf9dad006.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-daleplast.webp",
     description1:
       "Daleplast es una empresa argentina dedicada a la producción de bolsas de plástico oxibiodegradable. Con un fuerte enfoque con el cuidado del medio ambiente, Daleplast ofrece opciones eco-friendly de alta calidad, motivando a sus clientes a adoptar prácticas sostenibles y promoviendo el uso responsable del plástico en la comunidad. ",
     description2:
       "Fuimos convocado para llevar a cabo el rediseño de la imagen de marca de Daleplast y llevarla a las plataformas digitales. Nuestro enfoque se basó en mantener la esencia del antiguo logo, pero desde una perspectiva más actual. Utilizamos una tipografía sans serif con remates redondeados para transmitir amigabilidad y actualidad, y fortalecimos el isotipo para representar los valores actuales de la marca. En cuanto al branding, incorporamos elementos visuales dinámicos propios del isologo, y creamos una paleta de colores amplia que incluye los colores originales de la marca, como el verde oscuro y el rojo, junto con tonos adicionales como el verde agua, destacando el compromiso eco-friendly de Dlaeplat. La imagen gráfica se caracteriza por su limpieza y elegancia, con un predominio del blanco y el uso de tipografías clásicas y sobrias, reflejando los valores de eficiencia y calidad de la marca.",
+    description3: "",
     imgPreview:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-daleplast.webp",
     service1: "Conceptual",
@@ -91,11 +95,12 @@ const projects = [
     projectName: "Tu Espacio",
     projectSubtitle: "Reinventando el Diseño de Interiores",
     heroImage:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-tuespacio.webp",
     description1:
       "Tu Espacio es una marca de diseño de interiores nacida en Tucumán, Argentina, con un enfoque claro: reinventar el diseño de interiores a través de una propuesta digital y personalizada. Especialmente dirigida a un público joven, familiarizado con las nuevas tendencias y con un espíritu emprendedor, nos embarcamos en el desafío de crear una identidad completa para este proyecto.",
     description2:
       "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
+    description3: "",
     imgPreview:
       "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
     service1: "Conceptual",
@@ -134,13 +139,15 @@ const projects = [
   {
     id: 5,
     projectName: "Bim Formation",
-    projectSubtitle: "Frase resumen",
+    projectSubtitle: "Bim para el crecimiento profesional",
     heroImage:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-bim.webp",
     description1:
-      "Tu Espacio es una marca de diseño de interiores nacida en Tucumán, Argentina, con un enfoque claro: reinventar el diseño de interiores a través de una propuesta digital y personalizada. Especialmente dirigida a un público joven, familiarizado con las nuevas tendencias y con un espíritu emprendedor, nos embarcamos en el desafío de crear una identidad completa para este proyecto.",
+      " BIM Formation es una plataforma de formación online especializada en Building Information Modeling (BIM), con sede en Sevilla, España. Su enfoque práctico y su compromiso con la rápida inserción laboral la distinguen en el mercado. Fuimos convocados para desarrollar una imagen de marca vibrante, dirigida a jóvenes arquitectos con necesidades reales.",
     description2:
-      "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
+      "Seleccionamos una paleta de colores contrastantes y frescos, destacando el verde como color principal para transmitir un sentido de crecimiento, innovación y aspiración. Combinamos este tono con un azul académico, que en su variante saturada aporta mayor impacto. En cuanto a los elementos gráficos, nos inspiramos en la interfaz del programa BIM, utilizando formas 3D, líneas de planos y cuadrículas. Rediseñamos estos elementos para adaptarlos al branding, logrando asi un toque único y contemporáneo.",
+    description3:
+      "En cuanto al diseño web, nos enfocamos en crear una experiencia dinámica y didáctica, utilizando animaciones y elementos gráficos que guían al usuario desde el inicio. Además, la navegación está pensada para facilitar la exploración de los contenidos, enfatizando el concepto de eficiencia que caracteriza a la marca.",
     imgPreview:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-bim.webp",
     service1: "Conceptual",
@@ -148,7 +155,7 @@ const projects = [
     service3: "Branding",
     service4: "Social media",
     service5: "Packaging",
-    location: "Tucumán, Argentina",
+    location: "Sevilla, España",
     templateNumber: "1",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation1.webp",
@@ -171,13 +178,13 @@ const projects = [
   {
     id: 6,
     projectName: "Supra",
-    projectSubtitle: "Frase resumen",
+    projectSubtitle: "Vanguardia en Tiktok Marketing",
     heroImage:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-supra.webp",
     description1:
-      "Tu Espacio es una marca de diseño de interiores nacida en Tucumán, Argentina, con un enfoque claro: reinventar el diseño de interiores a través de una propuesta digital y personalizada. Especialmente dirigida a un público joven, familiarizado con las nuevas tendencias y con un espíritu emprendedor, nos embarcamos en el desafío de crear una identidad completa para este proyecto.",
-    description2:
-      "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
+      "Supra es una agencia con sedes en Buenos Aires, México y Miami que lidera el camino en la creación de campañas de marketing en TikTok. Su enfoque centrado en resultados, respaldado por tecnología de vanguardia y una plataforma propia de análisis, impulsa el éxito tanto de las campañas como de los talentos que gestionan.",
+    description2: `Fuimos convocados para rediseñar el branding y la web de la agencia, con el objetivo de proyectar la innovación y el éxito Supra lleva al competitivo mundo de Tiktok. Para ello, creamos una estética llamativa, donde las tipografías san serif, grandes y claras, toman el protagonismo. El contraste entre el negro tipográfico y el blanco de fondo llevan a la marca a un universo moderno y limpio. Para puntos focales, elegimos el magenta, un color vibrante y enérgico que rompe con el monocromía. A su vez, sumamos color con la elección de imágenes saturadas que capturan la esencia de la generación Z: audaces y relajados. Completamos la imagen de la marca con el desarrollo de gráficos estadísticos y números de gran tamaño, resaltando el enfoque de la empresa en resultados y métricas.`,
+    description3: "",
     imgPreview:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-supra.webp",
     service1: "Conceptual",
@@ -185,7 +192,7 @@ const projects = [
     service3: "Branding",
     service4: "Social media",
     service5: "Packaging",
-    location: "Tucumán, Argentina",
+    location: "Buenos Aires, Argentina",
     templateNumber: "2",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra1.webp",
@@ -218,11 +225,12 @@ const projects = [
     projectName: "Novar",
     projectSubtitle: "La IA transforma la industria óptica",
     heroImage:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-inadea.webp",
     description1:
-      "Tu Espacio es una marca de diseño de interiores nacida en Tucumán, Argentina, con un enfoque claro: reinventar el diseño de interiores a través de una propuesta digital y personalizada. Especialmente dirigida a un público joven, familiarizado con las nuevas tendencias y con un espíritu emprendedor, nos embarcamos en el desafío de crear una identidad completa para este proyecto.",
-    description2:
-      "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
+      "Novar es una empresa líder en Argentina, especializada en tecnologías ópticas de ultima generación. Su busqueda constante de innovación y nuevos desafios la ha posicionado como marca pionera en América Latina y Europa. Fuimos convocados para renovar la imagen de la empresa, en preparación para un lanzamiento fundamental en su historia: la presentación de Ailens, la primera lente diseñada por inteligencia artificial. Este evento tendría lugar en feria MIDO 22, reconocida como la más importante en la industria óptica. ",
+    description2: `Uno de los principales desafíos fue lograr que Novar destacara entre todos los expositores de la feria. Para ello, seleccionamos el distintivo color "Persian Indigo" como el tono principal de la marca, transmitiendo innovación y diferenciándola de la competencia. Complementamos el branding con texturas que evocan las mallas utilizadas en la construcción de las lentes, creando una imagen de alto nivel pero llamativa. Además, optamos por la versátil tipografía Gotham para reflejar profesionalismo y adaptabilidad`,
+    description3:
+      "En el caso de Aliens, conservamos elementos clave de Novar y adoptamos un enfoque disruptivo con un vibrante turquesa que simboliza la innovación y el progreso. También incorporamos las mallas del branding de Novar, las cuales se entrelazan en Aliens para representar la tecnología de vanguardia de esta nueva era",
     imgPreview:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-tuespacio.webp",
     service1: "Conceptual",
@@ -230,7 +238,7 @@ const projects = [
     service3: "Branding",
     service4: "Social media",
     service5: "Packaging",
-    location: "Tucumán, Argentina",
+    location: "Buenos Aires, Argentina",
     templateNumber: "3",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-novar1.webp",
@@ -267,13 +275,15 @@ const projects = [
   {
     id: 8,
     projectName: "La Churrería",
-    projectSubtitle: "Frase resumen",
+    projectSubtitle: "Churros, Donuts & Toppings",
     heroImage:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-inadea.webp",
     description1:
-      "Tu Espacio es una marca de diseño de interiores nacida en Tucumán, Argentina, con un enfoque claro: reinventar el diseño de interiores a través de una propuesta digital y personalizada. Especialmente dirigida a un público joven, familiarizado con las nuevas tendencias y con un espíritu emprendedor, nos embarcamos en el desafío de crear una identidad completa para este proyecto.",
+      "La Churrería by Pachi surge como una divertida propuesta estacional en Punta del Este, Uruguay. Impulsada por un apasionado gastronómico, esta idea toma vida inspirada en su hija Pachi, con el objetivo de brindar una experiencia deliciosa y divertida durante el verano. ",
     description2:
-      "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
+      "Nuestro objetivo fue crear una identidad de marca integral que capturara la esencia emocional y personal detrás de este emprendimiento. Comenzamos diseñando un logotipo con una tipografía fluida y alegre para transmitir una idea descontracturada. Para la paleta de colores, elegimos tonos vibrantes y contrastantes con un toque femenino, reflejando la esencia lúdica y golosa del lugar. La gráfica se completó con ilustraciones de churros, donuts y chocolates, creando patrones visuales que cobraron vida en el packaging y otras piezas.",
+    description3:
+      "Participamos tanto en el diseño físico, como en la creación de la cartelería y fachada del local, así como en el desarrollo de la presencia en redes sociales, manteniendo esta esencia en ambos entornos.",
     imgPreview:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-churreria.webp",
     service1: "Conceptual",
@@ -281,7 +291,7 @@ const projects = [
     service3: "Branding",
     service4: "Social media",
     service5: "Packaging",
-    location: "Tucumán, Argentina",
+    location: "Punta del Este, Uruguay",
     templateNumber: "2",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-churreria1.webp",
@@ -312,13 +322,15 @@ const projects = [
   {
     id: 9,
     projectName: "Inadea",
-    projectSubtitle: "Frase resumen",
+    projectSubtitle: "Cardioprotección para salvar vidas",
     heroImage:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-inadea.webp",
     description1:
-      "Tu Espacio es una marca de diseño de interiores nacida en Tucumán, Argentina, con un enfoque claro: reinventar el diseño de interiores a través de una propuesta digital y personalizada. Especialmente dirigida a un público joven, familiarizado con las nuevas tendencias y con un espíritu emprendedor, nos embarcamos en el desafío de crear una identidad completa para este proyecto.",
+      "Inadea, es una institución médica argentina formada por un equipo de profesionales de la salud especializados en la creación de áreas de cardioprotección en diversos entornos, desde empresas hasta instituciones deportivas y educativas. Lo que los distingue es su enfoque humanitario y su compromiso diario de salvar vidas. ",
     description2:
-      "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
+      "Fuimos convocados para realizar el rediseño de la imagen de la institución y su web, con el propósito de modernizarla y representar los valores fundamentales de Inadea. En este proceso, nuestra estrategia fue doble: transmitir confianza y profesionalismo, mientras destacamos el elemento humano que es el pilar de la marca. Optamos por una tipografía san serif, de aspecto cercano y profesional, y elegimos una paleta de colores que abarca tonos azules y verdes, evocando tanto el mundo médico como una sensación de responsabilidad y seguridad. Para reflejar el toque humano, incorporamos una iconografía amigable y diversas formas con vértices redondeados. Además, utilizamos círculos y degradados para sumar calidez y proximidad.",
+    description3:
+      "Finalmente, las fotografías seleccionadas no solo incluyen personas para humanizar la propuesta, sino que también se sometieron a un proceso de edición de luz para transmitir transparencia y generar confianza. ",
     imgPreview:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-inadea.webp",
     service1: "Conceptual",
@@ -326,7 +338,7 @@ const projects = [
     service3: "Branding",
     service4: "Social media",
     service5: "Packaging",
-    location: "Tucumán, Argentina",
+    location: "Buenos Aires, Argentina",
     templateNumber: "2",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-inadea1.webp",
@@ -357,13 +369,13 @@ const projects = [
   {
     id: 10,
     projectName: "SandwichTime",
-    projectSubtitle: "La IA transforma la industria óptica",
+    projectSubtitle: "Amor por la cocina real",
     heroImage:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-sanwichtime.webp",
     description1:
-      "Tu Espacio es una marca de diseño de interiores nacida en Tucumán, Argentina, con un enfoque claro: reinventar el diseño de interiores a través de una propuesta digital y personalizada. Especialmente dirigida a un público joven, familiarizado con las nuevas tendencias y con un espíritu emprendedor, nos embarcamos en el desafío de crear una identidad completa para este proyecto.",
-    description2:
-      "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
+      "Sandwich Time es una cadena de hamburgueserías con sedes en Santiago y Talca, Chile. Se distinguen por ofrecer propuestas con ingredientes de alta calidad y el auténtico sabor casero. Fuimos convocados para llevar a cabo una renovación completa de la marca y desarrollar su tienda de pedidos en línea.",
+    description2: `Creamos una paleta de colores audaces, donde el amarillo se convirtió en el color distintivo de la marca, contrastando con el negro para transmitir una imagen poderosa. Para resaltar la elegancia propia de la marca, seleccionamos una tipografía caligráfica que aporta delicadeza y la combinamos con una tipografía sans-serif condensada que agrega modernidad y legibilidad.En cuanto a las imágenes, elegimos cuidadosamente fotografías que destacan la calidad premium de los ingredientes, así como imágenes que muestran el trabajo en la cocina. El objetivo de esto fue humanizar la marca y compartir su historia casera.`,
+    description3: `Finalmente, para fortalecer la identidad de la marca, creamos composiciones con imágenes e ilustraciones que aportaron un toque distintivo y lúdico. Además, incorporamos frases destacadas como "Amor por la cocina real", que resaltan aún más sus valores fundamentales.`,
     imgPreview:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-sandwichtime.webp",
     service1: "Conceptual",
@@ -371,7 +383,7 @@ const projects = [
     service3: "Branding",
     service4: "Social media",
     service5: "Packaging",
-    location: "Tucumán, Argentina",
+    location: "Santiago, Chile",
     templateNumber: "3",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sandwich1.webp",
@@ -410,11 +422,12 @@ const projects = [
     projectName: "Pinkinton",
     projectSubtitle: "Frase resumen",
     heroImage:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-inadea.webp",
     description1:
       "Tu Espacio es una marca de diseño de interiores nacida en Tucumán, Argentina, con un enfoque claro: reinventar el diseño de interiores a través de una propuesta digital y personalizada. Especialmente dirigida a un público joven, familiarizado con las nuevas tendencias y con un espíritu emprendedor, nos embarcamos en el desafío de crear una identidad completa para este proyecto.",
     description2:
       "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
+    description3: "",
     imgPreview:
       "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
     service1: "Branding",
@@ -422,7 +435,7 @@ const projects = [
     service3: "Papelería",
     service4: "Editorial",
     service5: "",
-    location: "Lugar, Uruguay",
+    location: "Montevideo, Uruguay",
     templateNumber: "2",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-pinkinton1.webp",
@@ -455,11 +468,13 @@ const projects = [
     projectName: "Acepro",
     projectSubtitle: "Frase resumen",
     heroImage:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-inadea.webp",
     description1:
       "Acepro tools, desarrollada en Santiago, Chile, es una aplicación líder en soluciones digitales automotrices, destacándose por su amplia gama de dispositivos originales y una plataforma para programación de smart keys. Nuestro reto fue diseñar una aplicación que fuera atractiva, permitiendo a los usuarios acceder a todas sus funciones de manera sencilla. ",
     description2:
-      "Para lograrlo, investigamos acerca de las necesidades de nuestra audiencia y luego, creamos diagramas de uso que nos ayudaron en el proceso de diseño. Creamos un home y perfiles de usuario, para después adentrarnos en el diseño de las pantallas secundarias, menús y elementos interactivos. En cuanto al aspecto visual, elegimos un tono azul profundo como color principal, el cual se utilizó en sus distintas escalas. Este tono agregó un toque de profesionalismo, y al usarlo como fondo, logramos darle profundidad y modernidad mediante la incorporación de texturas inspiradas en elementos del logotipo. Además, creamos una iconografía personalizada de estilo lineal y minimalista, lo que facilitó la comprensión de ciertos parámetros y acciones dentro de la aplicación",
+      "Para lograrlo, investigamos acerca de las necesidades de nuestra audiencia y luego, creamos diagramas de uso que nos ayudaron en el proceso de diseño.",
+    description3:
+      "Creamos un home y perfiles de usuario, para después adentrarnos en el diseño de las pantallas secundarias, menús y elementos interactivos. En cuanto al aspecto visual, elegimos un tono azul profundo como color principal, el cual se utilizó en sus distintas escalas. Este tono agregó un toque de profesionalismo, y al usarlo como fondo, logramos darle profundidad y modernidad mediante la incorporación de texturas inspiradas en elementos del logotipo. Además, creamos una iconografía personalizada de estilo lineal y minimalista, lo que facilitó la comprensión de ciertos parámetros y acciones dentro de la aplicación.",
     imgPreview:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-acepro.webp",
     service1: "Conceptual",
@@ -485,6 +500,44 @@ const projects = [
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-acepro7.webp",
     image8:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-acepro8.webp",
+  },
+  // NATURGREEN
+  {
+    id: 13,
+    projectName: "Naturgreen",
+    projectSubtitle: "Frase resumen",
+    heroImage:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-naturgreen.webp",
+    description1:
+      "Tu Espacio es una marca de diseño de interiores nacida en Tucumán, Argentina, con un enfoque claro: reinventar el diseño de interiores a través de una propuesta digital y personalizada. Especialmente dirigida a un público joven, familiarizado con las nuevas tendencias y con un espíritu emprendedor, nos embarcamos en el desafío de crear una identidad completa para este proyecto.",
+    description2:
+      "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
+    description3: "",
+    imgPreview:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-naturgreen.webp",
+    service1: "Conceptual",
+    service2: "Logo",
+    service3: "Branding",
+    service4: "Social media",
+    service5: "Packaging",
+    location: "Santiago, Chile",
+    templateNumber: "1",
+    image1:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen1.webp",
+    image2:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen2.webp",
+    image3:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen3.webp",
+    image4:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen4.webp",
+    image5:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen5.webp",
+    image6:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen6.webp",
+    image7:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen7.webp",
+    image8:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen8.webp",
   },
 ];
 

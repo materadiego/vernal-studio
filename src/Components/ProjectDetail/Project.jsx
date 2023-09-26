@@ -26,15 +26,16 @@ export default function Project({ ...project }) {
   return (
     <div className="ProjectDetail">
       <div className="ProjectDetail-Container">
-        <div className="ProjectDetail-Container__Image ProjectDetail-Image-Animation">
-          {" "}
-          <h1 className="Title">{project.projectName}</h1>
-        </div>
-        {/* <img
+        <img
+          src={project.imgPreview}
+          alt={project.projectName}
+          className="ProjectDetail-Container__Image Mobile"
+        ></img>
+        <img
           src={project.heroImage}
           alt={project.projectName}
-          className="ProjectDetail-Container__Image"
-        ></img> */}
+          className="ProjectDetail-Container__Image Desktop"
+        ></img>
         <p className="ProjectDetail-Container__Title ProjectDetail-Title-Animation Title">
           {project.projectName}
         </p>
@@ -50,8 +51,9 @@ export default function Project({ ...project }) {
               more ? "DescriptionActive" : ""
             }`}
           >
-            {project.description2}
+            {project.description2} <br /> {project.description3}
           </p>
+
           <div
             className={`ProjectDetail-Container__Subcontainer--TextMoreButton `}
             onClick={toggleMore}
