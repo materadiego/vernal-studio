@@ -14,7 +14,7 @@ const projects = [
     description3:
       "En cuanto al branding, optamos por una paleta de colores fuertes, donde el negro predominó en los fondos para resaltar la audacia de la marca. Se lo combinó con elementos curvos y líneas finas que aportaron profundidad y juventud al diseño. Además, utilizamos distintos degradados que transmiten modernidad y transformación, junto con iconografías sólidas que completaron la personalidad de la marca.",
     imgPreview:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-loop3-bg.82404b79d108e37e78ed.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-loop.png",
     service1: "Conceptual",
     service2: "Logo",
     service3: "Branding",
@@ -56,7 +56,7 @@ const projects = [
   // MADERO TANGO
   {
     id: 2,
-    tags: ["Apps"],
+    tags: [""],
     projectName: "Madero Tango",
     projectSubtitle: "Lorem ipsum",
     heroImage:
@@ -78,7 +78,7 @@ const projects = [
   // DALEPLAST
   {
     id: 3,
-    tags: ["Apps", "Branding"],
+    tags: ["Web&Ecommerce", "Branding"],
     projectName: "Daleplast",
     projectSubtitle: "Transformando la Imagen del Plástico",
     heroImage:
@@ -125,7 +125,7 @@ const projects = [
   // TU ESPACIO
   {
     id: 4,
-    tags: ["Branding"],
+    tags: ["Branding", "Web&Ecommerce"],
     projectName: "Tu Espacio",
     projectSubtitle: "Reinventando el Diseño de Interiores",
     heroImage:
@@ -136,7 +136,7 @@ const projects = [
       "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
     description3: "",
     imgPreview:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-tuespacio.webp",
     service1: "Conceptual",
     service2: "Logo",
     service3: "Branding",
@@ -172,7 +172,7 @@ const projects = [
   // BIM FORMATION
   {
     id: 5,
-    tags: ["Web&Ecommerce"],
+    tags: ["Branding", "Web&Ecommerce"],
     projectName: "Bim Formation",
     projectSubtitle: "Bim para el crecimiento profesional",
     heroImage:
@@ -212,7 +212,7 @@ const projects = [
   // SUPRA
   {
     id: 6,
-    tags: ["Apps"],
+    tags: ["Branding", "Web&Ecommerce"],
     projectName: "Supra",
     projectSubtitle: "Vanguardia en Tiktok Marketing",
     heroImage:
@@ -311,7 +311,7 @@ const projects = [
   // LA CHURRERIA
   {
     id: 8,
-    tags: ["Web&Ecommerce"],
+    tags: ["Branding"],
     projectName: "La Churrería",
     projectSubtitle: "Churros, Donuts & Toppings",
     heroImage:
@@ -359,7 +359,7 @@ const projects = [
   // INADEA
   {
     id: 9,
-    tags: ["Web&Ecommerce"],
+    tags: ["Branding", "Web&Ecommerce"],
     projectName: "Inadea",
     projectSubtitle: "Cardioprotección para salvar vidas",
     heroImage:
@@ -407,7 +407,7 @@ const projects = [
   // SANDWICH TIME
   {
     id: 10,
-    tags: ["Apps", "Web&Ecommerce"],
+    tags: ["Branding", "Web&Ecommerce"],
 
     projectName: "SandwichTime",
     projectSubtitle: "Amor por la cocina real",
@@ -472,7 +472,7 @@ const projects = [
       "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
     description3: "",
     imgPreview:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-pinkinton.png",
     service1: "Branding",
     service2: "Web",
     service3: "Papelería",
@@ -598,7 +598,7 @@ const projects = [
       "Nuestro objetivo fue crear una interfaz intuitiva y fácil de navegar, colocando todas las herramientas necesarias al alcance del usuario y simplificando cada operación al máximo. En el diseño, nos concentramos en respaldar la funcionalidad. Optamos por tonos violetas fríos para lograr una apariencia moderna y tecnológica, y complementamos con un tono celeste claro para destacar puntos clave. Los fondos, con elementos curvos inspirados en el logo, transmiten una sensación de fluidez y rapidez en la experiencia del usuario.",
     description3: "",
     imgPreview:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-naturgreen.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-rappid.png",
     service1: "Diseño de app",
     service2: "",
     service3: "",
@@ -637,7 +637,7 @@ const projects = [
     description3:
       "Extendimos nuestro trabajo a las etiquetas, optando por el blanco para la reserva y negro con toques dorados para la guarda. Mantuvimos las decisiones del logo en las etiquetas, fusionando el espacio, la elegancia y el minimalismo en un diseño armonioso. Introdujimos textura con sutiles rayas horizontales y también ofrecimos una opción con una ilustración a mano que captura la esencia del trabajo en las viñas, aportando autenticidad y sensibilidad a la marca.",
     imgPreview:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-naturgreen.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-tannat.png",
     service1: "Conceptual",
     service2: "Logo",
     service3: "Branding",
