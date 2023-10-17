@@ -2,10 +2,11 @@ const projects = [
   // LOOP3
   {
     id: 1,
+    tags: ["Branding", "Web&Ecommerce"],
     projectName: "Loop3",
     projectSubtitle: "Rompiendo las barreras digitales",
     heroImage:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-inadea.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-loop.png",
     description1:
       "Loop es un estudio de soluciones informáticas con sede en Buenos Aires, Argentina, cuyo objetivo es impulsar la transformación digital de empresas a través de una mirada joven, arriesgada y ambiciosa. Fuimos convocados con total libertad para crear la imagen desde cero, y comenzamos por el proceso del naming.",
     description2:
@@ -17,14 +18,45 @@ const projects = [
     service1: "Conceptual",
     service2: "Logo",
     service3: "Branding",
-    service4: "Social media",
-    service5: "Packaging",
+    service4: "Web",
+    service5: "Social media",
     location: "Buenos Aires, Argentina",
-    templateNumber: "1",
+    templateNumber: "3",
+    image1:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop1.png",
+    image2:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop2.png",
+    image3:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop3.png",
+    image4:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop5.png",
+    image5:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop4.png",
+    image6:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop6.png",
+    image7:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop7.png",
+    image8:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop8.png",
+    image9:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop9.png",
+    image10:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop10.png",
+    image11:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop11.png",
+    image12:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop12.png",
+    image13:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop13.png",
+    image14:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop14.png",
+    image15:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop15.png",
   },
   // MADERO TANGO
   {
     id: 2,
+    tags: ["Apps"],
     projectName: "Madero Tango",
     projectSubtitle: "Lorem ipsum",
     heroImage:
@@ -46,6 +78,7 @@ const projects = [
   // DALEPLAST
   {
     id: 3,
+    tags: ["Apps", "Branding"],
     projectName: "Daleplast",
     projectSubtitle: "Transformando la Imagen del Plástico",
     heroImage:
@@ -92,6 +125,7 @@ const projects = [
   // TU ESPACIO
   {
     id: 4,
+    tags: ["Branding"],
     projectName: "Tu Espacio",
     projectSubtitle: "Reinventando el Diseño de Interiores",
     heroImage:
@@ -138,6 +172,7 @@ const projects = [
   // BIM FORMATION
   {
     id: 5,
+    tags: ["Web&Ecommerce"],
     projectName: "Bim Formation",
     projectSubtitle: "Bim para el crecimiento profesional",
     heroImage:
@@ -177,6 +212,7 @@ const projects = [
   // SUPRA
   {
     id: 6,
+    tags: ["Apps"],
     projectName: "Supra",
     projectSubtitle: "Vanguardia en Tiktok Marketing",
     heroImage:
@@ -222,6 +258,7 @@ const projects = [
   // NOVAR
   {
     id: 7,
+    tags: ["Branding", "Web&Ecommerce"],
     projectName: "Novar",
     projectSubtitle: "La IA transforma la industria óptica",
     heroImage:
@@ -274,6 +311,7 @@ const projects = [
   // LA CHURRERIA
   {
     id: 8,
+    tags: ["Web&Ecommerce"],
     projectName: "La Churrería",
     projectSubtitle: "Churros, Donuts & Toppings",
     heroImage:
@@ -321,6 +359,7 @@ const projects = [
   // INADEA
   {
     id: 9,
+    tags: ["Web&Ecommerce"],
     projectName: "Inadea",
     projectSubtitle: "Cardioprotección para salvar vidas",
     heroImage:
@@ -368,6 +407,8 @@ const projects = [
   // SANDWICH TIME
   {
     id: 10,
+    tags: ["Apps", "Web&Ecommerce"],
+
     projectName: "SandwichTime",
     projectSubtitle: "Amor por la cocina real",
     heroImage:
@@ -419,6 +460,8 @@ const projects = [
   // PINKINTON
   {
     id: 11,
+    tags: ["Branding", "Web&Ecommerce"],
+
     projectName: "Pinkinton",
     projectSubtitle: "Frase resumen",
     heroImage:
@@ -465,6 +508,7 @@ const projects = [
   // ACEPRO
   {
     id: 12,
+    tags: ["Apps"],
     projectName: "Acepro",
     projectSubtitle: "Frase resumen",
     heroImage:
@@ -504,6 +548,7 @@ const projects = [
   // NATURGREEN
   {
     id: 13,
+    tags: ["Branding"],
     projectName: "Naturgreen",
     projectSubtitle: "Frase resumen",
     heroImage:
@@ -539,13 +584,211 @@ const projects = [
     image8:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen8.webp",
   },
+  // RAPID ENVIA
+  {
+    id: 14,
+    tags: ["Apps"],
+    projectName: "Rapid envía",
+    projectSubtitle: "Simplicidad en Cada Transferencia",
+    heroImage:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-rappid.png",
+    description1:
+      "Rapid Envía es una plataforma de envío de dinero internacional, con sede en Santiago, Chile. La misma se destaca por ofrecer transferencias inmediatas y comisiones bajas. Fuimos convocados para el desarrollo completo de la aplicación, desde la interfaz hasta su diseño.",
+    description2:
+      "Nuestro objetivo fue crear una interfaz intuitiva y fácil de navegar, colocando todas las herramientas necesarias al alcance del usuario y simplificando cada operación al máximo. En el diseño, nos concentramos en respaldar la funcionalidad. Optamos por tonos violetas fríos para lograr una apariencia moderna y tecnológica, y complementamos con un tono celeste claro para destacar puntos clave. Los fondos, con elementos curvos inspirados en el logo, transmiten una sensación de fluidez y rapidez en la experiencia del usuario.",
+    description3: "",
+    imgPreview:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-naturgreen.webp",
+    service1: "Diseño de app",
+    service2: "",
+    service3: "",
+    service4: "",
+    service5: "",
+    location: "Santiago, Chile",
+    templateNumber: "1",
+    image1:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-rappid1.png",
+    image2:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-rappid2.png",
+    image3:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-rappid3.png",
+    image4:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-rappid4.png",
+    image5:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-rappid5.png",
+    image6:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-rappid6.png",
+    image7:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-rappid7.png",
+    image8:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-rappid8.png",
+  },
+  // REPUBLICA DEL TANNAT
+  {
+    id: 15,
+    tags: ["Branding"],
+    projectName: "República del Tannat",
+    projectSubtitle: "Un Tannat elegante y auténtico",
+    heroImage:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-tannat.png",
+    description1: `"República del Tannat", un vino originario de Carmelo, Uruguay, nos desafió a crear su imagen de marca. La bodega, arraigada en la pasión por el vino, buscaba una representación de calidad y sofisticación para sus productos.`,
+    description2:
+      "En el proceso de diseño del logotipo, elegimos una tipografía elegante y minimalista, destacando detalles como la A sin travesaño. Además, el espacio entre las letras actúa como un respiro fresco, invitando a descubrir más. Complementamos esto con un isologo que incorpora la bandera de Uruguay, ligeramente deformada para transmitir un sentido de origen y movimiento, resaltando la vitalidad de este vino.",
+    description3:
+      "Extendimos nuestro trabajo a las etiquetas, optando por el blanco para la reserva y negro con toques dorados para la guarda. Mantuvimos las decisiones del logo en las etiquetas, fusionando el espacio, la elegancia y el minimalismo en un diseño armonioso. Introdujimos textura con sutiles rayas horizontales y también ofrecimos una opción con una ilustración a mano que captura la esencia del trabajo en las viñas, aportando autenticidad y sensibilidad a la marca.",
+    imgPreview:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-naturgreen.webp",
+    service1: "Conceptual",
+    service2: "Logo",
+    service3: "Branding",
+    service4: "Packaging",
+    service5: "",
+    location: "",
+    templateNumber: "1",
+    image1:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tannat1.png",
+    image2:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tannat2.png",
+    image3:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tannat3.png",
+    image4:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tannat4.png",
+    image5:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tannat5.png",
+    image6:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tannat6.png",
+    image7:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tannat7.png",
+    image8:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tannat8.png",
+  },
+  // TIESEN
+  {
+    id: 16,
+    tags: ["Apps"],
+    projectName: "Tiesen",
+    projectSubtitle: "Todos los Expertos en Hogar en un Solo Lugar",
+    heroImage:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-tiesen.png",
+    description1: `Tiesen es una aplicación desarrollada en Santiago, Chile, la cual conecta usuarios y profesionales del hogar, como electricistas, carpinteros y pintores. Nuestro desafío fue proyectar esta aplicación de manera integral, desde la fase de investigación de mercado hasta su diseño final.`,
+    description2:
+      "Nos centramos en satisfacer las necesidades de dos tipos de usuarios: para los clientes, creamos una experiencia simple y rápida para encontrar servicios profesionales, además de brindarles la oportunidad de evaluar la calidad del trabajo. Para los profesionales, desarrollamos una plataforma atractiva que les permitiera mostrar sus habilidades y captar clientes potenciales.",
+    description3:
+      "En cuanto a las elecciones gráficas, optamos por una paleta de colores en tonos verde agua y celeste para proyectar una imagen profesional y dinámica. Para añadir profundidad, incorporamos fondos en degradé y una textura de diagonales que resalta la rapidez y eficiencia del servicio. Otra decisión relevante fue la creación de un sistema iconográfico lineal y minimalista con toques de color, presente en diversas secciones de la aplicación, como la selección de perfiles y especialidades.",
+    imgPreview:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-naturgreen.webp",
+    service1: "Diseño de app",
+    service2: "",
+    service3: "",
+    service4: "",
+    service5: "",
+    location: "Santiago, Chile",
+    templateNumber: "1",
+    image1:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tiesen1.png",
+    image2:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tiesen2.png",
+    image3:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tiesen3.png",
+    image4:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tiesen4.png",
+    image5:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tiesen5.png",
+    image6:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tiesen6.png",
+    image7:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tiesen7.png",
+    image8:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tiesen8.png",
+  },
+  // MADERO VIAJENS
+  {
+    id: 17,
+    tags: ["Branding"],
+    projectName: "Madero Viajens",
+    projectSubtitle: "Reinventando el Diseño de Interiores",
+    heroImage:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-maderoviajens.png",
+    description1:
+      "Tu Espacio es una marca de diseño de interiores nacida en Tucumán, Argentina, con un enfoque claro: reinventar el diseño de interiores a través de una propuesta digital y personalizada. Especialmente dirigida a un público joven, familiarizado con las nuevas tendencias y con un espíritu emprendedor, nos embarcamos en el desafío de crear una identidad completa para este proyecto.",
+    description2:
+      "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
+    description3: "",
+    imgPreview:
+      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+    service1: "Conceptual",
+    service2: "Logo",
+    service3: "Branding",
+    service4: "Social media",
+    service5: "Packaging",
+    location: "Buenos Aires, Argentina",
+    templateNumber: "2",
+    image1:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviajens1.png",
+    image2:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviajens2.png",
+    image3:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviajens3.png",
+    image4:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviajens4.png",
+    image5:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviajens5.png",
+    image6:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviajens6.png",
+    image7:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviajens7.png",
+    image8:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-maderoviajens8.png",
+    image9:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-maderoviajens9.png",
+    image10:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-maderoviajens10.png",
+    image11:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-maderoviajens11.png",
+    image12:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-maderoviajens12.png",
+  },
 ];
 
-export const getProjects = () => {
+export const getProjects = (tag) => {
   return new Promise((resolve, reject) => {
-    resolve(projects);
+    const filteredProjects = projects.filter((project) =>
+      project.tags.includes(tag)
+    );
+    setTimeout(() => {
+      if (tag) {
+        resolve(filteredProjects);
+      } else {
+        resolve(projects);
+      }
+    }, 1500);
   });
 };
+
+export const getCategories = () => {
+  return new Promise((resolve, reject) => {
+    const all = projects.length;
+    const branding = projects.filter((project) =>
+      project.tags.includes("Branding")
+    ).length;
+    const web = projects.filter((project) =>
+      project.tags.includes("Web&Ecommerce")
+    ).length;
+    const apps = projects.filter((project) =>
+      project.tags.includes("Apps")
+    ).length;
+    const categoriesNumber = [all, branding, web, apps];
+    resolve(categoriesNumber);
+  });
+};
+
+// getCategories();
+
+// export const getFilteredProjects = (query) => {
+//   return new Promise((resolve, reject) => {
+//     resolve(projects.filter((item) => item.tags.includes(query)));
+//   });
+// };
 
 export const getProject = (projectId) => {
   return new Promise((resolve, reject) => {

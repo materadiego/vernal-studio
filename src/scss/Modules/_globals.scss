@@ -125,6 +125,20 @@ html {
   width: 60%;
 }
 
+.LoaderContainer {
+  display: flex;
+  justify-content: center;
+  border: 2px solid red;
+}
+
+.Loader {
+  width: 30%;
+  position: absolute;
+  margin-top: 2vw;
+  left: 35%;
+  right: 35%;
+}
+
 @media screen and (min-width: 1099px) {
   .SectionTitle {
     margin: 0 0 4vw;
@@ -258,5 +272,11 @@ html {
   }
   .Media-In {
     width: 50%;
+  }
+
+  .Loader {
+    width: 4%;
+    left: 48%;
+    right: 48%;
   }
 }

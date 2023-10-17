@@ -1,4 +1,6 @@
 .ProjectsListContainer {
+  position: relative;
+  width: 100%;
   margin: 0 0;
   padding: 20vw 0 0;
   display: flex;
@@ -59,6 +61,7 @@
 }
 
 .ProjectList-Contaier {
+  min-height: 50vw;
   opacity: 0;
   will-change: opacity;
 }
@@ -99,6 +102,15 @@
 
     color: $color-terciario;
   }
+}
+
+.Active-Category {
+  color: $color-primario;
+}
+
+.Active-CategoryNumber {
+  background-color: $color-primario;
+  color: $color-claro;
 }
 
 @media screen and (min-width: 1099px) {
@@ -161,11 +173,11 @@
 
   .ProjectList-Contaier {
     width: 80%;
+    min-height: 20vw;
     margin: 0 auto;
-    padding-bottom: 20vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 5%;
+    gap: 70px;
   }
 
   .ProjectList-ProjectLink {
@@ -178,7 +190,7 @@
 
   .ProjectList-Project {
     width: 100%;
-    margin: 0 0 1vw;
+    margin: 0;
     padding: 0;
     display: flex;
     &:hover .ProjectList-Project__Image img {
