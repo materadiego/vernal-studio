@@ -727,29 +727,29 @@ const projects = [
     location: "Buenos Aires, ARG",
     templateNumber: "2",
     image1:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-projects-maderoviagens1.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviagens1.png",
     image2:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-projects-maderoviagens2.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviagens2.png",
     image3:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-projects-maderoviagens3.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviagens3.png",
     image4:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-projects-maderoviagens4.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviagens4.png",
     image5:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-projects-maderoviagens5.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviagens5.png",
     image6:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-projects-maderoviagens6.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviagens6.png",
     image7:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-projects-maderoviagens7.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviagens7.png",
     image8:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-projects-maderoviagens8.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviagens8.png",
     image9:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-projects-maderoviagens9.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviagens9.png",
     image10:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-projects-maderoviagens10.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviagens10.png",
     image11:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-projects-maderoviagens11.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviagens11.png",
     image12:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-projects-maderoviagens12.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviagens12.png",
   },
 ];
 
