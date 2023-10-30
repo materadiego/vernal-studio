@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { getCategories, getProjects } from "../../Utils/projects";
 import loader from "../../Assets/Images/loader.svg";
 import ProjectPreview from "./ProjectPreview";
+import ScrollToTop from "../../Utils/ScrollToTop";
 
 export default function ProjectsList() {
   const [projects, setProjects] = useState([]);
@@ -23,6 +24,7 @@ export default function ProjectsList() {
 
   return (
     <>
+      <ScrollToTop />
       <h2 className="Projects-SectionTitle SectionTitle Projects-SectionTitle-Animation ">
         <span className="SectionTitle__Circle"></span> Proyectos
       </h2>

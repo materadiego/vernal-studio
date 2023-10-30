@@ -82,7 +82,7 @@ export default function Footer() {
           <h4 className="FooterContainer__MediaSubcontainer--Title Title-SmallFont Footer-Title Title">
             ¡Seguinos!
           </h4>
-          <a
+          <div
             href="#home"
             className="FooterContainer__MediaSubcontainer--Link Media-Container-Animation"
           >
@@ -92,8 +92,8 @@ export default function Footer() {
               alt="Instagram"
               className="Media-Ig Footer-Media-Image"
             ></img>
-          </a>
-          <a
+          </div>
+          <div
             href="#home"
             className="FooterContainer__MediaSubcontainer--Link Media-Container-Animation"
           >
@@ -103,8 +103,8 @@ export default function Footer() {
               alt="Behance"
               className="Media-Be Footer-Media-Image"
             ></img>
-          </a>
-          <a
+          </div>
+          <div
             href="#home"
             className="FooterContainer__MediaSubcontainer--Link Media-Container-Animation"
           >
@@ -114,7 +114,7 @@ export default function Footer() {
               alt="Linkedin"
               className="Media-In Footer-Media-Image"
             ></img>
-          </a>
+          </div>
         </div>
         <Link to="/home" className="FooterContainer__ArrowUp">
           <img

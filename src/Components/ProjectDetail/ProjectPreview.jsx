@@ -7,7 +7,7 @@ export default function ProjectPreview({ project }) {
         <div className="ProjectList-Project__Image">
           <img src={project.imgPreview} alt={project.projectName}></img>
         </div>
-        <p className="ProjectList-Project__Title Title">
+        <p className="ProjectList-Project__Title  Title">
           {project.projectName}
         </p>
         <p className="ProjectList-Project__Text Text">{project.location}</p>

@@ -320,6 +320,7 @@ export default function HomeServices() {
             </div>
           </div>
         </div>
+        {/* IMAGES */}
         <div
           className={`HomeServicesContainer-ImageContainer ${bgPosition} ${
             isIntersecting1 ? "Intersecting" : "NotIntersecting"

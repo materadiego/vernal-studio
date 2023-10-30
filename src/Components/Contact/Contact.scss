@@ -45,7 +45,7 @@
     }
     &--Submit {
       width: 53vw;
-      margin: 10vw 0;
+      margin: 10vw 0 4vw;
       border: none;
       background-color: transparent;
       & p {
@@ -53,7 +53,18 @@
         color: $color-primario;
       }
     }
+    &--Response {
+      width: 100%;
+      height: 10vw;
+      display: flex;
+      align-items: center;
+      margin-bottom: 3vw;
+    }
   }
+}
+
+.ContactForm-Loader {
+  width: 10vw;
 }
 
 .ContactContainer__Title.Title {
@@ -110,9 +121,21 @@
       }
       &--Submit {
         width: 13vw;
-        margin: 2vw 0;
+        margin: 2vw 0 0;
+      }
+      &--Response {
+        width: 100%;
+        height: 2vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0;
       }
     }
+  }
+
+  .ContactForm-Loader {
+    width: 2vw;
   }
 
   .ContactContainer__Title.Title {

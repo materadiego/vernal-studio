@@ -11,7 +11,7 @@ export default function HomeHero() {
       <div className="HomeHeroContainer">
         {/* SOCIAL MEDIA */}
         <div className="HomeHeroContainer__Media">
-          <a
+          <div
             href="www.instagram.com"
             className="HomeHeroContainer__Media--Link Media-Container-Animation"
           >
@@ -21,8 +21,8 @@ export default function HomeHero() {
               className="Hero-Ig Media-Ig Social-Media-Image Hero-Media-Image Hero-MediaImg-Animation"
               src={HeroIg}
             ></img>
-          </a>
-          <a
+          </div>
+          <div
             href="www.behance.com"
             className="HomeHeroContainer__Media--Link Media-Container-Animation "
           >
@@ -33,8 +33,8 @@ export default function HomeHero() {
               className="Hero-Be Media-Be Social-Media-Image Hero-Media-Image Hero-MediaImg-Animation"
               src={HeroBe}
             ></img>
-          </a>
-          <a
+          </div>
+          <div
             href="www.linkedin.com"
             className="HomeHeroContainer__Media--Link Media-Container-Animation"
           >
@@ -45,7 +45,7 @@ export default function HomeHero() {
               className="Hero-In Social-Media-Image Media-In Hero-Media-Image Hero-MediaImg-Animation"
               src={HeroIn}
             ></img>
-          </a>
+          </div>
         </div>
         {/* HERO TITLE */}
         <h3 className="HomeHeroContainer__Title Span-Animation HeroTitle1 Title Title-BigFont Mobile  ">

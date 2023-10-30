@@ -82,7 +82,7 @@
   border-radius: 1vw;
   &__Image {
     width: 100%;
-    margin: 0 0 5vw;
+    margin: 0;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -92,15 +92,18 @@
     }
   }
   &__Title {
-    margin: 0 0 2vw;
+    margin: 5vw 0 2vw;
+    font-size: 6.5vw;
+
     font-weight: 600;
     color: $color-primario;
   }
   &__Text {
     margin: 0 0 3vw;
-    font-size: 4.5vw;
+    font-size: 5vw;
 
-    color: $color-terciario;
+    font-weight: 400;
+    color: #aaaaaa;
   }
 }
 
@@ -173,7 +176,7 @@
 
   .ProjectList-Contaier {
     width: 80%;
-    min-height: 20vw;
+    min-height: 30vw;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

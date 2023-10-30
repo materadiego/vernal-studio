@@ -24,9 +24,10 @@
     border-top: 2px solid $color-secundario;
   }
   &__Description {
-    width: 92%;
+    width: 93%;
     margin: 8vw 0 25vw 8%;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
     color: $color-claro;
     & span {
       font-weight: 500;
@@ -63,16 +64,16 @@
     }
   }
   &__Title {
-    margin: 5vw 0 1vw;
-    font-weight: 500;
-    font-family: $Font1;
+    margin: 5vw 0 2vw;
+    font-size: 6.5vw;
+    font-weight: 600;
     color: $color-claro;
   }
   &__Location {
     margin: 0 0 5vw;
-    font-weight: 300;
+    font-size: 5vw;
+    font-weight: 400;
     color: $color-terciario;
-    font-family: $Font2;
   }
 }
 
@@ -140,6 +141,12 @@
     &:nth-child(5) {
       margin-top: 1vw;
     }
+    &:nth-child(6) {
+      margin-top: -7vw;
+    }
+    &:nth-child(7) {
+      margin-top: 1vw;
+    }
     &__ImageContainer {
       width: 100%;
       height: 33vw;
@@ -153,9 +160,11 @@
     }
     &__Title {
       margin: 2vw 0 0.2vw;
+      font-size: 1.7vw;
     }
     &__Location {
       margin: 0 0 2vw;
+      font-size: 1.2vw;
     }
   }
 

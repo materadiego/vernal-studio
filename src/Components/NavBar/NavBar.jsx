@@ -197,7 +197,7 @@ export default function NavBar() {
                   : "Navbar-MediaLine-AnimationOut"
               }`}
             ></div>
-            <a
+            <div
               className="MenuContainer__Media--Link  Media-Container-Animation"
               href="www.instagram.com"
             >
@@ -212,8 +212,8 @@ export default function NavBar() {
                     : "Navbar-MediaLinks-AnimationOut"
                 }`}
               ></img>
-            </a>
-            <a
+            </div>
+            <div
               className="MenuContainer__Media--Link  Media-Container-Animation"
               href="www.behance.com"
             >
@@ -228,8 +228,8 @@ export default function NavBar() {
                     : "Navbar-MediaLinks-AnimationOut"
                 }`}
               ></img>
-            </a>
-            <a
+            </div>
+            <div
               className="MenuContainer__Media--Link  Media-Container-Animation"
               href="www.linkedin.com"
             >
@@ -244,7 +244,7 @@ export default function NavBar() {
                     : "Navbar-MediaLinks-AnimationOut"
                 }`}
               ></img>
-            </a>
+            </div>
           </div>
         </div>
       </div>

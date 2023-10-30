@@ -1,12 +1,10 @@
 import useObserver from "../useObserver/useObserver";
-import LoopBg from "../../Assets/Images/projects-loop3-bg.webp";
-import LoopLogo from "../../Assets/Images/projects-loop3-logo.png";
-import MaderoBg from "../../Assets/Images/projects-maderotango-bg.webp";
-import MaderoLogo from "../../Assets/Images/projects-maderotango-logo.png";
-import DaleplastBg from "../../Assets/Images/projects-daleplast-bg.webp";
-import DaleplastLogo from "../../Assets/Images/projects-daleplast-logo.png";
-import TuEspacioBg from "../../Assets/Images/projects-tuespacio-bg.webp";
-import TuEspacioLogo from "../../Assets/Images/projects-tuespacio-logo.svg";
+import TuEspacioBg from "../../Assets/Images/projects-hero-mob-tuespacio.webp";
+import AceproBg from "../../Assets/Images/projects-hero-mob-acepro.webp";
+import NaturgreenBg from "../../Assets/Images/projects-hero-mob-naturgreen.webp";
+import SupraBg from "../../Assets/Images/projects-hero-mob-supra.webp";
+import InadeaBg from "../../Assets/Images/projects-hero-mob-inadea.webp";
+import MaderoViajensBg from "../../Assets/Images/projects-hero-mob-maderoviajens.webp";
 import { Link } from "react-router-dom";
 
 export default function HomeProjects() {
@@ -46,7 +44,12 @@ export default function HomeProjects() {
   const [elementRef12, isIntersecting12] = useObserver({
     threshold: 0.4,
   });
-
+  const [elementRef13, isIntersecting13] = useObserver({
+    threshold: 0.4,
+  });
+  const [elementRef14, isIntersecting14] = useObserver({
+    threshold: 0.4,
+  });
   return (
     <div
       ref={elementRef1}
@@ -129,91 +132,119 @@ export default function HomeProjects() {
           {/* PROJECT BOX */}
           <Link
             ref={elementRef8}
-            to="/projects/1"
+            to="/projects/4"
             className={`ProjectBox ${
               isIntersecting8 ? "Intersecting" : "NotIntersecting"
             }`}
           >
             <div className={`ProjectBox__ImageContainer `}>
               <img
-                src={LoopBg}
+                src={TuEspacioBg}
                 alt="Projects"
                 className="ProjectBox__ImageContainer--Image"
               ></img>
             </div>
-            <p className="ProjectBox__Title Title-SmallFont ">Loop3</p>
-            <p className="ProjectBox__Location Title-SmallFont">
-              Buenos Aires, ARG
-            </p>
+            <h6 className="ProjectBox__Title   Title ">Tu Espacio</h6>
+            <p className="ProjectBox__Location  Text">Tucumán, ARG</p>
           </Link>
           {/* PROJECT BOX */}
           <Link
             ref={elementRef9}
-            to="/projects/2"
+            to="/projects/12"
             className={`ProjectBox ${
               isIntersecting9 ? "Intersecting" : "NotIntersecting"
             }`}
           >
             <div className={`ProjectBox__ImageContainer`}>
               <img
-                src={MaderoBg}
+                src={AceproBg}
                 alt="Projects"
                 className="ProjectBox__ImageContainer--Image"
               ></img>
             </div>
-            <p className="ProjectBox__Title Title-SmallFont">Madero Tango</p>
-            <p className="ProjectBox__Location Title-SmallFont">
-              Buenos Aires, ARG
-            </p>
+            <h6 className="ProjectBox__Title   Title ">Acepro</h6>
+            <p className="ProjectBox__Location  Text">Santiago, CL</p>
           </Link>
           {/* PROJECT BOX */}
 
           <Link
             ref={elementRef10}
-            to="/projects/3"
+            to="/projects/13"
             className={`ProjectBox ${
               isIntersecting10 ? "Intersecting" : "NotIntersecting"
             }`}
           >
             <div className={`ProjectBox__ImageContainer `}>
               <img
-                src={DaleplastBg}
+                src={NaturgreenBg}
                 alt="Projects"
                 className="ProjectBox__ImageContainer--Image"
               ></img>
             </div>
-            <p className="ProjectBox__Title Title-SmallFont">Daleplast</p>
-            <p className="ProjectBox__Location Title-SmallFont">
-              Buenos Aires, ARG
-            </p>
+            <h6 className="ProjectBox__Title   Title">Naturgreen</h6>
+            <p className="ProjectBox__Location  Text">Sevilla, ES</p>
           </Link>
           {/* PROJECT BOX */}
           <Link
             ref={elementRef11}
-            to="/projects/4"
+            to="/projects/6"
             className={`ProjectBox ${
               isIntersecting11 ? "Intersecting" : "NotIntersecting"
             }`}
           >
             <div className={`ProjectBox__ImageContainer`}>
               <img
-                src={TuEspacioBg}
+                src={SupraBg}
                 alt="Projects"
                 className="ProjectBox__ImageContainer--Image"
               ></img>
             </div>
-            <p className="ProjectBox__Title Title-SmallFont">Tu Espacio</p>
-            <p className="ProjectBox__Location Title-SmallFont">
-              Buenos Aires, ARG
-            </p>
+            <h6 className="ProjectBox__Title  Title">Supra</h6>
+            <p className="ProjectBox__Location  Text">Buenos Aires, ARG</p>
+          </Link>
+          {/* PROJECT BOX */}
+          <Link
+            ref={elementRef12}
+            to="/projects/9"
+            className={`ProjectBox ${
+              isIntersecting12 ? "Intersecting" : "NotIntersecting"
+            }`}
+          >
+            <div className={`ProjectBox__ImageContainer`}>
+              <img
+                src={InadeaBg}
+                alt="Projects"
+                className="ProjectBox__ImageContainer--Image"
+              ></img>
+            </div>
+            <h6 className="ProjectBox__Title  Title">Inadea</h6>
+            <p className="ProjectBox__Location  Text">Buenos Aires, ARG</p>
+          </Link>
+          {/* PROJECT BOX */}
+          <Link
+            ref={elementRef13}
+            to="/projects/17"
+            className={`ProjectBox ${
+              isIntersecting13 ? "Intersecting" : "NotIntersecting"
+            }`}
+          >
+            <div className={`ProjectBox__ImageContainer`}>
+              <img
+                src={MaderoViajensBg}
+                alt="Projects"
+                className="ProjectBox__ImageContainer--Image"
+              ></img>
+            </div>
+            <h6 className="ProjectBox__Title  Title">Madero Viajens</h6>
+            <p className="ProjectBox__Location  Text">Buenos Aires, ARG</p>
           </Link>
         </div>
         {/* MORE BUTTON */}
         <Link
           to="/projects"
-          ref={elementRef12}
+          ref={elementRef14}
           className={`HomeProjectsContainer__MoreButton Button ${
-            isIntersecting12 ? "Intersecting" : "NotIntersecting"
+            isIntersecting14 ? "Intersecting" : "NotIntersecting"
           }`}
         >
           <div className="HomeProjectsContainer__MoreButton--Arrow Button-Arrow"></div>

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getProjects } from "../../Utils/projects";
-export default function MoreProjects() {
+export default function MoreProjects({ setMore }) {
   const { id } = useParams();
 
   const [projects, setProjects] = useState([]);
@@ -33,6 +33,7 @@ export default function MoreProjects() {
       {/* MORE BUTTON */}
       <Link
         to={nextPorjectRoute(id)}
+        onClick={() => setMore(false)}
         className="MoreProjectsContainer__MoreButton Button "
       >
         <div className="MoreProjectsContainer__MoreButton--Arrow Button-Arrow"></div>

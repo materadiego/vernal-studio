@@ -20,7 +20,7 @@ const projects = [
     service3: "Branding",
     service4: "Web",
     service5: "Social media",
-    location: "Buenos Aires, Argentina",
+    location: "Buenos Aires, ARG",
     templateNumber: "3",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop1.png",
@@ -43,7 +43,7 @@ const projects = [
     image10:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop10.png",
     image11:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop11.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop11.svg",
     image12:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop12.png",
     image13:
@@ -72,7 +72,7 @@ const projects = [
     service3: "Branding",
     service4: "Social media",
     service5: "Packaging",
-    location: "Buenos Aires, Argentina",
+    location: "Buenos Aires, ARG",
     templateNumber: "2",
   },
   // DALEPLAST
@@ -93,9 +93,9 @@ const projects = [
     service1: "Conceptual",
     service2: "Logo",
     service3: "Branding",
-    service4: "Social media",
-    service5: "Packaging",
-    location: "Tierra del Fuego, Argentina",
+    service4: "Web",
+    service5: "Social media",
+    location: "Tierra del Fuego, ARG",
     templateNumber: "2",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-daleplast1.webp",
@@ -140,9 +140,9 @@ const projects = [
     service1: "Conceptual",
     service2: "Logo",
     service3: "Branding",
-    service4: "Social media",
-    service5: "Packaging",
-    location: "Tucumán, Argentina",
+    service4: "Web",
+    service5: "Social media",
+    location: "Tucumán, ARG",
     templateNumber: "2",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tuespacio1.webp",
@@ -188,9 +188,9 @@ const projects = [
     service1: "Conceptual",
     service2: "Logo",
     service3: "Branding",
-    service4: "Social media",
-    service5: "Packaging",
-    location: "Sevilla, España",
+    service4: "Web",
+    service5: "",
+    location: "Sevilla, ES",
     templateNumber: "1",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation1.webp",
@@ -224,11 +224,11 @@ const projects = [
     imgPreview:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-supra.webp",
     service1: "Conceptual",
-    service2: "Logo",
-    service3: "Branding",
-    service4: "Social media",
-    service5: "Packaging",
-    location: "Buenos Aires, Argentina",
+    service2: "Branding",
+    service3: "Web",
+    service4: "",
+    service5: "",
+    location: "Buenos Aires, ARG",
     templateNumber: "2",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra1.webp",
@@ -271,11 +271,11 @@ const projects = [
     imgPreview:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-tuespacio.webp",
     service1: "Conceptual",
-    service2: "Logo",
-    service3: "Branding",
-    service4: "Social media",
-    service5: "Packaging",
-    location: "Buenos Aires, Argentina",
+    service2: "Branding",
+    service3: "Diseño de Stands",
+    service4: "Packaging",
+    service5: "",
+    location: "Buenos Aires, ARG",
     templateNumber: "3",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-novar1.webp",
@@ -315,7 +315,7 @@ const projects = [
     projectName: "La Churrería",
     projectSubtitle: "Churros, Donuts & Toppings",
     heroImage:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-inadea.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-churreria.png",
     description1:
       "La Churrería by Pachi surge como una divertida propuesta estacional en Punta del Este, Uruguay. Impulsada por un apasionado gastronómico, esta idea toma vida inspirada en su hija Pachi, con el objetivo de brindar una experiencia deliciosa y divertida durante el verano. ",
     description2:
@@ -329,7 +329,7 @@ const projects = [
     service3: "Branding",
     service4: "Social media",
     service5: "Packaging",
-    location: "Punta del Este, Uruguay",
+    location: "Punta del Este, UY",
     templateNumber: "2",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-churreria1.webp",
@@ -373,11 +373,11 @@ const projects = [
     imgPreview:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-inadea.webp",
     service1: "Conceptual",
-    service2: "Logo",
-    service3: "Branding",
-    service4: "Social media",
-    service5: "Packaging",
-    location: "Buenos Aires, Argentina",
+    service2: "Branding",
+    service3: "Web",
+    service4: "Cartelería",
+    service5: "",
+    location: "Buenos Aires, ARG",
     templateNumber: "2",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-inadea1.webp",
@@ -420,11 +420,11 @@ const projects = [
     imgPreview:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-sandwichtime.webp",
     service1: "Conceptual",
-    service2: "Logo",
-    service3: "Branding",
+    service2: "Branding",
+    service3: "Web",
     service4: "Social media",
-    service5: "Packaging",
-    location: "Santiago, Chile",
+    service5: "",
+    location: "Santiago, CL",
     templateNumber: "3",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sandwich1.webp",
@@ -463,14 +463,15 @@ const projects = [
     tags: ["Branding", "Web&Ecommerce"],
 
     projectName: "Pinkinton",
-    projectSubtitle: "Frase resumen",
+    projectSubtitle: "Sastres Financieros",
     heroImage:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-inadea.webp",
-    description1:
-      "Tu Espacio es una marca de diseño de interiores nacida en Tucumán, Argentina, con un enfoque claro: reinventar el diseño de interiores a través de una propuesta digital y personalizada. Especialmente dirigida a un público joven, familiarizado con las nuevas tendencias y con un espíritu emprendedor, nos embarcamos en el desafío de crear una identidad completa para este proyecto.",
+    description1: `Pinkinton es un estudio financiero ubicado en Montevideo, Uruguay, que se distingue por su enfoque innovador, autodenominándose "Sastres Financieros", ya que ofrece soluciones financieras adaptadas a las necesidades de sus clientes con gustos sofisticados.
+      Fuimos convocados para realizar el rebranding de la marca y diseñar su página web. `,
     description2:
-      "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
-    description3: "",
+      "El objetivo era atraer a un público específico y asociar los servicios financieros de Pinkinton con productos de alta gama, como autos deportivos, arte y trajes a medida. Creamos una imagen sofisticada y minimalista, con fuerte presencia del blanco para aportar liviandad y acompañamos con un azul profundo y bordó para transmitir profesionalismo. En términos tipográficos, optamos por una serif elegante junto con una sans serif ligera para añadir un toque de modernidad.",
+    description3:
+      "Tanto en la página web como en la papelería institucional utilizamos pocos elementos para lograr una apariencia clara y pulcra. Las imágenes de alta calidad aportaron personalidad y el diseño de gráficos financieros desempeña.",
     imgPreview:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-pinkinton.png",
     service1: "Branding",
@@ -478,7 +479,7 @@ const projects = [
     service3: "Papelería",
     service4: "Editorial",
     service5: "",
-    location: "Montevideo, Uruguay",
+    location: "Montevideo, UY",
     templateNumber: "2",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-pinkinton1.webp",
@@ -510,9 +511,9 @@ const projects = [
     id: 12,
     tags: ["Apps"],
     projectName: "Acepro",
-    projectSubtitle: "Frase resumen",
+    projectSubtitle: "Experiencia Automotriz 4.0",
     heroImage:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-inadea.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-acepro.png",
     description1:
       "Acepro tools, desarrollada en Santiago, Chile, es una aplicación líder en soluciones digitales automotrices, destacándose por su amplia gama de dispositivos originales y una plataforma para programación de smart keys. Nuestro reto fue diseñar una aplicación que fuera atractiva, permitiendo a los usuarios acceder a todas sus funciones de manera sencilla. ",
     description2:
@@ -521,12 +522,12 @@ const projects = [
       "Creamos un home y perfiles de usuario, para después adentrarnos en el diseño de las pantallas secundarias, menús y elementos interactivos. En cuanto al aspecto visual, elegimos un tono azul profundo como color principal, el cual se utilizó en sus distintas escalas. Este tono agregó un toque de profesionalismo, y al usarlo como fondo, logramos darle profundidad y modernidad mediante la incorporación de texturas inspiradas en elementos del logotipo. Además, creamos una iconografía personalizada de estilo lineal y minimalista, lo que facilitó la comprensión de ciertos parámetros y acciones dentro de la aplicación.",
     imgPreview:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-acepro.webp",
-    service1: "Conceptual",
-    service2: "Logo",
-    service3: "Branding",
-    service4: "Social media",
-    service5: "Packaging",
-    location: "Santiago, Chile",
+    service1: "Diseño de app",
+    service2: "",
+    service3: "",
+    service4: "",
+    service5: "",
+    location: "Santiago, CL",
     templateNumber: "1",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-acepro1.webp",
@@ -550,22 +551,23 @@ const projects = [
     id: 13,
     tags: ["Branding"],
     projectName: "Naturgreen",
-    projectSubtitle: "Frase resumen",
+    projectSubtitle: "Agricultura sostenible y biodiversidad",
     heroImage:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-naturgreen.webp",
     description1:
-      "Tu Espacio es una marca de diseño de interiores nacida en Tucumán, Argentina, con un enfoque claro: reinventar el diseño de interiores a través de una propuesta digital y personalizada. Especialmente dirigida a un público joven, familiarizado con las nuevas tendencias y con un espíritu emprendedor, nos embarcamos en el desafío de crear una identidad completa para este proyecto.",
+      "Naturgreen - Iberhanse, líder en la producción de cítricos y frutas con sede en Sevilla, es reconocido a nivel internacional por su combinación única de innovación y tradición. La empresa se destaca por implementar prácticas agrícolas sostenibles, siendo un pionero en la reintegración de la biodiversidad en la agricultura.",
     description2:
-      "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
-    description3: "",
+      "Junto al supermercado alemán Edeka y la ONG WWF, llevan adelante el proyecto Zitrus donde se enfocan en la producción y exportación de cítricos mediante una agricultura bioinclusiva. Este modelo se basa en prácticas naturales y sostenibles para el entorno, contribuyendo a la recuperación de la flora y fauna en las áreas de cultivo. ",
+    description3:
+      "Nuestra contribución se centró en diseñar una experiencia única para los consumidores durante la compra de las naranjas. Creamos una presentación que reemplaza las redes tradicionales por alveolos donde se colocan las naranjas. Cada naranja se apoya sobre una representación ilustrada de flora o fauna preservada en las áreas de cultivo. Además, incluimos frases positivas que alientan la convivencia entre la fauna, la flora y el cultivo. Estas ilustraciones, realizadas a mano con trazos simples pero detallados, fueron diseñadas para ser amigables y atractivas, creando una conexión emocional con los consumidores.",
     imgPreview:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-naturgreen.webp",
     service1: "Conceptual",
-    service2: "Logo",
-    service3: "Branding",
-    service4: "Social media",
-    service5: "Packaging",
-    location: "Santiago, Chile",
+    service2: "Ilustración",
+    service3: "Packaging",
+    service4: "",
+    service5: "",
+    location: "Santiago, CL",
     templateNumber: "1",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen1.webp",
@@ -604,7 +606,7 @@ const projects = [
     service3: "",
     service4: "",
     service5: "",
-    location: "Santiago, Chile",
+    location: "Santiago, CL",
     templateNumber: "1",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-rappid1.png",
@@ -643,7 +645,7 @@ const projects = [
     service3: "Branding",
     service4: "Packaging",
     service5: "",
-    location: "",
+    location: "Carmelo, UY",
     templateNumber: "1",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tannat1.png",
@@ -682,7 +684,7 @@ const projects = [
     service3: "",
     service4: "",
     service5: "",
-    location: "Santiago, Chile",
+    location: "Santiago, CL",
     templateNumber: "1",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tiesen1.png",
@@ -701,52 +703,53 @@ const projects = [
     image8:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tiesen8.png",
   },
-  // MADERO VIAJENS
+  // MADERO VIAGENS
   {
     id: 17,
     tags: ["Branding"],
-    projectName: "Madero Viajens",
-    projectSubtitle: "Reinventando el Diseño de Interiores",
+    projectName: "Madero Viagens",
+    projectSubtitle: "Donde el viaje comienza",
     heroImage:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-maderoviajens.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-maderoviajens.webp",
     description1:
-      "Tu Espacio es una marca de diseño de interiores nacida en Tucumán, Argentina, con un enfoque claro: reinventar el diseño de interiores a través de una propuesta digital y personalizada. Especialmente dirigida a un público joven, familiarizado con las nuevas tendencias y con un espíritu emprendedor, nos embarcamos en el desafío de crear una identidad completa para este proyecto.",
-    description2:
-      "Desde el principio, nos planteamos la tarea de combinar la parte racional y resolutiva con el lado más soñador de la marca, cuyo objetivo es ayudar a las personas a conseguir el hogar de sus sueños. Desarrollamos un logo con líneas sencillas que evoca la precisión de los planos, y al mismo tiempo que simboliza una puerta abierta que invita a conectar con sus sueños. En cuanto a los recursos gráficos, logramos construir una identidad visual que se caracteriza por su simplicidad y minimalismo, contrastando con ilustraciones e iconografías alegres y divertidas. La paleta cromática también desempeña un papel importante al equilibrar los tonos cálidos y fríos, creando un ambiente armonioso entre los planos y las figuras.",
-    description3: "",
+      "Madero Viagens, una agencia de viajes ubicada en el icónico punto turístico de Galerías Pacífico en Buenos Aires, nos convocó para realizar el rediseño completo de su marca, el diseño del local y una innovadora instalación que funcionaría a modo de stand. La agencia buscaba una imagen moderna y fresca, así como lograr una experiencia única para el cliente.",
+    description2: `Comenzamos con el rediseño del logo, manteniendo su esencia pero simplificándolo para crear un diseño minimalista y que aún evocara el emblemático Puerto Madero. La paleta de colores contrastantes, pensada para lograr impacto visual, se formó con un azul de tintes amarillos y tonos secundarios en naranja. 
+      Para el diseño del local, nos inspiramos en la lógica de un aeropuerto. Utilizamos carteles y mostradores que simulan el proceso de embarque. Para reforzar esta experiencia, introducimos una cinta transportadora y diversas imágenes en blanco y negro que no solo agregan profundidad sino que también simulan ventanas con vistas a aviones despegando y mangas de embarque.`,
+    description3: `
+    En cuanto a la instalación, ubicada en la misma galería, se incluyó una figura corpórea de la trompa de un avión. En su interior, se ubicaron asientos y ventanas, completando la experiencia de aeropuerto y creando un ambiente único para los visitantes.`,
     imgPreview:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-tuespacio-bg.c7017c7524a6a1a804f4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-maderoviajens.webp",
     service1: "Conceptual",
     service2: "Logo",
     service3: "Branding",
     service4: "Social media",
     service5: "Packaging",
-    location: "Buenos Aires, Argentina",
+    location: "Buenos Aires, ARG",
     templateNumber: "2",
     image1:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviajens1.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-projects-maderoviagens1.png",
     image2:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviajens2.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-projects-maderoviagens2.png",
     image3:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviajens3.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-projects-maderoviagens3.png",
     image4:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviajens4.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-projects-maderoviagens4.png",
     image5:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviajens5.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-projects-maderoviagens5.png",
     image6:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviajens6.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-projects-maderoviagens6.png",
     image7:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviajens7.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-projects-maderoviagens7.png",
     image8:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-maderoviajens8.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-projects-maderoviagens8.png",
     image9:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-maderoviajens9.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-projects-maderoviagens9.png",
     image10:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-maderoviajens10.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-projects-maderoviagens10.png",
     image11:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-maderoviajens11.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-projects-maderoviagens11.png",
     image12:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-maderoviajens12.png",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projetcs-projects-maderoviagens12.png",
   },
 ];
 
