@@ -1,12 +1,11 @@
 import { useEffect, useRef } from "react";
-
+import { useLocation } from "react-router-dom";
 import HomeHero from "../Components/HomeHero/HomeHero";
 import HomeMetodology from "../Components/HomeMetodology/HomeMetodology";
 import HomeProjects from "../Components/HomeProjects/HomeProjects";
 import HomeServices from "../Components/HomeServices/HomeServices";
-import "../scss/Pages/HomePage.scss";
-import { useLocation } from "react-router-dom";
 import Contact from "../Components/Contact/Contact";
+import "../scss/Pages/HomePage.scss";
 
 export default function HomePage() {
   const home = useRef(null);

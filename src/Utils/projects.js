@@ -53,31 +53,9 @@ const projects = [
     image15:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop15.png",
   },
-  // MADERO TANGO
-  {
-    id: 2,
-    tags: [""],
-    projectName: "Madero Tango",
-    projectSubtitle: "Lorem ipsum",
-    heroImage:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-inadea.webp",
-    description1:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    description2: "",
-    description3: "",
-    imgPreview:
-      "https://materadiego.github.io/vernal-studio/static/media/projects-maderotango-bg.f8fdb09b539b772efb33.webp",
-    service1: "Conceptual",
-    service2: "Logo",
-    service3: "Branding",
-    service4: "Social media",
-    service5: "Packaging",
-    location: "Buenos Aires, ARG",
-    templateNumber: "2",
-  },
   // DALEPLAST
   {
-    id: 3,
+    id: 2,
     tags: ["Web&Ecommerce", "Branding"],
     projectName: "Daleplast",
     projectSubtitle: "Transformando la Imagen del Plástico",
@@ -124,7 +102,7 @@ const projects = [
   },
   // TU ESPACIO
   {
-    id: 4,
+    id: 3,
     tags: ["Branding", "Web&Ecommerce"],
     projectName: "Tu Espacio",
     projectSubtitle: "Reinventando el Diseño de Interiores",
@@ -171,7 +149,7 @@ const projects = [
   },
   // BIM FORMATION
   {
-    id: 5,
+    id: 4,
     tags: ["Branding", "Web&Ecommerce"],
     projectName: "Bim Formation",
     projectSubtitle: "Bim para el crecimiento profesional",
@@ -211,7 +189,7 @@ const projects = [
   },
   // SUPRA
   {
-    id: 6,
+    id: 5,
     tags: ["Branding", "Web&Ecommerce"],
     projectName: "Supra",
     projectSubtitle: "Vanguardia en Tiktok Marketing",
@@ -257,19 +235,19 @@ const projects = [
   },
   // NOVAR
   {
-    id: 7,
+    id: 6,
     tags: ["Branding", "Web&Ecommerce"],
     projectName: "Novar",
     projectSubtitle: "La IA transforma la industria óptica",
     heroImage:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-inadea.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-novar.png",
     description1:
       "Novar es una empresa líder en Argentina, especializada en tecnologías ópticas de ultima generación. Su busqueda constante de innovación y nuevos desafios la ha posicionado como marca pionera en América Latina y Europa. Fuimos convocados para renovar la imagen de la empresa, en preparación para un lanzamiento fundamental en su historia: la presentación de Ailens, la primera lente diseñada por inteligencia artificial. Este evento tendría lugar en feria MIDO 22, reconocida como la más importante en la industria óptica. ",
     description2: `Uno de los principales desafíos fue lograr que Novar destacara entre todos los expositores de la feria. Para ello, seleccionamos el distintivo color "Persian Indigo" como el tono principal de la marca, transmitiendo innovación y diferenciándola de la competencia. Complementamos el branding con texturas que evocan las mallas utilizadas en la construcción de las lentes, creando una imagen de alto nivel pero llamativa. Además, optamos por la versátil tipografía Gotham para reflejar profesionalismo y adaptabilidad`,
     description3:
       "En el caso de Aliens, conservamos elementos clave de Novar y adoptamos un enfoque disruptivo con un vibrante turquesa que simboliza la innovación y el progreso. También incorporamos las mallas del branding de Novar, las cuales se entrelazan en Aliens para representar la tecnología de vanguardia de esta nueva era",
     imgPreview:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-tuespacio.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-novar.png",
     service1: "Conceptual",
     service2: "Branding",
     service3: "Diseño de Stands",
@@ -310,7 +288,7 @@ const projects = [
   },
   // LA CHURRERIA
   {
-    id: 8,
+    id: 7,
     tags: ["Branding"],
     projectName: "La Churrería",
     projectSubtitle: "Churros, Donuts & Toppings",
@@ -358,7 +336,7 @@ const projects = [
   },
   // INADEA
   {
-    id: 9,
+    id: 8,
     tags: ["Branding", "Web&Ecommerce"],
     projectName: "Inadea",
     projectSubtitle: "Cardioprotección para salvar vidas",
@@ -386,7 +364,7 @@ const projects = [
     image3:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-inadea2.webp",
     image4:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-inadea4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-inadea4.png",
     image5:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-inadea5.webp",
     image6:
@@ -406,7 +384,7 @@ const projects = [
   },
   // SANDWICH TIME
   {
-    id: 10,
+    id: 9,
     tags: ["Branding", "Web&Ecommerce"],
 
     projectName: "SandwichTime",
@@ -459,7 +437,7 @@ const projects = [
   },
   // PINKINTON
   {
-    id: 11,
+    id: 10,
     tags: ["Branding", "Web&Ecommerce"],
 
     projectName: "Pinkinton",
@@ -508,7 +486,7 @@ const projects = [
   },
   // ACEPRO
   {
-    id: 12,
+    id: 11,
     tags: ["Apps"],
     projectName: "Acepro",
     projectSubtitle: "Experiencia Automotriz 4.0",
@@ -548,7 +526,7 @@ const projects = [
   },
   // NATURGREEN
   {
-    id: 13,
+    id: 12,
     tags: ["Branding"],
     projectName: "Naturgreen",
     projectSubtitle: "Agricultura sostenible y biodiversidad",
@@ -588,7 +566,7 @@ const projects = [
   },
   // RAPID ENVIA
   {
-    id: 14,
+    id: 13,
     tags: ["Apps"],
     projectName: "Rapid envía",
     projectSubtitle: "Simplicidad en Cada Transferencia",
@@ -627,7 +605,7 @@ const projects = [
   },
   // REPUBLICA DEL TANNAT
   {
-    id: 15,
+    id: 14,
     tags: ["Branding"],
     projectName: "República del Tannat",
     projectSubtitle: "Un Tannat elegante y auténtico",
@@ -666,7 +644,7 @@ const projects = [
   },
   // TIESEN
   {
-    id: 16,
+    id: 15,
     tags: ["Apps"],
     projectName: "Tiesen",
     projectSubtitle: "Todos los Expertos en Hogar en un Solo Lugar",
@@ -678,7 +656,7 @@ const projects = [
     description3:
       "En cuanto a las elecciones gráficas, optamos por una paleta de colores en tonos verde agua y celeste para proyectar una imagen profesional y dinámica. Para añadir profundidad, incorporamos fondos en degradé y una textura de diagonales que resalta la rapidez y eficiencia del servicio. Otra decisión relevante fue la creación de un sistema iconográfico lineal y minimalista con toques de color, presente en diversas secciones de la aplicación, como la selección de perfiles y especialidades.",
     imgPreview:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-naturgreen.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-tiesen.png",
     service1: "Diseño de app",
     service2: "",
     service3: "",
@@ -705,7 +683,7 @@ const projects = [
   },
   // MADERO VIAGENS
   {
-    id: 17,
+    id: 16,
     tags: ["Branding"],
     projectName: "Madero Viagens",
     projectSubtitle: "Donde el viaje comienza",

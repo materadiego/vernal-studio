@@ -3,7 +3,6 @@ import arrowDown from "../../Assets/Images/projects-arrow-down.svg";
 import ProjectTemplateOne from "../ProjectTemplates/ProjectTemplateOne";
 import ProjectTemplateThree from "../ProjectTemplates/ProjectTemplateThree";
 import ProjectTemplateTwo from "../ProjectTemplates/ProjectTemplateTwo";
-import ScrollToTop from "../../Utils/ScrollToTop";
 
 export default function Project({ more, setMore, ...project }) {
   function toggleMore() {
@@ -25,7 +24,6 @@ export default function Project({ more, setMore, ...project }) {
 
   return (
     <div className="ProjectDetail">
-      <ScrollToTop />
       <div className="ProjectDetail-Container">
         <img
           src={project.imgPreview}

@@ -132,7 +132,7 @@ export default function HomeProjects() {
           {/* PROJECT BOX */}
           <Link
             ref={elementRef8}
-            to="/projects/4"
+            to="/projects/3"
             className={`ProjectBox ${
               isIntersecting8 ? "Intersecting" : "NotIntersecting"
             }`}
@@ -150,7 +150,7 @@ export default function HomeProjects() {
           {/* PROJECT BOX */}
           <Link
             ref={elementRef9}
-            to="/projects/12"
+            to="/projects/11"
             className={`ProjectBox ${
               isIntersecting9 ? "Intersecting" : "NotIntersecting"
             }`}
@@ -169,7 +169,7 @@ export default function HomeProjects() {
 
           <Link
             ref={elementRef10}
-            to="/projects/13"
+            to="/projects/12"
             className={`ProjectBox ${
               isIntersecting10 ? "Intersecting" : "NotIntersecting"
             }`}
@@ -187,7 +187,7 @@ export default function HomeProjects() {
           {/* PROJECT BOX */}
           <Link
             ref={elementRef11}
-            to="/projects/6"
+            to="/projects/5"
             className={`ProjectBox ${
               isIntersecting11 ? "Intersecting" : "NotIntersecting"
             }`}
@@ -205,7 +205,7 @@ export default function HomeProjects() {
           {/* PROJECT BOX */}
           <Link
             ref={elementRef12}
-            to="/projects/9"
+            to="/projects/8"
             className={`ProjectBox ${
               isIntersecting12 ? "Intersecting" : "NotIntersecting"
             }`}
@@ -223,7 +223,7 @@ export default function HomeProjects() {
           {/* PROJECT BOX */}
           <Link
             ref={elementRef13}
-            to="/projects/17"
+            to="/projects/16"
             className={`ProjectBox ${
               isIntersecting13 ? "Intersecting" : "NotIntersecting"
             }`}
