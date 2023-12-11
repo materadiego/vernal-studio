@@ -1,10 +1,18 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import arrowDown from "../../Assets/Images/projects-arrow-down.svg";
 import ProjectTemplateOne from "../ProjectTemplates/ProjectTemplateOne";
 import ProjectTemplateThree from "../ProjectTemplates/ProjectTemplateThree";
 import ProjectTemplateTwo from "../ProjectTemplates/ProjectTemplateTwo";
 
 export default function Project({ more, setMore, ...project }) {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+  }, [project.id]);
+
   function toggleMore() {
     setMore(!more);
   }
@@ -23,7 +31,7 @@ export default function Project({ more, setMore, ...project }) {
   };
 
   return (
-    <div className="ProjectDetail">
+    <div className={`ProjectDetail ${!loading && "appear"}`}>
       <div className="ProjectDetail-Container">
         <img
           src={project.imgPreview}

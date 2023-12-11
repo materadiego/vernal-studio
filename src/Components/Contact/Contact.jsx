@@ -16,37 +16,29 @@ export default function Contact() {
     });
   };
 
-  const formNotSubmit = (event) => {
+  const enviarDatos = async (event) => {
     event.preventDefault();
-    setResponse(<img alt="" className="loader" src={Loader}></img>);
-    setTimeout(() => {
+    setResponse(
+      <img alt="loader" className="ContactForm-Loader" src={Loader}></img>
+    );
+    const res = await fetch(
+      "https://formsubmit.co/ajax/hello@vernalstudio.com",
+      {
+        method: "post",
+        body: new FormData(event.target),
+      }
+    );
+    const data = await res.json();
+    console.log(data);
+
+    console.log(res.status);
+
+    if (res.status !== 200) {
+      setResponse("Error. Intente nuevamente");
+    } else {
       setResponse("¡Mensaje enviado exitosamente!");
-    }, 3000);
+    }
   };
-
-  // const enviarDatos = async (event) => {
-  //   event.preventDefault();
-  //   setResponse(
-  //     <img alt="loader" className="ContactForm-Loader" src={Loader}></img>
-  //   );
-  //   const res = await fetch(
-  //     "https://formsubmit.co/ajax/hello@vernalstudio.com",
-  //     {
-  //       method: "post",
-  //       body: new FormData(event.target),
-  //     }
-  //   );
-  //   const data = await res.json();
-  //   console.log(data);
-
-  //   console.log(res.status);
-
-  //   if (res.status !== 200) {
-  //     setResponse("Error. Intente nuevamente");
-  //   } else {
-  //     setResponse("¡Mensaje enviado exitosamente!");
-  //   }
-  // };
 
   return (
     <div className="Contact" id="Contact">
@@ -62,7 +54,7 @@ export default function Contact() {
           Escribinos para descubrir como hacerlo realidad.
         </p>
         {/* FORM */}
-        <form className="ContactContainer__Form" onSubmit={formNotSubmit}>
+        <form className="ContactContainer__Form" onSubmit={enviarDatos}>
           <input
             maxLength={2000}
             type="text"

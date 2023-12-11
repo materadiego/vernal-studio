@@ -115,6 +115,16 @@
   display: none;
 }
 
+.ProjectDetail {
+  opacity: 0;
+  transition: 0.5s;
+  will-change: opacity;
+}
+
+.ProjectDetail.appear {
+  opacity: 1;
+}
+
 @media screen and (min-width: 1099px) {
   .ProjectDetail-Container {
     width: 80%;

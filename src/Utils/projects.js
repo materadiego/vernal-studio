@@ -20,6 +20,7 @@ const projects = [
     service3: "Branding",
     service4: "Web",
     service5: "Social media",
+    service6: "",
     location: "Buenos Aires, ARG",
     templateNumber: "3",
     image1:
@@ -73,6 +74,7 @@ const projects = [
     service3: "Branding",
     service4: "Web",
     service5: "Social media",
+    service6: "",
     location: "Tierra del Fuego, ARG",
     templateNumber: "2",
     image1:
@@ -120,6 +122,7 @@ const projects = [
     service3: "Branding",
     service4: "Web",
     service5: "Social media",
+    service6: "",
     location: "Tucumán, ARG",
     templateNumber: "2",
     image1:
@@ -168,6 +171,7 @@ const projects = [
     service3: "Branding",
     service4: "Web",
     service5: "",
+    service6: "",
     location: "Sevilla, ES",
     templateNumber: "1",
     image1:
@@ -206,6 +210,7 @@ const projects = [
     service3: "Web",
     service4: "",
     service5: "",
+    service6: "",
     location: "Buenos Aires, ARG",
     templateNumber: "2",
     image1:
@@ -253,6 +258,7 @@ const projects = [
     service3: "Diseño de Stands",
     service4: "Packaging",
     service5: "",
+    service6: "",
     location: "Buenos Aires, ARG",
     templateNumber: "3",
     image1:
@@ -307,6 +313,7 @@ const projects = [
     service3: "Branding",
     service4: "Social media",
     service5: "Packaging",
+    service6: "",
     location: "Punta del Este, UY",
     templateNumber: "2",
     image1:
@@ -355,6 +362,7 @@ const projects = [
     service3: "Web",
     service4: "Cartelería",
     service5: "",
+    service6: "",
     location: "Buenos Aires, ARG",
     templateNumber: "2",
     image1:
@@ -402,6 +410,7 @@ const projects = [
     service3: "Web",
     service4: "Social media",
     service5: "",
+    service6: "",
     location: "Santiago, CL",
     templateNumber: "3",
     image1:
@@ -457,6 +466,7 @@ const projects = [
     service3: "Papelería",
     service4: "Editorial",
     service5: "",
+    service6: "",
     location: "Montevideo, UY",
     templateNumber: "2",
     image1:
@@ -505,6 +515,7 @@ const projects = [
     service3: "",
     service4: "",
     service5: "",
+    service6: "",
     location: "Santiago, CL",
     templateNumber: "1",
     image1:
@@ -545,6 +556,7 @@ const projects = [
     service3: "Packaging",
     service4: "",
     service5: "",
+    service6: "",
     location: "Santiago, CL",
     templateNumber: "1",
     image1:
@@ -584,6 +596,7 @@ const projects = [
     service3: "",
     service4: "",
     service5: "",
+    service6: "",
     location: "Santiago, CL",
     templateNumber: "1",
     image1:
@@ -623,6 +636,7 @@ const projects = [
     service3: "Branding",
     service4: "Packaging",
     service5: "",
+    service6: "",
     location: "Carmelo, UY",
     templateNumber: "1",
     image1:
@@ -662,6 +676,7 @@ const projects = [
     service3: "",
     service4: "",
     service5: "",
+    service6: "",
     location: "Santiago, CL",
     templateNumber: "1",
     image1:
@@ -702,6 +717,7 @@ const projects = [
     service3: "Branding",
     service4: "Social media",
     service5: "Packaging",
+    service6: "",
     location: "Buenos Aires, ARG",
     templateNumber: "2",
     image1:
@@ -728,6 +744,164 @@ const projects = [
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviagens11.png",
     image12:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviagens12.png",
+  }, // TRYPO
+  {
+    id: 17,
+    tags: ["Web&Ecommerce", "Apps"],
+    projectName: "Trypo",
+    projectSubtitle: "Donde el viaje comienza",
+    heroImage:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-trypo.png",
+    description1:
+      "Trypo desarrollada en Santiago Chile, es una plataforma pionera en la región, especializada en la reserva de experiencias en la naturaleza, que van desde glamping hasta tirolesa, trekkings y alquiler de motorhomes. Se destaca por su enfoque ecofriendly y por su espíritu aventurero que invita a las personas a explorar el mundo de una manera única.",
+    description2: `Fuimos convocados con el desafío de crear una imagen distintiva para la marca y proyectar integralmente la plataforma. Abarcamos desde su aspecto visual hasta la estructura de navegación, con el objetivo de ofrecer una experiencia intuitiva y sencilla para el usuario. Iniciamos el proceso seleccionando un color dinámico y actual que reflejara la naturaleza, optando por un verde saturado e intenso que se aplicó en diversas instancias de la plataforma. Este tono se contrastó con un celeste igual de saturado para resaltar los puntos clave.
+    En cuanto a los elementos gráficos, desarrollamos un sistema iconográfico minimalista, lineal y con terminaciones redondeadas. De este modo, se representó cada actividad disponible de una manera moderna y amigable. Además, incorporamos ilustraciones en diversas operaciones para infundir un toque lúdico y relajado a la marca.`,
+    description3: `
+    La estructura de la plataforma se diseñó con un Home que lista las distintas experiencias, permitiendo a los usuarios reservar, visualizar u obtener detalles de cada una. Además, cada experiencia incluye calificaciones y reseñas de otros usuarios, fomentando un sentido de comunidad y colaboración. Implementamos también un módulo de perfil de usuario que facilita la gestión de experiencias favoritas, programadas e históricas.`,
+    imgPreview:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-trypo.png",
+    service1: "Branding",
+    service2: "Diseño de app",
+    service3: "Web",
+    service4: "",
+    service5: "",
+    service6: "",
+    location: "Santiago, Chile",
+    templateNumber: "2",
+    image1:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-trypo1.png",
+    image2:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-trypo2.png",
+    image3:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-trypo3.svg",
+    image4:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-trypo4.png",
+    image5:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-trypo5.png",
+    image6:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-trypo6.png",
+    image7:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-trypo7.png",
+    image8:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-trypo8.png",
+    image9:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-trypo9.png",
+    image10:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-trypo10.png",
+    image11:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-trypo11.png",
+    image12:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-trypo12.png",
+  },
+  // MADERO TANGO
+  {
+    id: 18,
+    tags: ["Branding", "Web&Ecommerce"],
+    projectName: "Madero Tango",
+    projectSubtitle: "Donde el tango vive",
+    heroImage:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-maderotango.png",
+    description1:
+      "Madero Tango, empresa líder en entretenimiento en Argentina y referente en el ámbito del tango, nos eligió para abordar un desafío integral: el rebranding de sus dos sedes, tanto en Puerto Madero como en las Cataratas del Iguazú. Este proyecto abarcó la renovación completa de la imagen, desde marquesinas y fachadas hasta cartelería, banners, papelería institucional y contenido digital, como páginas web y redes sociales. También colaboramos en el diseño de sus fiestas temáticas de fin de año, creamos stands para ferias turísticas y participamos en el lanzamiento de su gira por Sudamérica.",
+    description2: `En el proceso de rediseño, buscamos reflejar la elegancia y la categoría  que caracterizan a Madero Tango. Optamos por tipografías caligráficas que transmitieran movimiento y vitalidad, combinadas con serifs modernas. Mientras que en Puerto Madero mantuvimos una estética más clásica inspirada en el tango, en la sede de Iguazú, la caligrafía adoptó una impronta más salvaje. Otra característica distintiva fue la inclusión de misceláneas, inspiradas en el fileteado porteño pero reinterpretadas de manera contemporánea. En Puerto Madero, incorporamos elementos curvos similares a flores, mientras que en Iguazú utilizamos líneas finas que evocan el movimiento de las cataratas.`,
+    description3:
+      "Otra decisión significativa fue la introducción del color dorado para destacar puntos focales y resaltar la elegancia de la marca. Además, las fotografías, de gran impacto, destacan con la presencia de negro, creando siluetas que capturan la atención y se convierten en protagonistas del diseño.",
+    imgPreview:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-maderotango.png",
+    service1: "Conceptual",
+    service2: "Branding",
+    service3: "Cartelería",
+    service4: "Diseño de Stands",
+    service5: "Web",
+    service6: "Social Media",
+
+    location: "Buenos Aires, Argentina",
+    templateNumber: "3",
+    image1:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderotango1.png",
+    image2:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderotango2.png",
+    image3:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderotango3.png",
+    image4:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderotango5.png",
+    image5:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderotango4.png",
+    image6:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderotango6.png",
+    image7:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderotango7.png",
+    image8:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderotango8.png",
+    image9:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderotango9.png",
+    image10:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderotango10.png",
+    image11:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderotango11.png",
+    image12:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderotango12.png",
+    image13:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderotango13.png",
+    image14:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderotango14.png",
+    image15:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderotango15.png",
+  },
+  // MADERO TANGO
+  {
+    id: 19,
+    tags: ["Branding"],
+    projectName: "OVT",
+    projectSubtitle: "Rompiendo las barreras digitales",
+    heroImage:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-ovt.png",
+    description1:
+      "Loop es un estudio de soluciones informáticas con sede en Buenos Aires, Argentina, cuyo objetivo es impulsar la transformación digital de empresas a través de una mirada joven, arriesgada y ambiciosa. Fuimos convocados con total libertad para crear la imagen desde cero, y comenzamos por el proceso del naming.  ",
+    description2: `Jugamos con distintas palabras del universo de la programación que nos hablaran de transformaciones y además, necesitábamos una palabra que resultara simple de pronunciar en distintos idiomas.  Así es como surge Loop, incorporando el número 3 para representar a los socios fundadores. Para su construcción, elegimos una tipografía redondeada y llamativa,  la cual intervenimos para crear el símbolo del infinito que refuerza el concepto de la marca.`,
+    description3:
+      "En cuanto al branding, optamos por una paleta de colores fuertes, donde el negro predominó en los fondos para resaltar la audacia de la marca. Se lo combinó con elementos curvos y líneas finas que aportaron profundidad y juventud al diseño. Además, utilizamos distintos degradados que transmiten modernidad y transformación, junto con iconografías sólidas que completaron la personalidad de la marca",
+    imgPreview:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-mob-ovt.png",
+    service1: "Conceptual",
+    service2: "Branding",
+    service3: "Social Media",
+    service4: "Cartelería",
+    service5: "",
+    service6: "",
+
+    location: "Buenos Aires, Argentina",
+    templateNumber: "3",
+    image1:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-ovt1.png",
+    image2:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-ovt2.png",
+    image3:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-ovt3.svg",
+    image4:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-ovt5.png",
+    image5:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-ovt4.png",
+    image6:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-ovt6.png",
+    image7:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-ovt7.png",
+    image8:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-ovt8.png",
+    image9:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-ovt9.png",
+    image10:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-ovt10.png",
+    image11:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-ovt11.png",
+    image12:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-ovt12.png",
+    image13:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-ovt13.png",
+    image14:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-ovt14.png",
+    image15:
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-ovt15.png",
   },
 ];
 

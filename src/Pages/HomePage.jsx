@@ -15,6 +15,7 @@ export default function HomePage() {
   const contact = useRef(null);
 
   let location = useLocation();
+  console.log(location);
 
   function goTo(param) {
     param.current?.scrollIntoView({ behavior: "smooth" });
