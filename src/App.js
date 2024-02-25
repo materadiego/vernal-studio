@@ -20,7 +20,7 @@ function App() {
           <Route path="/contact" element={<HomePage />} />
           <Route path="/approach" element={<HomePage />} />
           <Route path="/projects" element={<ProjectsPage />} />
-          <Route path="/projects/:id" element={<ProjectTemplate />} />
+          <Route path="/projects/:route" element={<ProjectTemplate />} />
         </Routes>
         <Footer />
       </HashRouter>

@@ -1,28 +1,32 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { getProjects } from "../../Utils/projects";
-export default function MoreProjects({ setMore }) {
-  const { id } = useParams();
+import { getProject, getProjects } from "../../Utils/projects";
 
+export default function MoreProjects({ setMore }) {
+  let location = useLocation();
+  const { route } = useParams();
+  const [project, setProject] = useState([]);
   const [projects, setProjects] = useState([]);
+  const [nextRoute, setNextRoute] = useState(`/projects`);
 
   useEffect(() => {
     getProjects()
       .then((res) => setProjects(res))
       .catch((error) => console.log(error));
+    getProject(route)
+      .then((res) => setProject(res))
+      .then((res) => {
+        const nextId = project.id === projects.length ? 1 : project.id + 1;
+        const nextProject = projects.find((project) => project.id === nextId);
+        setNextRoute(`/projects/${nextProject.route}`);
+      })
+      .catch((error) => console.log(error));
   });
 
-  function nextPorjectRoute(projectId) {
-    const idNumber = Number(projectId);
-    const nextProject = idNumber + 1;
-    const nextRoute = `/projects/${nextProject}`;
-    const projectOne = `/projects/1`;
-    if (idNumber === projects.length) {
-      return projectOne;
-    } else {
-      return nextRoute;
-    }
+  function goToNextProject() {
+    window.scrollTo(0, 0);
+    setMore(false);
   }
 
   return (
@@ -32,9 +36,11 @@ export default function MoreProjects({ setMore }) {
       </p>
       {/* MORE BUTTON */}
       <Link
-        to={nextPorjectRoute(id)}
-        onClick={() => setMore(false)}
-        className="MoreProjectsContainer__MoreButton Button "
+        to={nextRoute}
+        onClick={() => goToNextProject()}
+        className={`MoreProjectsContainer__MoreButton Button ${
+          !projects && "disabled"
+        }`}
       >
         <div className="MoreProjectsContainer__MoreButton--Arrow Button-Arrow"></div>
         <p className="MoreProjectsContainer__MoreButton--Text Button-Text">

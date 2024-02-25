@@ -46,11 +46,11 @@ export default function HomeServices() {
     threshold: 0.3,
   });
 
-  useEffect(() => {
-    setTimeout(() => {
-      isIntersecting1 && setSlideAnimation1(true);
-    }, 1500);
-  }, [isIntersecting1]);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     isIntersecting1 && setSlideAnimation1(true);
+  //   }, 1500);
+  // }, [isIntersecting1]);
 
   return (
     <div ref={elementRef1} className="HomeServices" id="Servicios">

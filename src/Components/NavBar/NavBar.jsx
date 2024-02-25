@@ -69,7 +69,7 @@ export default function NavBar() {
           </div>
         </div>
         {/* HEADER LOGO */}
-        <Link to="/home" className="NavBarContainer__Logo Header-Animation">
+        <Link to="/" className="NavBarContainer__Logo Header-Animation">
           <img
             className="NavBarContainer__Logo--Image"
             src={logoVernal}
@@ -98,14 +98,16 @@ export default function NavBar() {
             {/* CLOSE BUTTON */}
 
             {/* LOGO */}
-
-            <img
-              className={`MenuContainer__Top--Logo ${
-                menu ? "" : "Navbar-Logo-AnimationOut"
-              }`}
-              alt="Logo"
-              src={logoMenu}
-            ></img>
+            <Link to="/" className="NavBarContainer__Logo Header-Animation">
+              <img
+                className={`MenuContainer__Top--Logo ${
+                  menu ? "" : "Navbar-Logo-AnimationOut"
+                }`}
+                onClick={toggleMenu}
+                alt="Logo"
+                src={logoMenu}
+              ></img>
+            </Link>
 
             {/* LANGUAGE */}
             <div
@@ -197,9 +199,11 @@ export default function NavBar() {
                   : "Navbar-MediaLine-AnimationOut"
               }`}
             ></div>
-            <div
+            <a
               className="MenuContainer__Media--Link  Media-Container-Animation"
-              href="www.instagram.com"
+              href="https://www.instagram.com/vernalstudio/"
+              rel="noreferrer"
+              target="_blank"
             >
               {" "}
               <span className="Menu-Media-Animation Media-Animation"></span>
@@ -212,10 +216,12 @@ export default function NavBar() {
                     : "Navbar-MediaLinks-AnimationOut"
                 }`}
               ></img>
-            </div>
-            <div
+            </a>
+            <a
               className="MenuContainer__Media--Link  Media-Container-Animation"
-              href="www.behance.com"
+              href="http://www.behance.net/vernalstudio"
+              rel="noreferrer"
+              target="_blank"
             >
               {" "}
               <span className="Menu-Media-Animation Media-Animation"></span>
@@ -228,10 +234,12 @@ export default function NavBar() {
                     : "Navbar-MediaLinks-AnimationOut"
                 }`}
               ></img>
-            </div>
-            <div
+            </a>
+            <a
               className="MenuContainer__Media--Link  Media-Container-Animation"
-              href="www.linkedin.com"
+              href="https://www.linkedin.com/company/vernal-studio/"
+              rel="noreferrer"
+              target="_blank"
             >
               {" "}
               <span className="Menu-Media-Animation Media-Animation"></span>
@@ -244,7 +252,7 @@ export default function NavBar() {
                     : "Navbar-MediaLinks-AnimationOut"
                 }`}
               ></img>
-            </div>
+            </a>
           </div>
         </div>
       </div>

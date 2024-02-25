@@ -89,7 +89,7 @@
 }
 
 .ServicesBgPosition1 {
-  background-position: 0% bottom;
+  background-position: 80% top;
 }
 
 .ServicesBgPosition2 {
@@ -97,11 +97,11 @@
 }
 
 .ServicesBgPosition3 {
-  background-position: 0% top;
+  background-position: 80% top;
 }
 
 .ServicesBgPosition4 {
-  background-position: 80% bottom;
+  background-position: 80% top;
 }
 
 .HomeServicesContainer-ImageContainer-Image {
@@ -114,23 +114,23 @@
 }
 
 .ServicesImage-1 {
-  background-image: url("../../Assets/Images/servicios4.webp");
-  background-position: 60% 80%;
+  background-image: url("../../Assets/Images/servicios1.webp");
+  background-position: 20% bottom;
 }
 .ServicesImage-2 {
-  background-image: url("../../Assets/Images/servicios4.webp");
+  background-image: url("../../Assets/Images/servicios2.webp");
 
   background-position: 20% bottom;
 }
 .ServicesImage-3 {
-  background-image: url("../../Assets/Images/servicios4.webp");
+  background-image: url("../../Assets/Images/servicios3.webp");
 
-  background-position: 80% 40%;
+  background-position: 20% bottom;
 }
 .ServicesImage-4 {
   background-image: url("../../Assets/Images/servicios4.webp");
 
-  background-position: 20% 70%;
+  background-position: 20% bottom;
 }
 
 @media screen and (min-width: 1099px) {

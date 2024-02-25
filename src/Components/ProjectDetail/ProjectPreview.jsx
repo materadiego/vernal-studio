@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function ProjectPreview({ project }) {
   return (
-    <Link to={`/projects/${project.id}`} className="ProjectList-ProjectLink">
+    <Link to={`/projects/${project.route}`} className="ProjectList-ProjectLink">
       <div className="ProjectList-Project">
         <div className="ProjectList-Project__Image">
           <img src={project.imgPreview} alt={project.projectName}></img>

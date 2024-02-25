@@ -5,6 +5,7 @@ import footerIg from "../../Assets/Images/media-ig-black.svg";
 import footerBe from "../../Assets/Images/media-be-black.svg";
 import footerIn from "../../Assets/Images/media-in-black.svg";
 import arrowUp from "../../Assets/Images/arrow-up.svg";
+import ScrollToTop from "../../Utils/ScrollToTop";
 
 export default function Footer() {
   return (
@@ -82,8 +83,10 @@ export default function Footer() {
           <h4 className="FooterContainer__MediaSubcontainer--Title Title-SmallFont Footer-Title Title">
             ¡Seguinos!
           </h4>
-          <div
-            href="#home"
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://www.instagram.com/vernalstudio/"
             className="FooterContainer__MediaSubcontainer--Link Media-Container-Animation"
           >
             <span className="Footer-Media-Animation Media-Animation"></span>
@@ -92,9 +95,11 @@ export default function Footer() {
               alt="Instagram"
               className="Media-Ig Footer-Media-Image"
             ></img>
-          </div>
-          <div
-            href="#home"
+          </a>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://www.behance.net/vernalstudio"
             className="FooterContainer__MediaSubcontainer--Link Media-Container-Animation"
           >
             <span className="Footer-Media-Animation Media-Animation"></span>
@@ -103,9 +108,11 @@ export default function Footer() {
               alt="Behance"
               className="Media-Be Footer-Media-Image"
             ></img>
-          </div>
-          <div
-            href="#home"
+          </a>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://www.linkedin.com/company/vernal-studio/about/"
             className="FooterContainer__MediaSubcontainer--Link Media-Container-Animation"
           >
             <span className="Footer-Media-Animation Media-Animation"></span>
@@ -114,15 +121,18 @@ export default function Footer() {
               alt="Linkedin"
               className="Media-In Footer-Media-Image"
             ></img>
-          </div>
+          </a>
         </div>
-        <Link to="/home" className="FooterContainer__ArrowUp">
+        <div
+          onClick={() => window.scrollTo(0, 0)}
+          className="FooterContainer__ArrowUp"
+        >
           <img
             src={arrowUp}
             alt="Arrow-Up"
             className="FooterContainer__ArrowUp--Image"
           ></img>
-        </Link>
+        </div>
       </div>
     </footer>
   );

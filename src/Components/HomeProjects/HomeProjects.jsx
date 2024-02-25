@@ -3,7 +3,7 @@ import TuEspacioBg from "../../Assets/Images/projects-hero-mob-tuespacio.webp";
 import AceproBg from "../../Assets/Images/projects-hero-mob-acepro.webp";
 import NaturgreenBg from "../../Assets/Images/projects-hero-mob-naturgreen.webp";
 import SupraBg from "../../Assets/Images/projects-hero-mob-supra.webp";
-import InadeaBg from "../../Assets/Images/projects-hero-mob-inadea.webp";
+import InadeaBg from "../../Assets/Images/projects-hero-mob-inadea.png";
 import MaderoViajensBg from "../../Assets/Images/projects-hero-mob-maderoviajens.webp";
 import { Link } from "react-router-dom";
 
@@ -94,7 +94,7 @@ export default function HomeProjects() {
           }  `}
         >
           {" "}
-          <span>Participamos en cada etapa del proyecto,</span> desde la
+          <strong>Participamos en cada etapa del proyecto,</strong> desde la
           estrategia y posicionamiento, hasta la implementación de identidades
           visuales y experiencias digitales que conecten con tu comunidad.
         </p>
@@ -132,7 +132,7 @@ export default function HomeProjects() {
           {/* PROJECT BOX */}
           <Link
             ref={elementRef8}
-            to="/projects/3"
+            to="/projects/tu-espacio"
             className={`ProjectBox ${
               isIntersecting8 ? "Intersecting" : "NotIntersecting"
             }`}
@@ -145,12 +145,12 @@ export default function HomeProjects() {
               ></img>
             </div>
             <h6 className="ProjectBox__Title   Title ">Tu Espacio</h6>
-            <p className="ProjectBox__Location  Text">Tucumán, ARG</p>
+            <p className="ProjectBox__Location  Text">Tucumán, Argentina</p>
           </Link>
           {/* PROJECT BOX */}
           <Link
             ref={elementRef9}
-            to="/projects/11"
+            to="/projects/acepro"
             className={`ProjectBox ${
               isIntersecting9 ? "Intersecting" : "NotIntersecting"
             }`}
@@ -163,13 +163,13 @@ export default function HomeProjects() {
               ></img>
             </div>
             <h6 className="ProjectBox__Title   Title ">Acepro</h6>
-            <p className="ProjectBox__Location  Text">Santiago, CL</p>
+            <p className="ProjectBox__Location  Text">Santiago, Chile</p>
           </Link>
           {/* PROJECT BOX */}
 
           <Link
             ref={elementRef10}
-            to="/projects/12"
+            to="/projects/naturgreen"
             className={`ProjectBox ${
               isIntersecting10 ? "Intersecting" : "NotIntersecting"
             }`}
@@ -182,12 +182,12 @@ export default function HomeProjects() {
               ></img>
             </div>
             <h6 className="ProjectBox__Title   Title">Naturgreen</h6>
-            <p className="ProjectBox__Location  Text">Sevilla, ES</p>
+            <p className="ProjectBox__Location  Text">Sevilla, España</p>
           </Link>
           {/* PROJECT BOX */}
           <Link
             ref={elementRef11}
-            to="/projects/5"
+            to="/projects/supra"
             className={`ProjectBox ${
               isIntersecting11 ? "Intersecting" : "NotIntersecting"
             }`}
@@ -200,12 +200,14 @@ export default function HomeProjects() {
               ></img>
             </div>
             <h6 className="ProjectBox__Title  Title">Supra</h6>
-            <p className="ProjectBox__Location  Text">Buenos Aires, ARG</p>
+            <p className="ProjectBox__Location  Text">
+              Buenos Aires, Argentina
+            </p>
           </Link>
           {/* PROJECT BOX */}
           <Link
             ref={elementRef12}
-            to="/projects/8"
+            to="/projects/inadea"
             className={`ProjectBox ${
               isIntersecting12 ? "Intersecting" : "NotIntersecting"
             }`}
@@ -218,12 +220,14 @@ export default function HomeProjects() {
               ></img>
             </div>
             <h6 className="ProjectBox__Title  Title">Inadea</h6>
-            <p className="ProjectBox__Location  Text">Buenos Aires, ARG</p>
+            <p className="ProjectBox__Location  Text">
+              Buenos Aires, Argentina
+            </p>
           </Link>
           {/* PROJECT BOX */}
           <Link
             ref={elementRef13}
-            to="/projects/16"
+            to="/projects/madero-viagens"
             className={`ProjectBox ${
               isIntersecting13 ? "Intersecting" : "NotIntersecting"
             }`}
@@ -235,8 +239,10 @@ export default function HomeProjects() {
                 className="ProjectBox__ImageContainer--Image"
               ></img>
             </div>
-            <h6 className="ProjectBox__Title  Title">Madero Viajens</h6>
-            <p className="ProjectBox__Location  Text">Buenos Aires, ARG</p>
+            <h6 className="ProjectBox__Title  Title">Madero Viagens</h6>
+            <p className="ProjectBox__Location  Text">
+              Buenos Aires, Argentina
+            </p>
           </Link>
         </div>
         {/* MORE BUTTON */}
