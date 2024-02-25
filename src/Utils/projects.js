@@ -125,7 +125,7 @@ const projects = [
     image2:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-elovate2.png",
     image3:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-elovate3.svg",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-elovate3.png",
     image4:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-elovate5.png",
     image5:
@@ -211,6 +211,7 @@ const projects = [
   {
     id: 5,
     tags: ["Web&Ecommerce", "Apps"],
+    route: "trypo",
     projectName: "Trypo",
     projectSubtitle: "Donde el viaje comienza",
     heroImage:
@@ -471,21 +472,21 @@ const projects = [
     location: "Santiago, Chile",
     templateNumber: "1",
     image1:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen1.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen1.png",
     image2:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen2.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen2.png",
     image3:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen3.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen3.png",
     image4:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen4.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen4.png",
     image5:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen5.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen5.png",
     image6:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen6.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen6.png",
     image7:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen7.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen7.png",
     image8:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen8.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen8.png",
   },
   // TIESEN
   {

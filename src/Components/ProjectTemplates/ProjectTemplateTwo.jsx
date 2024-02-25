@@ -1,3 +1,4 @@
+import { useState } from "react";
 import useObserver from "../useObserver/useObserver";
 
 export default function ProjectTemplateTwo({ project }) {
@@ -38,6 +39,7 @@ export default function ProjectTemplateTwo({ project }) {
   const [elementRef12, isIntersecting12] = useObserver({
     threshold: 0.25,
   });
+
   return (
     <div className="ProjectTemplateTwo">
       <img

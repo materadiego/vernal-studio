@@ -4,13 +4,16 @@ import ProjectTemplateOne from "../ProjectTemplates/ProjectTemplateOne";
 import ProjectTemplateThree from "../ProjectTemplates/ProjectTemplateThree";
 import ProjectTemplateTwo from "../ProjectTemplates/ProjectTemplateTwo";
 
-export default function Project({ more, setMore, ...project }) {
+export default function Project({
+  more,
+  setMore,
+
+  ...project
+}) {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 1000);
+    setTimeout(() => setLoading(false), 2000);
   }, [project.id]);
 
   function toggleMore() {

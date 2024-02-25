@@ -24,7 +24,7 @@ export default function ProjectTemplate() {
   }, [pathname]);
 
   return (
-    <div className="ProjectTemplate">
+    <div className={`ProjectTemplate`}>
       <Project {...project} more={more} setMore={setMore} />
       <MoreProjects {...project} setMore={setMore} />
       <Contact />
