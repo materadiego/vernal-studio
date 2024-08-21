@@ -8,7 +8,7 @@ import "../scss/Pages/ProjectTemplate.scss";
 
 import Contact from "../Components/Contact/Contact";
 
-export default function ProjectTemplate() {
+export default function ProjectTemplate({ langEn }) {
   let location = useLocation();
   const pathname = location.pathname;
   const [more, setMore] = useState(false);
@@ -25,9 +25,9 @@ export default function ProjectTemplate() {
 
   return (
     <div className={`ProjectTemplate`}>
-      <Project {...project} more={more} setMore={setMore} />
-      <MoreProjects {...project} setMore={setMore} />
-      <Contact />
+      <Project {...project} more={more} setMore={setMore} langEn={langEn} />
+      <MoreProjects {...project} setMore={setMore} langEn={langEn} />
+      <Contact langEn={langEn} />
     </div>
   );
 }

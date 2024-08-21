@@ -1,6 +1,6 @@
 import useObserver from "../useObserver/useObserver";
 
-export default function HomeMetodology() {
+export default function HomeMetodology({ langEn }) {
   // Itersections
   const [elementRef1, isIntersecting1] = useObserver({
     threshold: 0.1,
@@ -59,17 +59,17 @@ export default function HomeMetodology() {
           ></div>
 
           <h4 className="HomeMetodologyContainer__Subcontainer--Title Title-BigFont Title-BigFont Title">
-            Conexión
+            {langEn ? "Connection" : "Conexión"}
           </h4>
-          <p className="HomeMetodologyContainer__Subcontainer--Text Text-MediumFont  Text Mobile">
-            <span>El primer paso es conocernos.</span>Aprendemos acerca de tus
-            objetivos y expectativas para crear un plan de trabajo
-            personalizado.
-          </p>
-          <p className="HomeMetodologyContainer__Subcontainer--Text Text-MediumFont Text Desktop">
-            <span>El primer paso es conocernos.</span>Aprendemos acerca de tus
-            objetivos <br /> y expectativas para crear un plan
-            <br /> de trabajo personalizado.
+          <p className="HomeMetodologyContainer__Subcontainer--Text Text-MediumFont  Text ">
+            <span>
+              {langEn
+                ? "The first step is getting to know each other. "
+                : "El primer paso es conocernos. "}
+            </span>
+            {langEn
+              ? "We learn about your goals and expectations to create a personalized plan"
+              : "Aprendemos acerca de tus objetivos y expectativas para crear un plan de trabajo personalizado."}
           </p>
         </div>
         {/* SUBCONTAINER */}
@@ -93,12 +93,19 @@ export default function HomeMetodology() {
           ></div>
 
           <h4 className="HomeMetodologyContainer__Subcontainer--Title Title-BigFont Title">
-            Perspectiva
+            {langEn ? "Perspective" : "Perspectiva"}
           </h4>
           <p className="HomeMetodologyContainer__Subcontainer--Text Text-MediumFont Text">
-            <span>Un plan de impacto requiere perspectiva.</span>Investigamos
-            sobre tus consumidores, tendencias relevantes, competidores, <br />{" "}
-            el mercado y más.
+            <span>
+              {" "}
+              {langEn
+                ? "An impactful plan requires perspective. "
+                : "Un plan de impacto requiere perspectiva. "}
+            </span>
+            {langEn
+              ? "We research your consumers, relevant trends, competitors, the market, and more."
+              : "Investigamos sobre tus consumidores, tendencias relevantes, competidores, el mercado y más."}{" "}
+            <br />{" "}
           </p>
         </div>
         {/* SUBCONTAINER */}
@@ -122,12 +129,18 @@ export default function HomeMetodology() {
           ></div>
 
           <h4 className="HomeMetodologyContainer__Subcontainer--Title Title-BigFont Title">
-            Concepto
+            {langEn ? "Concept" : "Concepto"}
           </h4>
           <p className="HomeMetodologyContainer__Subcontainer--Text Text-MediumFont Text">
-            <span>Creamos un concepto poderoso</span>Fusinamos creatividad y
-            estrategia <br /> para generar ideas efectivas que <br /> reflejen
-            la escencia de la marca.
+            <span>
+              {" "}
+              {langEn
+                ? "We create a powerful concept. "
+                : "Creamos un concepto poderoso. "}
+            </span>
+            {langEn
+              ? "We fuse creativity and strategy to generate effective ideas that reflect the essence of the brand."
+              : "Fusinamos creatividad y estrategia para generar ideas efectivas que  reflejen la escencia de la marca."}
           </p>
         </div>
         {/* SUBCONTAINER */}
@@ -151,17 +164,18 @@ export default function HomeMetodology() {
           ></div>
 
           <h4 className="HomeMetodologyContainer__Subcontainer--Title Title-BigFont Title">
-            Construcción
+            {langEn ? "Construction" : "Construcción"}
           </h4>
-          <p className="HomeMetodologyContainer__Subcontainer--Text Text-MediumFont  Text Mobile">
-            <span>Una experiencia de marca integral.</span>Cada elemento de
-            comunicación es <br /> diseñado para lograr un resultado <br />{" "}
-            cohesivo y único.
-          </p>
-          <p className="HomeMetodologyContainer__Subcontainer--Text Text-MediumFont Text Desktop">
-            <span>Una experiencia de marca integral.</span>Cada elemento de
-            comunicación
-            <br /> es diseñado para lograr un <br /> resultado cohesivo y único.
+          <p className="HomeMetodologyContainer__Subcontainer--Text Text-MediumFont  Text">
+            <span>
+              {langEn
+                ? "A comprehensive brand experience. "
+                : "Una experiencia de marca integral. "}{" "}
+            </span>
+
+            {langEn
+              ? "Every communication element is designed to achieve a cohesive and unique result."
+              : "Cada elemento de comunicación es diseñado para lograr un resultado cohesivo y único."}
           </p>
         </div>
       </div>

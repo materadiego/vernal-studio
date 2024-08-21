@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import useObserver from "../useObserver/useObserver";
 import arrow from "../../Assets/Images/projects-arrow-down.svg";
 
-export default function HomeServices() {
+export default function HomeServices({ langEn }) {
   const [serviceImage, setServiceImage] = useState("ServicesImage-1");
   const [bgPosition, setBgPosition] = useState("ServicesBgPosition1");
   const [slideAnimation1, setSlideAnimation1] = useState(false);
@@ -61,7 +61,8 @@ export default function HomeServices() {
             isIntersecting1 ? "Intersecting" : "NotIntersecting"
           }`}
         >
-          <span className="SectionTitle__Circle"></span> Servicios
+          <span className="SectionTitle__Circle"></span>
+          {langEn ? "Services" : "Servicios"}
         </h2>
         {/* SECTIONS */}
         <div
@@ -108,27 +109,37 @@ export default function HomeServices() {
               }`}
             >
               <h4 className={`ServicesSlide-Subtitle `}>
-                Identidades fuertes que impactan
+                {langEn
+                  ? "Strong identities that make an impact"
+                  : "Identidades fuertes que impactan"}
               </h4>
               <p className={`ServicesSlide-Text `}>
                 <span className="Span-Animation-Block ServicesSpanAnimation1"></span>{" "}
                 <span className="ServicesSlide-Text__Number">01 .</span>{" "}
-                Análisis de oportunidades y diferenciales
+                {langEn
+                  ? "Analysis of opportunities and differentiators"
+                  : "Análisis de oportunidades y diferenciales"}
               </p>
               <p className={`ServicesSlide-Text `}>
                 <span className="Span-Animation-Block ServicesSpanAnimation2"></span>{" "}
                 <span className="ServicesSlide-Text__Number">02 .</span>{" "}
-                Creación de estrategia y posicionamiento
+                {langEn
+                  ? "Strategy creation and positioning"
+                  : "Creación de estrategia y posicionamiento"}
               </p>
               <p className={`ServicesSlide-Text `}>
                 <span className="Span-Animation-Block ServicesSpanAnimation3"></span>{" "}
-                <span className="ServicesSlide-Text__Number">03 .</span> Diseño
-                de logotipo e identidad visual
+                <span className="ServicesSlide-Text__Number">03 .</span>
+                {langEn
+                  ? "Logo design and visual identity"
+                  : "Diseño de logotipo e identidad visual"}
               </p>
               <p className={`ServicesSlide-Text `}>
                 <span className="Span-Animation-Block ServicesSpanAnimation4"></span>{" "}
                 <span className="ServicesSlide-Text__Number">04 .</span>{" "}
-                Aplicaciones digitales y físicas
+                {langEn
+                  ? "Digital and physical applications"
+                  : "Aplicaciones digitales y físicas"}
               </p>
             </div>
           </div>
@@ -170,22 +181,28 @@ export default function HomeServices() {
               }`}
             >
               <h4 className={`ServicesSlide-Subtitle `}>
-                Experiencias digitales inmersivas
+                {langEn
+                  ? "Immersive digital experiences"
+                  : "Experiencias digitales inmersivas"}
               </h4>
               <p className={`ServicesSlide-Text `}>
                 <span className="Span-Animation-Block ServicesSpanAnimation1"></span>{" "}
-                <span className="ServicesSlide-Text__Number">01 .</span>Diseño y
-                desarrollo web & e-commerce
+                <span className="ServicesSlide-Text__Number">01 .</span>
+                {langEn
+                  ? "Web & e-commerce design and development"
+                  : "Diseño y desarrollo web & e-commerce"}
               </p>
               <p className={`ServicesSlide-Text `}>
                 <span className="Span-Animation-Block ServicesSpanAnimation2"></span>{" "}
                 <span className="ServicesSlide-Text__Number">02 .</span>{" "}
-                Creación de aplicaciones móviles
+                {langEn
+                  ? "Mobile application creation"
+                  : "Creación de aplicaciones móviles"}
               </p>
               <p className={`ServicesSlide-Text `}>
                 <span className="Span-Animation-Block ServicesSpanAnimation3"></span>{" "}
                 <span className="ServicesSlide-Text__Number">03 .</span>
-                Optimización SEO
+                {langEn ? "SEO optimization" : "Optimización SEO"}
               </p>
             </div>
           </div>
@@ -227,31 +244,41 @@ export default function HomeServices() {
               }`}
             >
               <h4 className={`ServicesSlide-Subtitle `}>
-                Comunidad digitales que conectan
+                {langEn
+                  ? "Digital communities that connect"
+                  : "Comunidad digitales que conectan"}
               </h4>
               <p className={`ServicesSlide-Text `}>
                 <span className="Span-Animation-Block ServicesSpanAnimation1"></span>{" "}
                 <span className="ServicesSlide-Text__Number Services-span4">
                   01 .
                 </span>{" "}
-                Creación y gestión de perfiles
+                {langEn
+                  ? "Profile creation and management"
+                  : "Creación y gestión de perfiles"}
               </p>
               <p className={`ServicesSlide-Text `}>
                 <span className="Span-Animation-Block ServicesSpanAnimation2"></span>{" "}
                 <span className="ServicesSlide-Text__Number Services-span4">
                   02 .
                 </span>{" "}
-                Desarrollo de contenido para RRSS
+                {langEn
+                  ? "Content development for social media"
+                  : "Desarrollo de contenido para RRSS"}
               </p>
               <p className={`ServicesSlide-Text `}>
                 <span className="Span-Animation-Block ServicesSpanAnimation3"></span>{" "}
-                <span className="ServicesSlide-Text__Number">03 .</span> Diseño
-                y planificación de campañas
+                <span className="ServicesSlide-Text__Number">03 .</span>
+                {langEn
+                  ? "Campaign design and planning"
+                  : "Diseño y planificación de campañas"}
               </p>
               <p className={`ServicesSlide-Text `}>
                 <span className="Span-Animation-Block ServicesSpanAnimation4"></span>{" "}
                 <span className="ServicesSlide-Text__Number">04 .</span>{" "}
-                Análisis y seguimiento de métricas
+                {langEn
+                  ? "Metrics analysis and tracking"
+                  : "Análisis y seguimiento de métricas"}
               </p>
             </div>
           </div>
@@ -293,29 +320,39 @@ export default function HomeServices() {
               }`}
             >
               <h4 className={`ServicesSlide-Subtitle `}>
-                Impulso digital para potenciar resultados{" "}
+                {langEn
+                  ? "Digital boost to enhance results"
+                  : "Impulso digital para potenciar resultados"}{" "}
               </h4>
               <p className={`ServicesSlide-Text `}>
                 <span className="Span-Animation-Block ServicesSpanAnimation1"></span>{" "}
                 <span className="ServicesSlide-Text__Number">01 .</span>{" "}
-                Investigación de mercado y competencia
+                {langEn
+                  ? "Market and competitor research"
+                  : "Investigación de mercado y competencia"}
               </p>
               <p className={`ServicesSlide-Text `}>
                 <span className="Span-Animation-Block ServicesSpanAnimation2"></span>{" "}
                 <span className="ServicesSlide-Text__Number">02 .</span>{" "}
-                Estrategias de marketing digital integrales
+                {langEn
+                  ? "Comprehensive digital marketing strategies"
+                  : "Estrategias de marketing digital integrales"}
               </p>
               <p className={`ServicesSlide-Text `}>
                 <span className="Span-Animation-Block ServicesSpanAnimation3"></span>{" "}
                 <span className="ServicesSlide-Text__Number">03 .</span>{" "}
-                Planificación y seguimiento de campañas
+                {langEn
+                  ? "Campaign planning and monitoring"
+                  : "Planificación y seguimiento de campañas"}
               </p>
               <p className={`ServicesSlide-Text `}>
                 <span className="Span-Animation-Block ServicesSpanAnimation4"></span>{" "}
                 <span className="ServicesSlide-Text__Number Services-span4">
                   04 .
                 </span>
-                Desarrollo de email marketing y newsletter
+                {langEn
+                  ? "Email marketing and newsletter development"
+                  : "Desarrollo de email marketing y newsletter"}
               </p>
             </div>
           </div>

@@ -4,7 +4,7 @@ import loader from "../../Assets/Images/loader.svg";
 import ProjectPreview from "./ProjectPreview";
 import ScrollToTop from "../../Utils/ScrollToTop";
 
-export default function ProjectsList() {
+export default function ProjectsList({ langEn }) {
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
   const [query, setQuery] = useState("");
@@ -26,22 +26,33 @@ export default function ProjectsList() {
     <>
       <ScrollToTop />
       <h2 className="Projects-SectionTitle SectionTitle Projects-SectionTitle-Animation ">
-        <span className="SectionTitle__Circle"></span> Proyectos
+        <span className="SectionTitle__Circle"></span>
+        {langEn ? "Projects" : "Proyectos"}
       </h2>
       <h3 className="ProjectsList--Title ProjectsList--Title1 Span-Animation Title-BigFont Title Mobile">
-        <span className="Span-Animation-Block">Conocé las</span>
+        <span className="Span-Animation-Block">
+          {langEn ? "Discover the" : "Conocé las"}
+        </span>
       </h3>
       <h3 className="ProjectsList--Title ProjectsList--Title2 Span-Animation Title-BigFont Title Mobile">
-        <span className="Span-Animation-Block">marcas que</span>
+        <span className="Span-Animation-Block">
+          {langEn ? "brands we’ve" : "marcas que"}
+        </span>
       </h3>
       <h3 className="ProjectsList--Title ProjectsList--Title3 Span-Animation Title-BigFont Title Mobile">
-        <span className="Span-Animation-Block">transformamos.</span>
+        <span className="Span-Animation-Block">
+          {langEn ? "transformed" : "transformamos."}
+        </span>
       </h3>
       <h3 className="ProjectsList--Title ProjectsList--Title1 Span-Animation Title-BigFont Title Desktop">
-        <span className="Span-Animation-Block">Conocé las marcas que</span>
+        <span className="Span-Animation-Block">
+          {langEn ? "Discover the brands we’ve" : "Conocé las marcas que"}
+        </span>
       </h3>
       <h3 className="ProjectsList--Title ProjectsList--Title2 Span-Animation Title-BigFont Title Desktop">
-        <span className="Span-Animation-Block">transformamos</span>
+        <span className="Span-Animation-Block">
+          {langEn ? "transformed" : "transformamos"}
+        </span>
       </h3>
       <div className="ProjectsList-Categories ProjectsList-Categories-Animation">
         <div
@@ -53,7 +64,7 @@ export default function ProjectsList() {
               query === "" && "Active-Category"
             }`}
           >
-            Todas
+            {langEn ? "All" : "Todas"}
           </p>
           <p
             className={`ProjectsList-Categories__Container--Number ${

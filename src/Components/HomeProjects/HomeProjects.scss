@@ -24,12 +24,10 @@
     border-top: 2px solid $color-secundario;
   }
   &__Description {
-    width: 93%;
-    margin: 8vw 0 25vw 8%;
-    display: flex;
-    flex-direction: column;
+    width: 82%;
+    margin: 8vw 0 25vw 18%;
     color: $color-claro;
-    & strong {
+    & span {
       font-weight: 500;
     }
   }
@@ -145,6 +143,12 @@
       margin-top: 0;
     }
     &:nth-child(7) {
+      margin-top: 7vw;
+    }
+    &:nth-child(8) {
+      margin-top: 0vw;
+    }
+    &:nth-child(9) {
       margin-top: 7vw;
     }
     &__ImageContainer {

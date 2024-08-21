@@ -334,21 +334,21 @@
 }
 
 .ProjectsList--Title1 span {
-  animation-delay: 1.3s;
+  animation-delay: 0.7s;
 }
 .ProjectsList--Title2 span {
-  animation-delay: 1.8s;
+  animation-delay: 1s;
 }
 .ProjectsList--Title3 span {
-  animation-delay: 2.3s;
+  animation-delay: 1.3s;
 }
 
 .ProjectsList-Categories-Animation {
-  animation-delay: 3s;
+  animation-delay: 1.7s;
 }
 
 .ProjectList-Contaier-Animation {
-  animation-delay: 3.2s;
+  animation-delay: 2s;
 }
 
 .ProjectDetail-Image-Animation,
@@ -615,10 +615,10 @@
 
   // Project List
   .ProjectsList-Categories-Animation {
-    animation-delay: 2s;
+    animation-delay: 1.6s;
   }
 
   .ProjectList-Contaier-Animation {
-    animation-delay: 2.4s;
+    animation-delay: 2s;
   }
 }

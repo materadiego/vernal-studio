@@ -7,7 +7,7 @@ import footerIn from "../../Assets/Images/media-in-black.svg";
 import arrowUp from "../../Assets/Images/arrow-up.svg";
 import ScrollToTop from "../../Utils/ScrollToTop";
 
-export default function Footer() {
+export default function Footer({ langEn }) {
   return (
     <footer className="Footer">
       <div className="FooterContainer">
@@ -21,36 +21,35 @@ export default function Footer() {
             ></img>
           </Link>
           <p className="FooterContainer__LogoSubcontainer--Text Text-SmallFont">
-            <span>Estudio boutique creativo</span>Branding. UX. Social media &
-            más.
+            <span>
+              {langEn
+                ? "Creative Boutique Studio:"
+                : "Estudio boutique creativo"}
+            </span>
+            {langEn
+              ? "Branding, UX, Social Media & More."
+              : "Branding. UX. Social media & más."}
           </p>
         </div>
         {/* CONTACT SECTION */}
         <div className="FooterContainer__ContactSubcontainer">
           <h4 className="FooterContainer__ContactSubcontainer--Title Footer-Title Title-SmallFont Title">
-            Contacto
+            {langEn ? "Contact us" : "Contacto"}
           </h4>
           <p className="FooterContainer__ContactSubcontainer--Text Text-SmallFont">
             <span>e:</span> hello@vernalstudio.com
-          </p>
-          <p className="FooterContainer__ContactSubcontainer--Text Text-SmallFont">
-            <span>t:</span> +54 9 11 6457 2427
-          </p>
-          <p className="FooterContainer__ContactSubcontainer--Location Text-SmallFont">
-            {" "}
-            Caamaño 1100, Pilar, Buenos Aires
           </p>
         </div>
         {/* SITEMAP SECTION */}
         <div className="FooterContainer__SiteMapSubcontainer">
           <h4 className="FooterContainer__SiteMapSubcontainer--Title Title-SmallFont Footer-Title Title">
-            Mapa de sitio
+            {langEn ? "Site Map" : "Mapa de sitio"}
           </h4>
           <Link
             to="/about-us"
             className="FooterContainer__SiteMapSubcontainer--Link"
           >
-            <p className="Text-SmallFont">Nosotros</p>
+            <p className="Text-SmallFont">{langEn ? "About Us" : "Nosotros"}</p>
             <img src={arrow} alt="arrow" className="SiteMap-Arrow"></img>
           </Link>
           <Link
@@ -58,7 +57,9 @@ export default function Footer() {
             href="#home"
             className="FooterContainer__SiteMapSubcontainer--Link"
           >
-            <p className="Text-SmallFont">Proyectos</p>
+            <p className="Text-SmallFont">
+              {langEn ? "Projects" : "Proyectos"}
+            </p>
             <img src={arrow} alt="arrow" className="SiteMap-Arrow"></img>
           </Link>
           <Link
@@ -74,14 +75,16 @@ export default function Footer() {
             href="#home"
             className="FooterContainer__SiteMapSubcontainer--Link"
           >
-            <p className="Text-SmallFont">Servicios</p>
+            <p className="Text-SmallFont">
+              {langEn ? "Servicies" : "Servicios"}
+            </p>
             <img src={arrow} alt="arrow" className="SiteMap-Arrow"></img>
           </Link>
         </div>
         {/* SOCIAL MEDIA */}
         <div className="FooterContainer__MediaSubcontainer">
           <h4 className="FooterContainer__MediaSubcontainer--Title Title-SmallFont Footer-Title Title">
-            ¡Seguinos!
+            {langEn ? "Follow us!" : "¡Seguinos!"}
           </h4>
           <a
             rel="noreferrer"

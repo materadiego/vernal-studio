@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Loader from "../../Assets/Images/loader.svg";
 
-export default function Contact() {
+export default function Contact({ langEn }) {
   const [response, setResponse] = useState("");
   const [datos, setDatos] = useState({
     Name: "",
@@ -28,10 +28,6 @@ export default function Contact() {
         body: new FormData(event.target),
       }
     );
-    const data = await res.json();
-    console.log(data);
-
-    console.log(res.status);
 
     if (res.status !== 200) {
       setResponse("Error. Intente nuevamente");
@@ -45,13 +41,18 @@ export default function Contact() {
       <div className="ContactContainer">
         {/* TITLE */}
         <h2 className="ContactContainer__SectionTitle SectionTitle">
-          <span className="SectionTitle__Circle"></span> Contacto
+          <span className="SectionTitle__Circle"></span>{" "}
+          {langEn ? "Get in Touch" : "Contacto"}
         </h2>
         <h3 className="ContactContainer__Title Title-MediumFont Title">
-          Juntos podemos potenciar tu proyecto.
+          {langEn
+            ? "Together, we can elevate your project."
+            : "Juntos podemos potenciar tu proyecto."}
         </h3>
         <p className="ContactContainer__Subtitle Text-BigFont">
-          Escribinos para descubrir como hacerlo realidad.
+          {langEn
+            ? "Write to us to discover how to make it a reality."
+            : "Escribinos para descubrir como hacerlo realidad."}
         </p>
         {/* FORM */}
         <form className="ContactContainer__Form" onSubmit={enviarDatos}>
@@ -63,7 +64,7 @@ export default function Contact() {
             value={datos.inp_name}
             required
             className="ContactContainer__Form--Input Text-BigFont"
-            placeholder="¿Cuál es tu nombre?"
+            placeholder={langEn ? "What is your name?" : "¿Cuál es tu nombre?"}
           ></input>
           <input
             maxLength={2000}
@@ -73,7 +74,11 @@ export default function Contact() {
             value={datos.inp_mail}
             required
             className="ContactContainer__Form--Input Text-BigFont"
-            placeholder="¿Cuál es tu correo electrónico?"
+            placeholder={
+              langEn
+                ? "What is your email address?"
+                : "¿Cuál es tu correo electrónico?"
+            }
           ></input>
           <textarea
             type="text"
@@ -83,7 +88,11 @@ export default function Contact() {
             required
             maxLength={2000}
             className="ContactContainer__Form--Textarea Text-BigFont"
-            placeholder="Contanos sobre tu proyecto :)"
+            placeholder={
+              langEn
+                ? "Tell us about your project."
+                : "Contanos sobre tu proyecto"
+            }
           ></textarea>
           {/* SUBMIT */}
           <button
@@ -91,7 +100,10 @@ export default function Contact() {
             className="ContactContainer__Form--Submit Button"
           >
             <div className="Submit-Arrow Button-Arrow"></div>{" "}
-            <p className="Submit-Text Button-Text">ENVIAR</p>
+            <p className="Submit-Text Button-Text">
+              {" "}
+              {langEn ? "SEND" : "ENVIAR"}
+            </p>
           </button>
           <div className="ContactContainer__Form--Response Text Text-MediumFont">
             {response}

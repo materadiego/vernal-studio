@@ -5,7 +5,7 @@ import HeroIg from "../../Assets/Images/media-ig-grey.svg";
 import HeroBe from "../../Assets/Images/media-be-grey.svg";
 import HeroIn from "../../Assets/Images/media-in-grey.svg";
 
-export default function HomeHero() {
+export default function HomeHero({ langEn }) {
   return (
     <div className="HomeHero">
       <div className="HomeHeroContainer">
@@ -55,31 +55,49 @@ export default function HomeHero() {
         </div>
         {/* HERO TITLE */}
         <h3 className="HomeHeroContainer__Title Span-Animation HeroTitle1 Title Title-BigFont Mobile  ">
-          <span className="Span-Animation-Block">Transformamos</span>
+          <span className="Span-Animation-Block">
+            {langEn ? "We turn your  " : "Transformamos"}
+          </span>
         </h3>
         <h3 className="HomeHeroContainer__Title Span-Animation HeroTitle2 Title Title-BigFont Mobile ">
-          <span className="Span-Animation-Block">tu marca en</span>
+          <span className="Span-Animation-Block">
+            {langEn ? "brand into an " : "tu marca en"}
+          </span>
         </h3>
         <h3 className="HomeHeroContainer__Title Span-Animation HeroTitle3 Title Title-BigFont Mobile ">
-          <span className="Span-Animation-Block">una identidad</span>
+          <span className="Span-Animation-Block">
+            {langEn ? "unforgettable " : "una identidad"}
+          </span>
         </h3>
         <h3 className="HomeHeroContainer__Title Span-Animation HeroTitle4 Title Title-BigFont Mobile ">
-          <span className="Span-Animation-Block">inolvidable.</span>
+          <span className="Span-Animation-Block">
+            {langEn ? "identity" : "inolvidable."}
+          </span>
         </h3>
         <h3 className="HomeHeroContainer__Title Title HeroTitle1 Desktop Title-BigFont Span-Animation">
           {" "}
-          <span className="Span-Animation-Block">Transformamos tu</span>
+          <span className="Span-Animation-Block">
+            {langEn ? "We turn your brand" : "Transformamos tu"}
+          </span>
         </h3>
         <h3 className="HomeHeroContainer__Title Title HeroTitle2 Desktop Title-BigFont Span-Animation">
-          <span className="Span-Animation-Block">marca en una identidad</span>
+          <span className="Span-Animation-Block">
+            {langEn ? "into an unforgettable" : "marca en una identidad"}
+          </span>
         </h3>
         <h3 className="HomeHeroContainer__Title Title HeroTitle3 Desktop Title-BigFont Span-Animation">
-          <span className="Span-Animation-Block">inolvidable.</span>
+          <span className="Span-Animation-Block">
+            {langEn ? "identity" : "inolvidable."}
+          </span>
         </h3>
         {/* HERO SUBTITLE */}
         <h1 className="HomeHeroContainer__Subtitle Hero-Subtitle-Animation Text-MediumFont Text">
-          <span>Estudio boutique creativo</span>Branding. UX. Social media &
-          más.
+          <span>
+            {langEn ? "Creative Boutique Studio:" : "Estudio boutique creativo"}
+          </span>
+          {langEn
+            ? "Branding, UX, Social Media & More."
+            : "Branding. UX. Social media & más."}
         </h1>
         {/* IMAGE CONTAINER */}
         <div className="HomeHeroContainer__ImageContainer Image-Container-Animation">

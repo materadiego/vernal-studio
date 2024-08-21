@@ -4,7 +4,7 @@ import "../scss/Pages/ProjectTemplate.scss";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
-export default function ProjectsPage() {
+export default function ProjectsPage({ langEn }) {
   let location = useLocation();
   const pathname = location.pathname;
 
@@ -13,8 +13,8 @@ export default function ProjectsPage() {
   }, []);
   return (
     <div className="ProjectsListContainer">
-      <ProjectsList />
-      <Contact />
+      <ProjectsList langEn={langEn} />
+      <Contact langEn={langEn} />
     </div>
   );
 }

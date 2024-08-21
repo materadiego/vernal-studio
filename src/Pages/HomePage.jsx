@@ -7,7 +7,7 @@ import HomeServices from "../Components/HomeServices/HomeServices";
 import Contact from "../Components/Contact/Contact";
 import "../scss/Pages/HomePage.scss";
 
-export default function HomePage() {
+export default function HomePage({ langEn }) {
   const home = useRef(null);
   const aboutUs = useRef(null);
   const services = useRef(null);
@@ -15,7 +15,6 @@ export default function HomePage() {
   const contact = useRef(null);
 
   let location = useLocation();
-  console.log(location);
 
   function goTo(param) {
     param.current?.scrollIntoView({ behavior: "smooth" });
@@ -39,19 +38,19 @@ export default function HomePage() {
   return (
     <>
       <div ref={home}>
-        <HomeHero />
+        <HomeHero langEn={langEn} />
       </div>
       <div ref={aboutUs}>
-        <HomeProjects />
+        <HomeProjects langEn={langEn} />
       </div>
       <div ref={services}>
-        <HomeServices />
+        <HomeServices langEn={langEn} />
       </div>
       <div ref={approach}>
-        <HomeMetodology />
+        <HomeMetodology langEn={langEn} />
       </div>
       <div ref={contact}>
-        <Contact />
+        <Contact langEn={langEn} />
       </div>
     </>
   );

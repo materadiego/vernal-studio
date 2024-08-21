@@ -210,16 +210,36 @@
     will-change: background-image;
   }
 
+  .ServicesBgPosition1 {
+    background-position: 80% top;
+  }
+
+  .ServicesBgPosition2 {
+    background-position: 20% bottom;
+  }
+
+  .ServicesBgPosition3 {
+    background-position: 90% center;
+  }
+
+  .ServicesBgPosition4 {
+    background-position: 10% bottom;
+  }
+
   .ServicesImage-1 {
     background-image: url("../../Assets/Images/servicios5.webp");
+    background-position: 20% 100%;
   }
   .ServicesImage-2 {
     background-image: url("../../Assets/Images/servicios6.webp");
+    background-position: 80% top;
   }
   .ServicesImage-3 {
     background-image: url("../../Assets/Images/servicios7.webp");
+    background-position: 50% 50%;
   }
   .ServicesImage-4 {
     background-image: url("../../Assets/Images/servicios8.webp");
+    background-position: 80% 60%;
   }
 }

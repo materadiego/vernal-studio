@@ -10,8 +10,7 @@ import Be from "../../Assets/Images/media-be-white.svg";
 import In from "../../Assets/Images/media-in-white.svg";
 import Wsp from "../../Assets/Images/media-wsp-white.svg";
 
-export default function NavBar() {
-  const [language, setLanguage] = useState("ES");
+export default function NavBar({ langEn, setLangEn }) {
   const [menu, setMenu] = useState(false);
   const [zIndex, setZIndex] = useState(false);
   const [menuButton, setMenuButton] = useState(false);
@@ -23,11 +22,7 @@ export default function NavBar() {
     setMenuIsActive(!menuIsActive);
   };
   const toggleLanguage = () => {
-    if (language === "EN") {
-      setLanguage("ES");
-    } else if (language === "ES") {
-      setLanguage("EN");
-    }
+    langEn ? setLangEn(false) : setLangEn(true);
   };
 
   return (
@@ -83,7 +78,7 @@ export default function NavBar() {
           id="language-button-desktop"
         >
           <p className="NavBarContainer__LanguageButton--Selected">
-            {language}
+            {langEn ? "ES" : "EN"}
           </p>
         </div>
       </div>
@@ -118,7 +113,7 @@ export default function NavBar() {
                   : "Navbar-Language-AnimationOut"
               }`}
             >
-              {language}
+              {langEn ? "ES" : "EN"}
             </div>
           </div>
           {/* MENU OPTIONS */}
@@ -130,7 +125,7 @@ export default function NavBar() {
                 menu ? "Navbar-Links-AnimationIn" : "Navbar-Links-AnimationOut"
               }`}
             >
-              Nosotros
+              {langEn ? "About us" : "Nosotros"}
             </Link>
             <Link
               to="/projects"
@@ -139,7 +134,7 @@ export default function NavBar() {
                 menu ? "Navbar-Links-AnimationIn" : "Navbar-Links-AnimationOut"
               }`}
             >
-              Proyectos
+              {langEn ? "Projects" : "Proyectos"}
             </Link>
             <Link
               to="/services"
@@ -148,7 +143,7 @@ export default function NavBar() {
                 menu ? "Navbar-Links-AnimationIn" : "Navbar-Links-AnimationOut"
               }`}
             >
-              Servicios
+              {langEn ? "Servicies" : "Servicios"}
             </Link>
             <Link
               to="/approach"
@@ -187,7 +182,7 @@ export default function NavBar() {
                   : "Navbar-ButtonText-AnimationOut"
               }`}
             >
-              ESCRIBINOS
+              {langEn ? "WRITE US" : "ESCRIBINOS"}
             </Link>
           </div>
           {/* SOCIAL MEDIA */}

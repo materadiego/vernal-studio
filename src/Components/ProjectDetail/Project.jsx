@@ -4,16 +4,11 @@ import ProjectTemplateOne from "../ProjectTemplates/ProjectTemplateOne";
 import ProjectTemplateThree from "../ProjectTemplates/ProjectTemplateThree";
 import ProjectTemplateTwo from "../ProjectTemplates/ProjectTemplateTwo";
 
-export default function Project({
-  more,
-  setMore,
-
-  ...project
-}) {
+export default function Project({ more, setMore, langEn, ...project }) {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     setLoading(true);
-    setTimeout(() => setLoading(false), 2000);
+    setTimeout(() => setLoading(false), 1000);
   }, [project.id]);
 
   function toggleMore() {
@@ -23,13 +18,39 @@ export default function Project({
   const projectTemplate = () => {
     switch (project.templateNumber) {
       case "1":
-        return <ProjectTemplateOne key={project.id} project={project} />;
+        return (
+          <ProjectTemplateOne
+            key={project.id}
+            project={project}
+            langEn={langEn}
+          />
+        );
       case "2":
-        return <ProjectTemplateTwo key={project.id} project={project} />;
+        return (
+          <ProjectTemplateTwo
+            key={project.id}
+            project={project}
+            langEn={langEn}
+          />
+        );
       case "3":
-        return <ProjectTemplateThree key={project.id} project={project} />;
+        return (
+          <ProjectTemplateThree
+            key={project.id}
+            project={project}
+            langEn={langEn}
+          />
+        );
       default:
         return <h6>Error al cargar las imágenes</h6>;
+    }
+  };
+
+  const renderMore = (more) => {
+    if (!more) {
+      return langEn ? "Read more" : "Leer más";
+    } else if (more) {
+      return langEn ? "Read less" : "Leer menos";
     }
   };
 
@@ -51,24 +72,25 @@ export default function Project({
         </p>
         <div className="ProjectDetail-Container__Subcontainer ProjectDetail-Description-Animation">
           <p className="ProjectDetail-Container__Subcontainer--Subtitle Title">
-            {project.projectSubtitle}
+            {langEn ? project.projectSubtitleEn : project.projectSubtitleEs}
           </p>
           <p className="ProjectDetail-Container__Subcontainer--Text Text">
-            {project.description1}
+            {langEn ? project.description1En : project.description1Es}
           </p>
           <p
             className={`ProjectDetail-Container__Subcontainer--Text Description2 Text ${
               more ? "DescriptionActive" : ""
             }`}
           >
-            {project.description2} <br /> {project.description3}
+            {langEn ? project.description2En : project.description2Es} <br />{" "}
+            {langEn ? project.description3En : project.description3Es}
           </p>
 
           <div
             className={`ProjectDetail-Container__Subcontainer--TextMoreButton `}
             onClick={toggleMore}
           >
-            {more ? "Leer menos" : "Leer más"}{" "}
+            {renderMore(more)}
             <img
               src={arrowDown}
               alt="arrow-down"
@@ -78,26 +100,30 @@ export default function Project({
             ></img>
           </div>
           <div className="ProjectDetail-Container__Subcontainer--ProjectLabels">
-            <p className=" ProjectLabels-Text Desktop">El proyecto</p>
-            <p className=" ProjectLabels-Text">Servicios</p>
-            <p className=" ProjectLabels-Text">Ciudad</p>
+            <p className=" ProjectLabels-Text Desktop">
+              {langEn ? "The project" : "El proyecto"}
+            </p>
+            <p className=" ProjectLabels-Text">
+              {langEn ? "Services" : "Servicios"}
+            </p>
+            <p className=" ProjectLabels-Text">{langEn ? "City" : "Ciudad"}</p>
           </div>
           <div className="ProjectServicesLocation">
             <div className="ProjectServicesLocation__Services">
               <p className="ProjectServicesLocation__Services--Text">
-                {project.service1}
+                {langEn ? project.service1En : project.service1Es}
               </p>
               <p className="ProjectServicesLocation__Services--Text">
-                {project.service2}
+                {langEn ? project.service2En : project.service2Es}
               </p>
               <p className="ProjectServicesLocation__Services--Text">
-                {project.service3}
+                {langEn ? project.service3En : project.service3Es}
               </p>
               <p className="ProjectServicesLocation__Services--Text">
-                {project.service4}
+                {langEn ? project.service4En : project.service4Es}
               </p>
               <p className="ProjectServicesLocation__Services--Text">
-                {project.service5}
+                {langEn ? project.service5En : project.service5Es}
               </p>
             </div>
             <div className="ProjectServicesLocation__Location">
