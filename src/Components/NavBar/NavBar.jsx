@@ -78,7 +78,7 @@ export default function NavBar({ langEn, setLangEn }) {
           id="language-button-desktop"
         >
           <p className="NavBarContainer__LanguageButton--Selected">
-            {langEn ? "ES" : "EN"}
+            {langEn ? "EN" : "ES"}
           </p>
         </div>
       </div>
@@ -113,7 +113,7 @@ export default function NavBar({ langEn, setLangEn }) {
                   : "Navbar-Language-AnimationOut"
               }`}
             >
-              {langEn ? "ES" : "EN"}
+              {langEn ? "EN" : "ES"}
             </div>
           </div>
           {/* MENU OPTIONS */}
@@ -182,7 +182,7 @@ export default function NavBar({ langEn, setLangEn }) {
                   : "Navbar-ButtonText-AnimationOut"
               }`}
             >
-              {langEn ? "WRITE US" : "ESCRIBINOS"}
+              {langEn ? "GET IN TOUCH" : "ESCRIBINOS"}
             </Link>
           </div>
           {/* SOCIAL MEDIA */}

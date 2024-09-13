@@ -64,7 +64,7 @@ export default function HomeMetodology({ langEn }) {
           <p className="HomeMetodologyContainer__Subcontainer--Text Text-MediumFont  Text ">
             <span>
               {langEn
-                ? "The first step is getting to know each other. "
+                ? "The first step is to connect. "
                 : "El primer paso es conocernos. "}
             </span>
             {langEn

@@ -6,7 +6,7 @@ const projects = [
     route: "novar",
     projectName: "Novar",
     projectSubtitleEs: "La IA transforma la industria óptica",
-    projectSubtitleEn: "AI Transforms the Optical Industry",
+    projectSubtitleEn: "AI transforms the optical industry",
     heroImage:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-novar.png",
     description1Es:
@@ -33,7 +33,8 @@ const projects = [
     service5En: "",
     service6Es: "",
     service6En: "",
-    location: "Buenos Aires, Argentina",
+    locationEs: "Buenos Aires, Argentina",
+    locationEn: "Buenos Aires, Argentina",
     templateNumber: "3",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-novar1.webp",
@@ -73,7 +74,7 @@ const projects = [
     route: "sensory-food",
     projectName: "Sensory Food",
     projectSubtitleEs: "Una experiencia Sensorial",
-    projectSubtitleEn: "A Sensory Experience",
+    projectSubtitleEn: "A sensory experience",
     heroImage:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-sensoryfood.png",
     description1Es: `Sensory Food es una aplicación desarrollada en Valencia, España, que se enfoca en agilizar y simplificar la gestión interna de catas de alimentos. La marca se presenta como una plataforma confiable e innovadora, fomentando la colaboración entre empresas y catadores.`,
@@ -99,7 +100,8 @@ const projects = [
     service5En: "Online Store",
     service6Es: "",
     service6En: "",
-    location: "Valencia, España",
+    locationEs: "Valencia, España",
+    locationEn: "Valencia, Spain",
     templateNumber: "1",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sensoryfood1.png",
@@ -153,7 +155,8 @@ const projects = [
     service5En: "Online Store",
     service6Es: "",
     service6En: "",
-    location: "Miami, Estados Unidos",
+    locationEs: "Miami, Estados Unidos",
+    locationEn: "Miami, United States",
     templateNumber: "3",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-elovate1.png",
@@ -193,7 +196,7 @@ const projects = [
     route: "madero-tango",
     projectName: "Madero Tango",
     projectSubtitleEs: "Donde el tango vive",
-    projectSubtitleEn: "Where Tango Lives",
+    projectSubtitleEn: "Where tango lives",
     heroImage:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-maderotango.png",
     description1Es:
@@ -220,7 +223,8 @@ const projects = [
     service5En: "Social Media",
     service6Es: "",
     service6En: "",
-    location: "Buenos Aires, Argentina",
+    locationEs: "Buenos Aires, Argentina",
+    locationEn: "Buenos Aires, Argentina",
     templateNumber: "3",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderotango1.png",
@@ -260,7 +264,7 @@ const projects = [
     route: "trypo",
     projectName: "Trypo",
     projectSubtitleEs: "Donde el viaje comienza",
-    projectSubtitleEn: "Where the Journey Begins",
+    projectSubtitleEn: "Where the journey begins",
     heroImage:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-trypo.png",
     description1Es:
@@ -286,7 +290,8 @@ const projects = [
     service5En: "",
     service6Es: "",
     service6En: "",
-    location: "Santiago, Chile",
+    locationEs: "Santiago, Chile",
+    locationEn: "Santiago, Chile",
     templateNumber: "2",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-trypo1.png",
@@ -324,7 +329,7 @@ const projects = [
       en: "",
     },
     projectSubtitleEs: "Reinventando el Diseño de Interiores",
-    projectSubtitleEn: "Reinventing Interior Design",
+    projectSubtitleEn: "Reinventing interior design",
     heroImage:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-tuespacio.webp",
 
@@ -353,7 +358,8 @@ const projects = [
     service5En: "Social media",
     service6Es: "",
     service6En: "",
-    location: "Tucumán, Argentina",
+    locationEs: "Tucumán, Argentina",
+    locationEn: "Tucumán, Argentina",
     templateNumber: "2",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tuespacio1.webp",
@@ -388,7 +394,7 @@ const projects = [
     projectName: "Daleplast",
 
     projectSubtitleEs: "Transformando la Imagen del Plástico",
-    projectSubtitleEn: "Transforming the Image of Plastic",
+    projectSubtitleEn: "Transforming the image of plastic",
     heroImage:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-daleplast.webp",
 
@@ -416,7 +422,8 @@ const projects = [
     service5En: "Social media",
     service6Es: "",
     service6En: "",
-    location: "Tierra del Fuego, Argentina",
+    locationEs: "Tierra del Fuego, Argentina",
+    locationEn: "Tierra del Fuego, Argentina",
     templateNumber: "2",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-daleplast1.webp",
@@ -451,7 +458,7 @@ const projects = [
     projectName: "Inadea",
 
     projectSubtitleEs: "Cardioprotección para salvar vidas",
-    projectSubtitleEn: "Cardioprotection to Save Lives",
+    projectSubtitleEn: "Cardioprotection to save lives",
     heroImage:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-inadea.webp",
 
@@ -480,7 +487,8 @@ const projects = [
     service5En: "",
     service6Es: "",
     service6En: "",
-    location: "Buenos Aires, Argentina",
+    locationEs: "Buenos Aires, Argentina",
+    locationEn: "Buenos Aires, Argentina",
     templateNumber: "2",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-inadea1.webp",
@@ -514,7 +522,7 @@ const projects = [
     route: "republica-del-tannat",
     projectName: "República del Tannat",
     projectSubtitleEs: "Un Tannat elegante y auténtico",
-    projectSubtitleEn: "An Elegant and Authentic Tannat",
+    projectSubtitleEn: "An elegant and authentic Tannat",
     heroImage:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-tannat.png",
     description1Es: `"República del Tannat", un vino originario de Carmelo, Uruguay, nos desafió a crear su imagen de marca. La bodega, arraigada en la pasión por el vino, buscaba una representación de calidad y sofisticación para sus productos.`,
@@ -541,7 +549,8 @@ const projects = [
     service5En: "",
     service6Es: "",
     service6En: "",
-    location: "Carmelo, Uruguay",
+    locationEs: "Carmelo, Uruguay",
+    locationEn: "Carmelo, Uruguay",
     templateNumber: "1",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tannat1.png",
@@ -568,7 +577,7 @@ const projects = [
     projectName: "Naturgreen",
     projectSubtitle: {
       es: "Agricultura sostenible y biodiversidad",
-      en: "Sustainable Agriculture and Biodiversity",
+      en: "Sustainable agriculture and biodiversity",
     },
     projectSubtitleEs: "",
     projectSubtitleEn: "",
@@ -601,7 +610,8 @@ const projects = [
     service5En: "",
     service6Es: "",
     service6En: "",
-    location: "Santiago, Chile",
+    locationEs: "Sevilla, España",
+    locationEn: "Sevilla, Spain",
     templateNumber: "1",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-naturgreen1.png",
@@ -627,7 +637,7 @@ const projects = [
     route: "tiesen",
     projectName: "Tiesen",
     projectSubtitleEs: "Todos los Expertos en Hogar en un Solo Lugar",
-    projectSubtitleEn: "All Home Experts in One Place",
+    projectSubtitleEn: "All home experts in one place",
     heroImage:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-tiesen.png",
     description1Es: `Tiesen es una aplicación desarrollada en Santiago, Chile, la cual conecta usuarios y profesionales del hogar, como electricistas, carpinteros y pintores. Nuestro desafío fue proyectar esta aplicación de manera integral, desde la fase de investigación de mercado hasta su diseño final.`,
@@ -655,7 +665,8 @@ const projects = [
     service5En: "",
     service6Es: "",
     service6En: "",
-    location: "Santiago, Chile",
+    locationEs: "Santiago, Chile",
+    locationEn: "Santiago, Chile",
     templateNumber: "1",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-tiesen1.png",
@@ -680,8 +691,8 @@ const projects = [
     tags: ["Branding"],
     route: "madero-viagens",
     projectName: "Madero Viagens",
-    projectSubtitleEs: "Donde el viaje comienza",
-    projectSubtitleEn: "Where the Journey Begins",
+    projectSubtitleEs: "Experiencia aeropuerto",
+    projectSubtitleEn: " Airport experience",
     heroImage:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-maderoviajens.webp",
     description1Es:
@@ -707,7 +718,8 @@ const projects = [
     service5En: "Packaging",
     service6Es: "",
     service6En: "",
-    location: "Buenos Aires, Argentina",
+    locationEs: "Buenos Aires, Argentina",
+    locationEn: "Buenos Aires, Argentina",
     templateNumber: "2",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-maderoviagens1.png",
@@ -741,7 +753,7 @@ const projects = [
     route: "sanwich-time",
     projectName: "SandwichTime",
     projectSubtitleEs: "Amor por la cocina real",
-    projectSubtitleEn: "Love for Real Cooking",
+    projectSubtitleEn: "Love for real cooking",
     heroImage:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-sanwichtime.webp",
     description1Es:
@@ -766,7 +778,8 @@ const projects = [
     service5En: "",
     service6Es: "",
     service6En: "",
-    location: "Santiago, Chile",
+    locationEs: "Santiago, Chile",
+    locationEn: "Santiago, Chile",
     templateNumber: "3",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-sandwich1.webp",
@@ -806,7 +819,7 @@ const projects = [
     route: "bim-formation",
     projectName: "Bim Formation",
     projectSubtitleEs: "Bim para el crecimiento profesional",
-    projectSubtitleEn: "BIM for Professional Growth",
+    projectSubtitleEn: "BIM for professional growth",
     heroImage:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-bim.webp",
     description1Es:
@@ -835,7 +848,8 @@ const projects = [
     service5En: "",
     service6Es: "",
     service6En: "",
-    location: "Sevilla, España",
+    locationEs: "Sevilla, Spain",
+    locationEn: "Sevilla, España",
     templateNumber: "1",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-bimformation1.webp",
@@ -861,7 +875,7 @@ const projects = [
     route: "loop3",
     projectName: "Loop3",
     projectSubtitleEs: "Rompiendo las barreras digitales",
-    projectSubtitleEn: "Breaking Digital Barriers",
+    projectSubtitleEn: "Breaking digital barriers",
     heroImage:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-loop.png",
     description1Es:
@@ -890,7 +904,8 @@ const projects = [
     service5En: "Social media",
     service6Es: "",
     service6En: "",
-    location: "Buenos Aires, Argentina",
+    locationEs: "Buenos Aires, Argentina",
+    locationEn: "Buenos Aires, Argentina",
     templateNumber: "3",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-loop1.png",
@@ -934,7 +949,7 @@ const projects = [
       en: "",
     },
     projectSubtitleEs: "Una óptica, dos perspectivas",
-    projectSubtitleEn: "One Optics, Two Perspectives",
+    projectSubtitleEn: "One optics, two Perspectives",
     heroImage:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-ovt.png",
     description1Es:
@@ -961,7 +976,8 @@ const projects = [
     service5En: "",
     service6Es: "",
     service6En: "",
-    location: "Buenos Aires, Argentina",
+    locationEs: "Buenos Aires, Argentina",
+    locationEn: "Buenos Aires, Argentina",
     templateNumber: "3",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-ovt1.png",
@@ -1000,8 +1016,8 @@ const projects = [
     tags: ["Apps"],
     route: "rapid-envia",
     projectName: "Rapid envía",
-    projectSubtitleEs: "Simplicidad en Cada Transferencia",
-    projectSubtitleEn: "Simplicity in Every Transfer",
+    projectSubtitleEs: "Simplicidad en cada transferencia",
+    projectSubtitleEn: "Simplicity in every transfer",
     heroImage:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-rappid.png",
     description1Es:
@@ -1028,7 +1044,8 @@ const projects = [
     service5En: "",
     service6Es: "",
     service6En: "",
-    location: "Santiago, Chile",
+    locationEs: "Santiago, Chile",
+    locationEn: "Santiago, Chile",
     templateNumber: "1",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-rappid1.png",
@@ -1079,7 +1096,8 @@ const projects = [
     service5En: "",
     service6Es: "",
     service6En: "",
-    location: "Buenos Aires, Argentina",
+    locationEs: "Buenos Aires, Argentina",
+    locationEn: "Buenos Aires, Argentina",
     templateNumber: "2",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-supra1.webp",
@@ -1112,10 +1130,10 @@ const projects = [
     tags: ["Branding", "Web&Ecommerce"],
     route: "pinkinton",
     projectName: "Pinkinton",
-    projectSubtitleEs: "Sastres Financieros",
-    projectSubtitleEn: "Financial Tailors",
+    projectSubtitleEs: "Sastres financieros",
+    projectSubtitleEn: "Financial tailors",
     heroImage:
-      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-inadea.webp",
+      "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-pinkinton.webp",
     description1Es: `Pinkinton es un estudio financiero ubicado en Montevideo, Uruguay, que se distingue por su enfoque innovador, autodenominándose "Sastres Financieros", ya que ofrece soluciones financieras adaptadas a las necesidades de sus clientes con gustos sofisticados.
       Fuimos convocados para realizar el rebranding de la marca y diseñar su página web. `,
     description1En: `Pinkinton is a financial firm based in Montevideo, Uruguay, known for its innovative approach and self-styled as "Financial Tailors," offering financial solutions tailored to clients with sophisticated tastes. We were commissioned to rebrand the company and design its website.`,
@@ -1141,7 +1159,8 @@ const projects = [
     service5En: "",
     service6Es: "",
     service6En: "",
-    location: "Montevideo, Uruguay",
+    locationEs: "Montevideo, Uruguay",
+    locationEn: "Montevideo, Uruguay",
     templateNumber: "2",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-pinkinton1.webp",
@@ -1204,7 +1223,8 @@ const projects = [
     service5En: "Packaging",
     service6Es: "",
     service6En: "",
-    location: "Punta del Este, Uruguay",
+    locationEs: "Punta del Este, Uruguay",
+    locationEn: "Punta del Este, Uruguay",
     templateNumber: "2",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-churreria1.webp",
@@ -1238,8 +1258,8 @@ const projects = [
     route: "acepro",
     projectName: "Acepro",
 
-    projectSubtitleEs: "Experiencia Automotriz 4.0",
-    projectSubtitleEn: "Automotive Experience 4.0",
+    projectSubtitleEs: "Experiencia automotriz 4.0",
+    projectSubtitleEn: "Automotive experience 4.0",
     heroImage:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-hero-desk-acepro.png",
 
@@ -1268,7 +1288,8 @@ const projects = [
     service5En: "",
     service6Es: "",
     service6En: "",
-    location: "Santiago, Chile",
+    locationEs: "Santiago, Chile",
+    locationEn: "Santiago, Chile",
     templateNumber: "1",
     image1:
       "https://raw.githubusercontent.com/materadiego/vernal-studio/main/src/Assets/Images/projects-acepro1.webp",

@@ -44,11 +44,16 @@ export default function Contact({ langEn }) {
           <span className="SectionTitle__Circle"></span>{" "}
           {langEn ? "Get in Touch" : "Contacto"}
         </h2>
-        <h3 className="ContactContainer__Title Title-MediumFont Title">
-          {langEn
-            ? "Together, we can elevate your project."
-            : "Juntos podemos potenciar tu proyecto."}
-        </h3>
+        {langEn ? (
+          <h3 className="ContactContainer__Title Title-MediumFont Title">
+            Together, we <br /> can elevate your project.
+          </h3>
+        ) : (
+          <h3 className="ContactContainer__Title Title-MediumFont Title">
+            Juntos podemos potenciar tu proyecto.
+          </h3>
+        )}
+        <h3>{langEn ? "" : ""}</h3>
         <p className="ContactContainer__Subtitle Text-BigFont">
           {langEn
             ? "Write to us to discover how to make it a reality."

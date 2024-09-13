@@ -134,9 +134,9 @@ export default function HomeProjects({ langEn }) {
               ? "We are involved in every stage of the project,"
               : "Participamos en cada etapa del proyecto,"}{" "}
           </span>
-          {langEn ? "" : ""} desde <br /> la estrategia y posicionamiento, hasta
-          la implementación de identidades visuales y experiencias digitales que
-          conecten con tu comunidad.
+          {langEn
+            ? "from strategy and positioning to the implementation of visual identities and digital experiences that connect with your community."
+            : "desde la estrategia y posicionamiento, hasta la implementación de identidades visuales y experiencias digitales que conecten con tu comunidad."}
         </p>
         {/* SECTION TITLE */}
         <h2
@@ -215,7 +215,9 @@ export default function HomeProjects({ langEn }) {
               ></img>
             </div>
             <h6 className="ProjectBox__Title   Title">Elovate Life</h6>
-            <p className="ProjectBox__Location  Text">Miami, Estados Unidos</p>
+            <p className="ProjectBox__Location  Text">
+              {langEn ? "Miami, United States" : "Miami, Estados Unidos"}
+            </p>
           </Link>
           {/* PROJECT BOX */}
 

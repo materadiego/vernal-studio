@@ -137,7 +137,11 @@ export default function ProjectsList({ langEn }) {
           <img src={loader} alt="Loading.." className="Loader"></img>
         ) : (
           projects.map((project) => (
-            <ProjectPreview key={project.id} project={project} />
+            <ProjectPreview
+              key={project.id}
+              project={project}
+              langEn={langEn}
+            />
           ))
         )}
       </div>
